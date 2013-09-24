@@ -1,0 +1,16 @@
+- [Clang Static Analyzer](https://clang-analyzer.llvm.org): finds bugs in C, C++, and Objective-C code
+- [jCUTE](http://osl.web.cs.illinois.edu/software/jcute/index.html): Java concolic unit testing
+- [Atomic Set Inferencer](http://osl.web.cs.illinois.edu/software/atomic-set-inference.html), its [github](https://github.com/osl/atomic-set-inference) (FUSC, Java/Shell): for automatically inferring atomic sets, a synchronization mechanism in which the programmer specifies the groups of data that must be accessed as a unit ([UIUC](http://osl.web.cs.illinois.edu/members/dinges.html))
+- [SOTER](http://osl.web.cs.illinois.edu/software/soter/index.html) (FUSC): extensible static analysis and transformation tool that facilitates safe yet efficient message passing in actor programs (UIUC)
+- [Splint](http://lclint.cs.virginia.edu/) (was: [LCLint](http://www.sds.lcs.mit.edu/spd/larch/)) (GPL-2, C): Secure programming Lint for static C checking (Univ. Virginia)
+- [Jakstab](https://www.jakstab.org/), its [hg](https://bitbucket.org/jkinder/jakstab/) (GPL-2, Java): Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs (TU Munchen, TU Darmstadt)
+- [SLAM](https://research.microsoft.com/en-us/projects/slam/) (Microsoft Research)
+- [Jahob](https://lara.epfl.ch/w/jahob_system): Java static contract analysis (EPFL)
+- [KLEE](https://klee.github.io/) (C, LLVM): Symbolic virtual machine built on top of the LLVM compiler infrastructure. Provides unassisted and automatic generation of high-coverage tests.
+- [SOOT](http://soot-oss.github.io/soot/) (LGPLv2.1, [Java](https://github.com/soot-oss/soot)): a framework for analyzing and transforming Java and Android applications
+- [Frama-C](https://frama-c.com/) (LGPLv2, C): an extensible and collaborative platform dedicated to source-code analysis of C software
+- [infer](https://github.com/facebook/infer) (BSD-3, OCaml): Infer is a static analysis tool for Java, Objective-C and C. The documentation is at https://fbinfer.com/. (Facebook)
+- [Gravy](https://github.com/martinschaef/gravy) ([LGPL](https://code.google.com/p/jimple2boogie/), Java): static checker for Boogie programs. Similar to a deductive verifier, such as Boogie, it checks a boogie program one procedure at a time. Integrated in Bixie
+- [Bixie](https://sri-csl.github.io/bixie/) (MIT, [Java](https://github.com/SRI-CSL/bixie)): inconsistent code detection for Java, integrates Gravy (SRI CSL)
+- [Calysto](https://www.domagoj-babic.com/index.php/ResearchProjects/Calysto) (?, ?): static checker for general purpose code, does not require users to write interface specifications and pre/post-conditions. Calysto checks pointer properties and user provided assertions. (Google)
+- [`semgrep`](https://github.com/returntocorp/semgrep) (LGPL-2.1, Python/OCaml): pattern-based static analysis, with patterns that resemble code excerpts
