@@ -97,6 +97,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
 	* [gr1c](http://slivingston.github.io/gr1c/) (BSD-3, C): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](http://scottman.net/))
 - [LTLMoP](http://ltlmop.github.io/) (GPL-3, Python): designing, testing, and implementing hybrid controllers generated automatically from task specifications written in Structured English or Temporal Logic ([Cornell](http://cornell-asl.org/wiki/index.php?title=Main_Page))
+	* [slugs](https://github.com/LTLMoP/slugs) (BSD-3, C++): a stand-alone reactive synthesis tool for GR(1) synthesis (Cornell)
 - [Tools from Boston Univ.](http://hyness.bu.edu/Software.html) (?, MATLAB)
 - [Tools from Saarland University](http://react.cs.uni-sb.de/tools/) (Saarland Univ.)
 - [PESSOA](https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/home) (FUSC, MATLAB): synthesis of correct-by-design embedded control software based on approximate bisimulations (UCLA)
