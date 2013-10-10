@@ -7,6 +7,8 @@ Minimal markdown knowledge needed to add links:
 Please list only Open Source/research tools, proprietary ones are not widely and unconditionally useful.
 Conditionally (sufficiently) free tools are welcome.
 
+Would you like to suggest a/your tool for addition, but skip cloning/pull requests, please email <jfilippidis@gmail.com>.
+
 To the extent possible under law, the authors have waived all copyright and related or neighboring rights to this text.
 You should have received a copy of the CC0 Public Domain Dedication along with this text.
 If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
@@ -74,6 +76,13 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [VerICS](http://verics.ipipan.waw.pl/start) (FUSC, Java): SAT verification of timed & multi-agent systems modeled by networks of communicating automata (Polish Academy of Sciences)
 - [Augur 2](http://www.ti.inf.uni-due.de/research/tools/augur2/) (GPL-2, C++): verification of systems described by (attributed) graph transformations using approximated unfoldings ([Univ. Duisburg-Essen](http://www.ti.inf.uni-due.de/people/koenig/))
 - [Mercury](http://rodrigotaclasaad.drupalgardens.com/content/mercury): Parallel Local Sub-CTL Model Checking [LAAS-CNRS]
+- [Boogie](http://research.microsoft.com/en-us/projects/boogie/) ([Ms-PL](http://boogie.codeplex.com/license), F#/C#): Intermediate verification language, intended as a layer on which to build program verifiers for other languages (Microsoft Research)
+	* [SymDiff](http://research.microsoft.com/en-us/projects/symdiff/default.aspx): Language-independent differential program analysis (C, Boogie front-ends available) (Microsoft Research)
+- [VCC](http://research.microsoft.com/en-us/projects/vcc/default.aspx) ([FUSC](http://vcc.codeplex.com/license), F#/C#/C/Perl): annotated concurrent C programs (Microsoft Research)
+- [HAVOC](http://research.microsoft.com/en-us/projects/havoc/default.aspx) (?): for C in the presence of pointer manipulations, unsafe casts and dynamic memory allocation (Microsoft Research)
+- [Dafny](http://dafny.codeplex.com/) ([Ms-PL](http://dafny.codeplex.com/license), C#): imperative object-based language with built-in specification constructs and static program verifier for functional correctness ([Microsoft Research](http://research.microsoft.com/en-us/um/people/leino/))
+- [Spec\#](http://specsharp.codeplex.com/) ([FUSC](http://specsharp.codeplex.com/license), C#): Object-oriented .NET programming language with design-by-contract features for method pre-/postconditions & object invariants, non-null type system (Microsoft Research)
+- [Whiley](https://github.com/DavePearce/Whiley) (BSD-3, Java/C/): Object-oriented and functional programming language with static checking, including: divide-by-zero, array out-of-bounds and null dereference errors ([Victoria Univ. of Wellington](http://homepages.ecs.vuw.ac.nz/~djp/))
 
 ## logic -> automata & automata tools
 
@@ -178,6 +187,10 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [wikipedia list](https://en.wikipedia.org/wiki/Automated_theorem_proving)
 - [this thread](http://cs.stackexchange.com/questions/868/types-of-automated-theorem-provers)
 
+## SMT
+- [Z3](http://z3.codeplex.com/) ([FUSC](http://z3.codeplex.com/license), C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
+- [iZ3](http://rise4fun.com/iZ3) ([FUSC](http://z3.codeplex.com/license), C++/Python): Interpolating, supports: arithmetic, arrays, uninterpreted functions, and quantifiers (Microsoft Research)
+
 # Runtime Verification
 - [MOP](http://fsl.cs.illinois.edu/index.php/MOP) (Java): Monitoring-Oriented Programming ([UIUC](http://fsl.cs.illinois.edu/index.php/Main_Page))
 - [CHIMP](http://www.cs.rice.edu/CS/Verification/Software/software.html): LTL -> monitors: nondeterministic finite-word automata that accept all illegal executions (Rice Univ.)
@@ -204,6 +217,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [VERIMAG Tools](http://www-verimag.imag.fr/Tools,12.html?lang=)
 - [verification tools for industrial automation](http://www.chihhongcheng.info/tools)
 - [Networked Control Systems Repository](http://filer.case.edu/org/ncs/)
+- [rise4fun](http://rise4fun.com/)
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
