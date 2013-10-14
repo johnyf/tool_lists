@@ -36,6 +36,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [LWAASpin](http://www.pst.ifi.lmu.de/projekte/lwaaspin/) (SPIN's license): SPIN modified to use linear weak alternating automata instead of Buchi automata (Univ. Munchen)
 	* [Hugo/RT](http://www.pst.informatik.uni-muenchen.de/projekte/hugo/) (? src by email): XMI | ArgoUML | UTE -> Promela | UPPAAL | KIV | Java | SystemC | Smile machines | UTE model | dot (state machines | interactions) and SPIN | UPPAAL trail -> UML run: UML model translator for model checking, theorem proving, code generation (Univ. Munchen, LORIA/INRIA Nancy)
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
+- [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
 - [PRISM](http://www.prismmodelchecker.org/) (GPL-2): Probabilistic Model Checker: discrete/continuous-time Markov chains, timed automata, etc. (Univ. Birmingham, Univ. Oxford)
 - [SPOT](http://spot.lip6.fr/wiki/) (GPL, C++/Python): object-oriented model checking library using TGBA
@@ -64,6 +65,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Synet](http://www.irisa.fr/s4/tools/synet/) (OCaml): Synthesizer of distributable bounded Petri nets from Finite Automata ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
 
 ### Symbolic
+- [SMV](http://www.cs.cmu.edu/~modelcheck/smv.html) (?): CTL symbolic model checker (CMU)
+	* [Cadence SMV](http://www.kenmcmil.com/smv.html) (FUSC): CMU SMV extension: backward compatible more expressive mode description language, synthesizable VERILOG, compositional verification, CTL | LTL | FSA | embedded assertions, GUI (Cadence)
 - [NuSMV](http://nusmv.fbk.eu/) (LGPL): Symbolic model checking (FBK, CMU, Univ. Genoa, Univ. Trento)
 	* [NuGAT](https://es.fbk.eu/index.php?n=Tools.NuGaT) (LGPL-2+): Game solver on top NuSMV
 - [jStar](http://www.jstarverifier.org/) (BSD-3, OCaml): (Queen Mary Univ. London, Cambridge Univ., ETH)
@@ -125,7 +128,6 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [GAVS+](http://www6.in.tum.de/~chengch/gavs/) (GPL-3, Java): visualize algorithmic games used in verification and synthesis (TU Munchen)
 - [Anzu](http://www.iaik.tugraz.at/content/research/design_verification/anzu/) (Perl): synthesizes Verilog from LTL ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
-- [Sigali](http://www.irisa.fr/vertecs/Logiciels/sigali.html) (FUSC): Model check implicit labeled transition systems (INRIA)
 - [Acacia+](http://lit2.ulb.ac.be/acaciaplus/) (GPL, Python/C): LTL Realizability check & winning strategy synthesis using AntiChains [repo](https://code.google.com/p/ltlsynthesis/) (Univ. Mons), [Acacia](http://lit2.ulb.ac.be/acacia/) (GPL-2, Perl)
 - [Lily](http://www.iaik.tugraz.at/content/research/design_verification/lily/) (Perl): synthesizes from PSL | LTL & I/O signal partition, works on top of Wring, outputs VERILOG | dot (TU Graz)
 - [PyECDAR](https://project.inria.fr/pyecdar/) (GPL-2, Python): solve timed games based on timed automata models (ITU)
@@ -133,6 +135,20 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [CADP](http://www.inrialpes.fr/vasy/cadp.html) (FUSC): compilers, equivalence checking tools, model-checkers for temporal logics & μ-calculus, verifications: enumerative, on-the-fly, symbolic using BDD, etc. (INRIA)
 - [PDSolver](http://www.cs.ox.ac.uk/matthew.hague/pdsolver.html) (OCaml): evaluating both mu-calculus formulas over pushdown systems and pushdown parity games (Oxford Univ.)
 - [Mica](http://www.irisa.fr/s4/tools/mica/Mica__A_Modal_Interface_Compositional_Analysis_Library/Introduction.html) (CeCILL-C-1, OCaml):  Modal Interface algebra for contract based design ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
+- [Esterel](http://en.wikipedia.org/wiki/Esterel), [old](http://www-sop.inria.fr/meije/esterel/esterel-eng.html): Synchronous reactive programming language & compiler to FSM (C language), Graphical symbolic debugger, explicit/BDD verification for bisimulation reduction | safety checking (Ecole des Mines de Paris, INRIA)
+	* [CEC](http://www1.cs.columbia.edu/~sedwards/cec/) (BSD-3, C++/ANTLR): Esterel V5 compiler to C | Verilog | BLIF ([Columbia](http://www.cs.columbia.edu/~sedwards/))
+	* [scdata](http://www-sop.inria.fr/meije/esterel/scdata.html) (?): Boolean datapath generator for Esterel: translates action calls in sc code over boolean variables into standard nets also in sc (INRIA, Ecole des Mines de Paris)
+	* [Ocjava](http://www-sop.inria.fr/meije/esterel/ocjava.html) (?): Esterel Java code generator (INRIA)
+- [Lustre](http://en.wikipedia.org/wiki/Lustre_%28programming_language%29): Declarative, synchronous dataflow programminglanguage for reactive systems
+	* [MATOU](http://www.cfdvs.iitb.ac.in/download/Docs/verification/tools/kronos/Verimag_Home_Page/PEOPLE/Florence.Maraninchi/MATOU/index.phtml) (?): Implementation of mode-automata on top of Lustre (VERIMAG)
+- [SIGNAL](http://en.wikipedia.org/wiki/SIGNAL_programming_language): Synchronized data-flow programming language for systems with multiple clocks ([INRIA](http://www.irisa.fr/espresso/home_html))
+	* [Polychrony / SME](http://www.irisa.fr/espresso/Polychrony/) (GPL, Eclipse Public License): SIGNAL IDE (IRISA)
+- [SyncCharts](http://en.wikipedia.org/wiki/SyncCharts): Graphical formalism for reactive modeling ([Univ. Nice Sophia-Antipolis](http://www-sop.inria.fr/members/Charles.Andre/))
+	* [SPORTS Project](http://www.i3s.unice.fr/~map/WEBSPORTS/SyncCharts/) (FUSC): SyncCharts tools
+	* [SCC](http://julien.boucaron.free.fr/i3s/)): SyncCharts Compiler Collection for XML | BLIF | C output (Univ. Nice Sophia-Antipolis, INRIA)
+- [Sigali](http://www.irisa.fr/vertecs/Softwares/sigali.html), [old](http://www.irisa.fr/vertecs/Logiciels/sigali.html) (FUSC): Model check implicit labeled transition systems (INRIA)
+- [TGV](http://www.irisa.fr/vertecs/Softwares/TGV.html) (?): Generation of conformance test suites for protocols, based on I/O transition systems (IOLTS) (IRISA)
+- [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language and compiler to TS, symbolic model checker, tool for hardware/software synthesis ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
 
 ## Harel StateCharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
@@ -187,6 +203,10 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [wikipedia list](https://en.wikipedia.org/wiki/Automated_theorem_proving)
 - [this thread](http://cs.stackexchange.com/questions/868/types-of-automated-theorem-provers)
 
+## SAT
+- [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
+- [MiniSat](http://minisat.se/) and its [github](https://github.com/niklasso/minisat) (MIT, C++/C): minimalistic high-performance solver to help get started ([Chalmers Univ.](http://minisat.se/Authors.html))
+
 ## SMT
 - [Z3](http://z3.codeplex.com/) ([FUSC](http://z3.codeplex.com/license), C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
 - [iZ3](http://rise4fun.com/iZ3) ([FUSC](http://z3.codeplex.com/license), C++/Python): Interpolating, supports: arithmetic, arrays, uninterpreted functions, and quantifiers (Microsoft Research)
@@ -218,6 +238,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [verification tools for industrial automation](http://www.chihhongcheng.info/tools)
 - [Networked Control Systems Repository](http://filer.case.edu/org/ncs/)
 - [rise4fun](http://rise4fun.com/)
+- [CMU tools](http://www.cs.cmu.edu/~modelcheck/code.htm)
+- [SYNALP](http://www.inrialpes.fr/synalp/): SYNchronous Applications, Languages, and Programs
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
