@@ -92,6 +92,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [KeYmaeraD](http://symbolaris.com/info/KeYmaeraD.html), its [github](https://github.com/keymaerad/KeYmaeraD) (BSD-3, Scala): Distributed theorem prover for distributed hybrid systems using Quantified differential dynamic logic (QdL) ([CMU](http://symbolaris.com/andre.html))
 	* [SPHINX](http://www.cs.cmu.edu/afs/cs/Web/People/smitsch/tools.html) (?): Eclipse plugin for textual & graphical modeling editors to define cyber-physical system structure, discrete/continuous dynamics ([CMU](http://www.cs.cmu.edu/afs/cs/Web/People/smitsch/index.html))
 - [j-algo](http://j-algo.binaervarianz.de/index.php?language=en) (GPL, Java): Algorithm visualization tool (TU Dresden)
+- [Splint](http://lclint.cs.virginia.edu/) (was: [LCLint](http://www.sds.lcs.mit.edu/spd/larch/)) (GPL-2, C): Secure programming Lint for static C checking (Univ. Virginia)
 
 ## logic -> automata & automata tools
 
@@ -155,6 +156,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Sigali](http://www.irisa.fr/vertecs/Softwares/sigali.html), [old](http://www.irisa.fr/vertecs/Logiciels/sigali.html) (FUSC): Model check implicit labeled transition systems (INRIA)
 - [TGV](http://www.irisa.fr/vertecs/Softwares/TGV.html) (?): Generation of conformance test suites for protocols, based on I/O transition systems (IOLTS) (IRISA)
 - [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language and compiler to TS, symbolic model checker, tool for hardware/software synthesis ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
+- [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
 
 ## Harel StateCharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
@@ -179,13 +181,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [CheckMate](http://www.mathworks.com/matlabcentral/fx_files/15441/3/content/doc/main.htm) (MATLAB) modeling, simulation & investigation, [demos](http://www.mathworks.com/matlabcentral/fileexchange/17004-checkmate-demos)
 - [PPL binding](https://launchpad.net/pyppl) (GPL-2, Python): for [Parma Polyhedral Lib](http://bugseng.com/products/ppl) features some specific methods for Timed Automata analysis
 - [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
-- [TEMPO](http://www.veromodo.com/) (FUSC): formal language for modeling distributed systems with (or without) timing constraints as collections of interacting state machines (UIUC)
+- [IOA](http://groups.csail.mit.edu/tds/ioa/) (MIT, Java): I/O automata formal language (MIT)
+- [TEMPO](http://www.veromodo.com/) (FUSC): Formal language for modeling distributed systems w/ | w/o timing constraints as collections of interacting state machines, i.e., timed input/output automata (TIOA) (UIUC)
 - [Ariadne](http://trac.parades.rm.cnr.it/ariadne/) (GPL-3, C++/Python): dynamical systems set-based analysis (reachability analysis, robust simulation, safety verification - reset, flow, guard predicates given by nonlinear functions) (Univ. Udine, PARADES, CWI, Univ. Verona)
 - [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
 - [SAAtRE](http://symbolaris.com/info/saatre.html) (?): Abstraction refinement model checker for Timed Automata based on extended SAT-solving, UPPAAL-like input format (Univ. Oldenburg, CWI)
+- [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
 
 # Theorem Provers
-- [PVS](http://pvs.csl.sri.com/) (GPL)
+- [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
 - [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
 - [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
 - [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
@@ -195,14 +199,20 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Alfa](http://www.cse.chalmers.se/~hallgren/Alfa/): successor of ALF
 - [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php)
 - [ACL2](http://www.cs.utexas.edu/users/moore/acl2/): part of Boyer-Moore family of provers (Univ. Texas at Austin)
+	* [Nqthm](http://en.wikipedia.org/wiki/Nqthm) (GPL-2, ?): Boyer–Moore TP using Pure LISP variant, precursor to ACL2 (Univ. Texas, Austin)
 - [INKA5](http://www.dfki.de/vse/systems/inka/inka5.html), [INKA](http://www.dfki.de/vse/systems/inka/): Inductive Theorem Prover
 - [Otter & Mace2](http://www.cs.unm.edu/~mccune/otter/): first-order and equational logic
 - [Prover9 & Mace4](http://www.cs.unm.edu/~mccune/prover9/): Successors of Otter & Mace2
 - [EQP](http://www.cs.unm.edu/~mccune/eqp/): first-order equational logic: associative-commutative unification and matching, a variety of strategies for equational reasoning, and fast search
 - [TWELF](http://twelf.org/wiki/Main_Page)
 - [Maude ITP](http://maude.cs.uiuc.edu/tools/itp/): Inductive Theorem Prover
+- [LP: Larch Prover](http://www.sds.lcs.mit.edu/spd/larch/LP/overview.html) (?): Multisorted first-order logic, interactive (MIT)
+	* [Larch Shared Language (LSL) Checker](http://www.sds.lcs.mit.edu/spd/larch/LSL/index.html)
+	* [Larch/C++](http://www.eecs.ucf.edu/~leavens/larchc++.html) (?): Interface Specification Language for C++ (Iowa State Univ.)
+	* [Larch/Smalltalk](http://www.eecs.ucf.edu/~leavens/larchSmalltalk.html) (?): Behavioral interface specification language for Smalltalk-80 (Iowa State Univ.)
+- [SAL](http://sal.csl.sri.com/) (GPL-2, C): Language for specifying concurrent systems in a compositional way. BDD-based & SAT-based MC, experimental "Witness" MC, "infinite" bounded MC based on SMT solving, simulator, deadlock checker, automated test generator (SRI, Stanford, Berkeley)
 - [Mizar](http://mizar.org/)
-- [PRL](http://www.nuprl.org/): (Cornell)
+- [NuPRL](http://www.nuprl.org/): Formal Digital Library (Cornell)
 - [MetaPRL](http://www.cs.cornell.edu/jyh/metaprl/default.html)
 - [Gandalf](http://deepthought.ttu.ee/it/gandalf/)
 - [E-SETHEO](http://www4.informatik.tu-muenchen.de/~schulz/WORK/e-setheo.html): strategy-parallel compositional theorem prover for first-order logic with equality
@@ -249,6 +259,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [rise4fun](http://rise4fun.com/)
 - [CMU tools](http://www.cs.cmu.edu/~modelcheck/code.htm)
 - [SYNALP](http://www.inrialpes.fr/synalp/): SYNchronous Applications, Languages, and Programs
+- [ARS](http://www-formal.stanford.edu/clt/ARS/): Database of Automated Reasoning Systems ([Stanford](http://blackforest.stanford.edu/clt/))
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
@@ -259,3 +270,4 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - FUSC: Free Under Specific Condition (wikipedia term)
 - BA: Buchi Automaton
 - GBA: Generalized BA
+- TP: Theorem Prover
