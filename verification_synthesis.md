@@ -63,6 +63,26 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [NIPS](http://www.foldr.org/~michaelw/projects/gitweb?p=nips-vm.git;a=summary) (GNU, C/Perl): A virtual machine for state space generation (RWTH Aachen)
 - [VMSSG Statespace Converter](http://www.pst.informatik.uni-muenchen.de/~hammer/statespaces/manual.html) (GPL, Java): process, analyze, display statespace graphs produced by modified VMSSG virtual machine, [state space gallery](http://www.pst.ifi.lmu.de/~hammer/statespaces/index.html), ([Univ. Munchen](http://www.pst.ifi.lmu.de/Personen/ehemalige/hammer/hammer/view))
 - [Synet](http://www.irisa.fr/s4/tools/synet/) (OCaml): Synthesizer of distributable bounded Petri nets from Finite Automata ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
+- [Motion Grammar Kit](https://github.com/golems/motion-grammar-kit) (BSD-2, Common Lisp/C): Automata manipulation, supervisory control, C code generation (Georgia Tech.)
+- [PAT](http://en.wikipedia.org/wiki/PAT_%28model_checker%29) (?, C#): GUI, model editor, simulator, POR, symmetry reduction (Nat. UNiv. Singapore)
+- [NorMC](https://github.com/pkazmierczak/NorMC) (BSD-3, Haskell): Norm compliance temporal logic model checker (Univ. Bergen)
+- [Copper](http://www.sei.cmu.edu/predictability/tools/copper/index.cfm) (FUSC, ?): MC for concurrent message-passing C programs (CMU)
+- [Magic](http://www.cs.cmu.edu/~chaki/magic/) (?): Check C language conformance between component specifications and their implementations using counterexample guided abstraction refinement, concurrent and compositional (CMU, Univ. Wisconsin, Univ. Oxford, TU Vienna, Univ. Lugano)
+- [Bogor](http://bogor.projects.cis.ksu.edu/manual/)
+- [BLAST](http://mtc.epfl.ch/software-tools/blast/index-epfl.php) (Apache, OCaml/C): MC for C programs using counterexample-driven automatic abstraction refinement (UC Berkeley, EPFL, UCSD, UCLA, Simon Fraser Univ.)
+- [CBMC](http://www.cs.cmu.edu/~modelcheck/cbmc/) (BSD-4): Bounded MC for ANSI-C | C++ | SystemC | Scoot, uses Boolector | MathSAT | Z3
+	* [Eclipse plugin](http://www.cprover.org/eclipse-plugin/)
+	* [Visual Studio plugin](http://www.cprover.org/visual-studio/)
+- [EBMC](http://www.cprover.org/ebmc/) (BSD-5): Bounded Model Checker for hardware designs, inputs: Netlists/ISCAS89 | Verilog | SMV, exports: DIMACS CNF | SMT-LIB (CMU, ETHZ, Oxford Univ.)
+- [Scoot](http://www.cprover.org/scoot/) (?): Static analysis of SystemC, model extraction to pass to SatAbs | CBMC, C++ re-synthesis (ETH)
+- [VCEGAR](http://www.cs.cmu.edu/~modelcheck/vcegar/) (?): Check safety (assertions) of Verilog, using word level predicate abstraction and refinement (CMU, Oxford Univ.)
+- [AIR](http://www.contrib.andrew.cmu.edu/~schaki/publications/NFM-2009.html) (?): Safety MC of Assembly using predicate abstraction and counterexample guided abstraction refinement ([CMU](http://www.contrib.andrew.cmu.edu/~schaki/index.html))
+- [FShell](http://forsyte.at/software/fshell/) (Apache): Interactive & Scripting testing environment for C programs, frontend for software model checkers, dispatches queries to analysis tools (TU Wien)
+- [CPA/Tiger](http://forsyte.at/software/cpatiger/) (?): Predicate-abstraction based test input generator for C programs, uses CPAchecker (TU Wien)
+- [CPAchecker](http://cpachecker.sosy-lab.org/) (Apache): Configurable software verification (Univ. Passau)
+- [crest](https://code.google.com/p/crest/) (BSD-3): Automatic test generation tool for C, inserts instrumentation code and solves the generated symbolic constraints using Yices (UC Berkeley)
+	* [ConCREST](http://forsyte.at/software/concrest/) (?): Concolic testing tool for multi-threaded C programs (Univ. Toronto, TU Wien)
+- [ByMC](http://forsyte.at/software/bymc/) (?, OCaml): Byzantine MC for parameterized model checking of (threshold-guarded) fault-tolerant distributed algorithms in Promela extension using SPIN, Yices (TU Wien)
 
 ### Symbolic
 - [SMV](http://www.cs.cmu.edu/~modelcheck/smv.html) (?): CTL symbolic model checker (CMU)
@@ -93,6 +113,11 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [SPHINX](http://www.cs.cmu.edu/afs/cs/Web/People/smitsch/tools.html) (?): Eclipse plugin for textual & graphical modeling editors to define cyber-physical system structure, discrete/continuous dynamics ([CMU](http://www.cs.cmu.edu/afs/cs/Web/People/smitsch/index.html))
 - [j-algo](http://j-algo.binaervarianz.de/index.php?language=en) (GPL, Java): Algorithm visualization tool (TU Dresden)
 - [Splint](http://lclint.cs.virginia.edu/) (was: [LCLint](http://www.sds.lcs.mit.edu/spd/larch/)) (GPL-2, C): Secure programming Lint for static C checking (Univ. Virginia)
+- [Verus](http://www.cs.cmu.edu/~modelcheck/verus.html) (?): Language for real-time systems, CTL symbolic MC, compilation into state-transition graph (CMU)
+- [UCLID](http://www.cs.cmu.edu/~uclid/) (BSD-like, Moscow ML): Model & verify nfinite-state systems with variables of integer, Boolean, function, and array types, term-level bounded model checking, correspondence checking, deductive verification, and predicate abstraction-based verification, and stand-alone decision procedure for the theories of uninterpreted functions and equality, integer linear arithmetic, and arrays (CMU, UC Berkeley)
+- [CBMC-GC](http://forsyte.at/software/cbmc-gc/) (?): C compiler in the context of Secure Two-party Computation (STC) (TU Wien, TU Darmstadt, CASED, CrypTool Project)
+- [Chic](http://en.wikipedia.org/wiki/CHIC_%28electronics%29) (BSD, Java): Modular verifier for behavioral compatibility checking of hardware and software systems (UC Berkeley)
+- [Jakstab](http://www.jakstab.org/), its [hg](https://bitbucket.org/jkinder/jakstab/) (GPL-2, Java): Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs (TU Munchen, TU Darmstadt)
 
 ## logic -> automata & automata tools
 
@@ -119,6 +144,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 ### other
 - [dk.brics.automaton](http://www.brics.dk/automaton/): DFA/NFA implementation with UTF16 alphabet & support for (&non-) standard regexp
 - [FSA function library](http://users.isr.ist.utl.pt/~pal/cadeiras/deds0708/deds/MatlabFSA.zip) (MATLAB): [doc here](http://users.isr.ist.utl.pt/~pal/cadeiras/deds0708/deds/Projects06-07/BLacerda.pdf) ([ISR-Lisbon](http://users.isr.ist.utl.pt/~blacerda/))
+- [Hessen](http://forsyte.at/software/automata/) (?, C++): Automata Library (TU Wien)
+- [FSME, FSMC, FSMD](http://sourceforge.net/projects/fsme/) (GPL-2, Qt): FSM editor, compiler, debugger for drawing, exports: `XML` | C++ | Python
 
 ## Open Systems (Games: System & UnControlled Environment)
 - [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -148,6 +175,10 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [Ocjava](http://www-sop.inria.fr/meije/esterel/ocjava.html) (?): Esterel Java code generator (INRIA)
 - [Lustre](http://en.wikipedia.org/wiki/Lustre_%28programming_language%29): Declarative, synchronous dataflow programminglanguage for reactive systems
 	* [MATOU](http://www.cfdvs.iitb.ac.in/download/Docs/verification/tools/kronos/Verimag_Home_Page/PEOPLE/Florence.Maraninchi/MATOU/index.phtml) (?): Implementation of mode-automata on top of Lustre (VERIMAG)
+- [NBAC](http://pop-art.inrialpes.fr/~bjeannet/nbac/index.html) (OCaml): Co-/Reachability, slicing of synchronous deterministic reactive systems with Boolean, numerical variables (VERIMAG)
+	* [`lus2nbac`](http://pop-art.inrialpes.fr/~bjeannet/nbac/index_6.html): Convert Lustre to NBAC (VERIMAG)
+	* [`nbac2lucky`](http://pop-art.inrialpes.fr/~bjeannet/nbac/index_7.html): Convert counterexamples to Ludic debugger (VERIMAG)
+	* [`autoc2auto`, `auto2nbac`, `nbac2auto`](http://pop-art.inrialpes.fr/~bjeannet/nbac/index_8.html):  Analyze AUTOC/AUTO hybrid automata (VERIMAG)
 - [SIGNAL](http://en.wikipedia.org/wiki/SIGNAL_programming_language): Synchronized data-flow programming language for systems with multiple clocks ([INRIA](http://www.irisa.fr/espresso/home_html))
 	* [Polychrony / SME](http://www.irisa.fr/espresso/Polychrony/) (GPL, Eclipse Public License): SIGNAL IDE (IRISA)
 - [SyncCharts](http://en.wikipedia.org/wiki/SyncCharts): Graphical formalism for reactive modeling ([Univ. Nice Sophia-Antipolis](http://www-sop.inria.fr/members/Charles.Andre/))
@@ -157,6 +188,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [TGV](http://www.irisa.fr/vertecs/Softwares/TGV.html) (?): Generation of conformance test suites for protocols, based on I/O transition systems (IOLTS) (IRISA)
 - [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language and compiler to TS, symbolic model checker, tool for hardware/software synthesis ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
 - [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
+- [BigMC](https://github.com/bigmc/bigmc) (GPL, C++/C/PHP/...): Bigraphical reactive systems (IT Univ. Copenhagen)
+- [Mocha](http://mtc.epfl.ch/software-tools/mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
 
 ## Harel StateCharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
@@ -183,10 +216,12 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
 - [IOA](http://groups.csail.mit.edu/tds/ioa/) (MIT, Java): I/O automata formal language (MIT)
 - [TEMPO](http://www.veromodo.com/) (FUSC): Formal language for modeling distributed systems w/ | w/o timing constraints as collections of interacting state machines, i.e., timed input/output automata (TIOA) (UIUC)
+	* [Tempo2HSal](http://www.csl.sri.com/users/tiwari/VVFCS.html) (?, Python): Tempo (`.tioa`) -> HybridSAL (`.hsal`) translator (SRI)
 - [Ariadne](http://trac.parades.rm.cnr.it/ariadne/) (GPL-3, C++/Python): dynamical systems set-based analysis (reachability analysis, robust simulation, safety verification - reset, flow, guard predicates given by nonlinear functions) (Univ. Udine, PARADES, CWI, Univ. Verona)
 - [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
 - [SAAtRE](http://symbolaris.com/info/saatre.html) (?): Abstraction refinement model checker for Timed Automata based on extended SAT-solving, UPPAAL-like input format (Univ. Oldenburg, CWI)
 - [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
+- [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
 
 # Theorem Provers
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
@@ -221,14 +256,22 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [wikipedia list](https://en.wikipedia.org/wiki/Automated_theorem_proving)
 - [this thread](http://cs.stackexchange.com/questions/868/types-of-automated-theorem-provers)
 - [jImp](http://symbolaris.com/logic/jImp.html) (binary, Java): based on set of support and ordered resolution for first-order logic, supports: clause indexing techniques, subsumption, and tautology elimination, Davis-Putnam-Loveland-Logemann (DPLL) inference procedure (CMU)
+- [QEPCAD](http://www.usna.edu/CS/~qepcad/B/QEPCAD.html) (BSD-like, C): Quantifier elimination by partial cylindrical algebraic decomposition (US Naval Academy, Drexel Univ., North Carolina State Univ.)
+	* [Mac OS X 10.6, 10.7 binaries](http://www.cl.cam.ac.uk/~lp15/papers/Arith/qepcad-for-mac.html) (Cambridge Univ.)
 
 ## SAT
 - [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
 - [MiniSat](http://minisat.se/) and its [github](https://github.com/niklasso/minisat) (MIT, C++/C): minimalistic high-performance solver to help get started ([Chalmers Univ.](http://minisat.se/Authors.html))
+- [SATABS](http://www.cprover.org/satabs/) (BSD, C): ANSI-C, C++ verification via Boolean program abstraction (Univ. Oxford, Imperial College, Univ. Lugano, CMU)
+- [Boppo](http://www.cprover.org/boppo/) (?): MC for Boolean programs featuring: POR, Fixpoint detection using QBF, support for `constraint` construct (Univ. Oxford, Microsoft Research, Univ. Lugano, CMU)
+- [CSIsat](http://www.sosy-lab.org/~dbeyer/CSIsat/) (Apache): Interpolating decision procedure for the quantifier-free theory of rational linear arithmetic and equality with uninterpreted function symbols (EPFL, SFU)
 
 ## SMT
 - [Z3](http://z3.codeplex.com/) ([FUSC](http://z3.codeplex.com/license), C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
 - [iZ3](http://rise4fun.com/iZ3) ([FUSC](http://z3.codeplex.com/license), C++/Python): Interpolating, supports: arithmetic, arrays, uninterpreted functions, and quantifiers (Microsoft Research)
+- [Boolector](http://fmv.jku.at/boolector/) (GPL-3): bit-vectors and arrays (Johannes Kepler Univ. Linz, Upper Austrian Univ. of Applied Sciences)
+- [MathSAT](http://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
+- [SMT-LIB](http://www.cprover.org/SMT-LIB-LSM/) (?, C++): format for Finite lists, sets, maps (Oxford Univ.)
 
 # Runtime Verification
 - [MOP](http://fsl.cs.illinois.edu/index.php/MOP) (Java): Monitoring-Oriented Programming ([UIUC](http://fsl.cs.illinois.edu/index.php/Main_Page))
@@ -271,3 +314,5 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - BA: Buchi Automaton
 - GBA: Generalized BA
 - TP: Theorem Prover
+- RTS: Real-time system(s)
+- TU: Technical University
