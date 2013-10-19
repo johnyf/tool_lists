@@ -1,3 +1,5 @@
 - [jCUTE](http://osl.web.cs.illinois.edu/software/jcute/index.html): Java concolic unit testing
 - [Atomic Set Inferencer](http://osl.web.cs.illinois.edu/software/atomic-set-inference.html), its [github](https://github.com/osl/atomic-set-inference) (FUSC, Java/Shell): for automatically inferring atomic sets, a synchronization mechanism in which the programmer specifies the groups of data that must be accessed as a unit ([UIUC](http://osl.web.cs.illinois.edu/members/dinges.html))
 - [SOTER](http://osl.web.cs.illinois.edu/software/soter/index.html) (FUSC): extensible static analysis and transformation tool that facilitates safe yet efficient message passing in actor programs (UIUC)
+- [Splint](http://lclint.cs.virginia.edu/) (was: [LCLint](http://www.sds.lcs.mit.edu/spd/larch/)) (GPL-2, C): Secure programming Lint for static C checking (Univ. Virginia)
+- [Jakstab](http://www.jakstab.org/), its [hg](https://bitbucket.org/jkinder/jakstab/) (GPL-2, Java): Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs (TU Munchen, TU Darmstadt)

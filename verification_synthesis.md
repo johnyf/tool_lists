@@ -113,12 +113,10 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [KeYmaeraD](http://symbolaris.com/info/KeYmaeraD.html), its [github](https://github.com/keymaerad/KeYmaeraD) (BSD-3, Scala): Distributed theorem prover for distributed hybrid systems using Quantified differential dynamic logic (QdL) ([CMU](http://symbolaris.com/andre.html))
 	* [SPHINX](http://www.cs.cmu.edu/afs/cs/Web/People/smitsch/tools.html) (?): Eclipse plugin for textual & graphical modeling editors to define cyber-physical system structure, discrete/continuous dynamics ([CMU](http://www.cs.cmu.edu/afs/cs/Web/People/smitsch/index.html))
 - [j-algo](http://j-algo.binaervarianz.de/index.php?language=en) (GPL, Java): Algorithm visualization tool (TU Dresden)
-- [Splint](http://lclint.cs.virginia.edu/) (was: [LCLint](http://www.sds.lcs.mit.edu/spd/larch/)) (GPL-2, C): Secure programming Lint for static C checking (Univ. Virginia)
 - [Verus](http://www.cs.cmu.edu/~modelcheck/verus.html) (?): Language for real-time systems, CTL symbolic MC, compilation into state-transition graph (CMU)
 - [UCLID](http://www.cs.cmu.edu/~uclid/) (BSD-like, Moscow ML): Model & verify nfinite-state systems with variables of integer, Boolean, function, and array types, term-level bounded model checking, correspondence checking, deductive verification, and predicate abstraction-based verification, and stand-alone decision procedure for the theories of uninterpreted functions and equality, integer linear arithmetic, and arrays (CMU, UC Berkeley)
 - [CBMC-GC](http://forsyte.at/software/cbmc-gc/) (?): C compiler in the context of Secure Two-party Computation (STC) (TU Wien, TU Darmstadt, CASED, CrypTool Project)
 - [Chic](http://en.wikipedia.org/wiki/CHIC_%28electronics%29) (BSD, Java): Modular verifier for behavioral compatibility checking of hardware and software systems (UC Berkeley)
-- [Jakstab](http://www.jakstab.org/), its [hg](https://bitbucket.org/jkinder/jakstab/) (GPL-2, Java): Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs (TU Munchen, TU Darmstadt)
 
 ## logic -> automata & automata tools
 
