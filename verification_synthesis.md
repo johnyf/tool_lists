@@ -83,6 +83,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [crest](https://code.google.com/p/crest/) (BSD-3): Automatic test generation tool for C, inserts instrumentation code and solves the generated symbolic constraints using Yices (UC Berkeley)
 	* [ConCREST](http://forsyte.at/software/concrest/) (?): Concolic testing tool for multi-threaded C programs (Univ. Toronto, TU Wien)
 - [ByMC](http://forsyte.at/software/bymc/) (?, OCaml): Byzantine MC for parameterized model checking of (threshold-guarded) fault-tolerant distributed algorithms in Promela extension using SPIN, Yices (TU Wien)
+- [iLTL](http://osl.cs.illinois.edu/software/iltl/index.html) (BSD): MC for iLTL, which specifies temporal changes of expected rewards of a Markov process ([UIUC](https://sites.google.com/site/youngminkwon/))
 
 ### Symbolic
 - [SMV](http://www.cs.cmu.edu/~modelcheck/smv.html) (?): CTL symbolic model checker (CMU)
@@ -146,6 +147,12 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [FSA function library](http://users.isr.ist.utl.pt/~pal/cadeiras/deds0708/deds/MatlabFSA.zip) (MATLAB): [doc here](http://users.isr.ist.utl.pt/~pal/cadeiras/deds0708/deds/Projects06-07/BLacerda.pdf) ([ISR-Lisbon](http://users.isr.ist.utl.pt/~blacerda/))
 - [Hessen](http://forsyte.at/software/automata/) (?, C++): Automata Library (TU Wien)
 - [FSME, FSMC, FSMD](http://sourceforge.net/projects/fsme/) (GPL-2, Qt): FSM editor, compiler, debugger for drawing, exports: `XML` | C++ | Python
+- [Kermeta](http://www.kermeta.org/) (EPL): Metamodel programming environment: editor, OCL, compiler to Java | OSGI, kermeta <-> ecore | XMI ([IRISA](http://triskell.irisa.fr/?set_language=en&cl=en))
+- [Papyrus](http://www.papyrusuml.org/scripts/home/publigen/content/templates/show.asp?L=EN&P=55&vTicker=alleza&ITEMID=3) (EPL): Graphical UML2 modeling in Eclipse ([CEA LIST](http://www-list.cea.fr/))
+- [Topcased](http://www.topcased.org/) (EPL): Graphical editors for: Ecore, UML, SAM, AADL, SysML, and doc generator, model transformations (INRIA)
+	* [Topcased verification tools](http://www.topcased.org/index.php?idd_projet_pere=55)
+- [MARTE](http://www.omgmarte.org/): UML extension for model-driven development of real-time and embedded systems (OMG)
+- [timesquare](http://timesquare.inria.fr/) (EPL): Model development kit as Eclipse plugings based on formal Clock Constraint Specification Language (CCSL) to manipulate logical time (INRIA)
 
 ## Open Systems (Games: System & UnControlled Environment)
 - [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -194,7 +201,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 ## Harel StateCharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
 - [Time Rover](http://www.time-rover.com/)
-  
+ 
 # Hybrid Systems
 - [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
 - [HyTech](http://embedded.eecs.berkeley.edu/research/hytech/) (FUSC, C): computes condition under which a linear hybrid system satisfies a temporal requirement (UC Berkeley)
@@ -222,6 +229,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [SAAtRE](http://symbolaris.com/info/saatre.html) (?): Abstraction refinement model checker for Timed Automata based on extended SAT-solving, UPPAAL-like input format (Univ. Oldenburg, CWI)
 - [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
 - [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
+- [HSolver](http://hsolver.sourceforge.net/) (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
 
 # Theorem Provers
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
@@ -273,6 +281,9 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MathSAT](http://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
 - [SMT-LIB](http://www.cprover.org/SMT-LIB-LSM/) (?, C++): format for Finite lists, sets, maps (Oxford Univ.)
 
+## Other solvers
+- [RSolver]() (LGPL): Quantified inequality constraints ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
+
 # Runtime Verification
 - [MOP](http://fsl.cs.illinois.edu/index.php/MOP) (Java): Monitoring-Oriented Programming ([UIUC](http://fsl.cs.illinois.edu/index.php/Main_Page))
 - [CHIMP](http://www.cs.rice.edu/CS/Verification/Software/software.html): LTL -> monitors: nondeterministic finite-word automata that accept all illegal executions (Rice Univ.)
@@ -303,11 +314,13 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [CMU tools](http://www.cs.cmu.edu/~modelcheck/code.htm)
 - [SYNALP](http://www.inrialpes.fr/synalp/): SYNchronous Applications, Languages, and Programs
 - [ARS](http://www-formal.stanford.edu/clt/ARS/): Database of Automated Reasoning Systems ([Stanford](http://blackforest.stanford.edu/clt/))
+- [AVACS](http://www.avacs.org/tools/)
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
 - [Promela Database](http://www.albertolluch.com/research/promelamodels): (IMT Lucca)
 - [Spec Patterns](http://patterns.projects.cis.ksu.edu/): patterns commonly occuring in specs of concurrent/reactive systems (LTL, CTL, GIL, QRE, ACTL, RAFMC) (Univ. Massachusetts Amherst)
+- [Hybrid system safety verification benchmarks](http://hsolver.sourceforge.net/benchmarks/)
 
 # (non-common) abbreviations
 - FUSC: Free Under Specific Condition (wikipedia term)
@@ -316,3 +329,4 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - TP: Theorem Prover
 - RTS: Real-time system(s)
 - TU: Technical University
+- EPL: Eclipse Public License
