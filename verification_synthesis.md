@@ -24,6 +24,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [HSF-SPIN](http://www.albertolluch.com/research/tools): SPIN directed model checking extension [IMT Lucca]
 	* [Promela -> C](http://www.ida.liu.se/~kejia/c2promela/) (OCaml): translator (Uppsala Univ.)
 	* [Promela -> C](http://www.mathematik.uni-stuttgart.de/~floeff/publications/96-enstparis-s2-report.pdf): translator (Univ. Stuttgart)
+	* [Promela -> Java](http://members.tele2.nl/edwin.v/compiler.html) (?, Java): translator ([TU Delft](http://members.tele2.nl/edwin.v/index.html))
 	* [jSpin](http://code.google.com/P/Cjspin/) (GPL-2, Java): GUI for SPIN and Erigone
 	* [Erigone](http://code.google.com/p/erigone/) (GPL-2, Ada): partial SPIN re-implementation for educational purposes
 	* [EpiSpin](http://epispin.ewi.tudelft.nl/): Eclipse plug-in for editing & verifying Promela using Spin ([TU Delft](http://swerl.tudelft.nl/twiki/pub/Main/PastAndCurrentMScProjects/thesis-bob-de-vos.pdf))
@@ -135,6 +136,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Wring](http://www.iaik.tugraz.at/content/research/design_verification/wring/) (Perl): translate LTL  formulae to generalized Buechi automata (TU Graz)
 - [GOAL](http://goal.im.ntu.edu.tw/): graphical interactive tool for defining and manipulating Büchi automata and temporal logic formulae (NTU)
 - [LTL -> Buchi Genealogy](http://spot.lip6.fr/wiki/LtlTranslationAlgorithms) ([EPITA](http://www.lrde.epita.fr/~adl/))
+- [LTSA](http://www.doc.ic.ac.uk/~jnm/book/ltsa/LTSA_applet.html) (?, Java): Labelled Transition System Analyzer ([Imperial College London](http://www-dse.doc.ic.ac.uk/cgi-bin/moin.cgi/jnm))
 
 ### LTL -> DRA
 - [ltl2dstar](http://www.ltl2dstar.de/) (GPL): LTL -> DRA (deterministic Rabin) ([Univ. Bonn](http://www.ltl2dstar.de/literature/ltl2dstar-diploma-thesis.pdf))
@@ -151,6 +153,13 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [Topcased verification tools](http://www.topcased.org/index.php?idd_projet_pere=55)
 - [MARTE](http://www.omgmarte.org/): UML extension for model-driven development of real-time and embedded systems (OMG)
 - [timesquare](http://timesquare.inria.fr/) (EPL): Model development kit as Eclipse plugings based on formal Clock Constraint Specification Language (CCSL) to manipulate logical time (INRIA)
+- [libalf](http://libalf.informatik.rwth-aachen.de/) (LGPL-3, C++/C/Java): Learning finite-state automata: DFA: Angluin's L\*, L\* (adding counter-examples to columns), Kearns / Vazirani, Rivest / Schapire, Regular positive negative inference (RPNI), Biermann & Feldman's algorithm (using SAT-solving), and NFA: NL\*, DeLeTe2, Biermann & Feldman's (RWTH Aachen Univ., ENS Cachan, TU Munchen)
+	* [AMoRE](http://amore.sourceforge.net/) (GPL-2, C/Java): Automata, Monoids, and Regular Expressions (RWTH AaachenUniv., Univ. Kiel)
+	* [libmVCA]
+	* [liblangen]
+	* [finite automata tool]
+- [APHMIN](http://depend.cs.uni-sb.de/tools/aphmin/) (?, ?): Tools to generate, manipulate, and minimize acyclic phase-type representations (Saarland Univ.)
+- [FlowSim](http://depend.cs.uni-sb.de/tools/flowsim/) (GPL-3, ?): Measure resources needed to find maximal strong simulation relation for a model under different optimizations (Saarland Univ.)
 
 ## Open Systems (Games: System & UnControlled Environment)
 - [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -210,10 +219,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [IF](http://www-verimag.imag.fr/~async/IF/index.html) (FUSC): static analysis, model-checking, test generation, [Open-Kronos](http://www-verimag.imag.fr/~tripakis/openkronos.html), [Kronos](http://www-verimag.imag.fr/DIST-TOOLS/TEMPO/kronos/): TCTL verification of Timed Automata (VERIMAG)
 - [UPPAAL](http://www.uppaal.org/), [UPPAAL-Tiga](http://people.cs.aau.dk/ ̃adavid/tiga/) (FUSC): Timed automata (Uppsala Univ., Aaalborg Univ.)
 	* [manipulate UPPAAL XML](https://launchpad.net/pyuppaal) (GPL-3, Python)
+	* [Yggdrasil](http://www.quasimodo.aau.dk/tools.html) (?, ?): UML (subset) -> Uppaal, intended for test generation (Aaalborg Univ.)
+	* [METAMOC](http://metamoc.dk/) (GPL-3, Python): WCET Analysis of ARM Processors using Real-Time model-checking (Aalborg Univ.)
+	* [SARTS](http://www.sarts.dk/old.php) (?, Java): Model Based Schedulability Analysis of Real-Time Systems, SCJ2, UPPAAL (Aaalborg Univ.)
 - [OPAAL](https://launchpad.net/opaal) (GPL-3, Python): distributed/parallel (discrete time) model checker for networks of timed automata  using MPI
 - [ECDAR](http://people.cs.aau.dk/~adavid/ecdar/) (FUSC): timed interface theory (Aaalborg, INRIA, ITU)
 - [SpaceEx](http://spaceex.imag.fr/) (GPL-3, C++): Reachability & safety verification (Verimag,  	Lab Jean Kuntzmann, DGA-MI)
 - [PHAVer](http://www-verimag.imag.fr/~frehse/phaver_web/) (GPL-2, C++): verifying safety properies of hybrid systems (exact arithmetic, on-the-fly over-approximation of PWA dynamics, compositional & assume-guarantee reasoning) ([Verimag](https://sites.google.com/site/frehseg/))
+	* [vim highlight](http://www.vim.org/scripts/script.php?script_id=3256), its [github](https://github.com/vim-scripts/phaver)
+	* [ProHVer](http://depend.cs.uni-sb.de/tools/prohver/) (GPL-3, C++): Unbounded reachability probability for probabilistic hybrid automata (Univ. Saarland)
 - [ATAS](http://sourceforge.net/projects/atao/) (GPL-3, Python): Alternating 1-clock (fully decidable) Timed Automata Solver
 - [CIF](http://se.wtb.tue.nl/sewiki/cif/start): Compositional Interchange Format for Hybrid Systems toolset
 - [CheckMate](http://www.mathworks.com/matlabcentral/fx_files/15441/3/content/doc/main.htm) (MATLAB) modeling, simulation & investigation, [demos](http://www.mathworks.com/matlabcentral/fileexchange/17004-checkmate-demos)
@@ -228,6 +242,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
 - [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
 - [HSolver](http://hsolver.sourceforge.net/) (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
+- [Fortuna](http://www.cs.ru.nl/J.Berendsen/fortuna/) (GPL-3, C++/Eclipse): MC priced probabilistic timed automata (PPTAs) (Univ. Twente)
+- [MoToR](http://depend.cs.uni-sb.de) (GPL, ?): Macro-preprocessor for MoDeST, a stochastic real-time systems formalism, interfacing to UPPAAL, CADP, Eclipse, Mobius (Univ. Saarlandes)
+	* [Eclipse plugin](http://depend.cs.uni-sb.de/index.php?446) (Univ. Saarlandes)
+- [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
+- [MCPTA](http://www.modestchecker.net/) (FUSC, ?): Probabilistic Timed Automata model checker for MoDeST | UPPAAL | PRISM - maps on PRISM (Saarland Univ.)
+- [MRMC](http://www.mrmc-tool.org/trac/) (GPL-3, C): MC for: Discrete/Continuous Markov Chains, Reward models, decision processes (Univ. Twente, RWTH Aachen)
+- [PASS](http://depend.cs.uni-sb.de/tools/pass/) (bin, ?): CEGAR MC for infinite-state probabilistic models, MDPs (Saarland Univ.)
+- [INFAMY](http://depend.cs.uni-sb.de/tools/infamy/) (bin, ?): CSL Model Checker for infinite-state Markov chains - CTMCs (Saarland Univ.)
+- [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
@@ -288,6 +311,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [LTL_3](http://ltl3tools.sourceforge.net/) (GPL): LTL -> Moore FSM monitor
 - [TOPL](http://rgrig.github.io/topl/) (OCaml): monitor Java programs
 - [Breach Toolbox](http://www.eecs.berkeley.edu/~donze/breach_page.html)(BSD-3, MATLAB/C++): Simulation, verification of temporal logic properties and dynamical systems (ODE | Simulink) reachability analysis (UC Berkeley)
+- [JTorX](https://fmt.ewi.utwente.nl/redmine/projects/jtorx/wiki/) (?, Java): Model-based testing: Spec: Aldebaran | GraphML | dot | Jararaca | `.sax` | muCRL | `.bcg` | LOTOS, Implementation either these or real program (Univ. Twente)
 
 # Yet un-categorized
 - [Maude](http://maude.cs.uiuc.edu/overview.html) (UIUC)
@@ -313,6 +337,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [SYNALP](http://www.inrialpes.fr/synalp/): SYNchronous Applications, Languages, and Programs
 - [ARS](http://www-formal.stanford.edu/clt/ARS/): Database of Automated Reasoning Systems ([Stanford](http://blackforest.stanford.edu/clt/))
 - [AVACS](http://www.avacs.org/tools/)
+- [Quasimodo](http://www.quasimodo.aau.dk/tools.html): Quantitative system properties in model-driven-design of embedded systems
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
@@ -328,3 +353,4 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - RTS: Real-time system(s)
 - TU: Technical University
 - EPL: Eclipse Public License
+- bin: binary, no sources available/found
