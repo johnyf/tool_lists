@@ -118,6 +118,20 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [UCLID](http://www.cs.cmu.edu/~uclid/) (BSD-like, Moscow ML): Model & verify nfinite-state systems with variables of integer, Boolean, function, and array types, term-level bounded model checking, correspondence checking, deductive verification, and predicate abstraction-based verification, and stand-alone decision procedure for the theories of uninterpreted functions and equality, integer linear arithmetic, and arrays (CMU, UC Berkeley)
 - [CBMC-GC](http://forsyte.at/software/cbmc-gc/) (?): C compiler in the context of Secure Two-party Computation (STC) (TU Wien, TU Darmstadt, CASED, CrypTool Project)
 - [Chic](http://en.wikipedia.org/wiki/CHIC_%28electronics%29) (BSD, Java): Modular verifier for behavioral compatibility checking of hardware and software systems (UC Berkeley)
+- [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): MC for TLA+ using: Zenon | Isabelle (INRIA/Microsoft)
+- [CRefine](http://www.cs.york.ac.uk/circus/tools/refinement.php) (?, Java): Verifies `Circus` specs purely by applying various well-proved refinement laws, requires veriT (Univ. York)
+- [UTP and Cirus Theories in ProofPower-Z](http://www.cs.york.ac.uk/circus/tools/utp.php) (?, ?): embedding the theories (relations, designs, reactive processes) of UTP in the theorem prover ProofPower-Z, formal proofs can be mechanically constructed (Univ. York)
+- [Circus Type Checker](http://www.cs.york.ac.uk/circus/tools/type.php) (? , Java): Syntax type checker for Circus specifications (Univ. York, UFPCI)
+- [JCircus](http://www.cs.york.ac.uk/circus/tools/jcsp.php) (?, Java): Automatically translate Circus programs into Java, for the purpose of animation and simulation (Univ. York)
+- [ClawCircus](http://www.cs.york.ac.uk/circus/tools/control.php) (?, Java): Java-based tools primarily for generating Circus models from Simulink (Univ. York)
+- [Circus Parser](http://sourceforge.net/projects/czt/) (GPL-2, Java): Included in Community Z tools (Univ. York)
+- [Rodin](http://www.event-b.org/) (EPL, Eclipse): Eclipse-based platform for refinement and mathematical proof of Event-B (Univ. Southampton)
 
 ## logic -> automata & automata tools
 
@@ -270,6 +284,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [EQP](http://www.cs.unm.edu/~mccune/eqp/): first-order equational logic: associative-commutative unification and matching, a variety of strategies for equational reasoning, and fast search
 - [TWELF](http://twelf.org/wiki/Main_Page)
 - [Maude ITP](http://maude.cs.uiuc.edu/tools/itp/): Inductive Theorem Prover
+- [Vampire](http://www.vprover.org/) (FUSC, C++): FOL ([Novosibirsk](http://www.voronkov.com/), Univ. Machester, Chalmers UT, Vienna UT)
+	* [Drakosha](http://www.vprover.org/authors.cgi) (?, LISP): Vampire's predecessor
 - [LP: Larch Prover](http://www.sds.lcs.mit.edu/spd/larch/LP/overview.html) (?): Multisorted first-order logic, interactive (MIT)
 	* [Larch Shared Language (LSL) Checker](http://www.sds.lcs.mit.edu/spd/larch/LSL/index.html)
 	* [Larch/C++](http://www.eecs.ucf.edu/~leavens/larchc++.html) (?): Interface Specification Language for C++ (Iowa State Univ.)
@@ -287,6 +303,12 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [jImp](http://symbolaris.com/logic/jImp.html) (binary, Java): based on set of support and ordered resolution for first-order logic, supports: clause indexing techniques, subsumption, and tautology elimination, Davis-Putnam-Loveland-Logemann (DPLL) inference procedure (CMU)
 - [QEPCAD](http://www.usna.edu/CS/~qepcad/B/QEPCAD.html) (BSD-like, C): Quantifier elimination by partial cylindrical algebraic decomposition (US Naval Academy, Drexel Univ., North Carolina State Univ.)
 	* [Mac OS X 10.6, 10.7 binaries](http://www.cl.cam.ac.uk/~lp15/papers/Arith/qepcad-for-mac.html) (Cambridge Univ.)
+- [Zenon](http://focal.inria.fr/zenon/) (BSD-3, OCaml): (INRIA)
+- [E](http://www4.informatik.tu-muenchen.de/~schulz/E/E.html) (GPL-2, C): Full first-order logic with equality ([TU Munchen](http://www4.in.tum.de/~schulz/Stephan_Schulz/Stephan_Schulz.html))
+- [Community Z Tools](http://czt.sourceforge.net/) (GPL-2, Java): Tools for editing, typechecking and animating Z specifications and related notations, including Java framework for building formal methods tools (Univ. Oxford, contrib)
+- [ProofPower](http://www.lemma-one.com/ProofPower/index/) (GPL, ?): Tool suite supporting specification and proof in HOL and Z notation (Lemma 1 Ltd)
+- [ClawZ](http://www.lemma-one.com/clawz_docs/clawz_docs.html) (?, ?): Simulink -> Z notation (Lemma 1 Ltd)
+- [Waldmesiter](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
 
 ## SAT
 - [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
@@ -301,6 +323,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Boolector](http://fmv.jku.at/boolector/) (GPL-3): bit-vectors and arrays (Johannes Kepler Univ. Linz, Upper Austrian Univ. of Applied Sciences)
 - [MathSAT](http://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
 - [SMT-LIB](http://www.cprover.org/SMT-LIB-LSM/) (?, C++): format for Finite lists, sets, maps (Oxford Univ.)
+- [veriT](http://www.verit-solver.org/) (BSD-2, C/C++): Complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers (INRIA, Nancy Univ., UFRN, CNPq, Loria)
+	* [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
 
 ## Other solvers
 - [RSolver]() (LGPL): Quantified inequality constraints ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
@@ -338,19 +362,39 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [ARS](http://www-formal.stanford.edu/clt/ARS/): Database of Automated Reasoning Systems ([Stanford](http://blackforest.stanford.edu/clt/))
 - [AVACS](http://www.avacs.org/tools/)
 - [Quasimodo](http://www.quasimodo.aau.dk/tools.html): Quantitative system properties in model-driven-design of embedded systems
+- [Tools list at SMT-LIB](http://smtlib.cs.uiowa.edu/utilities.html)
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
 - [Promela Database](http://www.albertolluch.com/research/promelamodels): (IMT Lucca)
 - [Spec Patterns](http://patterns.projects.cis.ksu.edu/): patterns commonly occuring in specs of concurrent/reactive systems (LTL, CTL, GIL, QRE, ACTL, RAFMC) (Univ. Massachusetts Amherst)
 - [Hybrid system safety verification benchmarks](http://hsolver.sourceforge.net/benchmarks/)
+- [TPTP](http://www.cs.miami.edu/~tptp/): Thousands of Problems for Theorem Provers (Univ. Miami)
+- [Benchmark Verification Tasks](http://sv-comp.sosy-lab.org/2013/benchmarks.php): Benchmark verification tasks in software verification, as used in SV-COMP
+- [Larry Wos' Notebooks](http://www.automatedreasoning.net/): series of notebooks presenting some of Larry Wos’s most recent and hitherto unpublished research in automated reasoning (also in 1st order logic) ([Argon Nat. Lab](https://en.wikipedia.org/wiki/Larry_Wos))
+- [SMT-LIB](http://www.smtlib.org/): benchmarks for SMT
+- [DPPD](http://users.ecs.soton.ac.uk/mal/systems/dppd.html): The Dozens of Problems for Partial Deduction (DPPD) Library of Benchmarks aims at being a standard suite of benchmarks for partial deduction (Univ. Dusseldorf)
+- [QMLTP](http://www.iltp.de/qmltp/): Quantified Modal Logics Theorem Proving (QMLTP) library provides a platform for testing and benchmarking ATP systems for first-order modal logics (Univ. Potsdam)
+- [ILTP](http://www.cs.uni-potsdam.de/ti/iltp/): Intuitionistic Logic Theorem Proving (ILTP) library provides a platform for testing and benchmarking ATP systems for first-order and propositional intuitionistic logic (Univ. Potsdam)
+- [asparagus](http://asparagus.cs.uni-potsdam.de/): Environment for submitting and archiving benchmarking Answer-Set Programming (ASP) problems and instances (Univ. Potsdam)
+- [TPDB](https://www.lri.fr/~marche/tpdb/): Termination Problems Database of test problems for termination provers: term rewrite systems and logic programs (LRI)
+- [CSPLib](http://www.csplib.org/): Benchmark library of problems for constraint solvers (Izmir Univ. Economics, Univ. St Andrews, Univ. New South Wales)
+- [OR-library](http://people.brunel.ac.uk/~mastjjb/jeb/info.html): Test data sets for a variety of Operations Research (OR) problems (Imperial College London)
+- [SATLIB](http://www.satlib.org/): Benchmark problems, solvers, and tools for SAT related research (TU Darmstadt, Univ. British Columbia)
+- [SatEx](http://www.swmath.org/software/1588): Experiments and execution traces of SAT solvers, on all benchmarks that are provided
+- [QBFLIB](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.qbflib.org/): Collection of benchmark problems, solvers, and tools related to Quantified Boolean Formula (QBF) satisfiability (Univ. Michigan)
 
 # (non-common) abbreviations
 - FUSC: Free Under Specific Condition (wikipedia term)
 - BA: Buchi Automaton
 - GBA: Generalized BA
 - TP: Theorem Prover
+- ATP: Automatic TP
 - RTS: Real-time system(s)
 - TU: Technical University
+- UT: University of Technology
 - EPL: Eclipse Public License
+- FOL: First-order logic
+- HOL: Higher-order logic
 - bin: binary, no sources available/found
+- ?: absent either due to time-constrained browsing (please complete) | not found
