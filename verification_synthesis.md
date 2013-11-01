@@ -36,6 +36,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [Promela library](https://forge.ocamlcore.org/projects/promela/) (BSD-3, OCaml): types for Promela expressions, statements, procs and models as OCaml datastructures, with export to Promela for model checking with SPIN (TU Munchen)
 	* [LWAASpin](http://www.pst.ifi.lmu.de/projekte/lwaaspin/) (SPIN's license): SPIN modified to use linear weak alternating automata instead of Buchi automata (Univ. Munchen)
 	* [Hugo/RT](http://www.pst.informatik.uni-muenchen.de/projekte/hugo/) (? src by email): XMI | ArgoUML | UTE -> Promela | UPPAAL | KIV | Java | SystemC | Smile machines | UTE model | dot (state machines | interactions) and SPIN | UPPAAL trail -> UML run: UML model translator for model checking, theorem proving, code generation (Univ. Munchen, LORIA/INRIA Nancy)
+	* [Pi2Promela](http://lcs.ios.ac.cn/~wp/pi2pro_manual.html) (?, C/Java): compiler from pi-calculus models to Promela, includes GUI ([Chinese Acad. Sciences](http://lcs.ios.ac.cn/~wp/))
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -85,6 +86,13 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [ConCREST](http://forsyte.at/software/concrest/) (?): Concolic testing tool for multi-threaded C programs (Univ. Toronto, TU Wien)
 - [ByMC](http://forsyte.at/software/bymc/) (?, OCaml): Byzantine MC for parameterized model checking of (threshold-guarded) fault-tolerant distributed algorithms in Promela extension using SPIN, Yices (TU Wien)
 - [iLTL](http://osl.cs.illinois.edu/software/iltl/index.html) (BSD): MC for iLTL, which specifies temporal changes of expected rewards of a Markov process ([UIUC](https://sites.google.com/site/youngminkwon/))
+- [Copilot](http://leepike.github.io/Copilot/) (BSD-3, Haskell): A (Haskell DSL) stream language for generating hard real-time C code (NASA, galois Inc., National Inst. Aerospace, Ecole Normale Superieure, TU Ilmenau, Univ. Copenhagen)
+- [mCRL2](http://www.mcrl2.org/release/user_manual/index.html) (Boost Software License, C++): Formal specification language with an associated toolset for modelling, validation and verification of concurrent systems and protocols: linearisation, simulation, state-space exploration, visualization and tools to optimise and analyse specifications, μ-calculus (TU Eindhoven, LaQuSo, CWI, Univ. Twente)
+- [Mobility Workbench](http://www.it.uu.se/research/group/mobility/mwb) (?, SML): π-calculus MC for mobile concurrent systems (Uppsala Univ.)
+- [MMC](http://www.cs.sunysb.edu/~lmc/mmc/) (?, ?): π-calculus and alternation-free μ-calculus Local MC, implemented using the XSB tabled logic programming system (Stony Brook Univ.)
+- [XMC](http://www.cs.sunysb.edu/~lmc/) (?, ?): Local MC for processes specified in XL, a version of value-passing CCS, and the alternation-free modal μ-calculus, implemented using the XSB tabled logic programming system (Stony Brook Univ.)
+- [MMCsp](http://lcs.ios.ac.cn/~wp/mmc_sp_manual.html) (?, C/Java): Compiler from simple probabilistic π-calculus to PRISM models, built on XSB (Ecole Polytechnique, Oxford, INRIA)
+- [ASTG](http://lcs.ios.ac.cn/~wp/astg_manual.html) (?, OCaml/C): TLCE-based symbolic test generator (Chinese Acad. Sciences)
 
 ### Symbolic
 - [SMV](http://www.cs.cmu.edu/~modelcheck/smv.html) (?): CTL symbolic model checker (CMU)
@@ -174,6 +182,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [finite automata tool]
 - [APHMIN](http://depend.cs.uni-sb.de/tools/aphmin/) (?, ?): Tools to generate, manipulate, and minimize acyclic phase-type representations (Saarland Univ.)
 - [FlowSim](http://depend.cs.uni-sb.de/tools/flowsim/) (GPL-3, ?): Measure resources needed to find maximal strong simulation relation for a model under different optimizations (Saarland Univ.)
+- [fc2symbmin](http://www-sop.inria.fr/meije/personnel/Michel.Bourdelles/tutorial.html#Section1): Finite State Mealy Machine analyzer (INRIA)
 
 ## Open Systems (Games: System & UnControlled Environment)
 - [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -184,15 +193,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Tools from Saarland University](http://react.cs.uni-sb.de/tools/) (Saarland Univ.)
 - [PESSOA](https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/home) (FUSC, MATLAB): synthesis of correct-by-design embedded control software based on approximate bisimulations (UCLA)
 - [TALIRO](https://sites.google.com/a/asu.edu/s-taliro/) (GPL, MATLAB) ([ASU](http://www.public.asu.edu/~gfaineko/))
-- [RATSY](http://rat.fbk.eu/ratsy/) (LGPL-2+, Python): Requirements Analysis Tool with Synthesis
+- [Anzu](http://www.iaik.tugraz.at/content/research/design_verification/anzu/) (Perl): synthesizes Verilog from LTL ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
+- [RATSY](http://rat.fbk.eu/ratsy/) (LGPL-2+, Python/PyGTK): PSL | BA specs -> gr1 synthesis, game-based debug approach, circuit synthesis ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
+	* [RAT](http://rat.fbk.eu/) (?, Python): RATSY's pedecessor (FBK, [TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
 - [GIST](http://pub.ist.ac.at/gist/index.html) (?): solving probabilistic games with ω-regular objectives qualitatively (IST Austria)
 - [JTLV](http://sourceforge.net/projects/jtlv/) (LGPL-2, Java/C), [TLV](http://www.cs.nyu.edu/acsys/tlv/)
 - [GAVS+](http://www6.in.tum.de/~chengch/gavs/) (GPL-3, Java): visualize algorithmic games used in verification and synthesis (TU Munchen)
-- [Anzu](http://www.iaik.tugraz.at/content/research/design_verification/anzu/) (Perl): synthesizes Verilog from LTL ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
 - [Acacia+](http://lit2.ulb.ac.be/acaciaplus/) (GPL, Python/C): LTL Realizability check & winning strategy synthesis using AntiChains [repo](https://code.google.com/p/ltlsynthesis/) (Univ. Mons), [Acacia](http://lit2.ulb.ac.be/acacia/) (GPL-2, Perl)
 - [Lily](http://www.iaik.tugraz.at/content/research/design_verification/lily/) (Perl): synthesizes from PSL | LTL & I/O signal partition, works on top of Wring, outputs VERILOG | dot (TU Graz)
-- [PyECDAR](https://project.inria.fr/pyecdar/) (GPL-2, Python): solve timed games based on timed automata models (ITU)
 - [Quasy](http://pub.ist.ac.at/quasy/): Quantitative synthesis of reactive systems from qualitative & quantitative GOAL specs, in/out: GOAL format (IST Austria)
 - [CADP](http://www.inrialpes.fr/vasy/cadp.html) (FUSC): compilers, equivalence checking tools, model-checkers for temporal logics & μ-calculus, verifications: enumerative, on-the-fly, symbolic using BDD, etc. (INRIA)
 - [PDSolver](http://www.cs.ox.ac.uk/matthew.hague/pdsolver.html) (OCaml): evaluating both mu-calculus formulas over pushdown systems and pushdown parity games (Oxford Univ.)
@@ -201,6 +210,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [CEC](http://www1.cs.columbia.edu/~sedwards/cec/) (BSD-3, C++/ANTLR): Esterel V5 compiler to C | Verilog | BLIF ([Columbia](http://www.cs.columbia.edu/~sedwards/))
 	* [scdata](http://www-sop.inria.fr/meije/esterel/scdata.html) (?): Boolean datapath generator for Esterel: translates action calls in sc code over boolean variables into standard nets also in sc (INRIA, Ecole des Mines de Paris)
 	* [Ocjava](http://www-sop.inria.fr/meije/esterel/ocjava.html) (?): Esterel Java code generator (INRIA)
+- [Xeve](http://www-sop.inria.fr/meije/verification/Xeve/): Esterel verification environment (INRIA)
 - [Lustre](http://en.wikipedia.org/wiki/Lustre_%28programming_language%29): Declarative, synchronous dataflow programminglanguage for reactive systems
 	* [MATOU](http://www.cfdvs.iitb.ac.in/download/Docs/verification/tools/kronos/Verimag_Home_Page/PEOPLE/Florence.Maraninchi/MATOU/index.phtml) (?): Implementation of mode-automata on top of Lustre (VERIMAG)
 - [NBAC](http://pop-art.inrialpes.fr/~bjeannet/nbac/index.html) (OCaml): Co-/Reachability, slicing of synchronous deterministic reactive systems with Boolean, numerical variables (VERIMAG)
@@ -218,6 +228,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
 - [BigMC](https://github.com/bigmc/bigmc) (GPL, C++/C/PHP/...): Bigraphical reactive systems (IT Univ. Copenhagen)
 - [Mocha](http://mtc.epfl.ch/software-tools/mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
+- [Ticc](http://code.google.com/p/ticc/) (GPL-2, ?): Interface compatibility and composition, components specify own behavior and that expected by others, CTL properties checked and propagated (UCSC)
 
 ## Harel StateCharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
@@ -238,6 +249,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [SARTS](http://www.sarts.dk/old.php) (?, Java): Model Based Schedulability Analysis of Real-Time Systems, SCJ2, UPPAAL (Aaalborg Univ.)
 - [OPAAL](https://launchpad.net/opaal) (GPL-3, Python): distributed/parallel (discrete time) model checker for networks of timed automata  using MPI
 - [ECDAR](http://people.cs.aau.dk/~adavid/ecdar/) (FUSC): timed interface theory (Aaalborg, INRIA, ITU)
+- [PyECDAR](https://project.inria.fr/pyecdar/) (GPL-2, Python): solve timed games based on timed automata models (ITU)
 - [SpaceEx](http://spaceex.imag.fr/) (GPL-3, C++): Reachability & safety verification (Verimag,  	Lab Jean Kuntzmann, DGA-MI)
 - [PHAVer](http://www-verimag.imag.fr/~frehse/phaver_web/) (GPL-2, C++): verifying safety properies of hybrid systems (exact arithmetic, on-the-fly over-approximation of PWA dynamics, compositional & assume-guarantee reasoning) ([Verimag](https://sites.google.com/site/frehseg/))
 	* [vim highlight](http://www.vim.org/scripts/script.php?script_id=3256), its [github](https://github.com/vim-scripts/phaver)
@@ -267,6 +279,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
+- [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
+	* [Modern Automath implementation](http://www.cs.ru.nl/~freek/aut/) (?, C): Languages AUT-68, AUT-QE ([Radboud Univ. Nijmegen](http://www.cs.ru.nl/~freek/index.html))
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
 - [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
 - [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
@@ -309,13 +323,44 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [ProofPower](http://www.lemma-one.com/ProofPower/index/) (GPL, ?): Tool suite supporting specification and proof in HOL and Z notation (Lemma 1 Ltd)
 - [ClawZ](http://www.lemma-one.com/clawz_docs/clawz_docs.html) (?, ?): Simulink -> Z notation (Lemma 1 Ltd)
 - [Waldmesiter](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
+- [Spear](http://www.domagoj-babic.com/index.php/ResearchProjects/Spear)
+- [Metamath](http://us.metamath.org): Tiny language based on ZFC, and also database of proved theorems
 
 ## SAT
 - [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
 - [MiniSat](http://minisat.se/) and its [github](https://github.com/niklasso/minisat) (MIT, C++/C): minimalistic high-performance solver to help get started ([Chalmers Univ.](http://minisat.se/Authors.html))
+	* [qmaxsat](https://sites.google.com/site/qmaxsat/) (MIT, C/C++): Q-dai MaxSAT Solver, based on MiniSat
+	* [MiniMarch](http://www.st.ewi.tudelft.nl/sat/minimarch.php)
 - [SATABS](http://www.cprover.org/satabs/) (BSD, C): ANSI-C, C++ verification via Boolean program abstraction (Univ. Oxford, Imperial College, Univ. Lugano, CMU)
 - [Boppo](http://www.cprover.org/boppo/) (?): MC for Boolean programs featuring: POR, Fixpoint detection using QBF, support for `constraint` construct (Univ. Oxford, Microsoft Research, Univ. Lugano, CMU)
 - [CSIsat](http://www.sosy-lab.org/~dbeyer/CSIsat/) (Apache): Interpolating decision procedure for the quantifier-free theory of rational linear arithmetic and equality with uninterpreted function symbols (EPFL, SFU)
+- [MSUnCore](http://logos.ucd.ie/wiki/doku.php?id=msuncore): solving (Weighted) (Partial) Maximum Satisfiability (MaxSAT)
+- [antom](https://projects.informatik.uni-freiburg.de/projects/antom) (C++): Lib solving: SAT, Unweighted MaxSAT, Partial MaxSAT, \#SAT (Uni. Freiburg)
+- [SCIP](http://scip.zib.de/): Mixed int programming (MIP), constraint int programming and branch-cut-and-price
+	* [scip-maxsat](https://github.com/msakai/scip-maxsat) (ZIB, C++): Max-SAT frontend for SCIP
+- [GLPK](http://www.gnu.org/software/glpk/)
+	* [MaxSAT frontend](https://github.com/msakai/glpk-maxsat) for GLPK
+- [Lingeling, Plingeling, Treengeling](http://fmv.jku.at/lingeling/)
+- [PicoSAT](http://fmv.jku.at/picosat/) (MIT, C)
+	* [Python bindings](https://pypi.python.org/pypi/pycosat) (MIT, Python)
+- [PrecoSAT](http://fmv.jku.at/precosat/) (MIT-like)
+- [RSat](http://reasoning.cs.ucla.edu/rsat/home.html)
+- [UBCSAT](http://www.satlib.org/ubcsat/): (Univ. British Columbia)
+- [fss](http://dudka.cz/fss) (GPL-3, C++/GAlib): Genetic algorithms
+- [QBF Solvers](http://www.cs.toronto.edu/~fbacchus/qbf.html#PreQuel) (C++)
+- [MiFuMaX](http://sat.inesc-id.pt/~mikolas/sw/mifumax/) (GPL-3)
+- [Shaowei Cai solvers](http://shaoweicai.net/research.html)
+- [algorithms](https://github.com/msakai/toysolverw)
+- [WBO](http://sat.inesc-id.pt/wbo/): Weighted Boolean Optimization Solver that extends Weighted-Partial Max-SAT and Pseudo-Boolean Optimization
+- [PWBO](http://sat.inesc-id.pt/pwbo/)
+- [Sat4j](http://www.sat4j.org/) (LGPL, Java)
+- [ToulBar2](https://mulcyber.toulouse.inra.fr/projects/toulbar2/) (GPL, C++): weighted constraint satisfaction solver (INRA)
+- [march](http://www.isa.ewi.tudelft.nl/sat/march.htm): DPLL with lookahead heuristics (TU Delft)
+- [march_eq](http://www.st.ewi.tudelft.nl/sat/march_eq.htm): (TU Delft)
+- [march_dl](http://www.st.ewi.tudelft.nl/sat/march_dl.php): (TU Delft)
+- [CryptoMiniSat](http://www.msoos.org/cryptominisat2/), its [github](https://github.com/msoos/cryptominisat) (LGPL, C++/C/etc)
+- [WinSAT](http://www.mqasem.net/sat/winsat/)
+- [HyperSAT](http://www.domagoj-babic.com/index.php/ResearchProjects/HyperSAT): Experiment with B-cubing search space pruning
 
 ## SMT
 - [Z3](http://z3.codeplex.com/) ([FUSC](http://z3.codeplex.com/license), C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
@@ -324,7 +369,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MathSAT](http://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
 - [SMT-LIB](http://www.cprover.org/SMT-LIB-LSM/) (?, C++): format for Finite lists, sets, maps (Oxford Univ.)
 - [veriT](http://www.verit-solver.org/) (BSD-2, C/C++): Complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers (INRIA, Nancy Univ., UFRN, CNPq, Loria)
-	* [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
+	* [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)	
 
 ## Other solvers
 - [RSolver]() (LGPL): Quantified inequality constraints ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
@@ -336,6 +381,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [TOPL](http://rgrig.github.io/topl/) (OCaml): monitor Java programs
 - [Breach Toolbox](http://www.eecs.berkeley.edu/~donze/breach_page.html)(BSD-3, MATLAB/C++): Simulation, verification of temporal logic properties and dynamical systems (ODE | Simulink) reachability analysis (UC Berkeley)
 - [JTorX](https://fmt.ewi.utwente.nl/redmine/projects/jtorx/wiki/) (?, Java): Model-based testing: Spec: Aldebaran | GraphML | dot | Jararaca | `.sax` | muCRL | `.bcg` | LOTOS, Implementation either these or real program (Univ. Twente)
+- [TorX](http://fmt.cs.utwente.nl/tools/torx/introduction.html) (Apache, ?): Conformance testing of reactive software (Univ. Twente, TU Eindhoven, Philips, Lucent)
 
 # Yet un-categorized
 - [Maude](http://maude.cs.uiuc.edu/overview.html) (UIUC)
@@ -346,7 +392,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Matching Logic](http://www.matching-logic.org/index.php/Matching_Logic): regard a language through both operational and axiomatic lenses at the same time ([UIUC](http://fsl.cs.illinois.edu/index.php/Main_Page))
 - [Separation logic & local reasoning](https://wiki.mpi-sws.org/star/ToolSupport): wiki & tools list [Max Planck Inst. for Soft. Sys.](http://www.mpi-sws.org/~viktor/)
 - [QMRes](http://www.cs.rice.edu/CS/Verification/Software/software.html): Multi-resolution with ZDDs implementation
-- [MTSA](http://sourceforge.net/projects/mtsa/) (Public): Modal Transition Analyser (Imperial College London, Univ. Buenos Aires)
+- [MTSA](http://sourceforge.net/projects/mtsa/) (Public): Modal Transition Systems Analyser (Imperial College London, Univ. Buenos Aires)
+- [FoCs](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.23.9941)
 
 # Other tool lists
 - [Wikipedia](https://en.wikipedia.org/wiki/List_of_model_checking_tools)
@@ -363,6 +410,11 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [AVACS](http://www.avacs.org/tools/)
 - [Quasimodo](http://www.quasimodo.aau.dk/tools.html): Quantitative system properties in model-driven-design of embedded systems
 - [Tools list at SMT-LIB](http://smtlib.cs.uiowa.edu/utilities.html)
+- [Max-SAT 2013 solvers](http://maxsat.ia.udl.cat:81/13/solvers/index.html)
+- [SAT competition](http://www.satcompetition.org/)
+- [JKU tools](http://fmv.jku.at/software/index.html)
+- [Freek Wiedijk](http://www.cs.ru.nl/~freek/digimath/bycategory.html#tacticprover)
+- [Proof Assistants, Wikipedia](https://en.wikipedia.org/wiki/Proof_assistant)
 
 # databases
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
