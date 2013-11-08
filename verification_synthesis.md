@@ -183,6 +183,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [APHMIN](http://depend.cs.uni-sb.de/tools/aphmin/) (?, ?): Tools to generate, manipulate, and minimize acyclic phase-type representations (Saarland Univ.)
 - [FlowSim](http://depend.cs.uni-sb.de/tools/flowsim/) (GPL-3, ?): Measure resources needed to find maximal strong simulation relation for a model under different optimizations (Saarland Univ.)
 - [fc2symbmin](http://www-sop.inria.fr/meije/personnel/Michel.Bourdelles/tutorial.html#Section1): Finite State Mealy Machine analyzer (INRIA)
+- [PyFMI](https://pypi.python.org/pypi/PyFMI/) (LGPL-3, Python): Load and interact with Functional Mock-Up Units ([FMU](https://www.fmi-standard.org/))
 
 ## Open Systems (Games: System & UnControlled Environment)
 - [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -233,16 +234,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 ## Harel StateCharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
 - [Time Rover](http://www.time-rover.com/)
- 
-# Hybrid Systems
-- [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
-- [HyTech](http://embedded.eecs.berkeley.edu/research/hytech/) (FUSC, C): computes condition under which a linear hybrid system satisfies a temporal requirement (UC Berkeley)
-- [HyLink](http://hsver.crhc.illinois.edu/index.php/HyLink) (closed, MATLAB): Translates restricted class of Simulink/Stateflow models to hybrid automata (UIUC)
-- [d/dt](http://www-verimag.imag.fr/~tdang/ddt.html) (?, ?): Reachability analysis of Continuous and Hybrid Systems with differential inclusions ([VERIMAG](http://www-verimag.imag.fr/~tdang/))
-- [HARE](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HARE) (?): Abstraction refinement for safety
-- [HTV](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HTV) (closed, MATLAB): verify systems from their simulation and run-time traces using imprecise samples and possibly incomplete models to compute overapproximations of bounded reach sets (UIUC)
-- [START](http://www.andrew.cmu.edu/user/arieg/Rek/): time-bounded static analysis of concurrency properties of Real-Time Embedded Software
-- [IF](http://www-verimag.imag.fr/~async/IF/index.html) (FUSC): static analysis, model-checking, test generation, [Open-Kronos](http://www-verimag.imag.fr/~tripakis/openkronos.html), [Kronos](http://www-verimag.imag.fr/DIST-TOOLS/TEMPO/kronos/): TCTL verification of Timed Automata (VERIMAG)
+
+# Timed Systems
 - [UPPAAL](http://www.uppaal.org/), [UPPAAL-Tiga](http://people.cs.aau.dk/ ̃adavid/tiga/) (FUSC): Timed automata (Uppsala Univ., Aaalborg Univ.)
 	* [manipulate UPPAAL XML](https://launchpad.net/pyuppaal) (GPL-3, Python)
 	* [Yggdrasil](http://www.quasimodo.aau.dk/tools.html) (?, ?): UML (subset) -> Uppaal, intended for test generation (Aaalborg Univ.)
@@ -251,34 +244,58 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [OPAAL](https://launchpad.net/opaal) (GPL-3, Python): distributed/parallel (discrete time) model checker for networks of timed automata  using MPI
 - [ECDAR](http://people.cs.aau.dk/~adavid/ecdar/) (FUSC): timed interface theory (Aaalborg, INRIA, ITU)
 - [PyECDAR](https://project.inria.fr/pyecdar/) (GPL-2, Python): solve timed games based on timed automata models (ITU)
-- [SpaceEx](http://spaceex.imag.fr/) (GPL-3, C++): Reachability & safety verification (Verimag,  	Lab Jean Kuntzmann, DGA-MI)
-- [PHAVer](http://www-verimag.imag.fr/~frehse/phaver_web/) (GPL-2, C++): verifying safety properies of hybrid systems (exact arithmetic, on-the-fly over-approximation of PWA dynamics, compositional & assume-guarantee reasoning) ([Verimag](https://sites.google.com/site/frehseg/))
-	* [vim highlight](http://www.vim.org/scripts/script.php?script_id=3256), its [github](https://github.com/vim-scripts/phaver)
-	* [ProHVer](http://depend.cs.uni-sb.de/tools/prohver/) (GPL-3, C++): Unbounded reachability probability for probabilistic hybrid automata (Univ. Saarland)
-- [ATAS](http://sourceforge.net/projects/atao/) (GPL-3, Python): Alternating 1-clock (fully decidable) Timed Automata Solver
-- [CIF](http://se.wtb.tue.nl/sewiki/cif/start): Compositional Interchange Format for Hybrid Systems toolset
-- [CheckMate](http://www.mathworks.com/matlabcentral/fx_files/15441/3/content/doc/main.htm) (MATLAB) modeling, simulation & investigation, [demos](http://www.mathworks.com/matlabcentral/fileexchange/17004-checkmate-demos)
-- [PPL binding](https://launchpad.net/pyppl) (GPL-2, Python): for [Parma Polyhedral Lib](http://bugseng.com/products/ppl) features some specific methods for Timed Automata analysis
-- [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
 - [IOA](http://groups.csail.mit.edu/tds/ioa/) (MIT, Java): I/O automata formal language (MIT)
 - [TEMPO](http://www.veromodo.com/) (closed, Java): Formal language for modeling distributed systems w/ | w/o timing constraints as collections of interacting state machines, i.e., timed input/output automata (TIOA) (UIUC)
 	* [Tempo2HSal](http://www.csl.sri.com/users/tiwari/VVFCS.html) (?, Python): Tempo (`.tioa`) -> HybridSAL (`.hsal`) translator (SRI)
-- [Ariadne](http://trac.parades.rm.cnr.it/ariadne/) (GPL-3, C++/Python): dynamical systems set-based analysis (reachability analysis, robust simulation, safety verification - reset, flow, guard predicates given by nonlinear functions) (Univ. Udine, PARADES, CWI, Univ. Verona)
-- [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
+- [ATAS](http://sourceforge.net/projects/atao/) (GPL-3, Python): Alternating 1-clock (fully decidable) Timed Automata Solver
+- [PPL binding](https://launchpad.net/pyppl) (GPL-2, Python): for [Parma Polyhedral Lib](http://bugseng.com/products/ppl) features some specific methods for Timed Automata analysis
+- [MCPTA](http://www.modestchecker.net/) (FUSC, ?): Probabilistic Timed Automata model checker for MoDeST | UPPAAL | PRISM - maps on PRISM (Saarland Univ.)
 - [SAAtRE](http://symbolaris.com/info/saatre.html) (?): Abstraction refinement model checker for Timed Automata based on extended SAT-solving, UPPAAL-like input format (Univ. Oldenburg, CWI)
-- [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
-- [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
-- [HSolver](http://hsolver.sourceforge.net/) (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
 - [Fortuna](http://www.cs.ru.nl/J.Berendsen/fortuna/) (GPL-3, C++/Eclipse): MC priced probabilistic timed automata (PPTAs) (Univ. Twente)
+
+# Hybrid Systems
+- [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
+- [HyLink](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HyLink) (FUSC, Python): Restricted Simulink/Stateflow models -> HyXML-> HyTech | UPPAAL (UIUC)
+- [START](http://www.andrew.cmu.edu/user/arieg/Rek/): time-bounded static analysis of concurrency properties of Real-Time Embedded Software
+- [IF](http://www-verimag.imag.fr/~async/IF/index.html) (FUSC): static analysis, model-checking, test generation, [Open-Kronos](http://www-verimag.imag.fr/~tripakis/openkronos.html), [Kronos](http://www-verimag.imag.fr/DIST-TOOLS/TEMPO/kronos/): TCTL verification of Timed Automata (VERIMAG)
+- [CIF](http://se.wtb.tue.nl/sewiki/cif/start): Compositional Interchange Format for Hybrid Systems toolset
+- [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
+- [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
+	* [Relational Abstraction](http://www.csl.sri.com/users/tiwari/relational-abstraction/) (?, ?): creating relational abstractions of HybridSAL models ([SRI](http://www.csl.sri.com/users/tiwari/))
+- [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
+- [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
+
+## Linear
+- [HyTech](http://embedded.eecs.berkeley.edu/research/hytech/) (FUSC, C): computes condition under which a linear hybrid system satisfies a temporal requirement (UC Berkeley)
+- [d/dt](http://www-verimag.imag.fr/~tdang/ddt.html) (?, ?): Reachability analysis of Continuous and Hybrid Systems with linear differential inclusions ([VERIMAG](http://www-verimag.imag.fr/~tdang/))
+- [HARE](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HARE) (?): Abstraction refinement for safety
+- [PHAVer](http://www-verimag.imag.fr/~frehse/phaver_web/) (GPL-2, C++): verifying safety properies of hybrid systems (exact arithmetic, on-the-fly over-approximation of PWA dynamics, compositional & assume-guarantee reasoning) ([Verimag](https://sites.google.com/site/frehseg/))
+	* [vim highlight](http://www.vim.org/scripts/script.php?script_id=3256), its [github](https://github.com/vim-scripts/phaver)
+	* [ProHVer](http://depend.cs.uni-sb.de/tools/prohver/) (GPL-3, C++): Unbounded reachability probability for probabilistic hybrid automata (Univ. Saarland)
+- [CheckMate](http://www.mathworks.com/matlabcentral/fx_files/15441/3/content/doc/main.htm) (MATLAB) modeling, simulation & investigation, [demos](http://www.mathworks.com/matlabcentral/fileexchange/17004-checkmate-demos)
+- [HYSDEL](http://control.ee.ethz.ch/~hybrid/hysdel/) (GPL, C++/MATLAB): Model interconnections of linear systems, automata, if selections, logic rules, transform to mixed-logical dynamical (MLD) form (ETHZ)
+- [Hybrid Toolbox for MATLAB](http://cse.lab.imtlucca.it/~bemporad/hybrid/toolbox/) (FUSC, MATLAB/Simulink): Modeling, simulation, verification, constrained MPC, generate linear & hybrid MPC PWA control laws ([IMT Lucca](http://cse.lab.imtlucca.it/~bemporad/Alberto_Bemporads_Home_Page/Home_Page.html))
+- [Ellipsoidal Toolbox for MATLAB](http://code.google.com/p/ellipsoids/) (BSD-3, MATLAB): External and internal ellipsoidal approximations of geometric (Minkowski) sums and differences of ellipsoids, intersections of ellipsoids and intersections of ellipsoids with halfspaces and polytopes; distances between ellipsoids, between ellipsoids and hyperplanes, between ellipsoids and polytopes; and projections onto given subspaces. For forward and backward reach sets of continuous- and discrete-time PWA systems (UC Berkeley)
+- [MATISSE](http://www-ljk.imag.fr/membres/Antoine.Girard/Software/Matisse/) (GPL-3, MATLAB): Approximate bisimulations: safety verification and reachable set computation of large dimensional, constrained linear systems. Needs: MPT, YALMIP, SEDUMI (UPenn, IMAG)
+
+## Non-Linear
+- [HTV](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HTV) (closed, MATLAB): verify systems from their simulation and run-time traces using imprecise samples and possibly incomplete models to compute overapproximations of bounded reach sets (UIUC)
+- [SpaceEx](http://spaceex.imag.fr/) (GPL-3, C++): Reachability & safety verification (Verimag, Lab Jean Kuntzmann, DGA-MI)
+- [Ariadne](http://trac.parades.rm.cnr.it/ariadne/) (GPL-3, C++/Python): Dynamical systems set-based analysis (reachability analysis, robust simulation, safety verification - reset, flow, guard predicates given by nonlinear functions) (Univ. Udine, PARADES, CWI, Univ. Verona)
+- [MPT](http://control.ee.ethz.ch/~mpt/2/about.php) (GPL, MATLAB): Design, analysis and deployment of optimal controllers for constrained linear, nonlinear and hybrid systems (ETHZ)
+- [NLToolbox](http://www-verimag.imag.fr/~tdang/NLTOOLBOX/) (u, C/C++): Non-linear dynamical system reachability: polynomial using Bernstein expansion, more general using hybridization ([VERIMAG](http://www-verimag.imag.fr/~tdang/))
+- [Flow*](http://systems.cs.colorado.edu/research/cyberphysical/taylormodels/) (GPL-3, C++): Over-approximation Taylor model flowpipes: polynomial ODEs, polynomial invariants, guards, resets (RWTH Aaachen, Univ. Colorado Boulder)
+- [HSolver](http://hsolver.sourceforge.net/) (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
+- [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
+- [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](http://www-verimag.imag.fr/~dreossi/publications.html))
+
+## Stochastic
 - [MoToR](http://depend.cs.uni-sb.de) (GPL, ?): Macro-preprocessor for MoDeST, a stochastic real-time systems formalism, interfacing to UPPAAL, CADP, Eclipse, Mobius (Univ. Saarlandes)
 	* [Eclipse plugin](http://depend.cs.uni-sb.de/index.php?446) (Univ. Saarlandes)
-- [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
-- [MCPTA](http://www.modestchecker.net/) (FUSC, ?): Probabilistic Timed Automata model checker for MoDeST | UPPAAL | PRISM - maps on PRISM (Saarland Univ.)
 - [MRMC](http://www.mrmc-tool.org/trac/) (GPL-3, C): MC for: Discrete/Continuous Markov Chains, Reward models, decision processes (Univ. Twente, RWTH Aachen)
 - [PASS](http://depend.cs.uni-sb.de/tools/pass/) (bin, ?): CEGAR MC for infinite-state probabilistic models, MDPs (Saarland Univ.)
 - [INFAMY](http://depend.cs.uni-sb.de/tools/infamy/) (bin, ?): CSL Model Checker for infinite-state Markov chains - CTMCs (Saarland Univ.)
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
-- [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](http://www-verimag.imag.fr/~dreossi/publications.html))
 
 # Theorem Provers
 - [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
@@ -440,13 +457,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [QBFLIB](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.qbflib.org/): Collection of benchmark problems, solvers, and tools related to Quantified Boolean Formula (QBF) satisfiability (Univ. Michigan)
 
 # (non-common) abbreviations
-- FUSC: Free Under Specific Condition (wikipedia term)
+- u: unspecified license
+- FUSC: Free Under Specific Condition (wikipedia term), usually free for academic/research use
 - closed: no source available, common situation: `jar` files
 - BA: Buchi Automaton
 - GBA: Generalized BA
 - TP: Theorem Prover
 - ATP: Automatic TP
 - RTS: Real-time system(s)
+- PWA: PieceWise-Affince
 - TU: Technical University
 - UT: University of Technology
 - EPL: Eclipse Public License
