@@ -5,7 +5,7 @@ Minimal markdown knowledge needed to add links:
 `- [Tool name](link url) (license, coded in language): brief description (Institution/other maintainer)`
 
 Please list only Open Source/research tools, proprietary ones are not widely and unconditionally useful.
-Conditionally (sufficiently) free tools are welcome.
+Conditionally (sufficiently) free tools are welcome, e.g., some closed source tools, provided they remain free for educational/research use.
 
 Would you like to suggest a/your tool for addition, but skip cloning/pull requests, please email <jfilippidis@gmail.com>.
 
@@ -238,6 +238,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
 - [HyTech](http://embedded.eecs.berkeley.edu/research/hytech/) (FUSC, C): computes condition under which a linear hybrid system satisfies a temporal requirement (UC Berkeley)
 - [HyLink](http://hsver.crhc.illinois.edu/index.php/HyLink) (closed, MATLAB): Translates restricted class of Simulink/Stateflow models to hybrid automata (UIUC)
+- [d/dt](http://www-verimag.imag.fr/~tdang/ddt.html) (?, ?): Reachability analysis of Continuous and Hybrid Systems with differential inclusions ([VERIMAG](http://www-verimag.imag.fr/~tdang/))
 - [HARE](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HARE) (?): Abstraction refinement for safety
 - [HTV](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HTV) (closed, MATLAB): verify systems from their simulation and run-time traces using imprecise samples and possibly incomplete models to compute overapproximations of bounded reach sets (UIUC)
 - [START](http://www.andrew.cmu.edu/user/arieg/Rek/): time-bounded static analysis of concurrency properties of Real-Time Embedded Software
@@ -260,7 +261,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [PPL binding](https://launchpad.net/pyppl) (GPL-2, Python): for [Parma Polyhedral Lib](http://bugseng.com/products/ppl) features some specific methods for Timed Automata analysis
 - [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
 - [IOA](http://groups.csail.mit.edu/tds/ioa/) (MIT, Java): I/O automata formal language (MIT)
-- [TEMPO](http://www.veromodo.com/) (FUSC): Formal language for modeling distributed systems w/ | w/o timing constraints as collections of interacting state machines, i.e., timed input/output automata (TIOA) (UIUC)
+- [TEMPO](http://www.veromodo.com/) (closed, Java): Formal language for modeling distributed systems w/ | w/o timing constraints as collections of interacting state machines, i.e., timed input/output automata (TIOA) (UIUC)
 	* [Tempo2HSal](http://www.csl.sri.com/users/tiwari/VVFCS.html) (?, Python): Tempo (`.tioa`) -> HybridSAL (`.hsal`) translator (SRI)
 - [Ariadne](http://trac.parades.rm.cnr.it/ariadne/) (GPL-3, C++/Python): dynamical systems set-based analysis (reachability analysis, robust simulation, safety verification - reset, flow, guard predicates given by nonlinear functions) (Univ. Udine, PARADES, CWI, Univ. Verona)
 - [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
@@ -277,6 +278,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [PASS](http://depend.cs.uni-sb.de/tools/pass/) (bin, ?): CEGAR MC for infinite-state probabilistic models, MDPs (Saarland Univ.)
 - [INFAMY](http://depend.cs.uni-sb.de/tools/infamy/) (bin, ?): CSL Model Checker for infinite-state Markov chains - CTMCs (Saarland Univ.)
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
+- [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](http://www-verimag.imag.fr/~dreossi/publications.html))
 
 # Theorem Provers
 - [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
@@ -402,6 +404,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [UPenn Hybrid System Tools Repository](http://wiki.grasp.upenn.edu/hst/index.php?n=Main.HomePage)
 - [VERIMAG Tools](http://www-verimag.imag.fr/Tools,12.html?lang=)
 - [verification tools for industrial automation](http://www.chihhongcheng.info/tools)
+- [Carloni et al.](http://www.nowpublishers.com/articles/foundations-and-trends-in-electronic-design-automation/EDA-001)
 - [Networked Control Systems Repository](http://filer.case.edu/org/ncs/)
 - [rise4fun](http://rise4fun.com/)
 - [CMU tools](http://www.cs.cmu.edu/~modelcheck/code.htm)
@@ -438,6 +441,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 # (non-common) abbreviations
 - FUSC: Free Under Specific Condition (wikipedia term)
+- closed: no source available, common situation: `jar` files
 - BA: Buchi Automaton
 - GBA: Generalized BA
 - TP: Theorem Prover
