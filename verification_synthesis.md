@@ -140,6 +140,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [ClawCircus](http://www.cs.york.ac.uk/circus/tools/control.php) (?, Java): Java-based tools primarily for generating Circus models from Simulink (Univ. York)
 - [Circus Parser](http://sourceforge.net/projects/czt/) (GPL-2, Java): Included in Community Z tools (Univ. York)
 - [Rodin](http://www.event-b.org/) (EPL, Eclipse): Eclipse-based platform for refinement and mathematical proof of Event-B (Univ. Southampton)
+- [CheckFence](http://checkfence.sourceforge.net/) (BSD, OCaml): SAT-based analysis of C code implementing concurrent data types (UPenn)
+- [Daikon](http://en.wikipedia.org/wiki/Daikon_%28system%29) (MIT, Java): Dynamic invariant detection for C/C++, Eiffel, IOA, Perl (MIT)
 
 ## logic -> automata & automata tools
 
@@ -186,7 +188,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [PyFMI](https://pypi.python.org/pypi/PyFMI/) (LGPL-3, Python): Load and interact with Functional Mock-Up Units ([FMU](https://www.fmi-standard.org/))
 
 ## Open Systems (Games: System & UnControlled Environment)
-- [TuLiP](www.cds.caltech.edu/tulip) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
+- [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
 	* [gr1c](http://slivingston.github.io/gr1c/) (BSD-3, C): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](http://scottman.net/))
 - [LTLMoP](http://ltlmop.github.io/) (GPL-3, Python): designing, testing, and implementing hybrid controllers generated automatically from task specifications written in Structured English or Temporal Logic ([Cornell](http://cornell-asl.org/wiki/index.php?title=Main_Page))
 	* [slugs](https://github.com/LTLMoP/slugs) (BSD-3, C++): a stand-alone reactive synthesis tool for GR(1) synthesis (Cornell)
@@ -228,7 +230,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language and compiler to TS, symbolic model checker, tool for hardware/software synthesis ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
 - [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
 - [BigMC](https://github.com/bigmc/bigmc) (GPL, C++/C/PHP/...): Bigraphical reactive systems (IT Univ. Copenhagen)
-- [Mocha](http://mtc.epfl.ch/software-tools/mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
+- [Mocha](http://mtc.epfl.ch/software-tools/mocha/), also [here](http://www.cis.upenn.edu/~mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
 - [Ticc](http://code.google.com/p/ticc/) (GPL-2, ?): Interface compatibility and composition, components specify own behavior and that expected by others, CTL properties checked and propagated (UCSC)
 
 ## Harel StateCharts
@@ -252,16 +254,17 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MCPTA](http://www.modestchecker.net/) (FUSC, ?): Probabilistic Timed Automata model checker for MoDeST | UPPAAL | PRISM - maps on PRISM (Saarland Univ.)
 - [SAAtRE](http://symbolaris.com/info/saatre.html) (?): Abstraction refinement model checker for Timed Automata based on extended SAT-solving, UPPAAL-like input format (Univ. Oldenburg, CWI)
 - [Fortuna](http://www.cs.ru.nl/J.Berendsen/fortuna/) (GPL-3, C++/Eclipse): MC priced probabilistic timed automata (PPTAs) (Univ. Twente)
+- [COSPAN](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.8153) (?, ?): Automata-theoretic verification of coordinating processes with timing constraints (UPenn)
 
 # Hybrid Systems
 - [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
 - [HyLink](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HyLink) (FUSC, Python): Restricted Simulink/Stateflow models -> HyXML-> HyTech | UPPAAL (UIUC)
+- [CHARON](http://rtg.cis.upenn.edu/mobies/charon/) (?, Java): Language and implementation (editor, model browser, visual simulator) for modular specification of interacting hybrid systems based on the notions of agent and mode (UPenn)
+- [CARTS](http://rtg.cis.upenn.edu/carts/) (FUSC, Java): Compositional Analysis of Real-Time Systems (UPenn)
 - [START](http://www.andrew.cmu.edu/user/arieg/Rek/): time-bounded static analysis of concurrency properties of Real-Time Embedded Software
 - [IF](http://www-verimag.imag.fr/~async/IF/index.html) (FUSC): static analysis, model-checking, test generation, [Open-Kronos](http://www-verimag.imag.fr/~tripakis/openkronos.html), [Kronos](http://www-verimag.imag.fr/DIST-TOOLS/TEMPO/kronos/): TCTL verification of Timed Automata (VERIMAG)
 - [CIF](http://se.wtb.tue.nl/sewiki/cif/start): Compositional Interchange Format for Hybrid Systems toolset
 - [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
-- [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools (SRI)
-	* [Relational Abstraction](http://www.csl.sri.com/users/tiwari/relational-abstraction/) (?, ?): creating relational abstractions of HybridSAL models ([SRI](http://www.csl.sri.com/users/tiwari/))
 - [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
 - [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
 
@@ -273,7 +276,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [vim highlight](http://www.vim.org/scripts/script.php?script_id=3256), its [github](https://github.com/vim-scripts/phaver)
 	* [ProHVer](http://depend.cs.uni-sb.de/tools/prohver/) (GPL-3, C++): Unbounded reachability probability for probabilistic hybrid automata (Univ. Saarland)
 - [CheckMate](http://www.mathworks.com/matlabcentral/fx_files/15441/3/content/doc/main.htm) (MATLAB) modeling, simulation & investigation, [demos](http://www.mathworks.com/matlabcentral/fileexchange/17004-checkmate-demos)
-- [HYSDEL](http://control.ee.ethz.ch/~hybrid/hysdel/) (GPL, C++/MATLAB): Model interconnections of linear systems, automata, if selections, logic rules, transform to mixed-logical dynamical (MLD) form (ETHZ)
+- [HYSDEL](http://control.ee.ethz.ch/~hybrid/hysdel/) (GPL, C++/MATLAB): (Hybrid Systems Description Language) HYSDEL -> MLD compiler, also language to model interconnected linear systems and automata (ETHZ)
 - [Hybrid Toolbox for MATLAB](http://cse.lab.imtlucca.it/~bemporad/hybrid/toolbox/) (FUSC, MATLAB/Simulink): Modeling, simulation, verification, constrained MPC, generate linear & hybrid MPC PWA control laws ([IMT Lucca](http://cse.lab.imtlucca.it/~bemporad/Alberto_Bemporads_Home_Page/Home_Page.html))
 - [Ellipsoidal Toolbox for MATLAB](http://code.google.com/p/ellipsoids/) (BSD-3, MATLAB): External and internal ellipsoidal approximations of geometric (Minkowski) sums and differences of ellipsoids, intersections of ellipsoids and intersections of ellipsoids with halfspaces and polytopes; distances between ellipsoids, between ellipsoids and hyperplanes, between ellipsoids and polytopes; and projections onto given subspaces. For forward and backward reach sets of continuous- and discrete-time PWA systems (UC Berkeley)
 - [MATISSE](http://www-ljk.imag.fr/membres/Antoine.Girard/Software/Matisse/) (GPL-3, MATLAB): Approximate bisimulations: safety verification and reachable set computation of large dimensional, constrained linear systems. Needs: MPT, YALMIP, SEDUMI (UPenn, IMAG)
@@ -283,6 +286,9 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [SpaceEx](http://spaceex.imag.fr/) (GPL-3, C++): Reachability & safety verification (Verimag, Lab Jean Kuntzmann, DGA-MI)
 - [Ariadne](http://trac.parades.rm.cnr.it/ariadne/) (GPL-3, C++/Python): Dynamical systems set-based analysis (reachability analysis, robust simulation, safety verification - reset, flow, guard predicates given by nonlinear functions) (Univ. Udine, PARADES, CWI, Univ. Verona)
 - [MPT](http://control.ee.ethz.ch/~mpt/2/about.php) (GPL, MATLAB): Design, analysis and deployment of optimal controllers for constrained linear, nonlinear and hybrid systems (ETHZ)
+- [HybridSal](http://sal.csl.sri.com/hybridsal/) (GPL-2, LISP/Java): Language extension to SAL for specifying Hybrid Systems & hybrid abstraction tool to discrete SAL specifications for model checking with other SAL tools ([SRI](http://www.csl.sri.com/users/tiwari/))
+	* [Relational Abstraction](http://www.csl.sri.com/users/tiwari/relational-abstraction/) (GPL-2, LISP): creating relational abstractions of HybridSAL models (SRI)
+	* `hsal2xml` (GPL-2, Java): `HybridSAL` -> `XML`
 - [NLToolbox](http://www-verimag.imag.fr/~tdang/NLTOOLBOX/) (u, C/C++): Non-linear dynamical system reachability: polynomial using Bernstein expansion, more general using hybridization ([VERIMAG](http://www-verimag.imag.fr/~tdang/))
 - [Flow*](http://systems.cs.colorado.edu/research/cyberphysical/taylormodels/) (GPL-3, C++): Over-approximation Taylor model flowpipes: polynomial ODEs, polynomial invariants, guards, resets (RWTH Aaachen, Univ. Colorado Boulder)
 - [HSolver](http://hsolver.sourceforge.net/) (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
@@ -323,7 +329,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [Larch Shared Language (LSL) Checker](http://www.sds.lcs.mit.edu/spd/larch/LSL/index.html)
 	* [Larch/C++](http://www.eecs.ucf.edu/~leavens/larchc++.html) (?): Interface Specification Language for C++ (Iowa State Univ.)
 	* [Larch/Smalltalk](http://www.eecs.ucf.edu/~leavens/larchSmalltalk.html) (?): Behavioral interface specification language for Smalltalk-80 (Iowa State Univ.)
-- [SAL](http://sal.csl.sri.com/) (GPL-2, C): Language for specifying concurrent systems in a compositional way. BDD-based & SAT-based MC, experimental "Witness" MC, "infinite" bounded MC based on SMT solving, simulator, deadlock checker, automated test generator (SRI, Stanford, Berkeley)
+- [SAL](http://sal.csl.sri.com/) (GPL-2, Scheme): Language for specifying concurrent systems in a compositional way. BDD-based & SAT-based MC, experimental "Witness" MC, "infinite" bounded MC based on SMT solving, simulator, deadlock checker, automated test generator (SRI, Stanford, Berkeley)
 - [Mizar](http://mizar.org/)
 - [NuPRL](http://www.nuprl.org/): Formal Digital Library (Cornell)
 - [MetaPRL](http://www.cs.cornell.edu/jyh/metaprl/default.html)
@@ -425,6 +431,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Networked Control Systems Repository](http://filer.case.edu/org/ncs/)
 - [rise4fun](http://rise4fun.com/)
 - [CMU tools](http://www.cs.cmu.edu/~modelcheck/code.htm)
+- [SRI tools](http://fm-wiki.csl.sri.com/index.php/Main_Page) and older [page](http://fm.csl.sri.com/)
 - [SYNALP](http://www.inrialpes.fr/synalp/): SYNchronous Applications, Languages, and Programs
 - [ARS](http://www-formal.stanford.edu/clt/ARS/): Database of Automated Reasoning Systems ([Stanford](http://blackforest.stanford.edu/clt/))
 - [AVACS](http://www.avacs.org/tools/)
@@ -464,8 +471,11 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - GBA: Generalized BA
 - TP: Theorem Prover
 - ATP: Automatic TP
-- RTS: Real-time system(s)
-- PWA: PieceWise-Affince
+
+- RTS: Real-time System(s)
+- PWA: PieceWise-Affine
+- MLD: Mixed Logical Dynamical
+
 - TU: Technical University
 - UT: University of Technology
 - EPL: Eclipse Public License
