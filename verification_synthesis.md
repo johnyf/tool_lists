@@ -21,10 +21,14 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [SPIN](http://spinroot.com/spin/whatispin.html) (FUSC, C): LTL model checking for closed systems in Promela ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
 	* [modex](http://spinroot.com/modex/) (FUSC, C): C -> Promela: model extractor ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
 	* [spinja](http://code.google.com/p/spinja/) (Apache, Java): Promela model checker (Univ. Twente, TNO)
-	* [HSF-SPIN](http://www.albertolluch.com/research/tools): SPIN directed model checking extension [IMT Lucca]
+	* [HSF-SPIN](http://www.albertolluch.com/research/tools): SPIN directed model checking extension (IMT Lucca)
+	* [Promela Vim Syntax](https://github.com/vim-scripts/promela.vim) (?, VimL): highlighting plugin
+	* [Promela Vim Indent](https://github.com/vim-scripts/promela) (?, VimL)
+	* [Promela Emacs major mode](https://github.com/emacsmirror/promela-mode) (?, Emacs LISP)
 	* [Promela -> C](http://www.ida.liu.se/~kejia/c2promela/) (OCaml): translator (Uppsala Univ.)
 	* [Promela -> C](http://www.mathematik.uni-stuttgart.de/~floeff/publications/96-enstparis-s2-report.pdf): translator (Univ. Stuttgart)
 	* [Promela -> Java](http://members.tele2.nl/edwin.v/compiler.html) (?, Java): translator ([TU Delft](http://members.tele2.nl/edwin.v/index.html))
+	* [LLVM -> Promela](https://github.com/roselone/pmGen) (C++, MIT): LLVM-to-Promela Compiler
 	* [jSpin](http://code.google.com/P/Cjspin/) (GPL-2, Java): GUI for SPIN and Erigone
 	* [Erigone](http://code.google.com/p/erigone/) (GPL-2, Ada): partial SPIN re-implementation for educational purposes
 	* [EpiSpin](http://epispin.ewi.tudelft.nl/): Eclipse plug-in for editing & verifying Promela using Spin ([TU Delft](http://swerl.tudelft.nl/twiki/pub/Main/PastAndCurrentMScProjects/thesis-bob-de-vos.pdf))
@@ -36,7 +40,12 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [Promela library](https://forge.ocamlcore.org/projects/promela/) (BSD-3, OCaml): types for Promela expressions, statements, procs and models as OCaml datastructures, with export to Promela for model checking with SPIN (TU Munchen)
 	* [LWAASpin](http://www.pst.ifi.lmu.de/projekte/lwaaspin/) (SPIN's license): SPIN modified to use linear weak alternating automata instead of Buchi automata (Univ. Munchen)
 	* [Hugo/RT](http://www.pst.informatik.uni-muenchen.de/projekte/hugo/) (? src by email): XMI | ArgoUML | UTE -> Promela | UPPAAL | KIV | Java | SystemC | Smile machines | UTE model | dot (state machines | interactions) and SPIN | UPPAAL trail -> UML run: UML model translator for model checking, theorem proving, code generation (Univ. Munchen, LORIA/INRIA Nancy)
+	* [SCTranslator](https://github.com/Alagert/SCTranslator) (?, XSL): UML XMI2 -> Promela (Saint-Petersburg State Polytechnic University)
 	* [Pi2Promela](http://lcs.ios.ac.cn/~wp/pi2pro_manual.html) (?, C/Java): compiler from pi-calculus models to Promela, includes GUI ([Chinese Acad. Sciences](http://lcs.ios.ac.cn/~wp/))
+	* [pspin](https://github.com/tw33dl3dee/pspin) (?, Python/C): Parallel PROMELA model checker
+	* [prob-Promela](https://github.com/hhu-stups/prob-promela): Promela Compiler / Interpreter for ProB (Dusseldorf Univ.)
+	* [Promela parser/pretty printer](https://github.com/hguenther/language-promela) (?, Haskell)
+	* [sudoku-Promela](https://github.com/davidfischer-ch/sudoku-promela) (EUPL, Shell): mini-project about generating Sudoku grids in Promela
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -114,6 +123,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [VCC](http://research.microsoft.com/en-us/projects/vcc/default.aspx) ([FUSC](http://vcc.codeplex.com/license), F#/C#/C/Perl): annotated concurrent C programs (Microsoft Research)
 - [HAVOC](http://research.microsoft.com/en-us/projects/havoc/default.aspx) (?): for C in the presence of pointer manipulations, unsafe casts and dynamic memory allocation (Microsoft Research)
 - [Dafny](http://dafny.codeplex.com/) ([Ms-PL](http://dafny.codeplex.com/license), C#): imperative object-based language with built-in specification constructs and static program verifier for functional correctness ([Microsoft Research](http://research.microsoft.com/en-us/um/people/leino/))
+	* [sublime Dafny](https://github.com/erggo/sublime-dafny): Sublime Text 2 plugin for Dafny. Provides verifing and syntax highlighting ([Imperial College London](http://tomas.virgl.net/))
 - [Spec\#](http://specsharp.codeplex.com/) ([FUSC](http://specsharp.codeplex.com/license), C#): Object-oriented .NET programming language with design-by-contract features for method pre-/postconditions & object invariants, non-null type system (Microsoft Research)
 - [Whiley](https://github.com/DavePearce/Whiley) (BSD-3, Java/C/): Object-oriented and functional programming language with static checking, including: divide-by-zero, array out-of-bounds and null dereference errors ([Victoria Univ. of Wellington](http://homepages.ecs.vuw.ac.nz/~djp/))
 - [KeY](http://en.wikipedia.org/wiki/KeY) (GPL, Java): Formal verifier of HML | OCL specs for JAVA, via dynamic logic thms (Karlsruhe Inst. Tech., TU Darmstadt, Chalmers Univ. Tech.)
@@ -133,6 +143,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): MC for TLA+ using: Zenon | Isabelle (INRIA/Microsoft)
+	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
 - [CRefine](http://www.cs.york.ac.uk/circus/tools/refinement.php) (?, Java): Verifies `Circus` specs purely by applying various well-proved refinement laws, requires veriT (Univ. York)
 - [UTP and Cirus Theories in ProofPower-Z](http://www.cs.york.ac.uk/circus/tools/utp.php) (?, ?): embedding the theories (relations, designs, reactive processes) of UTP in the theorem prover ProofPower-Z, formal proofs can be mechanically constructed (Univ. York)
 - [Circus Type Checker](http://www.cs.york.ac.uk/circus/tools/type.php) (? , Java): Syntax type checker for Circus specifications (Univ. York, UFPCI)
@@ -142,6 +153,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Rodin](http://www.event-b.org/) (EPL, Eclipse): Eclipse-based platform for refinement and mathematical proof of Event-B (Univ. Southampton)
 - [CheckFence](http://checkfence.sourceforge.net/) (BSD, OCaml): SAT-based analysis of C code implementing concurrent data types (UPenn)
 - [Daikon](http://en.wikipedia.org/wiki/Daikon_%28system%29) (MIT, Java): Dynamic invariant detection for C/C++, Eiffel, IOA, Perl (MIT)
+- [Tip](https://github.com/niklasso/tip) (?, C++/C): (Temporal Induction Prover) SAT based model checker ([Chalmers Univ.](http://minisat.se/Authors.html))
 
 ## logic -> automata & automata tools
 
@@ -186,6 +198,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [FlowSim](http://depend.cs.uni-sb.de/tools/flowsim/) (GPL-3, ?): Measure resources needed to find maximal strong simulation relation for a model under different optimizations (Saarland Univ.)
 - [fc2symbmin](http://www-sop.inria.fr/meije/personnel/Michel.Bourdelles/tutorial.html#Section1): Finite State Mealy Machine analyzer (INRIA)
 - [PyFMI](https://pypi.python.org/pypi/PyFMI/) (LGPL-3, Python): Load and interact with Functional Mock-Up Units ([FMU](https://www.fmi-standard.org/))
+- [FMU SDK](https://github.com/mtiller/fmusdk) (?, C): FMU SDK (Qtronic)
 
 ## Open Systems (Games: System & UnControlled Environment)
 - [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -420,6 +433,9 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MTSA](http://sourceforge.net/projects/mtsa/) (Public): Modal Transition Systems Analyser (Imperial College London, Univ. Buenos Aires)
 - [FoCs](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.23.9941)
 
+# TypeSetting
+- [LTL](https://github.com/malteschmitz/ltl) (LPPL, LaTeX/TikZ): Configurable LTL math operators with LaTeX and TikZ or LTLFonts
+
 # Other tool lists
 - [Wikipedia](https://en.wikipedia.org/wiki/List_of_model_checking_tools)
 - [Yahoda](http://anna.fi.muni.cz/yahoda/) [Masaryk Univ.]
@@ -467,6 +483,9 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - u: unspecified license
 - FUSC: Free Under Specific Condition (wikipedia term), usually free for academic/research use
 - closed: no source available, common situation: `jar` files
+- LPPL: LaTeX Project Public License
+- EPL: Eclipse Public License
+
 - BA: Buchi Automaton
 - GBA: Generalized BA
 - TP: Theorem Prover
@@ -478,7 +497,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 - TU: Technical University
 - UT: University of Technology
-- EPL: Eclipse Public License
+
 - FOL: First-order logic
 - HOL: Higher-order logic
 - bin: binary, no sources available/found
