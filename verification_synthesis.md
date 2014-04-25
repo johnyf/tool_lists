@@ -36,6 +36,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [st2msc](http://matrix.uni-mb.si/en/science/tools/st2msc-tool/) (?, Java): SPIN trail -> Message Sequence Chart (Univ. Maribor)
 	* [Real-Time SPIN](http://www-verimag.imag.fr/~tripakis/rtspin.html): quantitative dense time SPIN extension using Real-Time Promela ([VERIMAG/CNRS](http://www-verimag.imag.fr/~tripakis/index.html))
 	* [nano-Promela](https://bitbucket.org/simonhj/nano-promela): tools for nano-Promela language
+	* [v-Promela](http://tele.informatik.uni-freiburg.de/leue/visual.html#isorc99): visual Promela (Albert-Ludwigs-Univ. Freiburg)
 	* [promela-metamodel](https://code.google.com/p/promela-metamodel/): used to generate Promela from BPEL
 	* [Promela library](https://forge.ocamlcore.org/projects/promela/) (BSD-3, OCaml): types for Promela expressions, statements, procs and models as OCaml datastructures, with export to Promela for model checking with SPIN (TU Munchen)
 	* [LWAASpin](http://www.pst.ifi.lmu.de/projekte/lwaaspin/) (SPIN's license): SPIN modified to use linear weak alternating automata instead of Buchi automata (Univ. Munchen)
@@ -49,6 +50,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [VMSSG](http://www.pst.ifi.lmu.de/~hammer/statespaces/): Model checker state space visualization (Ludwig-Maximilians Univ. Munchen)
 	* [promela-metamodel](http://code.google.com/p/promela-metamodel/) (GPL-3)
 	* [3Spin](http://3spin.peterd.org/)
+	* [POR](http://www.montefiore.ulg.ac.be/services/verif/po-pack.html) (?, C): partial-order reduction package for SPIN ([Univ. de Liege](http://www.montefiore.ulg.ac.be/services/verif/Welcome-en.html))
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -91,6 +93,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [EBMC](http://www.cprover.org/ebmc/) (BSD-5): Bounded Model Checker for hardware designs, inputs: Netlists/ISCAS89 | Verilog | SMV, exports: DIMACS CNF | SMT-LIB (CMU, ETHZ, Oxford Univ.)
 - [Scoot](http://www.cprover.org/scoot/) (?): Static analysis of SystemC, model extraction to pass to SatAbs | CBMC, C++ re-synthesis (ETH)
 - [VCEGAR](http://www.cs.cmu.edu/~modelcheck/vcegar/) (?): Check safety (assertions) of Verilog, using word level predicate abstraction and refinement (CMU, Oxford Univ.)
+- [GMC](http://d3s.mff.cuni.cz/~sery/gmc/index.html) (LGPL, C/C++): MC for C/C++ taking GIMPLE as input (Charles Univ. Prague)
 - [AIR](http://www.contrib.andrew.cmu.edu/~schaki/publications/NFM-2009.html) (?): Safety MC of Assembly using predicate abstraction and counterexample guided abstraction refinement ([CMU](http://www.contrib.andrew.cmu.edu/~schaki/index.html))
 - [FShell](http://forsyte.at/software/fshell/) (Apache): Interactive & Scripting testing environment for C programs, frontend for software model checkers, dispatches queries to analysis tools (TU Wien)
 - [CPA/Tiger](http://forsyte.at/software/cpatiger/) (?): Predicate-abstraction based test input generator for C programs, uses CPAchecker (TU Wien)
@@ -159,6 +162,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): MC for TLA+ using: Zenon | Isabelle (INRIA/Microsoft)
 	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
+	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
+- [BLAST](http://mtc.epfl.ch/software-tools/blast/index-epfl.php) (Apache, OCaml): software MC for C using Lazy abstraction (UC Berkeley, EPFL)
 - [CRefine](http://www.cs.york.ac.uk/circus/tools/refinement.php) (?, Java): Verifies `Circus` specs purely by applying various well-proved refinement laws, requires veriT (Univ. York)
 - [UTP and Cirus Theories in ProofPower-Z](http://www.cs.york.ac.uk/circus/tools/utp.php) (?, ?): embedding the theories (relations, designs, reactive processes) of UTP in the theorem prover ProofPower-Z, formal proofs can be mechanically constructed (Univ. York)
 - [Circus Type Checker](http://www.cs.york.ac.uk/circus/tools/type.php) (? , Java): Syntax type checker for Circus specifications (Univ. York, UFPCI)
@@ -174,6 +179,13 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [FDR2](https://en.wikipedia.org/wiki/FDR2): Refinement checker for communicating sequential processes (Oxford Univ.)
 - [KRATOS](https://es-static.fbk.eu/tools/kratos/): MC for sequential and cooperative multi-threaded C programs, verifying safety properties (Bruno Kessler Found.)
 - [Mr. Waffles](http://mrwaffles.gforge.inria.fr/index.html) (GPL-2, Python): bare-bones CTL MC (Nancy Univ., LHS/LORIA, ESEC R&D)
+- [Peirce-Logic](https://github.com/CurryBoy/Peirce-Logic) (BSD-3, JS): Existential Graph proof system ([RPI](http://www.dimit.me/))
+- [VSE](http://www.dfki.de/vse/projects/vse.html): verification support environment (DFKI, IST, Univ. Ulm, DASA)
+	* [VSE II](http://www.dfki.de/vse/projects/vse-short.html): Enhancing VSE with concurrency, structural deduction, and an integrated theorem prover
+- [Leon](http://lara.epfl.ch/w/leon) (Scala): automated synthesis and verification of Scala programs (EPFL)
+- [Eldarica](http://lara.epfl.ch/w/eldarica) (Java): predicate abstraction engine, generates Abstract Reachability Tree (ART) using lazy abstraction (EPFL)
+	* [Eldarica-P](http://www.philipp.ruemmer.org/eldarica-p.shtml) (?, Java): reachability checker for unbounded Petri nets (EPFL)
+- [Bug-Assist](http://bugassist.mpi-sws.org/) (?): error localization in ANSI-C solving MAX-SAT (Max Planck Inst.)
 
 ## logic -> automata & automata tools
 
@@ -397,6 +409,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Waldmesiter](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
 - [Spear](http://www.domagoj-babic.com/index.php/ResearchProjects/Spear)
 - [Metamath](http://us.metamath.org): Tiny language based on ZFC, and also database of proved theorems
+- [Princess](http://www.philipp.ruemmer.org/princess.shtml) (GPL-3, Scala): FOL modulo linear integer arithmetic
+	* [Seneschal](http://www.philipp.ruemmer.org/seneschal.shtml) (GPL-3, Java): synthesising linear ranking functions for programs expressible in Presburger arithmetic
 
 ## SAT
 - [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
@@ -434,11 +448,13 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [WinSAT](http://www.mqasem.net/sat/winsat/)
 - [HyperSAT](http://www.domagoj-babic.com/index.php/ResearchProjects/HyperSAT): Experiment with B-cubing search space pruning
 - [Kodkod](http://alloy.mit.edu/kodkod/) (MIT, Java): SAT-based constraint solver for first order logic with relations, transitive closure, bit-vector arithmetic, and partial models, with finite model finder and minimal unsatisfiable core extractor (MIT)
+- [Kaplan](http://lara.epfl.ch/w/kaplan) (?, Scala): Scala extension that supports constraint-solving (EPFL)
 
 ## SMT
 - [CVC4](http://cvc4.cs.nyu.edu/web/), its [github](https://github.com/CVC4/CVC4) (BSD-3, C++): built-in base theories, quantifiers, interactive text-based interface, interfaces to: C/C++, Python, Java, OCaml, PHP, Perl, Ruby, Tcl, model generation, (NYU, Univ. Iowa)
 - [CV3](http://www.cs.nyu.edu/acsys/cvc3/) (BSD-3, C++): predecessor of CVC4 (Stanford, NYU, Univ. Iowa)
 - [Z3](http://z3.codeplex.com/) ([FUSC](http://z3.codeplex.com/license), C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
+	* [ScalaZ3](https://github.com/epfl-lara/ScalaZ3/) (Scala): Scala bindings for Z3 (EPFL)
 - [iZ3](http://rise4fun.com/iZ3) ([FUSC](http://z3.codeplex.com/license), C++/Python): Interpolating, supports: arithmetic, arrays, uninterpreted functions, and quantifiers (Microsoft Research)
 - [Boolector](http://fmv.jku.at/boolector/) (GPL-3): bit-vectors and arrays (Johannes Kepler Univ. Linz, Upper Austrian Univ. of Applied Sciences)
 - [MathSAT](http://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
@@ -447,6 +463,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [veriT](http://www.verit-solver.org/) (BSD-2, C/C++): Complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers (INRIA, Nancy Univ., UFRN, CNPq, Loria)
 	* [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
 - [Simplify](http://kindsoftware.com/products/opensource/Simplify/), its [github](https://github.com/kiniry/Simplify) (?, Modula-III): (SRC)
+- [Beaver](http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html) (BSD, OCaml): for the theory of quantifier-free finite-precision bit-vector arithmetic (UC Berkeley)
+- [list of SMT solvers](http://smtlib.cs.uiowa.edu/solvers.html) (Univ. Iowa)
 
 ## Other solvers
 - [RSolver]() (LGPL): Quantified inequality constraints ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
@@ -478,6 +496,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MTSA](http://sourceforge.net/projects/mtsa/) (Public): Modal Transition Systems Analyser (Imperial College London, Univ. Buenos Aires)
 - [FoCs](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.23.9941)
 - [COMPASS](http://compass.informatik.rwth-aachen.de/): correctness, modeling and preformance of aerospace systems
+- [VeriSoft](http://cm.bell-labs.com/who/god/verisoft/): systematic software testing (Bell Labs)
+- [FTS](https://projects.info.unamur.be/fts/): featured transition systems
 
 # TypeSetting
 - [LTL](https://github.com/malteschmitz/ltl) (LPPL, LaTeX/TikZ): Configurable LTL math operators with LaTeX and TikZ or LTLFonts
@@ -509,6 +529,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 # databases and benchmarks
 - [VLTS](http://cadp.inria.fr/resources/vlts/): MC benchmarks (CWI/SEN2, INRIA/VASY)
 - [BEEM](http://anna.fi.muni.cz/models/): MC benchmarks ([Masaryk Univ.](http://anna.fi.muni.cz/))
+- [Mutual Exclusion Promela Source Codes](http://www.ueda.info.waseda.ac.jp/~kobayashi/Promela/benchmark/index.html): (Waseda Univ.)
 - [Buchi Store](http://buchi.im.ntu.edu.tw/index.php/home/index/)
 - [Promela Database](http://www.albertolluch.com/research/promelamodels): (IMT Lucca)
 - [Spec Patterns](http://patterns.projects.cis.ksu.edu/): patterns commonly occuring in specs of concurrent/reactive systems (LTL, CTL, GIL, QRE, ACTL, RAFMC) (Univ. Massachusetts Amherst)

@@ -4,3 +4,4 @@
 - [Splint](http://lclint.cs.virginia.edu/) (was: [LCLint](http://www.sds.lcs.mit.edu/spd/larch/)) (GPL-2, C): Secure programming Lint for static C checking (Univ. Virginia)
 - [Jakstab](http://www.jakstab.org/), its [hg](https://bitbucket.org/jkinder/jakstab/) (GPL-2, Java): Abstract Interpretation-based, integrated disassembly and static analysis framework for designing analyses on executables and recovering reliable control flow graphs (TU Munchen, TU Darmstadt)
 - [SLAM](http://research.microsoft.com/en-us/projects/slam/) (Microsoft Research)
+- [Jahob](http://lara.epfl.ch/w/jahob_system): Java static contract analysis (EPFL)
