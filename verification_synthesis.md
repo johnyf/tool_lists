@@ -13,7 +13,7 @@ To the extent possible under law, the authors have waived all copyright and rela
 You should have received a copy of the CC0 Public Domain Dedication along with this text.
 If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-# Model Checking
+# Verification with Model Checking
 
 ## Closed Systems (Everything controlled)
 
@@ -118,7 +118,6 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [SMV](http://www.cs.cmu.edu/~modelcheck/smv.html) (?): CTL symbolic model checker (CMU)
 	* [Cadence SMV](http://www.kenmcmil.com/smv.html) (FUSC): CMU SMV extension: backward compatible more expressive mode description language, synthesizable VERILOG, compositional verification, CTL | LTL | FSA | embedded assertions, GUI (Cadence)
 - [NuSMV](http://nusmv.fbk.eu/) (LGPL): Symbolic model checking (FBK, CMU, Univ. Genoa, Univ. Trento)
-	* [NuGAT](https://es.fbk.eu/index.php?n=Tools.NuGaT) (LGPL-2+): Game solver on top NuSMV
 	* [PyNuSMV](http://lvl.info.ucl.ac.be/Tools/PyNuSMV) (LGPL-2, Python): python interface to NuSMV ([UCLouvain](http://lvl.info.ucl.ac.be/))
 - [nuXmv](https://es-static.fbk.eu/tools/nuxmv/index.php): extends NuSMV using state-of-the-art SAT-based algorithms and MathSAT5 (Fondazione Bruno Kessler)
 - [jStar](http://www.jstarverifier.org/) (BSD-3, OCaml): (Queen Mary Univ. London, Cambridge Univ., ETH)
@@ -186,6 +185,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Eldarica](http://lara.epfl.ch/w/eldarica) (Java): predicate abstraction engine, generates Abstract Reachability Tree (ART) using lazy abstraction (EPFL)
 	* [Eldarica-P](http://www.philipp.ruemmer.org/eldarica-p.shtml) (?, Java): reachability checker for unbounded Petri nets (EPFL)
 - [Bug-Assist](http://bugassist.mpi-sws.org/) (?): error localization in ANSI-C solving MAX-SAT (Max Planck Inst.)
+- [CADP](http://www.inrialpes.fr/vasy/cadp.html) (FUSC): compilers, equivalence checking tools, model-checkers for temporal logics & μ-calculus, verifications: enumerative, on-the-fly, symbolic using BDD, etc. (INRIA)
 
 ## logic -> automata & automata tools
 
@@ -233,36 +233,22 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [FMU SDK](https://github.com/mtiller/fmusdk) (?, C): FMU SDK (Qtronic)
 - [hoaf](https://github.com/adl/hoaf) (?, text): Text file format for omega-automata (Masaryk Univ., EPITA, IST Austria, TU Dresden)
 
-## Open Systems (Games: System & UnControlled Environment)
-- [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
-	* [gr1c](http://slivingston.github.io/gr1c/) (BSD-3, C): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](http://scottman.net/))
-- [LTLMoP](http://ltlmop.github.io/) (GPL-3, Python): designing, testing, and implementing hybrid controllers generated automatically from task specifications written in Structured English or Temporal Logic ([Cornell](http://cornell-asl.org/wiki/index.php?title=Main_Page))
-	* [slugs](https://github.com/LTLMoP/slugs) (BSD-3, C++): a stand-alone reactive synthesis tool for GR(1) synthesis (Cornell)
-- [Tools from Boston Univ.](http://hyness.bu.edu/Software.html) (?, MATLAB)
-- [Tools from Saarland University](http://react.cs.uni-sb.de/tools/) (Saarland Univ.)
-- [Synthia](http://www.react.uni-saarland.de/tools/synthia/) (GPL-3, C/C++): Verification certificates (deductive proofs) and synthesis for partially implemented systems, abstraction refinement ([Saarland Uni.](http://www.react.uni-saarland.de/people/peter.html))
-- [PESSOA](https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/home) (FUSC, MATLAB): synthesis of correct-by-design embedded control software based on approximate bisimulations (UCLA)
-- [TALIRO](https://sites.google.com/a/asu.edu/s-taliro/) (GPL, MATLAB) ([ASU](http://www.public.asu.edu/~gfaineko/))
-- [Anzu](http://www.iaik.tugraz.at/content/research/design_verification/anzu/) (Perl): synthesizes Verilog from LTL ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
-- [RATSY](http://rat.fbk.eu/ratsy/) (LGPL-2+, Python/PyGTK): PSL | BA specs -> gr1 synthesis, game-based debug approach, circuit synthesis ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
-	* [RAT](http://rat.fbk.eu/) (?, Python): RATSY's pedecessor (FBK, [TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
-- [GIST](http://pub.ist.ac.at/gist/index.html) (?): solving probabilistic games with ω-regular objectives qualitatively (IST Austria)
-- [JTLV](http://sourceforge.net/projects/jtlv/) (LGPL-2, Java/C), [TLV](http://www.cs.nyu.edu/acsys/tlv/)
-- [GAVS+](http://www6.in.tum.de/~chengch/gavs/) (GPL-3, Java): visualize algorithmic games used in verification and synthesis (TU Munchen)
-- [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
-- [Acacia+](http://lit2.ulb.ac.be/acaciaplus/) (GPL, Python/C): LTL Realizability check & winning strategy synthesis using AntiChains [repo](https://code.google.com/p/ltlsynthesis/) (Univ. Mons)
-	* [Acacia](http://lit2.ulb.ac.be/acacia/) (GPL-2, Perl)
-	* [Alaska](http://lit2.ulb.ac.be/alaska/) (GPL-2, Python): Antichains for Logic, Automata and Symbolic Kripke structure Analysis (predecessor of Acacia) ([ULB](http://www.ulb.ac.be/di/ssd/madewulf/))
-- [Lily](http://www.iaik.tugraz.at/content/research/design_verification/lily/) (Perl): synthesizes from PSL | LTL & I/O signal partition, works on top of Wring, outputs VERILOG | dot (TU Graz)
-- [Quasy](http://pub.ist.ac.at/quasy/): Quantitative synthesis of reactive systems from qualitative & quantitative GOAL specs, in/out: GOAL format (IST Austria)
-- [CADP](http://www.inrialpes.fr/vasy/cadp.html) (FUSC): compilers, equivalence checking tools, model-checkers for temporal logics & μ-calculus, verifications: enumerative, on-the-fly, symbolic using BDD, etc. (INRIA)
-- [PDSolver](http://www.cs.ox.ac.uk/matthew.hague/pdsolver.html) (OCaml): evaluating both mu-calculus formulas over pushdown systems and pushdown parity games (Oxford Univ.)
-- [Mica](http://www.irisa.fr/s4/tools/mica/Mica__A_Modal_Interface_Compositional_Analysis_Library/Introduction.html) (CeCILL-C-1, OCaml):  Modal Interface algebra for contract based design ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
+## Open Systems
+
+### Synchronous Languages
+Synthesis in this context refers to compilation from source, not from temporal logic.
+This distinguishes it from synthesis from temporal logic by solving games.
+In some sense the latter is from an "even more declarative" problem description.
+
+#### Imperative
 - [Esterel](http://en.wikipedia.org/wiki/Esterel), [old](http://www-sop.inria.fr/meije/esterel/esterel-eng.html): Synchronous reactive programming language & compiler to FSM (C language), Graphical symbolic debugger, explicit/BDD verification for bisimulation reduction | safety checking (Ecole des Mines de Paris, INRIA)
 	* [CEC](http://www1.cs.columbia.edu/~sedwards/cec/) (BSD-3, C++/ANTLR): Esterel V5 compiler to C | Verilog | BLIF ([Columbia](http://www.cs.columbia.edu/~sedwards/))
 	* [scdata](http://www-sop.inria.fr/meije/esterel/scdata.html) (?): Boolean datapath generator for Esterel: translates action calls in sc code over boolean variables into standard nets also in sc (INRIA, Ecole des Mines de Paris)
 	* [Ocjava](http://www-sop.inria.fr/meije/esterel/ocjava.html) (?): Esterel Java code generator (INRIA)
+	* [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language Quartz and compiler to TS, symbolic model checker, tool for hardware/software synthesis from Quartz ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
 - [Xeve](http://www-sop.inria.fr/meije/verification/Xeve/): Esterel verification environment (INRIA)
+
+#### Declarative
 - [Lustre](http://en.wikipedia.org/wiki/Lustre_%28programming_language%29): Declarative, synchronous dataflow programminglanguage for reactive systems
 	* [MATOU](http://www.cfdvs.iitb.ac.in/download/Docs/verification/tools/kronos/Verimag_Home_Page/PEOPLE/Florence.Maraninchi/MATOU/index.phtml) (?): Implementation of mode-automata on top of Lustre (VERIMAG)
 - [NBAC](http://pop-art.inrialpes.fr/~bjeannet/nbac/index.html) (OCaml): Co-/Reachability, slicing of synchronous deterministic reactive systems with Boolean, numerical variables (VERIMAG)
@@ -271,23 +257,74 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [`autoc2auto`, `auto2nbac`, `nbac2auto`](http://pop-art.inrialpes.fr/~bjeannet/nbac/index_8.html):  Analyze AUTOC/AUTO hybrid automata (VERIMAG)
 - [SIGNAL](http://en.wikipedia.org/wiki/SIGNAL_programming_language): Synchronized data-flow programming language for systems with multiple clocks ([INRIA](http://www.irisa.fr/espresso/home_html))
 	* [Polychrony / SME](http://www.irisa.fr/espresso/Polychrony/) (GPL, Eclipse Public License): SIGNAL IDE (IRISA)
+- [Sigali](http://www.irisa.fr/vertecs/Softwares/sigali.html), [old](http://www.irisa.fr/vertecs/Logiciels/sigali.html) (FUSC): Model check implicit labeled transition systems (INRIA)
+- [TGV](http://www.irisa.fr/vertecs/Softwares/TGV.html) (?): Generation of conformance test suites for protocols, based on I/O transition systems (IOLTS) (IRISA)
+
+
+#### Statecharts
+- [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
+- [Time Rover](http://www.time-rover.com/)
 - [SyncCharts](http://en.wikipedia.org/wiki/SyncCharts): Graphical formalism for reactive modeling ([Univ. Nice Sophia-Antipolis](http://www-sop.inria.fr/members/Charles.Andre/))
 	* [SPORTS Project](http://www.i3s.unice.fr/~map/WEBSPORTS/SyncCharts/) (FUSC): SyncCharts tools
 	* [SCC](http://julien.boucaron.free.fr/i3s/)): SyncCharts Compiler Collection for XML | BLIF | C output (Univ. Nice Sophia-Antipolis, INRIA)
-- [Sigali](http://www.irisa.fr/vertecs/Softwares/sigali.html), [old](http://www.irisa.fr/vertecs/Logiciels/sigali.html) (FUSC): Model check implicit labeled transition systems (INRIA)
-- [TGV](http://www.irisa.fr/vertecs/Softwares/TGV.html) (?): Generation of conformance test suites for protocols, based on I/O transition systems (IOLTS) (IRISA)
-- [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language and compiler to TS, symbolic model checker, tool for hardware/software synthesis ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
-- [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
-- [BigMC](https://github.com/bigmc/bigmc) (GPL, C++/C/PHP/...): Bigraphical reactive systems (IT Univ. Copenhagen)
-- [Mocha](http://mtc.epfl.ch/software-tools/mocha/), also [here](http://www.cis.upenn.edu/~mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
-- [Ticc](http://code.google.com/p/ticc/) (GPL-2, ?): Interface compatibility and composition, components specify own behavior and that expected by others, CTL properties checked and propagated (UCSC)
+
+
+
+# Synthesis
+
+## Open Systems (Games: System & UnControlled Environment)
+
+
+### Discrete games
+
+#### [GR(1) games](http://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)
+- [gr1c](http://slivingston.github.io/gr1c/) (BSD-3, C, uses CUDD): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](http://scottman.net/))
+- [slugs](https://github.com/LTLMoP/slugs) (BSD-3, C++, uses CUDD): a stand-alone reactive synthesis tool for GR(1) synthesis (Cornell)
+- [JTLV](http://sourceforge.net/projects/jtlv/) (LGPL-2, Java/C), [TLV](http://www.cs.nyu.edu/acsys/tlv/)
+- [RATSY](http://rat.fbk.eu/ratsy/) (LGPL-2+, Python/PyGTK): PSL | BA specs -> gr1 synthesis, game-based debug approach, circuit synthesis ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
+	* [Anzu](http://www.iaik.tugraz.at/content/research/design_verification/anzu/) (Perl, uses CUDD): synthesizes Verilog ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
+	* [RAT](http://rat.fbk.eu/) (?, Python): RATSY's pedecessor (FBK, [TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
+- [NuGAT](https://es.fbk.eu/index.php?n=Tools.NuGaT) (LGPL-2+): Game solver on top NuSMV
+
+#### Full LTL games
+- [Acacia+](http://lit2.ulb.ac.be/acaciaplus/) (GPL, Python/C): LTL Realizability check & winning strategy synthesis using AntiChains [repo](https://code.google.com/p/ltlsynthesis/) (Univ. Mons)
+	* [Acacia](http://lit2.ulb.ac.be/acacia/) (GPL-2, Perl)
+	* [Alaska](http://lit2.ulb.ac.be/alaska/) (GPL-2, Python): Antichains for Logic, Automata and Symbolic Kripke structure Analysis (predecessor of Acacia) ([ULB](http://www.ulb.ac.be/di/ssd/madewulf/))
+- [Lily](http://www.iaik.tugraz.at/content/research/design_verification/lily/) (Perl): synthesizes from PSL | LTL & I/O signal partition, works on top of Wring, outputs VERILOG | dot (TU Graz)
+- [GAVS+](http://www6.in.tum.de/~chengch/gavs/) (GPL-3, Java): visualize algorithmic games used in verification and synthesis (TU Munchen)
+#### Parity Game solvers
+- [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
+- [PDSolver](http://www.cs.ox.ac.uk/matthew.hague/pdsolver.html) (OCaml): evaluating both mu-calculus formulas over pushdown systems and pushdown parity games (Oxford Univ.)
+
+#### Quantitative games
+- [Quasy](http://pub.ist.ac.at/quasy/) (Scala, Java, C++): Quantitative synthesis of reactive systems from qualitative & quantitative GOAL specs, in/out: GOAL format (IST Austria)
+- [GIST](http://pub.ist.ac.at/gist/index.html) (?): solving probabilistic games with ω-regular objectives qualitatively (IST Austria)
+
+
+### Hybrid games
+- [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
+- [LTLMoP](http://ltlmop.github.io/) (GPL-3, Python): designing, testing, and implementing hybrid controllers generated automatically from task specifications written in Structured English or Temporal Logic ([Cornell](http://cornell-asl.org/wiki/index.php?title=Main_Page))
+- [Tools from Boston Univ.](http://hyness.bu.edu/Software.html) (?, MATLAB)
+- [Tools from Saarland University](http://react.cs.uni-sb.de/tools/) (Saarland Univ.)
+- [Synthia](http://www.react.uni-saarland.de/tools/synthia/) (GPL-3, C/C++): Verification certificates (deductive proofs) and synthesis for partially implemented systems, abstraction refinement ([Saarland Uni.](http://www.react.uni-saarland.de/people/peter.html))
+- [PESSOA](https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/home) (FUSC, MATLAB): synthesis of correct-by-design embedded control software based on approximate bisimulations (UCLA)
+- [TALIRO](https://sites.google.com/a/asu.edu/s-taliro/) (GPL, MATLAB) ([ASU](http://www.public.asu.edu/~gfaineko/))
+
+
+### Contracts
+- [Mica](http://www.irisa.fr/s4/tools/mica/Mica__A_Modal_Interface_Compositional_Analysis_Library/Introduction.html) (CeCILL-C-1, OCaml):  Modal Interface algebra for contract based design ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
 - [OCRA](https://es-static.fbk.eu/tools/ocra/index.php?n=Main.HomePage) (closed, ?): verification of logic-based contract refinement, uses NuSMV3 (Bruno Kessler Found.)
 	* [AF3-OCRA](https://es-static.fbk.eu/tools/autofocra/): OCRA plug-in for Autfocus
 	* [FoReVer](https://es-static.fbk.eu/projects/forever/index.php?n=Main.Links)
 
-## Harel StateCharts
-- [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
-- [Time Rover](http://www.time-rover.com/)
+
+### Other
+- [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
+- [BigMC](https://github.com/bigmc/bigmc) (GPL, C++/C/PHP/...): Bigraphical reactive systems (IT Univ. Copenhagen)
+- [Mocha](http://mtc.epfl.ch/software-tools/mocha/), also [here](http://www.cis.upenn.edu/~mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
+- [Ticc](http://code.google.com/p/ticc/) (GPL-2, ?): Interface compatibility and composition, components specify own behavior and that expected by others, CTL properties checked and propagated (UCSC)
+
+
 
 # Timed Systems
 - [UPPAAL](http://www.uppaal.org/), [UPPAAL-Tiga](http://people.cs.aau.dk/ ̃adavid/tiga/) (FUSC): Timed automata (Uppsala Univ., Aaalborg Univ.)
