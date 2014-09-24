@@ -222,7 +222,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MARTE](http://www.omgmarte.org/): UML extension for model-driven development of real-time and embedded systems (OMG)
 - [timesquare](http://timesquare.inria.fr/) (EPL): Model development kit as Eclipse plugings based on formal Clock Constraint Specification Language (CCSL) to manipulate logical time (INRIA)
 - [libalf](http://libalf.informatik.rwth-aachen.de/) (LGPL-3, C++/C/Java): Learning finite-state automata: DFA: Angluin's L\*, L\* (adding counter-examples to columns), Kearns / Vazirani, Rivest / Schapire, Regular positive negative inference (RPNI), Biermann & Feldman's algorithm (using SAT-solving), and NFA: NL\*, DeLeTe2, Biermann & Feldman's (RWTH Aachen Univ., ENS Cachan, TU Munchen)
-	* [AMoRE](http://amore.sourceforge.net/) (GPL-2, C/Java): Automata, Monoids, and Regular Expressions (RWTH AaachenUniv., Univ. Kiel)
+	* [AMoRE](http://amore.sourceforge.net/) (GPL-2, C/Java): Automata, Monoids, and Regular Expressions (RWTH Aaachen Univ., Univ. Kiel)
 	* [libmVCA]
 	* [liblangen]
 	* [finite automata tool]
