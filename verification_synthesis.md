@@ -245,6 +245,11 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [CEC](http://www1.cs.columbia.edu/~sedwards/cec/) (BSD-3, C++/ANTLR): Esterel V5 compiler to C | Verilog | BLIF ([Columbia](http://www.cs.columbia.edu/~sedwards/))
 	* [scdata](http://www-sop.inria.fr/meije/esterel/scdata.html) (?): Boolean datapath generator for Esterel: translates action calls in sc code over boolean variables into standard nets also in sc (INRIA, Ecole des Mines de Paris)
 	* [Ocjava](http://www-sop.inria.fr/meije/esterel/ocjava.html) (?): Esterel Java code generator (INRIA)
+- [Quartz](http://rsg.cs.uni-kl.de/publications/datarsg/Schn09.pdf): derivative of Esterel that includes:
+		* non-determinism
+		* asynchronous execution
+		* hybrid systems
+	(Kaiserslautern Univ.)
 	* [Averest](http://en.wikipedia.org/wiki/Averest): Synchronous programming language Quartz and compiler to TS, symbolic model checker, tool for hardware/software synthesis from Quartz ([TU Kaiserslautern](http://es.informatik.uni-kl.de/))
 - [Xeve](http://www-sop.inria.fr/meije/verification/Xeve/): Esterel verification environment (INRIA)
 
@@ -284,6 +289,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [RATSY](http://rat.fbk.eu/ratsy/) (LGPL-2+, Python/PyGTK): PSL | BA specs -> gr1 synthesis, game-based debug approach, circuit synthesis ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
 	* [Anzu](http://www.iaik.tugraz.at/content/research/design_verification/anzu/) (Perl, uses CUDD): synthesizes Verilog ([TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
 	* [RAT](http://rat.fbk.eu/) (?, Python): RATSY's pedecessor (FBK, [TU Graz](http://www.iaik.tugraz.at/content/research/design_verification/))
+	* marduk (Python, needs NuSMV): game solver used by RATSY
 - [NuGAT](https://es.fbk.eu/index.php?n=Tools.NuGaT) (LGPL-2+): Game solver on top NuSMV
 
 #### Full LTL games
@@ -292,9 +298,34 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Alaska](http://lit2.ulb.ac.be/alaska/) (GPL-2, Python): Antichains for Logic, Automata and Symbolic Kripke structure Analysis (predecessor of Acacia) ([ULB](http://www.ulb.ac.be/di/ssd/madewulf/))
 - [Lily](http://www.iaik.tugraz.at/content/research/design_verification/lily/) (Perl): synthesizes from PSL | LTL & I/O signal partition, works on top of Wring, outputs VERILOG | dot (TU Graz)
 - [GAVS+](http://www6.in.tum.de/~chengch/gavs/) (GPL-3, Java): visualize algorithmic games used in verification and synthesis (TU Munchen)
+- [Unbeast](http://www.react.uni-saarland.de/tools/unbeast/) (C++, FUSC) symbolic bounded synthesis, depends on either `ltl2ba` or `spot` (Saarland Univ.)
+- [GASt](http://automata.rwth-aachen.de/research/GASt/) experimental platform:
+	* NBA determinization:
+		+ Safra
+		+ Muller-Schupp
+		+ improved Muller-Schupp
+		+ Miyano/Hayashi breakpoint construction
+	* game synthesis:
+		+ reachability
+		+ safety
+		+ weak parity
+		+ Staiger-Wagner
+		+ request-response
+		+ Buchi
+		+ generalized Buchi
+		+ parity
+		+ Muller
+		+ simple Streett
+		+ Streett
+		+ mean payoff
+	* live sequence charts
+	
+	(RRWTH Aaachen)
+
 #### Parity Game solvers
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
 - [PDSolver](http://www.cs.ox.ac.uk/matthew.hague/pdsolver.html) (OCaml): evaluating both mu-calculus formulas over pushdown systems and pushdown parity games (Oxford Univ.)
+- [alpaga](http://lit2.ulb.ac.be/alpaga/) (Python, uses PyCUDD): solver parity games with imperfect information using antichains ([ULB](http://www.ulb.ac.be/di/ssd/madewulf/))
 
 #### Quantitative games
 - [Quasy](http://pub.ist.ac.at/quasy/) (Scala, Java, C++): Quantitative synthesis of reactive systems from qualitative & quantitative GOAL specs, in/out: GOAL format (IST Austria)
