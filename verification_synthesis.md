@@ -34,6 +34,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [jSpin](http://code.google.com/P/Cjspin/) (GPL-2, Java): GUI for SPIN and Erigone
 	* [Erigone](http://code.google.com/p/erigone/) (GPL-2, Ada): partial SPIN re-implementation for educational purposes
 	* [EpiSpin](http://epispin.ewi.tudelft.nl/): Eclipse plug-in for editing & verifying Promela using Spin ([TU Delft](http://swerl.tudelft.nl/twiki/pub/Main/PastAndCurrentMScProjects/thesis-bob-de-vos.pdf))
+	* [`promela` parser](https://github.com/johnyf/promela) (BSD-3, Python): parser for Promela using [PLY](http://www.dabeaz.com/ply/ply.html) (Python `lex`-`yacc`) ([Caltech](http://www.cds.caltech.edu/~ifilippi/))
 	* [Eclipse Pug-In for SPIN](http://matrix.uni-mb.si/en/science/tools/eclipse-plug-in-for-spin//) (?): (Univ. Maribor, TU Braunschweigin)
 	* [st2msc](http://matrix.uni-mb.si/en/science/tools/st2msc-tool/) (?, Java): SPIN trail -> Message Sequence Chart (Univ. Maribor)
 	* [Real-Time SPIN](http://www-verimag.imag.fr/~tripakis/rtspin.html): quantitative dense time SPIN extension using Real-Time Promela ([VERIMAG/CNRS](http://www-verimag.imag.fr/~tripakis/index.html))
@@ -324,6 +325,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [NuGAT](https://es.fbk.eu/index.php?n=Tools.NuGaT) (LGPL-2+): Game solver on top NuSMV
 	* [chameleon-debaets](https://code.google.com/p/chameleon-nugat-api/) (GPL-3, Java): Java interface to NuGAT
 - [AspectLTL](http://aspectltl.ysaar.net/wiki/index.php?title=AspectLTL) (?, Java): Aspect programming paradigm language (Weizmann Inst. Science)
+- [open Promela](https://github.com/johnyf/openpromela) (BSD-3, Python): synthesize reactive(1) designs from multi-paradigm specifications written in an extension of Promela for open systems ([Caltech](http://www.cds.caltech.edu/~ifilippi/))
 
 #### Full LTL games
 - [Acacia+](http://lit2.ulb.ac.be/acaciaplus/) (GPL, Python/C): LTL Realizability check & winning strategy synthesis using AntiChains [repo](https://code.google.com/p/ltlsynthesis/) (Univ. Mons)
