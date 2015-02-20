@@ -54,6 +54,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [promela-metamodel](http://code.google.com/p/promela-metamodel/) (GPL-3)
 	* [3Spin](http://3spin.peterd.org/)
 	* [POR](http://www.montefiore.ulg.ac.be/services/verif/po-pack.html) (?, C): partial-order reduction package for SPIN ([Univ. de Liege](http://www.montefiore.ulg.ac.be/services/verif/Welcome-en.html))
+	* [ARINC tester](http://www.gisum.uma.es/tools/arinctester/) (?, Java): GUI for SPIN to verify application that contain API calls compliant to ARINC 653 (UMalaga)
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -199,6 +200,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [CADP](http://www.inrialpes.fr/vasy/cadp.html) (FUSC): compilers, equivalence checking tools, model-checkers for temporal logics & μ-calculus, verifications: enumerative, on-the-fly, symbolic using BDD, etc. (INRIA)
 - [MONA](https://github.com/cs-au-dk/MONA) (GPL-2, C/C++): Decision procedure for monadic second-order logic on finite strings and trees ([Aarhus Univ.](http://www.brics.dk/mona))
 - [Boom](http://www.cprover.org/boom/) (BSD): Model checking of Boolean programs (ETHZ, Oxford Univ.)
+- [MCTK](http://www.kailesu.net/MCTK/) (LGPL, C): model checker for epistemic logic as modification of CUDD and NuSMV ([Griffith Univ.](http://www.kailesu.net/))
 
 ## logic -> automata & automata tools
 
@@ -254,6 +256,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [hoaf](https://github.com/adl/hoaf) (?, text): Text file format for omega-automata (Masaryk Univ., EPITA, IST Austria, TU Dresden)
 - [JFLAP](http://www.jflap.org/): experiment with NFA, NPA, multi-tape Turing machines
 - [ltlmp_sat](https://github.com/nothymr/ltlmp_sat) (?, Python): LTL mean-payoff satisfiability checker
+- [LtlSharp](https://github.com/ancailliau/LtlSharp) (MIT, C\#): Library for parsing and manipulating LTL formulae (U Catholique Louvain)
 
 ## Term rewrite systems
 - [Autowrite](http://dept-info.labri.fr/~idurand/autowrite/) (?, Lisp): check properties of term rewrite systems and manipulate tree automata
@@ -364,7 +367,7 @@ In some sense the latter is from an "even more declarative" problem description.
 #### Parity Game solvers
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
 - [PDSolver](http://www.cs.ox.ac.uk/matthew.hague/pdsolver.html) (OCaml): evaluating both mu-calculus formulas over pushdown systems and pushdown parity games (Oxford Univ.)
-- [alpaga](http://lit2.ulb.ac.be/alpaga/) (Python, uses PyCUDD): solver parity games with imperfect information using antichains ([ULB](http://www.ulb.ac.be/di/ssd/madewulf/))
+- [alpaga](http://lit2.ulb.ac.be/alpaga/) and [github](https://github.com/madewulf/alpaga) (Python, uses PyCUDD): solver parity games with imperfect information using antichains ([ULB](http://www.ulb.ac.be/di/ssd/madewulf/))
 
 #### Quantitative games
 - [Quasy](http://pub.ist.ac.at/quasy/) (Scala, Java, C++): Quantitative synthesis of reactive systems from qualitative & quantitative GOAL specs, in/out: GOAL format (IST Austria)
@@ -373,6 +376,7 @@ In some sense the latter is from an "even more declarative" problem description.
 
 #### Other
 - [MLSolver](https://github.com/tcsprojects/mlsolver) (?, OCaml): solving the satisfiability and validity problems for modal fixpoint logics (Univs. Munich, Kassel)
+- [`aisy`](https://bitbucket.org/art_haali/aisy-classroom) (?, Python): safety synthesis from AIGER circuits format, using PyCUDD
 
 ### Hybrid games
 - [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -464,6 +468,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
 - [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](http://www-verimag.imag.fr/~dreossi/publications.html), Udine Univ., Trieste Univ.)
 - [LtlOpt](http://www.cds.caltech.edu/~ewolff/ltlopt.html) (BSD-3, MATLAB): optimal control of high-dimensional, nonlinear systems using LTL specs ([Caltech](http://www.cds.caltech.edu/~ewolff))
+- [c2e2](https://publish.illinois.edu/c2e2-tool/) (?, Assembly): tool for verifying bounded-time invariant properties of Stateflow models (UIUC)
 
 ## Stochastic
 - [MoToR](http://depend.cs.uni-sb.de) (GPL, ?): Macro-preprocessor for MoDeST, a stochastic real-time systems formalism, interfacing to UPPAAL, CADP, Eclipse, Mobius (Univ. Saarlandes)
@@ -514,7 +519,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [wikipedia list](https://en.wikipedia.org/wiki/Automated_theorem_proving)
 - [this thread](http://cs.stackexchange.com/questions/868/types-of-automated-theorem-provers)
 - [jImp](http://symbolaris.com/logic/jImp.html) (binary, Java): based on set of support and ordered resolution for first-order logic, supports: clause indexing techniques, subsumption, and tautology elimination, Davis-Putnam-Loveland-Logemann (DPLL) inference procedure (CMU)
-- [QEPCAD](http://www.usna.edu/CS/~qepcad/B/QEPCAD.html) (BSD-like, C): Quantifier elimination by partial cylindrical algebraic decomposition (US Naval Academy, Drexel Univ., North Carolina State Univ.)
+- [QEPCAD](http://www.usna.edu/CS/~qepcad/B/QEPCAD.html) and [github](https://github.com/PetterS/qepcad) (BSD-like, C): Quantifier elimination by partial cylindrical algebraic decomposition (US Naval Academy, Drexel Univ., North Carolina State Univ.)
 	* [Mac OS X 10.6, 10.7 binaries](http://www.cl.cam.ac.uk/~lp15/papers/Arith/qepcad-for-mac.html) (Cambridge Univ.)
 - [Zenon](http://focal.inria.fr/zenon/) (BSD-3, OCaml): (INRIA)
 - [E](http://www4.informatik.tu-muenchen.de/~schulz/E/E.html) (GPL-2, C): Full first-order logic with equality ([TU Munchen](http://www4.in.tum.de/~schulz/Stephan_Schulz/Stephan_Schulz.html))
