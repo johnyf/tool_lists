@@ -24,32 +24,48 @@
 	- hBDD
 	- hs-cudd
 	- Haskell-CUDD
+	- JBDD
 - [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
-	- [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings (UCopenhagen)
+	- `muddy`
 	- [fork](https://github.com/utwente-fmt/buddy) UTwente
 	- [fork](https://github.com/jjgreen/rebuddy): re-entrant version
+	- JBDD
 - [Cal BDD](http://embedded.eecs.berkeley.edu/Research/cal_bdd/) (BSD): (UC Berkeley)
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
 	- hBDD
 - [Geert Janssen](ftp://ftp.ics.ele.tue.nl/pub/users/geert/): (Eindhoven)
 - [MONA](http://bdd.hpi.uni-potsdam.de/mona.html)
-- [Bwolen's package](http://www.cs.cmu.edu/~bwolen/software/)
+- [TiGeR](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/tiger/tgrlib/refman.html) (C): BDDs and compacted Boolean functions (DEC)
+- [PPBF](http://www.cs.cmu.edu/~bwolen/software/) (C): parallel BDD package based on partial BFS expansion (CMU)
 - [Sylvan](https://github.com/trolando/sylvan) (Apache-2): Multi-core library using work-stealing framework and lock-less hash table
 	- Sylvan-Haskell
 	- jSylvan
-- [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++) (CNRS)
+- [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
-- [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#) (U Catholique Louvain)
+- [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#): (U Catholique Louvain)
+- [`wld`](http://ira.informatik.uni-freiburg.de/software/wld/) (FUSC, C++): word-level DDs (UFreiburg)
+- [BDS](http://www.ecs.umass.edu/ece/labs/vlsicad/bds/bds.html) (FUSC, C): (UMass)
+- [Biddy](http://biddy.meolic.com/) (GPL, C): (UMaribor)
 - [list](http://bdd.hpi.uni-potsdam.de/packages.html) of BDD packages with comparisons
 
 # Java
 - [JavaBDD](http://javabdd.sourceforge.net/) (GPL-2 or LGPL-2, Java)
-- [JDD](http://javaddlib.sourceforge.net/jdd/) (zlib, Java): BDD and ZDD support, inspised by Buddy
+- [JDD](http://javaddlib.sourceforge.net/jdd/) (zlib, Java): BDD and ZDD support, inspired by Buddy
+- [JBDD](http://javaddlib.sourceforge.net/jbdd/) (zlib, Java): bindings to CUDD, Buddy
 - [BeeDeeDee](https://github.com/JuliaSoft/BeeDeeDee) (GPL-2, Java): Multi-thread library
 - [LightBDD](https://github.com/SigmaX/LightBDD) (?, Java): simple library
 - [jSylvan](https://github.com/utwente-fmt/jsylvan) (Apache-2, C/C++/Java): JNI bindings
+- [JADE](http://www.informatik.uni-bremen.de/agra/eng/jade.php) (custom, Java) (UFreiburg)
+- [JINC](http://jossowski.de/projects/jinc/jinc.html) (GPL-2, C++): utilizes multi-threading (UBonn)
+- [Java applet](http://tams-www.informatik.uni-hamburg.de/applets/java-bdd/bdd-applet.html) (?, Java) (UHamburg)
+
+# Javascript
+- [BDD](http://fooo.fr/~vjeux/epita/bdd/) (?, Javascript)
+
+# ML
+- [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings (UCopenhagen)
 
 # OCaml
 - [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml)
