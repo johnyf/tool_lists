@@ -18,6 +18,7 @@
 
 # C
 - [CUDD](http://vlsi.colorado.edu/~fabio/CUDD/) (BSD): (Colorado U)
+	- [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
 	- PyCUDD
 	- CUDD-rb
 	- CL-CUDD
@@ -25,9 +26,12 @@
 	- hs-cudd
 	- Haskell-CUDD
 	- JBDD
+	- PAT.BDD
+	- swipl_cudd
 - [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
 	- `muddy`
+	- `ocaml-buddy`
 	- [fork](https://github.com/utwente-fmt/buddy) UTwente
 	- [fork](https://github.com/jjgreen/rebuddy): re-entrant version
 	- JBDD
@@ -42,6 +46,7 @@
 - [Sylvan](https://github.com/trolando/sylvan) (Apache-2): Multi-core library using work-stealing framework and lock-less hash table
 	- Sylvan-Haskell
 	- jSylvan
+	- cpachecker
 - [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
 - [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#): (U Catholique Louvain)
@@ -49,6 +54,10 @@
 - [BDS](http://www.ecs.umass.edu/ece/labs/vlsicad/bds/bds.html) (FUSC, C): (UMass)
 - [Biddy](http://biddy.meolic.com/) (GPL, C): (UMaribor)
 - [list](http://bdd.hpi.uni-potsdam.de/packages.html) of BDD packages with comparisons
+- [BBDD](http://lsi.epfl.ch/cms/page-102597.html) (?, ?): biconditional BDDs
+
+# C__#__
+- [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C__#__): interface to CUDD
 
 # Java
 - [JavaBDD](http://javabdd.sourceforge.net/) (GPL-2 or LGPL-2, Java)
@@ -56,7 +65,8 @@
 - [JBDD](http://javaddlib.sourceforge.net/jbdd/) (zlib, Java): bindings to CUDD, Buddy
 - [BeeDeeDee](https://github.com/JuliaSoft/BeeDeeDee) (GPL-2, Java): Multi-thread library
 - [LightBDD](https://github.com/SigmaX/LightBDD) (?, Java): simple library
-- [jSylvan](https://github.com/utwente-fmt/jsylvan) (Apache-2, C/C++/Java): JNI bindings
+- [jSylvan](https://github.com/utwente-fmt/jsylvan) (Apache-2, C/C++/Java): JNI bindings for Sylvan
+- [cpachecker](https://github.com/dbeyer/cpachecker/tree/c25691b2328ea05071c6950d02bf72b20ad81ed0/src/org/sosy_lab/cpachecker/util/predicates/bdd) (Apache-2, Java): Java bindings for Sylvan
 - [JADE](http://www.informatik.uni-bremen.de/agra/eng/jade.php) (custom, Java) (UFreiburg)
 - [JINC](http://jossowski.de/projects/jinc/jinc.html) (GPL-2, C++): utilizes multi-threading (UBonn)
 - [Java applet](http://tams-www.informatik.uni-hamburg.de/applets/java-bdd/bdd-applet.html) (?, Java) (UHamburg)
@@ -68,6 +78,7 @@
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings (UCopenhagen)
 
 # OCaml
+- [`ocaml-buddy`](https://github.com/abate/ocaml-buddy) (LGPL, OCaml): bindings to Buddy ([Paris 7](http://mancoosi.org/~abate/about-me))
 - [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml)
 - [John Harrison](http://www.cl.cam.ac.uk/~jrh13/atp/OCaml/bdd.ml) (BSD-3, Ocaml)
 - [Jean-Christophe Filliatre](https://www.lri.fr/~filliatr/ftp/ocaml/bdd/) (GPL-2, Ocaml)
@@ -81,6 +92,9 @@
 - [`robbed`](https://github.com/travitch/robbed) (BSD-3, Haskell)
 - [haskell-obdd](https://github.com/jwaldmann/haskell-obdd) (GPL-2, Haskell)
 - [`robdd`](https://github.com/slava-sh/robdd) (BSD-3, Haskell)
+
+# Prolog
+- [`swipl_cudd`](https://github.com/lagoonv/swipl_cudd) (?, C/Prolog): bindings to CUDD
 
 # Lua
 - [`lua-bdd`](https://github.com/silentbicycle/lua-bdd) (BSD, Lua)
