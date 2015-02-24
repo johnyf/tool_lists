@@ -75,7 +75,7 @@
 - [BDD](http://fooo.fr/~vjeux/epita/bdd/) (?, Javascript)
 
 # ML
-- [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings (UCopenhagen)
+- [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
 
 # OCaml
 - [`ocaml-buddy`](https://github.com/abate/ocaml-buddy) (LGPL, OCaml): bindings to Buddy ([Paris 7](http://mancoosi.org/~abate/about-me))
