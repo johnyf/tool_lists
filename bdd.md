@@ -39,7 +39,7 @@
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
 	- hBDD
-- [Geert Janssen](ftp://ftp.ics.ele.tue.nl/pub/users/geert/): (Eindhoven)
+- Geert Janssen: package [used in PVS](https://github.com/samowre/PVS/tree/master/BDD/bdd) and available here: ftp://ftp.ics.ele.tue.nl/pub/users/geert/ (Eindhoven)
 - [MONA](http://bdd.hpi.uni-potsdam.de/mona.html)
 - [TiGeR](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/tiger/tgrlib/refman.html) (C): BDDs and compacted Boolean functions (DEC)
 - [PPBF](http://www.cs.cmu.edu/~bwolen/software/) (C): parallel BDD package based on partial BFS expansion (CMU)
