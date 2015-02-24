@@ -104,3 +104,6 @@
 
 # other
 - [BDD papers, links](http://web.cecs.pdx.edu/~alanmi/research/dd/bddLinks.htm#BDDPackages)
+
+# Abbreviations
+- BDD = Binary Decision Diagrams
