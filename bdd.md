@@ -1,5 +1,5 @@
 # Python
-- [dd](https://github.com/johnyf/dd) (BSD-3, Python): BDDs in pure Python using `networkx`
+- [dd](https://github.com/johnyf/dd) (BSD-3, Python): BDDs in pure Python
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py): mature, maintained
 - [py-simple-bdd](https://code.google.com/p/py-simple-bdd/): unmaintained, "exercise to learn python"
 - [PBDD](https://github.com/tyler-utah/PBDD)
