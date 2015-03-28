@@ -580,8 +580,13 @@ In some sense the latter is from an "even more declarative" problem description.
 ## SMT
 - [CVC4](http://cvc4.cs.nyu.edu/web/), its [github](https://github.com/CVC4/CVC4) (BSD-3, C++): built-in base theories, quantifiers, interactive text-based interface, interfaces to: C/C++, Python, Java, OCaml, PHP, Perl, Ruby, Tcl, model generation, (NYU, Univ. Iowa)
 - [CV3](http://www.cs.nyu.edu/acsys/cvc3/) (BSD-3, C++): predecessor of CVC4 (Stanford, NYU, Univ. Iowa)
-	* [ScalaZ3](https://github.com/epfl-lara/ScalaZ3/) (Scala): Scala bindings for Z3 (EPFL)
 - [Z3](https://github.com/Z3Prover/z3) (MIT, C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
+	* [Z3_Haskell](https://github.com/kayceesrk/Z3_Haskell) (BSD, Haskell): bindings for Z3 (Cambridge Univ.)
+	* [`hz3`](https://github.com/tizmd/hz3) (BSD, Haskell): bindings to low-level API for Z3
+	* [ScalaZ3](https://github.com/epfl-lara/ScalaZ3/) (Scala): bindings for Z3 (EPFL)
+	* [bapa-z3](https://github.com/psuter/bapa-z3) (BSD, Scala): Boolean algebra with Presburger arithmetic constraints plug-in for Z3 (EPFL)
+	* [Z3-str](https://github.com/z3str/Z3-str) (MIT, C++/Python): string theory plug-in for Z3 (Purdue)
+	* [Z3Fs](https://github.com/dungpa/Z3Fs) (MIT, F\#): DSL for SMT problems using Z3 API in F\#
 - [iZ3](http://rise4fun.com/iZ3) ([FUSC](http://z3.codeplex.com/license), C++/Python): Interpolating, supports: arithmetic, arrays, uninterpreted functions, and quantifiers (Microsoft Research)
 - [Boolector](http://fmv.jku.at/boolector/) (GPL-3): bit-vectors and arrays (Johannes Kepler Univ. Linz, Upper Austrian Univ. of Applied Sciences)
 - [MathSAT](http://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
