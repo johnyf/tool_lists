@@ -106,12 +106,12 @@
 - [`xlasat`](https://gforge.inria.fr/scm/viewvc.php/attic/xlsat/?root=sodiac) (? , Ocaml) (INRIA)
 
 # Haskell
-- [hBDD](https://github.com/peteg/hBDD) (GPL-2, Haskell): bindings to CUDD and CMU-BDD
-- [hs-cudd](https://github.com/bradlarsen/hs-cudd) (BSD-3, Haskell): bindings to CUDD
-- [Haskell-CUDD](https://github.com/adamwalker/haskell_cudd) (BSD-3, Haskell): bindings to CUDD
-- [Sylvan-Haskell](https://github.com/adamwalker/sylvan-haskell) (BSD-3, Haskell/C): bindings to Sylvan
-- [`robbed`](https://github.com/travitch/robbed) (BSD-3, Haskell)
-- [haskell-obdd](https://github.com/jwaldmann/haskell-obdd) (GPL-2, Haskell)
+- [hBDD](https://github.com/peteg/hBDD) (GPL-2, Haskell): bindings to CUDD and CMU-BDD ([Australian National Univ.](http://peteg.org/))
+- [hs-cudd](https://github.com/bradlarsen/hs-cudd) (BSD-3, Haskell): bindings to CUDD ([Veracode](http://bradford-larsen.net/))
+- [Haskell-CUDD](https://github.com/adamwalker/haskell_cudd) (BSD-3, Haskell): bindings to CUDD ([NICTA](https://github.com/adamwalker))
+- [Sylvan-Haskell](https://github.com/adamwalker/sylvan-haskell) (BSD-3, Haskell/C): bindings to Sylvan ([NICTA](https://github.com/adamwalker))
+- [`robbed`](https://github.com/travitch/robbed) (BSD-3, Haskell): ([Galois](http://nochair.net/))
+- [haskell-obdd](https://github.com/jwaldmann/haskell-obdd) (GPL-2, Haskell): ([Leipzig Univ. for Applied Sciences](http://www.imn.htwk-leipzig.de/~waldmann/))
 - [`robdd`](https://github.com/slava-sh/robdd) (BSD-3, Haskell)
 - [`bdd`](https://github.com/hguenther/bdd) (BSD-3, Haskell)
 - [`robdd`](https://github.com/johnpmayer/robdd) (?, Haskell)
