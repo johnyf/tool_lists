@@ -110,6 +110,7 @@
 - [hs-cudd](https://github.com/bradlarsen/hs-cudd) (BSD-3, Haskell): bindings to CUDD ([Veracode](http://bradford-larsen.net/))
 - [Haskell-CUDD](https://github.com/adamwalker/haskell_cudd) (BSD-3, Haskell): bindings to CUDD ([NICTA](https://github.com/adamwalker))
 - [Sylvan-Haskell](https://github.com/adamwalker/sylvan-haskell) (BSD-3, Haskell/C): bindings to Sylvan ([NICTA](https://github.com/adamwalker))
+- [`termite2.bdd`](https://github.com/termite2/bdd) (?, Haskell): BDD abstraction layer (NICTA)
 - [`robbed`](https://github.com/travitch/robbed) (BSD-3, Haskell): ([Galois](http://nochair.net/))
 - [haskell-obdd](https://github.com/jwaldmann/haskell-obdd) (GPL-2, Haskell): ([Leipzig Univ. for Applied Sciences](http://www.imn.htwk-leipzig.de/~waldmann/))
 - [`robdd`](https://github.com/slava-sh/robdd) (BSD-3, Haskell)
@@ -122,11 +123,22 @@
 # Lua
 - [`lua-bdd`](https://github.com/silentbicycle/lua-bdd) (BSD, Lua)
 
+# Erlang
+- [seqbdd](https://github.com/shu-den/seqbdd) (BSD-like, Erlang): Sequence BDD data structure
+
 # PHP
 - [BDD](https://github.com/andreaswolf/BinaryDecisionDiagrams) (?, PHP)
 
 # other
 - [BDD papers, links](http://web.cecs.pdx.edu/~alanmi/research/dd/bddLinks.htm#BDDPackages)
+
+# Unsorted
+- [QuIDDPro](http://vlsicad.eecs.umich.edu/Quantum/qp/index.html)
+- [BDS](http://ddd.fit.cvut.cz/prj/BDS/index.php?page=main)
+- [MEDDLY](http://meddly.sourceforge.net/)
+- [EVMDD](https://github.com/siminice/EVMDD)
+- [ZBDD](http://www.aloul.net/Tools/zbddLib/)
+- [`libsdd`](https://github.com/ahamez/libsdd)
 
 # Abbreviations
 - BDD = Binary Decision Diagrams
