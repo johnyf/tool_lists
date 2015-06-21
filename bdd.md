@@ -1,15 +1,20 @@
 # Python
 - [dd](https://github.com/johnyf/dd) (BSD-3, Python): BDDs in pure Python
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py): mature, maintained
+
+- [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
+	* [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
+- [`marduk/src/bddwrap.py`](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wraps BDD manager in NuSMV (which uses CUDD) (TU Graz)
+
 - [py-simple-bdd](https://code.google.com/p/py-simple-bdd/): unmaintained, "exercise to learn python"
 - [PBDD](https://github.com/tyler-utah/PBDD)
 - [robdd](https://github.com/ericvoid/robdd)
 - [ROBDD](https://github.com/conix-security/springbok/tree/master/ROBDD): misc subpackage (same as above)
 - [EasyBDD](https://github.com/utisam/EasyBDD): mainly graph class with ITE and custom parser
-- [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
 
 # Ruby
 - [CUDD-rb](https://github.com/blambeau/cudd-rb) (MIT, Ruby): bindings to CUDD
+- [Ruby-BDD](http://people.cs.aau.dk/~adavid/BDD/): bindings to Buddy
 
 # LISP
 - [CL-CUDD](https://github.com/Neronus/CL-CUDD) (Lisp, BSD): bindings to CUDD
@@ -35,6 +40,7 @@
 	- [fork](https://github.com/utwente-fmt/buddy) UTwente
 	- [fork](https://github.com/jjgreen/rebuddy): re-entrant version
 	- JBDD
+	- Ruby-BDD
 - [Cal BDD](http://embedded.eecs.berkeley.edu/Research/cal_bdd/) (BSD): (UC Berkeley)
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
@@ -48,16 +54,26 @@
 	- jSylvan
 	- cpachecker
 - [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
+- [TdZdd](https://github.com/kunisura/TdZdd) (MIT, C++): top-down breadth-first  n-ary DD/ZDD manipulation, parallel processing with OpenMP
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
 - [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#): (U Catholique Louvain)
+- [LaVaBDD](http://www.ulb.ac.be/di/ssd/nmaquet/lavabdd/0.4/doc/index.html) (?, C++): Lattice-valued BDDs (ULB)
 - [`wld`](http://ira.informatik.uni-freiburg.de/software/wld/) (FUSC, C++): word-level DDs (UFreiburg)
 - [BDS](http://www.ecs.umass.edu/ece/labs/vlsicad/bds/bds.html) (FUSC, C): (UMass)
 - [Biddy](http://biddy.meolic.com/) (GPL, C): (UMaribor)
 - [list](http://bdd.hpi.uni-potsdam.de/packages.html) of BDD packages with comparisons
 - [BBDD](http://lsi.epfl.ch/cms/page-102597.html) (?, ?): biconditional BDDs
+- [RicBDD](https://github.com/ric2k1/RicBDD) (GPL, C++)
+- [LiBDD](https://github.com/sungmaster/liBDD) (BSD, C): multi-platform BDDs package
+- [BDDC](http://www-verimag.imag.fr/~raymond/tools/bddc/manual/index.html): BDD-based logical calculator
+- [EHV](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/ehv.html): Eindhoven BDD package
 
 # C__#__
 - [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C__#__): interface to CUDD
+
+# Clojure
+- [clj-bdd](https://github.com/dcreager/clj-bdd) (EPL, Clojure)
+- [bdd](https://github.com/rhinocratic/bdd) (EPL)
 
 # Java
 - [JavaBDD](http://javabdd.sourceforge.net/) (GPL-2 or LGPL-2, Java)
@@ -68,11 +84,16 @@
 - [jSylvan](https://github.com/utwente-fmt/jsylvan) (Apache-2, C/C++/Java): JNI bindings for Sylvan
 - [cpachecker](https://github.com/dbeyer/cpachecker/tree/c25691b2328ea05071c6950d02bf72b20ad81ed0/src/org/sosy_lab/cpachecker/util/predicates/bdd) (Apache-2, Java): Java bindings for Sylvan
 - [JADE](http://www.informatik.uni-bremen.de/agra/eng/jade.php) (custom, Java) (UFreiburg)
-- [JINC](http://jossowski.de/projects/jinc/jinc.html) (GPL-2, C++): utilizes multi-threading (UBonn)
+- [JINC](http://jossowski.de/projects/jinc/jinc.html) (GPL-2, C++): utilizes multi-threading, has BDD, ADD, NADD, ZADD, TADD, MDD (UBonn)
 - [Java applet](http://tams-www.informatik.uni-hamburg.de/applets/java-bdd/bdd-applet.html) (?, Java) (UHamburg)
+- [SableJBDD](http://www.sable.mcgill.ca/~fqian/SableJBDD/) (LGPL): (McGill Univ.)
+- [zdd_java](https://github.com/higotakayuki/zdd_java): educational ZDD implementation
 
 # Javascript
 - [BDD](http://fooo.fr/~vjeux/epita/bdd/) (?, Javascript)
+
+# Julia
+- [BinaryDecisionDiagrams](https://github.com/albertocasagrande/BinaryDecisionDiagrams) (MIT, Julia)
 
 # ML
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
@@ -92,6 +113,8 @@
 - [`robbed`](https://github.com/travitch/robbed) (BSD-3, Haskell)
 - [haskell-obdd](https://github.com/jwaldmann/haskell-obdd) (GPL-2, Haskell)
 - [`robdd`](https://github.com/slava-sh/robdd) (BSD-3, Haskell)
+- [`bdd`](https://github.com/hguenther/bdd) (BSD-3, Haskell)
+- [`robdd`](https://github.com/johnpmayer/robdd) (?, Haskell)
 
 # Prolog
 - [`swipl_cudd`](https://github.com/lagoonv/swipl_cudd) (?, C/Prolog): bindings to CUDD
