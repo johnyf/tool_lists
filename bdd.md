@@ -56,7 +56,7 @@
 - [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
 - [TdZdd](https://github.com/kunisura/TdZdd) (MIT, C++): top-down breadth-first  n-ary DD/ZDD manipulation, parallel processing with OpenMP
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
-- [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#): (U Catholique Louvain)
+- [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C#): (U Catholique Louvain)
 - [LaVaBDD](http://www.ulb.ac.be/di/ssd/nmaquet/lavabdd/0.4/doc/index.html) (?, C++): Lattice-valued BDDs (ULB)
 - [`wld`](http://ira.informatik.uni-freiburg.de/software/wld/) (FUSC, C++): word-level DDs (UFreiburg)
 - [BDS](http://www.ecs.umass.edu/ece/labs/vlsicad/bds/bds.html) (FUSC, C): (UMass)
@@ -68,8 +68,8 @@
 - [BDDC](http://www-verimag.imag.fr/~raymond/tools/bddc/manual/index.html): BDD-based logical calculator
 - [EHV](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/ehv.html): Eindhoven BDD package
 
-# C__#__
-- [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C__#__): interface to CUDD
+# C# 
+- [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C#): interface to CUDD
 
 # Clojure
 - [clj-bdd](https://github.com/dcreager/clj-bdd) (EPL, Clojure)
