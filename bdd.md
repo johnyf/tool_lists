@@ -27,13 +27,15 @@
 	- PyCUDD
 	- CUDD-rb
 	- CL-CUDD
+	- MLCuddIDL
 	- hBDD
 	- hs-cudd
 	- Haskell-CUDD
 	- JBDD
 	- PAT.BDD
 	- swipl_cudd
-- [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
+	- [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
+	- [cnf2obdd](http://www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (same as MiniSAT)
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
 	- `muddy`
 	- `ocaml-buddy`
@@ -67,6 +69,7 @@
 - [LiBDD](https://github.com/sungmaster/liBDD) (BSD, C): multi-platform BDDs package
 - [BDDC](http://www-verimag.imag.fr/~raymond/tools/bddc/manual/index.html): BDD-based logical calculator
 - [EHV](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/ehv.html): Eindhoven BDD package
+- [`libvata/src/mtbdd`](https://github.com/ondrik/libvata/tree/master/src/mtbdd) (C++, GPL-3)
 
 # C# 
 - [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C#): interface to CUDD
@@ -85,6 +88,7 @@
 - [cpachecker](https://github.com/dbeyer/cpachecker/tree/c25691b2328ea05071c6950d02bf72b20ad81ed0/src/org/sosy_lab/cpachecker/util/predicates/bdd) (Apache-2, Java): Java bindings for Sylvan
 - [JADE](http://www.informatik.uni-bremen.de/agra/eng/jade.php) (custom, Java) (UFreiburg)
 - [JINC](http://jossowski.de/projects/jinc/jinc.html) (GPL-2, C++): utilizes multi-threading, has BDD, ADD, NADD, ZADD, TADD, MDD (UBonn)
+- [djbdd](https://github.com/diegojromerolopez/djbdd) (Java 7, GPL-3)
 - [Java applet](http://tams-www.informatik.uni-hamburg.de/applets/java-bdd/bdd-applet.html) (?, Java) (UHamburg)
 - [SableJBDD](http://www.sable.mcgill.ca/~fqian/SableJBDD/) (LGPL): (McGill Univ.)
 - [zdd_java](https://github.com/higotakayuki/zdd_java): educational ZDD implementation
@@ -99,11 +103,14 @@
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
 
 # OCaml
+- [MLCuddIDL](http://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL, C/OCaml): bindings to CUDD ([INRIA](http://pop-art.inrialpes.fr/~bjeannet/))
 - [`ocaml-buddy`](https://github.com/abate/ocaml-buddy) (LGPL, OCaml): bindings to Buddy ([Paris 7](http://mancoosi.org/~abate/about-me))
 - [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml)
+- [`Symbolickat.bdd`](http://perso.ens-lyon.fr/damien.pous/symbolickat/safa.docdir/Bdd.html) (?, OCaml): pure-OCaml library ([ENS de Lyon](http://perso.ens-lyon.fr/damien.pous/))
 - [John Harrison](http://www.cl.cam.ac.uk/~jrh13/atp/OCaml/bdd.ml) (BSD-3, Ocaml)
 - [Jean-Christophe Filliatre](https://www.lri.fr/~filliatr/ftp/ocaml/bdd/) (GPL-2, Ocaml)
 - [`xlasat`](https://gforge.inria.fr/scm/viewvc.php/attic/xlsat/?root=sodiac) (? , Ocaml) (INRIA)
+- [OcamlBdd](http://www.linux-france.org/~dmentre/code/OcamlBdd.tar.gz)
 
 # Haskell
 - [hBDD](https://github.com/peteg/hBDD) (GPL-2, Haskell): bindings to CUDD and CMU-BDD ([Australian National Univ.](http://peteg.org/))
@@ -119,6 +126,7 @@
 
 # Prolog
 - [`swipl_cudd`](https://github.com/lagoonv/swipl_cudd) (?, C/Prolog): bindings to CUDD
+- [`upbdd`](https://github.com/vale1410/upbdd) (?, Prolog/C++): UP-BDD data structure implementation
 
 # Lua
 - [`lua-bdd`](https://github.com/silentbicycle/lua-bdd) (BSD, Lua)
