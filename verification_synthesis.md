@@ -361,7 +361,7 @@ In some sense the latter is from an "even more declarative" problem description.
 	* live sequence charts
 	
 	(RRWTH Aaachen)
-- [PARTY](https://github.com/5nizza/Party) (?, Python): Parameterized synthesis of token rings (TU Graz)
+- [party-elli](https://github.com/5nizza/party-elli) (MIT, Python): SMT based bounded synthesis (TU Graz)
 - [AbsSynthe](https://github.com/gaperez64/AbsSynthe) (GPL-3, C/Python): controller synthesis from succinct safety specs
 
 #### Parity Game solvers
