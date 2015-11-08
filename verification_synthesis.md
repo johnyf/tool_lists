@@ -538,14 +538,40 @@ In some sense the latter is from an "even more declarative" problem description.
 ## QBF
 - [QBF Solvers](http://www.cs.toronto.edu/~fbacchus/qbf.html#PreQuel) (C++)
 - [RAReQS](http://sat.inesc-id.pt/~mikolas/sw/areqs/) (GPL, C++/uses MiniSAT): Recursive abstraction refinement QBF solver ([INESC-ID Lisboa](http://sat.inesc-id.pt/~mikolas/))
+- [Quantor](http://fmv.jku.at/quantor/) (BSD): QDIMACS input (JKU)
+- [DepQBF](http://lonsing.github.io/depqbf/) (GPL, C): search-based ([TU Wien](http://www.kr.tuwien.ac.at/staff/lonsing/), JKU)
+- [nenofex](https://github.com/lonsing/nenofex) (GPL, C): expansion-based for NNF ([TU Wien](http://www.kr.tuwien.ac.at/staff/lonsing/), JKU)
 - [QBFLIB](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.qbflib.org/): Collection of benchmark problems, solvers, and tools related to Quantified Boolean Formula (QBF) satisfiability (Univ. Michigan)
 
 ## SAT
-- [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
+- [SAT Live](http://www.satlive.org/): news outlet
+
+### CDCL
+
 - [MiniSat](http://minisat.se/) and its [github](https://github.com/niklasso/minisat) (MIT, C++/C): minimalistic high-performance solver to help get started ([Chalmers Univ.](http://minisat.se/Authors.html))
+	* [ruby-minisat](https://github.com/mame/ruby-minisat) (MIT, Ruby): bindings
 	* [qmaxsat](https://sites.google.com/site/qmaxsat/) (MIT, C/C++): Q-dai MaxSAT Solver, based on MiniSat
 	* [MiniMarch](http://www.st.ewi.tudelft.nl/sat/minimarch.php)
+	* [Glucose](http://www.labri.fr/perso/lsimon/glucose/): CDCL with new scoring scheme for clause learning (CRIL)
+	* [MiniSAT+](https://github.com/niklasso/minisatp)
+- [Lingeling, Plingeling, Treengeling](http://fmv.jku.at/lingeling/)
+- [PicoSAT](http://fmv.jku.at/picosat/) (MIT, C)
+	* [Python bindings](https://pypi.python.org/pypi/pycosat) (MIT, Python)
+	* [`pigosat`](https://github.com/wkschwartz/pigosat) (BSD, Go): bindings
+- [Sat4j](http://www.sat4j.org/) (EPL or LGPL, Java): SAT, MAXSAT, Pseudo-Boolean, MUS (Artois Univ., CNRS, CRIL)
+
+### Stochastic local search
+- [UBCSAT](http://www.satlib.org/ubcsat/): (Univ. British Columbia)
+
+### Parallel
+- [PeneLoPe](http://www.cril.univ-artois.fr//~hoessen/penelope.html) (BSD-like C++) (CRIL)
+- [CombiSAT](https://github.com/stefanbucur/CombiSAT) (?, Python): Portfolio solver running multiple sequential solvers with different strategies ([EPFL](http://people.epfl.ch/stefan.bucur))
+- [PWBO](http://sat.inesc-id.pt/pwbo/)
+
+### Unsorted
+- [zChaff](http://www.princeton.edu/~chaff/zchaff.html) (Princeton Open Source): Chaff algorithm ([Princeton](http://www.princeton.edu/~chaff/))
 - [SATABS](http://www.cprover.org/satabs/) (BSD, C): ANSI-C, C++ verification via Boolean program abstraction (Univ. Oxford, Imperial College, Univ. Lugano, CMU)
+- [NanoSAT](http://fmv.jku.at/nanosat/) (BSD): (JKU)
 - [Boppo](http://www.cprover.org/boppo/) (?): MC for Boolean programs featuring: POR, Fixpoint detection using QBF, support for `constraint` construct (Univ. Oxford, Microsoft Research, Univ. Lugano, CMU)
 - [CSIsat](http://www.sosy-lab.org/~dbeyer/CSIsat/) (Apache): Interpolating decision procedure for the quantifier-free theory of rational linear arithmetic and equality with uninterpreted function symbols (EPFL, SFU)
 - [MSUnCore](http://logos.ucd.ie/wiki/doku.php?id=msuncore): solving (Weighted) (Partial) Maximum Satisfiability (MaxSAT)
@@ -554,28 +580,36 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [scip-maxsat](https://github.com/msakai/scip-maxsat) (ZIB, C++): Max-SAT frontend for SCIP
 - [GLPK](http://www.gnu.org/software/glpk/)
 	* [MaxSAT frontend](https://github.com/msakai/glpk-maxsat) for GLPK
-- [Lingeling, Plingeling, Treengeling](http://fmv.jku.at/lingeling/)
-- [PicoSAT](http://fmv.jku.at/picosat/) (MIT, C)
-	* [Python bindings](https://pypi.python.org/pypi/pycosat) (MIT, Python)
 - [PrecoSAT](http://fmv.jku.at/precosat/) (MIT-like)
 - [RSat](http://reasoning.cs.ucla.edu/rsat/home.html)
-- [UBCSAT](http://www.satlib.org/ubcsat/): (Univ. British Columbia)
 - [fss](http://dudka.cz/fss) (GPL-3, C++/GAlib): Genetic algorithms
 - [MiFuMaX](http://sat.inesc-id.pt/~mikolas/sw/mifumax/) (GPL-3)
 - [Shaowei Cai solvers](http://shaoweicai.net/research.html)
 - [algorithms](https://github.com/msakai/toysolverw)
-- [WBO](http://sat.inesc-id.pt/wbo/): Weighted Boolean Optimization Solver that extends Weighted-Partial Max-SAT and Pseudo-Boolean Optimization
-- [PWBO](http://sat.inesc-id.pt/pwbo/)
-- [Sat4j](http://www.sat4j.org/) (LGPL, Java)
+- [WBO](http://sat.inesc-id.pt/wbo/): Weighted Boolean Optimization Solver that extends Weighted-Partial MaxSAT and Pseudo-Boolean Optimization
+	* [open-WBO](http://sat.inesc-id.pt/open-wbo/) (MIT, C++): open source version of WBO
 - [ToulBar2](https://mulcyber.toulouse.inra.fr/projects/toulbar2/) (GPL, C++): weighted constraint satisfaction solver (INRA)
 - [march](http://www.isa.ewi.tudelft.nl/sat/march.htm): DPLL with lookahead heuristics (TU Delft)
 - [march_eq](http://www.st.ewi.tudelft.nl/sat/march_eq.htm): (TU Delft)
 - [march_dl](http://www.st.ewi.tudelft.nl/sat/march_dl.php): (TU Delft)
-- [CryptoMiniSat](http://www.msoos.org/cryptominisat2/), its [github](https://github.com/msoos/cryptominisat) (LGPL, C++/C/etc)
+- [CryptoMiniSat](http://www.msoos.org/cryptominisat2/), its [github](https://github.com/msoos/cryptominisat) (LGPL, C++, Python)
 - [WinSAT](http://www.mqasem.net/sat/winsat/)
 - [HyperSAT](http://www.domagoj-babic.com/index.php/ResearchProjects/HyperSAT): Experiment with B-cubing search space pruning
 - [Kodkod](http://alloy.mit.edu/kodkod/) (MIT, Java): SAT-based constraint solver for first order logic with relations, transitive closure, bit-vector arithmetic, and partial models, with finite model finder and minimal unsatisfiable core extractor (MIT)
 - [Kaplan](http://lara.epfl.ch/w/kaplan) (?, Scala): Scala extension that supports constraint-solving (EPFL)
+- [iSAT](https://projects.avacs.org/projects/isat/): DPLL-style solver developed for large Boolean combinations of non-linear arithmetic constraints involving transcendental functions
+- [HySAT](http://www.uni-oldenburg.de/hysat/)
+- [Scarab](http://kix.istc.kobe-u.ac.jp/~soh/scarab/) (BSD, Scala): SAT-based constraint programming
+- [Limboole](http://fmv.jku.at/limboole/) (Unlicense, ?): satisfiability of arbitrary structural formulas, not just CNF
+- [MiFuMaX](http://sat.inesc-id.pt/~mikolas/sw/mifumax/)
+- [UBCSAT](https://github.com/dtompkins/ubcsat) (FUSC, C): Stochastic local search solver (Univ. British Columbia)
+- [QNF2z3](http://sat.inesc-id.pt/~mikolas/sw/qcnf2smt/) (FUSC, Python/Bash): invoking Z3 on QDIMACS instances (INESC Lisboa)
+- [ToughSAT](http://toughsat.appspot.com/): generates "difficult" SAT instances
+- [minibones](http://sat.inesc-id.pt/~mikolas/sw/minibones/) (FUSC): computing backbone literals
+- [SBSAT](http://www.cs.uc.edu/~weaversa/SBSAT.html): state-based  (U Cincinnati)
+- [satsolver](https://github.com/stephenroller/satsolver) (?, Python): DPLL implementation for educational purposes
+- [Potassco](http://potassco.sourceforge.net/): answer set programming collection: Clasp, Gringo, Clingo, Aspcud, Clingcon, claspfolio, coala solvers
+
 
 ## SMT
 - [CVC4](http://cvc4.cs.nyu.edu/web/), its [github](https://github.com/CVC4/CVC4) (BSD-3, C++): built-in base theories, quantifiers, interactive text-based interface, interfaces to: C/C++, Python, Java, OCaml, PHP, Perl, Ruby, Tcl, model generation, (NYU, Univ. Iowa)
@@ -634,6 +668,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [VeriSoft](http://cm.bell-labs.com/who/god/verisoft/): systematic software testing (Bell Labs)
 - [FTS](https://projects.info.unamur.be/fts/): featured transition systems
 - [PdTrav](http://fmgroup.polito.it/index.php/download/viewcategory/3-pdtrav-package)
+- [seL4](https://github.com/seL4/seL4): A microkernel formally proved correct
 
 # TypeSetting
 - [LTL](https://github.com/malteschmitz/ltl) (LPPL, LaTeX/TikZ): Configurable LTL math operators with LaTeX and TikZ or LTLFonts
