@@ -1,8 +1,8 @@
 # Python
 - [dd](https://github.com/johnyf/dd) (BSD-3, Python):
 	- BDD and MDD pure Python implementation
-	- Cython interface to CUDD
-	- Cython interface to BuDDy
+	- Cython interface to CUDD in `dd.cudd`
+	- Cython interface to BuDDy in `dd.buddy`
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python):
 - [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
 	* [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
@@ -22,6 +22,7 @@
 # C
 - [CUDD](http://vlsi.colorado.edu/~fabio/CUDD/) (BSD): (Colorado U)
 	- [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
+	- `dd.cudd`
 	- PyCUDD
 	- CUDD-rb
 	- CL-CUDD
@@ -37,6 +38,7 @@
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
 	- `muddy`
 	- `ocaml-buddy`
+	- `dd.buddy`
 	- [fork](https://github.com/utwente-fmt/buddy) UTwente
 	- [fork](https://github.com/jjgreen/rebuddy): re-entrant version
 	- JBDD
