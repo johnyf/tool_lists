@@ -1,16 +1,14 @@
 # Python
-- [dd](https://github.com/johnyf/dd) (BSD-3, Python): BDDs in pure Python
-- [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py): mature, maintained
-
+- [dd](https://github.com/johnyf/dd) (BSD-3, Python):
+	- BDD and MDD pure Python implementation
+	- Cython interface to CUDD
+	- Cython interface to BuDDy
+- [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python):
 - [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
 	* [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
-- [`marduk/src/bddwrap.py`](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wraps BDD manager in NuSMV (which uses CUDD) (TU Graz)
-
-- [py-simple-bdd](https://code.google.com/p/py-simple-bdd/): unmaintained, "exercise to learn python"
-- [PBDD](https://github.com/tyler-utah/PBDD)
-- [robdd](https://github.com/ericvoid/robdd)
-- [ROBDD](https://github.com/conix-security/springbok/tree/master/ROBDD): misc subpackage (same as above)
-- [EasyBDD](https://github.com/utisam/EasyBDD): mainly graph class with ITE and custom parser
+- [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py) in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wraps BDD manager in NuSMV (which uses CUDD) (TU Graz)
+- [PBDD](https://github.com/tyler-utah/PBDD) (BSD, Python) (mainly educational)
+- [robdd](https://github.com/ericvoid/robdd) (?, Python)
 
 # Ruby
 - [CUDD-rb](https://github.com/blambeau/cudd-rb) (MIT, Ruby): bindings to CUDD
