@@ -28,8 +28,12 @@
 ## Modeling
 - [`cvexp`](https://pypi.python.org/pypi/cvexp/0.1) (Python) interfaces to GLPK, `cvxopt`
 - [`cvxpy`](https://github.com/cvxgrp/cvxpy) (Python): on top of `cvxopt`
+- https://github.com/cvxgrp/qcml
 - [PyLMI-SDP](https://pypi.python.org/pypi/PyLMI-SDP/0.2) (BSD, Python): set of classes to represent and manipulate LMIs symbolically using SymPy. It also includes tools to export LMIs to CVXOPT SDP input and to the SDPA format
 
 ## Polytopic computational geometry
 - [`polytope`](https://github.com/tulip-control/polytope) (BSD-3, Python): uses `cvxopt`
 - [PyPolyhedron](LGPL, Python, C): PyPolyhedron is a Python interface to a C-library cddlib
+
+
+BONMIN, IPOPT, KNITRO, SCIP, BARON, NOMAD
