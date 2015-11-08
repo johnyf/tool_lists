@@ -14,6 +14,7 @@
 - [IPOPT](https://projects.coin-or.org/Ipopt): large-scale nonlinear opt
 	- [`pyipopt`](https://code.google.com/p/pyipopt/) (Python): interface to IPOPT
 - [NLOPT](http://ab-initio.mit.edu/wiki/index.php/NLopt): nonlinear opt lib with Python bindings
+- [lpsolve](http://lpsolve.sourceforge.net/5.5/Python.htm)
 
 ## GLPK
 - [PyGLPK](https://pypi.python.org/pypi/glpk/0.3)
