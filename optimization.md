@@ -33,7 +33,7 @@
 
 ## Polytopic computational geometry
 - [`polytope`](https://github.com/tulip-control/polytope) (BSD-3, Python): uses `cvxopt`
-- [PyPolyhedron](LGPL, Python, C): PyPolyhedron is a Python interface to a C-library cddlib
+- [PyPolyhedron](https://anaconda.org/pierre-haessig/pypolyhedron) (LGPL, Python, C): PyPolyhedron is a Python interface to a C-library cddlib
 
 
 BONMIN, IPOPT, KNITRO, SCIP, BARON, NOMAD
