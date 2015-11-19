@@ -121,6 +121,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [v-n](http://code.google.com/p/v-n/) (GPL-2, Java): NDFA visualization and (random or guided) simulation, find and display accepting computations ([Weizmann Inst. Sc.](https://en.wikipedia.org/wiki/Mordechai_Ben-Ari))
 - [py-powerset-construction](http://code.google.com/p/py-powerset-construction/) (GPL-3, Python): convert NFA-\lambda to DFA, using dot as input
 - [Zing](http://research.microsoft.com/en-us/projects/zing/) (Non-com, C#): State exploration of concurrent software systems (Microsoft research)
+- [SeaHorn] (https://github.com/seahorn/seahorn) (BSD, C): an LLVM based verification framework
+
 
 ### Symbolic
 - [SMV](http://www.cs.cmu.edu/~modelcheck/smv.html) (?): CTL symbolic model checker (CMU)
@@ -298,7 +300,7 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Polychrony / SME](http://www.irisa.fr/espresso/Polychrony/) (GPL, Eclipse Public License): SIGNAL IDE (IRISA)
 - [Sigali](http://www.irisa.fr/vertecs/Softwares/sigali.html), [old](http://www.irisa.fr/vertecs/Logiciels/sigali.html) (FUSC): Model check implicit labeled transition systems (INRIA)
 - [TGV](http://www.irisa.fr/vertecs/Softwares/TGV.html) (?): Generation of conformance test suites for protocols, based on I/O transition systems (IOLTS) (IRISA)
-
+- [abc] (www.eecs.berkeley.edu/~alanmi/abc/abc.htm) (?, C): a growing software system for synthesis and verification of binary sequential logic circuits appearing in synchronous hardware designs; ABC combines scalable logic optimization based on And-Inverter Graphs (AIGs), optimal-delay DAG-based technology mapping for look-up tables and standard cells, and innovative algorithms for sequential synthesis and verification
 
 #### Statecharts
 - [PlayGo](http://www.weizmann.ac.il/mediawiki/playgo/index.php/Main_Page) (Weizmann Inst.)
@@ -377,6 +379,8 @@ In some sense the latter is from an "even more declarative" problem description.
 #### Other
 - [MLSolver](https://github.com/tcsprojects/mlsolver) (?, OCaml): solving the satisfiability and validity problems for modal fixpoint logics (Univs. Munich, Kassel)
 - [`aisy`](https://bitbucket.org/art_haali/aisy-classroom) (?, Python): safety synthesis from AIGER circuits format, using PyCUDD
+- [BluSTL](https://github.com/BluSTL) (BSD-3, MATLAB): BluSTL (pronounced "blue steel") is a MATLAB toolkit for automatically generating hybrid controllers from specifications written in Signal Temporal Logic.
+- [G4LTL-ST] (http://sourceforge.net/projects/g4ltl/) (BSD, Java): automatically generates industrial control software (supporting IEC-61131-3 Structure Text) from extended logic specifications.
 
 ### Hybrid games
 - [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -388,13 +392,17 @@ In some sense the latter is from an "even more declarative" problem description.
 - [PESSOA](https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/home) (FUSC, MATLAB): synthesis of correct-by-design embedded control software based on approximate bisimulations (UCLA)
 - [TALIRO](https://sites.google.com/a/asu.edu/s-taliro/) (GPL, MATLAB) ([ASU](http://www.public.asu.edu/~gfaineko/))
 
-
 ### Contracts
 - [Mica](http://www.irisa.fr/s4/tools/mica/Mica__A_Modal_Interface_Compositional_Analysis_Library/Introduction.html) (CeCILL-C-1, OCaml):  Modal Interface algebra for contract based design ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
 - [OCRA](https://es-static.fbk.eu/tools/ocra/index.php?n=Main.HomePage) (closed, ?): verification of logic-based contract refinement, uses NuSMV3 (Bruno Kessler Found.)
 	* [AF3-OCRA](https://es-static.fbk.eu/tools/autofocra/): OCRA plug-in for Autfocus
 	* [FoReVer](https://es-static.fbk.eu/projects/forever/index.php?n=Main.Links)
 
+### Hardware
+- [Yosys] (https://github.com/cliffordwolf/yosys) (ISC, C++): a framework for RTL synthesis tools
+- [Clash] (http://www.clash-lang.org/) (?, Haskell) generates VHDL from Haskell
+- [Lava] (https://hackage.haskell.org/package/kansas-lava) (?, Haskell): generates circuits from FSMs, behavioural specs (VHDL, Verilog) + verif via NuSMV
+- [Chisel] (https://github.com/ucb-bar/chisel/) (?, Scala): supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages; Chisel can generate a high-speed C++-based cycle-accurate software simulator, or low-level Verilog designed to pass on to standard ASIC or FPGA tools for synthesis and place and route
 
 ### Other
 - [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
@@ -427,6 +435,8 @@ In some sense the latter is from an "even more declarative" problem description.
 - [ASTRAL](http://dimacs.rutgers.edu/Workshops/Security/program2/kemmerer/index.html): MC of real-time systems (UCSB)
 - [PAT](http://pat.sce.ntu.edu.sg/?page_id=2602) (?, C\#): simulator, MC, refinement checker for concurrent and RT systems (Nanyang Tech. Univ.)
 - [HCMC](http://www.lsv.ens-cachan.fr/~fl/cmcweb.html) (? , C++): Compositional model checking for real-time systems (ENS-Cachan)
+- [IMITATOR] (http://www.imitator.fr/index.html) (GPL, Python?): is a tool for parametric verification and robustness analysis of real-time systems. It relies on the formalism of networks of parametric timed automata, augmented with integer variables and stopwatches.
+- [CoVerTS] (https://github.com/astefano/CoVerTS) (Scala): compositional verification of state properties for timed systems
 
 # Hybrid Systems
 - [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
@@ -439,6 +449,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
 - [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
 - [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
+- [HYMITATOR] (GLP, OCaml) (https://lipn.univ-paris13.fr/~andre/software/hymitator/):  is a tool dedicated to the synthesis of parameters for hybrid automata
 
 ## Linear
 - [HyTech](http://embedded.eecs.berkeley.edu/research/hytech/) (FUSC, C): computes condition under which a linear hybrid system satisfies a temporal requirement (UC Berkeley)
@@ -652,6 +663,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Breach Toolbox](http://www.eecs.berkeley.edu/~donze/breach_page.html)(BSD-3, MATLAB/C++): Simulation, verification of temporal logic properties and dynamical systems (ODE | Simulink) reachability analysis (UC Berkeley)
 - [JTorX](https://fmt.ewi.utwente.nl/redmine/projects/jtorx/wiki/) (?, Java): Model-based testing: Spec: Aldebaran | GraphML | dot | Jararaca | `.sax` | muCRL | `.bcg` | LOTOS, Implementation either these or real program (Univ. Twente)
 - [TorX](http://fmt.cs.utwente.nl/tools/torx/introduction.html) (Apache, ?): Conformance testing of reactive software (Univ. Twente, TU Eindhoven, Philips, Lucent)
+- [MonPoly] (http://sourceforge.net/projects/monpoly/) (?, OCaml): a prototype monitoring tool that checks compliance of log files with respect to policies specified in MFOTL (Metric First-Order Temporal Logic)
 
 # Yet un-categorized
 - [Maude](http://maude.cs.uiuc.edu/overview.html) (UIUC)
