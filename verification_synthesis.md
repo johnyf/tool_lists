@@ -480,6 +480,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](http://www-verimag.imag.fr/~dreossi/publications.html), Udine Univ., Trieste Univ.)
 - [LtlOpt](http://www.cds.caltech.edu/~ewolff/ltlopt.html) (BSD-3, MATLAB): optimal control of high-dimensional, nonlinear systems using LTL specs ([Caltech](http://www.cds.caltech.edu/~ewolff))
 - [c2e2](https://publish.illinois.edu/c2e2-tool/) (?, Assembly): tool for verifying bounded-time invariant properties of Stateflow models (UIUC)
+- [HyST](http://verivital.com/hyst/) (LGPLv3, Java / Python / Matlab): transformation and semantics-preserving translation (to Flow*, dReach, HyComp, HyCreate) of hybrid automata networks from SpaceEx format ([AFRL](http://stanleybak.com/), [IST](http://www.sergiybogomolov.com/), [UTA](http://www.taylortjohnson.com/))
 
 ## Stochastic
 - [MoToR](http://depend.cs.uni-sb.de) (GPL, ?): Macro-preprocessor for MoDeST, a stochastic real-time systems formalism, interfacing to UPPAAL, CADP, Eclipse, Mobius (Univ. Saarlandes)
