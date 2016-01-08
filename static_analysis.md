@@ -8,3 +8,4 @@
 - [KLEE](https://klee.github.io/) (C, LLVM): Symbolic virtual machine built on top of the LLVM compiler infrastructure. Provides unassisted and automatic generation of high-coverage tests.
 - [SOOT] (http://sable.github.io/soot/) (GPL-2, Java): a framework for analyzing and transforming Java and Android applications
 - [frama-c] (http://frama-c.com/) (?, C): an extensible and collaborative platform dedicated to source-code analysis of C software
+- [infer] (https://github.com/facebook/infer) (BSD-licensed, OCaml): Infer is a static analysis tool for Java, Objective-C and C. The documentation is at http://fbinfer.com/. 
