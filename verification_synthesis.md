@@ -364,7 +364,10 @@ In some sense the latter is from an "even more declarative" problem description.
 	
 	(RRWTH Aaachen)
 - [party-elli](https://github.com/5nizza/party-elli) (MIT, Python): SMT based bounded synthesis (TU Graz)
+
+#### Safety specs (controller synthesis)
 - [AbsSynthe](https://github.com/gaperez64/AbsSynthe) (GPL-3, C/Python): controller synthesis from succinct safety specs
+- [demiurge](https://www.iaik.tugraz.at/content/research/opensource/demiurge/) (GLGPL3, C++): SAT based controller synthesizer from SYNTCOMP specs (TU Graz)
 
 #### Parity Game solvers
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
