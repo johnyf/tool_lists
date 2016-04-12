@@ -552,6 +552,27 @@ In some sense the latter is from an "even more declarative" problem description.
 - [FLiP](https://github.com/jon-jacky/FLiP) (GPL, Python): Library for defining logics and writing theorem prover applications, e.g., a proof checker for natural deduction proofs ([Univ. Wasignton](http://staff.washington.edu/jon/))
 - [ATS](http://www.ats-lang.org/) (GPL-3, C): A statically typed multiparadigm programming language that unifies implementation with formal specification, using theorem proving (Boston Univ.)
 
+## Theorem provers for modal logics
+
+- [ls4](https://github.com/quickbeam123/ls4) (MIT, C++, C): PLTL prover based on labelled superposition with partial model guidance, with MiniSAT behind, and used as backend by TLAPS ([Univ. Manchester](http://forsyte.at/people/suda/))
+- [T2](http://mmjb.github.io/T2/) (F\#, Mono, MIT): Prover of CTL\* of programs, with `z3` behind (replaces TERMINATOR) ([MSR](http://research.microsoft.com/en-us/people/mabrocks/), [UCL](http://heidyk.com/))
+- [TRP++](http://cgi.csc.liv.ac.uk/~konev/software/trp++/) (GPL-2, C++): theorem prover for PLTL based on the temporal resolution calculus ([Univ. Liverpool](https://cgi.csc.liv.ac.uk/~konev/))
+	- [TRP](http://cgi.csc.liv.ac.uk/~ullrich/TRP/) (?, Prolog): earlier implementation of TRP++
+- [LWB](http://www.lwb.unibe.ch) (?, C++): The Logics Workbench, online prover for classical and non-classical propositional logics, including nonmonotonic apporaches (logics: CPC, IPC, K, KT, S4, S5, q, KN, KTn, S4n, PLTL, TK, LL, AEL) (Univ. Berne)
+- [TRS](http://www.sc.ehu.es/jiwnagom/paginaMarisa_archivos/TRS.html) (?, ?): Resolution-based theorem prover for PLTL, [online interface](http://trs-tool.appspot.com/) only (UBC)
+- [TLPVS](http://www.cs.nyu.edu/acsys/tlpvs/tlpvs.html): PVS implementation of an LTL verification system (NYU)
+- [STeP](http://www-step.stanford.edu/): Stanford temporal prover
+- [CTLSAT](https://github.com/nicolaprezza/CTLSAT) (?, C++): CTL satisfiability solver
+- [MLSolver](https://github.com/tcsprojects/mlsolver) (?, Ocaml): Solver for satisfiability and validity of modal fixpoint logics (Univ. Munich, Univ. Kassel)
+- [Leviathan](https://github.com/Corralx/leviathan) (BSD-3, C++): Tableau prover for LTL satisfiability (Univ. Udine)
+- [PLTLProvers](http://users.cecs.anu.edu.au/~rpg/PLTLProvers/): (?, OCaml): 3 PLTL theorem prover variants
+- [LoTREC](https://www.irit.fr/Lotrec/) (FSLA): Generic tableau prover
+- [MleanTAP](http://www.leancop.de/mleantap/) (?, Prolog): Sound and complete theorem prover based on free-variable semantic tableaux extended by an additional prefix unification (logics: D, T, S4, S5) (TU Darmstadt)
+- [List of tools for modal logics](http://www.cs.man.ac.uk/~schmidt/tools/) (Univ. Manchester)
+- [Schuppan-Darmawan](http://www.schuppan.de/viktor/atva11/) benchmark results of LTL satisfiability solvers
+- [TPTP](http://www.cs.miami.edu/~tptp/): Problem library for automated theorem proving (Univ. Miami)
+- [QMLTP](http://www.iltp.de/qmltp/systems.html): Benchmarking results for theorem provers for first-order modal logics
+
 ## QBF
 - [QBF Solvers](http://www.cs.toronto.edu/~fbacchus/qbf.html#PreQuel) (C++)
 - [RAReQS](http://sat.inesc-id.pt/~mikolas/sw/areqs/) (GPL, C++/uses MiniSAT): Recursive abstraction refinement QBF solver ([INESC-ID Lisboa](http://sat.inesc-id.pt/~mikolas/))
