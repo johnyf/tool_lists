@@ -551,6 +551,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [hemera](https://github.com/arademaker/hemera) (?, Python): yet another simple theorem prover (PUC-Rio)
 - [FLiP](https://github.com/jon-jacky/FLiP) (GPL, Python): Library for defining logics and writing theorem prover applications, e.g., a proof checker for natural deduction proofs ([Univ. Wasignton](http://staff.washington.edu/jon/))
 - [ATS](http://www.ats-lang.org/) (GPL-3, C): A statically typed multiparadigm programming language that unifies implementation with formal specification, using theorem proving (Boston Univ.)
+- [F*](https://www.fstar-lang.org/) (Apache 2.0, [OCaml, F\#](https://github.com/FStarLang/FStar)): ML-like functional programming language aimed at program verification. Its type system includes polymorphism, dependent types, monadic effects, refinement types, and a weakest precondition calculus (MSR, INRIA)
 
 ## QBF
 - [QBF Solvers](http://www.cs.toronto.edu/~fbacchus/qbf.html#PreQuel) (C++)
