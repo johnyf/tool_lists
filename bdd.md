@@ -6,7 +6,9 @@
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python):
 - [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
 	* [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
-- [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py) in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wraps BDD manager in NuSMV (which uses CUDD) (TU Graz)
+- `marduk` in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wrappers of NuSMV (which uses CUDD) (TU Graz)
+    - [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py): Wraps BDD manager
+    - [`marduk/src/zddwrap.py`](https://github.com/johnyf/marduk/blob/master/zddwrap.py): Wraps ZDD manager
 - [PBDD](https://github.com/tyler-utah/PBDD) (BSD, Python) (mainly educational)
 - [robdd](https://github.com/ericvoid/robdd) (?, Python)
 
