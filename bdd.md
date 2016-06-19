@@ -74,7 +74,7 @@
 - [EHV](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/ehv.html): Eindhoven BDD package
 - [`libvata/src/mtbdd`](https://github.com/ondrik/libvata/tree/master/src/mtbdd) (C++, GPL-3)
 
-# C# 
+# C#
 - [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C#): interface to CUDD
 
 # Clojure

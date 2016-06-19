@@ -17,7 +17,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 ## Closed Systems (Everything controlled)
 
-### Explicit
+### Enumerative
 - [SPIN](http://spinroot.com/spin/whatispin.html) (FUSC, C): LTL model checking for closed systems in Promela ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
 	* [modex](http://spinroot.com/modex/) (FUSC, C): C -> Promela: model extractor ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
 	* [spinja](http://code.google.com/p/spinja/) (Apache, Java): Promela model checker (Univ. Twente, TNO)
@@ -55,6 +55,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [3Spin](http://3spin.peterd.org/)
 	* [POR](http://www.montefiore.ulg.ac.be/services/verif/po-pack.html) (?, C): partial-order reduction package for SPIN ([Univ. de Liege](http://www.montefiore.ulg.ac.be/services/verif/Welcome-en.html))
 	* [ARINC tester](http://www.gisum.uma.es/tools/arinctester/) (?, Java): GUI for SPIN to verify application that contain API calls compliant to ARINC 653 (UMalaga)
+- [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html), [github](https://github.com/tlaplus/tlaplus) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* TLAPS: See automated theorem provers section.
+	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
+	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -70,7 +79,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [PROD](http://www.tcs.hut.fi/Software/prod/) (GPL): efficient reachability analysis (Helsinki Univ. Tech.)
 - [KBDD](http://www.cs.rice.edu/CS/Verification/Software/software.html): BDD-based satisfiability solver for modal logic K
 - [neco](https://code.google.com/p/neco-net-compiler/) (LGPL, Python/Cython): Petri Net compiler & LTL model checker (Univ. d'Evry-Val d'Essonne, Univ. Evry)
-- [PEP](http://sourceforge.net/projects/peptool/) (GPL-2): modelling and verification framework for parallel systems, interfaces to SPIN, SMV, INA, FC2Tools (SDL, Petri nets) 
+- [PEP](http://sourceforge.net/projects/peptool/) (GPL-2): modelling and verification framework for parallel systems, interfaces to SPIN, SMV, INA, FC2Tools (SDL, Petri nets)
 - [cunf](http://code.google.com/p/cunf/) (GPL-3): Toolset for unfolding-based verification of Petri nets extended with read arcs ([ENS Cachan](http://www.lsv.ens-cachan.fr/~rodriguez/))
 - [daj](http://code.google.com/p/daj/) (GPL-2, Java): interactive, visual aid for studying execution of distributed algorithms
 - [FC2Tools & Autograph](http://www-sop.inria.fr/meije/verification/): implementation of process algebra theory, verification by compositional reductions and abstraction, explicit/implicit BDD, FC2 file exchange format (INRIA, Ecole des Mines/CMA)
@@ -167,15 +176,6 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [UCLID](http://www.cs.cmu.edu/~uclid/) (BSD-like, Moscow ML): Model & verify nfinite-state systems with variables of integer, Boolean, function, and array types, term-level bounded model checking, correspondence checking, deductive verification, and predicate abstraction-based verification, and stand-alone decision procedure for the theories of uninterpreted functions and equality, integer linear arithmetic, and arrays (CMU, UC Berkeley)
 - [CBMC-GC](http://forsyte.at/software/cbmc-gc/) (?): C compiler in the context of Secure Two-party Computation (STC) (TU Wien, TU Darmstadt, CASED, CrypTool Project)
 - [Chic](http://en.wikipedia.org/wiki/CHIC_%28electronics%29) (BSD, Java): Modular verifier for behavioral compatibility checking of hardware and software systems (UC Berkeley)
-- [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): MC for TLA+ using: Zenon | Isabelle (INRIA/Microsoft)
-	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
-	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
 - [BLAST](http://mtc.epfl.ch/software-tools/blast/index-epfl.php) (Apache, OCaml): software MC for C using Lazy abstraction (UC Berkeley, EPFL)
 - [CRefine](http://www.cs.york.ac.uk/circus/tools/refinement.php) (?, Java): Verifies `Circus` specs purely by applying various well-proved refinement laws, requires veriT (Univ. York)
 - [UTP and Cirus Theories in ProofPower-Z](http://www.cs.york.ac.uk/circus/tools/utp.php) (?, ?): embedding the theories (relations, designs, reactive processes) of UTP in the theorem prover ProofPower-Z, formal proofs can be mechanically constructed (Univ. York)
@@ -362,7 +362,7 @@ In some sense the latter is from an "even more declarative" problem description.
 		+ Streett
 		+ mean payoff
 	* live sequence charts
-	
+
 	(RRWTH Aaachen)
 - [party-elli](https://github.com/5nizza/party-elli) (MIT, Python): SMT based bounded synthesis (TU Graz)
 
@@ -495,15 +495,21 @@ In some sense the latter is from an "even more declarative" problem description.
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
-- [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
-	* [Modern Automath implementation](http://www.cs.ru.nl/~freek/aut/) (?, C): Languages AUT-68, AUT-QE ([Radboud Univ. Nijmegen](http://www.cs.ru.nl/~freek/index.html))
-- [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
-	* [Invariant-Checker](http://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](http://www-verimag.imag.fr/~graf/))
-- [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
+- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html), [github](https://github.com/tlaplus/v2-tlapm) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
 - [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
 - [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
 - [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/): Iterative Theorem proving in higher-order logic (Univ. Cambridge)
 - [HOL-omega](http://trustworthytools.com/id17.html)
+- [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
+	* [Invariant-Checker](http://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](http://www-verimag.imag.fr/~graf/))
+- [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](http://leodemoura.github.io/))
+- [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs (INRIA)
+	* [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
+	* [Zenon modulo](https://www.rocq.inria.fr/deducteam/ZenonModulo/index.html) (BSD-3, OCaml): extension to deduction modulo (INRIA)
+	* [Super Zenon](http://cedric.cnam.fr/~delahaye/super-zenon/) (?, ?): extension using superdeduction (CEDRIC/CNAM, Siemens IC-MOL)
+- [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
+	* [Modern Automath implementation](http://www.cs.ru.nl/~freek/aut/) (?, C): Languages AUT-68, AUT-QE ([Radboud Univ. Nijmegen](http://www.cs.ru.nl/~freek/index.html))
+- [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
 - [ALF](http://www.cse.chalmers.se/research/group/logic/alf/guide.html) (Univ. Goterborg/Chalmers)
 - [Alfa](http://www.cse.chalmers.se/~hallgren/Alfa/): successor of ALF
 - [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php)
@@ -522,7 +528,6 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Larch Shared Language (LSL) Checker](http://www.sds.lcs.mit.edu/spd/larch/LSL/index.html)
 	* [Larch/C++](http://www.eecs.ucf.edu/~leavens/larchc++.html) (?): Interface Specification Language for C++ (Iowa State Univ.)
 	* [Larch/Smalltalk](http://www.eecs.ucf.edu/~leavens/larchSmalltalk.html) (?): Behavioral interface specification language for Smalltalk-80 (Iowa State Univ.)
-- [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](http://leodemoura.github.io/))
 - [SAL](http://sal.csl.sri.com/) (GPL-2, Scheme): Language for specifying concurrent systems in a compositional way. BDD-based & SAT-based MC, experimental "Witness" MC, "infinite" bounded MC based on SMT solving, simulator, deadlock checker, automated test generator (SRI, Stanford, Berkeley)
 - [Gappa](http://gappa.gforge.inria.fr/) (GPL-3, CeCILL): for numerical programs dealing with floating-point or fixed-point arithmetic (INRIA)
 - [Mizar](http://mizar.org/)
@@ -537,7 +542,6 @@ In some sense the latter is from an "even more declarative" problem description.
 - [jImp](http://symbolaris.com/logic/jImp.html) (binary, Java): based on set of support and ordered resolution for first-order logic, supports: clause indexing techniques, subsumption, and tautology elimination, Davis-Putnam-Loveland-Logemann (DPLL) inference procedure (CMU)
 - [QEPCAD](http://www.usna.edu/CS/~qepcad/B/QEPCAD.html) and [github](https://github.com/PetterS/qepcad) (BSD-like, C): Quantifier elimination by partial cylindrical algebraic decomposition (US Naval Academy, Drexel Univ., North Carolina State Univ.)
 	* [Mac OS X 10.6, 10.7 binaries](http://www.cl.cam.ac.uk/~lp15/papers/Arith/qepcad-for-mac.html) (Cambridge Univ.)
-- [Zenon](http://focal.inria.fr/zenon/) (BSD-3, OCaml): (INRIA)
 - [E](http://www4.informatik.tu-muenchen.de/~schulz/E/E.html) (GPL-2, C): Full first-order logic with equality ([TU Munchen](http://www4.in.tum.de/~schulz/Stephan_Schulz/Stephan_Schulz.html))
 - [Community Z Tools](http://czt.sourceforge.net/) (GPL-2, Java): Tools for editing, typechecking and animating Z specifications and related notations, including Java framework for building formal methods tools (Univ. Oxford, contrib)
 - [ProofPower](http://www.lemma-one.com/ProofPower/index/) (GPL, ?): Tool suite supporting specification and proof in HOL and Z notation (Lemma 1 Ltd)
@@ -780,6 +784,7 @@ In some sense the latter is from an "even more declarative" problem description.
 
 - TU: Technical University
 - UT: University of Technology
+- MSR: Microsoft Research
 
 - FOL: First-order logic
 - HOL: Higher-order logic
