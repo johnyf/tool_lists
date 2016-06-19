@@ -6,7 +6,10 @@
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python):
 - [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
 	* [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
-- [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py) in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wraps BDD manager in NuSMV (which uses CUDD) (TU Graz)
+- `marduk` in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wrappers of NuSMV (which uses CUDD) (TU Graz)
+    - [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py): Wraps BDD manager
+    - [`marduk/src/zddwrap.py`](https://github.com/johnyf/marduk/blob/master/zddwrap.py): Wraps ZDD manager
+- [mccarthy-to-bryant](https://github.com/darius/mccarthy-to-bryant) (GPL-3, Python) (mainly educational)
 - [PBDD](https://github.com/tyler-utah/PBDD) (BSD, Python) (mainly educational)
 - [robdd](https://github.com/ericvoid/robdd) (?, Python)
 
@@ -129,6 +132,7 @@
 - [`upbdd`](https://github.com/vale1410/upbdd) (?, Prolog/C++): UP-BDD data structure implementation
 
 # Lua
+- [mccarthy-to-bryant/lua](https://github.com/darius/mccarthy-to-bryant/tree/master/lua) (GPL-3, Lua)
 - [`lua-bdd`](https://github.com/silentbicycle/lua-bdd) (BSD, Lua)
 
 # Erlang
