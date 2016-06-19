@@ -55,6 +55,15 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [3Spin](http://3spin.peterd.org/)
 	* [POR](http://www.montefiore.ulg.ac.be/services/verif/po-pack.html) (?, C): partial-order reduction package for SPIN ([Univ. de Liege](http://www.montefiore.ulg.ac.be/services/verif/Welcome-en.html))
 	* [ARINC tester](http://www.gisum.uma.es/tools/arinctester/) (?, Java): GUI for SPIN to verify application that contain API calls compliant to ARINC 653 (UMalaga)
+- [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): MC for TLA+ using: Zenon | Isabelle (INRIA/Microsoft)
+	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
+	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -167,15 +176,6 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [UCLID](http://www.cs.cmu.edu/~uclid/) (BSD-like, Moscow ML): Model & verify nfinite-state systems with variables of integer, Boolean, function, and array types, term-level bounded model checking, correspondence checking, deductive verification, and predicate abstraction-based verification, and stand-alone decision procedure for the theories of uninterpreted functions and equality, integer linear arithmetic, and arrays (CMU, UC Berkeley)
 - [CBMC-GC](http://forsyte.at/software/cbmc-gc/) (?): C compiler in the context of Secure Two-party Computation (STC) (TU Wien, TU Darmstadt, CASED, CrypTool Project)
 - [Chic](http://en.wikipedia.org/wiki/CHIC_%28electronics%29) (BSD, Java): Modular verifier for behavioral compatibility checking of hardware and software systems (UC Berkeley)
-- [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): MC for TLA+ using: Zenon | Isabelle (INRIA/Microsoft)
-	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
-	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
 - [BLAST](http://mtc.epfl.ch/software-tools/blast/index-epfl.php) (Apache, OCaml): software MC for C using Lazy abstraction (UC Berkeley, EPFL)
 - [CRefine](http://www.cs.york.ac.uk/circus/tools/refinement.php) (?, Java): Verifies `Circus` specs purely by applying various well-proved refinement laws, requires veriT (Univ. York)
 - [UTP and Cirus Theories in ProofPower-Z](http://www.cs.york.ac.uk/circus/tools/utp.php) (?, ?): embedding the theories (relations, designs, reactive processes) of UTP in the theorem prover ProofPower-Z, formal proofs can be mechanically constructed (Univ. York)
@@ -362,7 +362,7 @@ In some sense the latter is from an "even more declarative" problem description.
 		+ Streett
 		+ mean payoff
 	* live sequence charts
-	
+
 	(RRWTH Aaachen)
 - [party-elli](https://github.com/5nizza/party-elli) (MIT, Python): SMT based bounded synthesis (TU Graz)
 
