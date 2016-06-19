@@ -61,7 +61,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
+	* TLAPS: See automated theorem provers section.
 	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
 	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
@@ -495,6 +495,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
+- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
 - [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
 	* [Modern Automath implementation](http://www.cs.ru.nl/~freek/aut/) (?, C): Languages AUT-68, AUT-QE ([Radboud Univ. Nijmegen](http://www.cs.ru.nl/~freek/index.html))
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
