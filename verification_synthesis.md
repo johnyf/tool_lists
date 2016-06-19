@@ -56,7 +56,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [POR](http://www.montefiore.ulg.ac.be/services/verif/po-pack.html) (?, C): partial-order reduction package for SPIN ([Univ. de Liege](http://www.montefiore.ulg.ac.be/services/verif/Welcome-en.html))
 	* [ARINC tester](http://www.gisum.uma.es/tools/arinctester/) (?, Java): GUI for SPIN to verify application that contain API calls compliant to ARINC 653 (UMalaga)
 - [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
+	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html), [github](https://github.com/tlaplus/tlaplus) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
@@ -495,7 +495,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
-- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
+- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html), [github](https://github.com/tlaplus/v2-tlapm) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
 - [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
 - [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
 - [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/): Iterative Theorem proving in higher-order logic (Univ. Cambridge)
