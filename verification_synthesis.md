@@ -696,6 +696,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [JTorX](https://fmt.ewi.utwente.nl/redmine/projects/jtorx/wiki/) (?, Java): Model-based testing: Spec: Aldebaran | GraphML | dot | Jararaca | `.sax` | muCRL | `.bcg` | LOTOS, Implementation either these or real program (Univ. Twente)
 - [TorX](http://fmt.cs.utwente.nl/tools/torx/introduction.html) (Apache, ?): Conformance testing of reactive software (Univ. Twente, TU Eindhoven, Philips, Lucent)
 - [MonPoly] (http://sourceforge.net/projects/monpoly/) (?, OCaml): a prototype monitoring tool that checks compliance of log files with respect to policies specified in MFOTL (Metric First-Order Temporal Logic)
+- [Montre](https://github.com/doganulus/montre) (GPL-3, [Pure](http://purelang.bitbucket.org/)/C++): A timed regular expression matcher ([Verimag](http://doganulus.com))
 
 # Yet un-categorized
 - [Maude](http://maude.cs.uiuc.edu/overview.html) (UIUC)
