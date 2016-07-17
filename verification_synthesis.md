@@ -320,7 +320,7 @@ In some sense the latter is from an "even more declarative" problem description.
 ### Discrete games
 
 #### [GR(1) games](http://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)
-- [gr1c](http://slivingston.github.io/gr1c/) (BSD-3, C, uses CUDD): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](http://scottman.net/))
+- [gr1c](https://github.com/tulip-control/gr1c) (BSD-3, C, uses CUDD): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](http://scottman.net/))
 - [slugs](https://github.com/LTLMoP/slugs) (BSD-3, C++, uses CUDD): a stand-alone reactive synthesis tool for GR(1) synthesis (Cornell)
 - [JTLV](http://sourceforge.net/projects/jtlv/) (LGPL-2, Java/C)
 	* [TLV](http://www.cs.nyu.edu/acsys/tlv/): predecessor of JTLV
