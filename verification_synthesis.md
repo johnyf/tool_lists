@@ -13,6 +13,66 @@ To the extent possible under law, the authors have waived all copyright and rela
 You should have received a copy of the CC0 Public Domain Dedication along with this text.
 If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
+
+**Table of Contents**
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Verification with Model Checking](#verification-with-model-checking)
+	- [Closed Systems (Everything controlled)](#closed-systems-everything-controlled)
+		- [Enumerative](#enumerative)
+		- [Symbolic](#symbolic)
+	- [logic -> automata & automata tools](#logic-automata-automata-tools)
+		- [LTL -> *BA](#ltl-ba)
+		- [LTL -> DRA](#ltl-dra)
+		- [other](#other)
+	- [Term rewrite systems](#term-rewrite-systems)
+	- [Open Systems](#open-systems)
+		- [Synchronous Languages](#synchronous-languages)
+			- [Imperative](#imperative)
+			- [Declarative](#declarative)
+			- [Statecharts](#statecharts)
+- [Synthesis](#synthesis)
+	- [Open Systems (Games: System & UnControlled Environment)](#open-systems-games-system-uncontrolled-environment)
+		- [Discrete games](#discrete-games)
+			- [[GR(1) games](http://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)](#gr1-gameshttpdlacmorgcitationcfmid2146252-generalized-reactivity-1)
+			- [Full LTL games](#full-ltl-games)
+			- [Safety specs (controller synthesis)](#safety-specs-controller-synthesis)
+			- [Parity Game solvers](#parity-game-solvers)
+			- [Quantitative games](#quantitative-games)
+			- [Other](#other)
+		- [Hybrid games](#hybrid-games)
+		- [Contracts](#contracts)
+		- [Hardware](#hardware)
+		- [Other](#other)
+- [Timed Systems](#timed-systems)
+- [Hybrid Systems](#hybrid-systems)
+	- [Linear](#linear)
+	- [Non-Linear](#non-linear)
+	- [Stochastic](#stochastic)
+- [Theorem Provers](#theorem-provers)
+	- [Theorem provers for modal logics](#theorem-provers-for-modal-logics)
+	- [QBF](#qbf)
+	- [SAT](#sat)
+		- [CDCL](#cdcl)
+		- [Stochastic local search](#stochastic-local-search)
+		- [Parallel](#parallel)
+		- [Unsorted](#unsorted)
+	- [SMT](#smt)
+	- [Other solvers](#other-solvers)
+	- [Logic programming](#logic-programming)
+- [Software Synthesis](#software-synthesis)
+- [Runtime Verification](#runtime-verification)
+- [Yet un-categorized](#yet-un-categorized)
+- [TypeSetting](#typesetting)
+- [Other tool lists](#other-tool-lists)
+- [databases and benchmarks](#databases-and-benchmarks)
+- [(non-common) abbreviations](#non-common-abbreviations)
+
+<!-- /TOC -->
+
+
+
 # Verification with Model Checking
 
 ## Closed Systems (Everything controlled)

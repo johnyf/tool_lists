@@ -1,3 +1,29 @@
+**Table of Contents**
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+- [Python](#python)
+- [Ruby](#ruby)
+- [LISP](#lisp)
+- [C](#c)
+- [C#](#c)
+- [Clojure](#clojure)
+- [Java](#java)
+- [Javascript](#javascript)
+- [Julia](#julia)
+- [ML](#ml)
+- [OCaml](#ocaml)
+- [Haskell](#haskell)
+- [Prolog](#prolog)
+- [Lua](#lua)
+- [Erlang](#erlang)
+- [PHP](#php)
+- [other](#other)
+- [Unsorted](#unsorted)
+- [Abbreviations](#abbreviations)
+
+<!-- /TOC -->
+
 # Python
 - [dd](https://github.com/johnyf/dd) (BSD-3, Python):
 	- BDD and MDD pure Python implementation
