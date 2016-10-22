@@ -154,6 +154,9 @@
 - [`bdd`](https://github.com/hguenther/bdd) (BSD-3, Haskell)
 - [`robdd`](https://github.com/johnpmayer/robdd) (?, Haskell)
 
+# Isabelle/HOL
+- [`bdd`](https://github.com/jcaesar/bdd) (BSD, Isabelle/HOL/Haskell): verified and executable implementation of ROBDDs in Isabelle/HOL, [archived proofs](https://www.isa-afp.org/entries/ROBDD.shtml) ([TUM]())
+
 # Prolog
 - [`swipl_cudd`](https://github.com/lagoonv/swipl_cudd) (?, C/Prolog): bindings to CUDD
 - [`upbdd`](https://github.com/vale1410/upbdd) (?, Prolog/C++): UP-BDD data structure implementation
