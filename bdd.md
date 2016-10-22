@@ -14,6 +14,7 @@
 - [ML](#ml)
 - [OCaml](#ocaml)
 - [Haskell](#haskell)
+- [Isabelle/HOL](#isabellehol)
 - [Prolog](#prolog)
 - [Lua](#lua)
 - [Erlang](#erlang)
@@ -155,7 +156,7 @@
 - [`robdd`](https://github.com/johnpmayer/robdd) (?, Haskell)
 
 # Isabelle/HOL
-- [`bdd`](https://github.com/jcaesar/bdd) (BSD, Isabelle/HOL/Haskell): verified and executable implementation of ROBDDs in Isabelle/HOL, [archived proofs](https://www.isa-afp.org/entries/ROBDD.shtml) ([TUM]())
+- [`bdd`](https://github.com/jcaesar/bdd) (BSD, Isabelle/HOL/Haskell): verified and executable implementation of ROBDDs in Isabelle/HOL, [archived proofs](https://www.isa-afp.org/entries/ROBDD.shtml) ([TUM](http://liftm.de/))
 
 # Prolog
 - [`swipl_cudd`](https://github.com/lagoonv/swipl_cudd) (?, C/Prolog): bindings to CUDD
