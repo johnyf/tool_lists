@@ -122,8 +122,17 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
 	* TLAPS: See automated theorem provers section.
+    * [`tla_tools`](https://github.com/joewilliams/tla_tools) (MIT, Shell): Helper tools for using TLA+ (wrappers etc.) ([GitHub](https://github.com/joewilliams))
 	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
+    * [TEM](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/TEM/tem.html) (GPL, Emacs): TLA+ major mode for GNU EMACS 19 (Dortmund Univ.)
 	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
+    * [`tla-parser-s`](https://github.com/jarjuk/tla-parser-s) (MIT, Ruby): TLA+ parser (Helsinki)
+    * TLA+ examples:
+        - [TLA Tools examples](https://github.com/tlaplus/Examples)
+        - [MultiPaxos](https://github.com/nano-o/MultiPaxos)
+        - [Egalitarian Paxos](https://github.com/efficient/epaxos) (CMU, Intel Labs)
+        - [TLA-Library](https://github.com/nano-o/TLA-Library)
+        - [MongoDB](https://github.com/visualzhou/mongo-repl-tla): simplified part of MongoDB replication system (MongoDB)
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -264,6 +273,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Boom](http://www.cprover.org/boom/) (BSD): Model checking of Boolean programs (ETHZ, Oxford Univ.)
 - [MCTK](http://www.kailesu.net/MCTK/) (LGPL, C): model checker for epistemic logic as modification of CUDD and NuSMV ([Griffith Univ.](http://www.kailesu.net/))
 - [SymDIVINE](https://github.com/yaqwsx/SymDIVINE) (MIT, C++): a tool for control explicit/data symbolic bit-precise LTL verification of parallel C/C++ programs using LLVM bitcode as intermediate representation [Masaryk Univ.](http://anna.fi.muni.cz/~xbauch/symdivine.html)
+- [IC3](https://github.com/arbrad/IC3ref) (MIT, C++): IC3 reference implementation ([Stanford](http://theory.stanford.edu/~arbrad/))
+
 
 ## logic -> automata & automata tools
 
@@ -352,7 +363,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Lustre](http://en.wikipedia.org/wiki/Lustre_%28programming_language%29): Declarative, synchronous dataflow programminglanguage for reactive systems
 	* [Lustre](https://github.com/ladace/Lustre) (?, OCaml): Lustre interpreter
 	* [MATOU](http://www.cfdvs.iitb.ac.in/download/Docs/verification/tools/kronos/Verimag_Home_Page/PEOPLE/Florence.Maraninchi/MATOU/index.phtml) (?): Implementation of mode-automata on top of Lustre (VERIMAG)
-	* [KIND](http://clc.cs.uiowa.edu/Kind/) (BSD-3, OCaml): K-induction based for safety properties of Lustre programs, Automatic invariant generation, parallel: PKIND (Univ. Iowa, NASA/CMU, ONERA)
+    	* [KIND](http://clc.cs.uiowa.edu/Kind/) (BSD-3, OCaml): K-induction based for safety properties of Lustre programs, Automatic invariant generation, parallel: PKIND (Univ. Iowa, NASA/CMU, ONERA)
 	* [KIND2](http://kind2-mc.github.io/kind2/) (Apache-2, OCaml/C++): Successor of KIND (Univ. Iowa)
 	* [Zustre](https://github.com/coco-team/zustre) (BSD-3, Python): SMT-based PDR-style verification engine for Lustre programs, also an engine for generating assume/guarantee contracts (NASA/CMU/SEI)
 - [NBAC](http://pop-art.inrialpes.fr/~bjeannet/nbac/index.html) (OCaml): Co-/Reachability, slicing of synchronous deterministic reactive systems with Boolean, numerical variables (VERIMAG)
@@ -545,6 +556,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
 - [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](http://www-verimag.imag.fr/~dreossi/publications.html), Udine Univ., Trieste Univ.)
 - [LtlOpt](http://www.cds.caltech.edu/~ewolff/ltlopt.html) (BSD-3, MATLAB): optimal control of high-dimensional, nonlinear systems using LTL specs ([Caltech](http://www.cds.caltech.edu/~ewolff))
+- [reasys](https://github.com/jadecastro/reasyns) (BSD-3, MATLAB): Reactive synthesis for nonlinear systems ([Cornell, Toyota](http://jadecastro.github.io/))
 - [c2e2](https://publish.illinois.edu/c2e2-tool/) (?, Assembly): tool for verifying bounded-time invariant properties of Stateflow models (UIUC)
 - [HyST](http://verivital.com/hyst/) (LGPLv3, Java / Python / Matlab): transformation and semantics-preserving translation (to Flow*, dReach, HyComp, HyCreate) of hybrid automata networks from SpaceEx format ([AFRL](http://stanleybak.com/), [IST](http://www.sergiybogomolov.com/), [UTA](http://www.taylortjohnson.com/))
 
@@ -558,11 +570,14 @@ In some sense the latter is from an "even more declarative" problem description.
 
 # Theorem Provers
 - [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html), [github](https://github.com/tlaplus/v2-tlapm) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
-- [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
 - [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
+    * [Isabelle/TLA](http://homepages.loria.fr/SMerz/projects/isabelle-tla/): encoding of Lamport's TLA in Isabelle, ships with Isabelle's standard distribution ([INRIA](https://members.loria.fr/SMerz/index.html))
+    * [APL](https://www.isa-afp.org/): Archive of Formal Proofs
 - [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/): Iterative Theorem proving in higher-order logic (Univ. Cambridge)
 - [HOL-omega](http://trustworthytools.com/id17.html)
+- [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
+    * [NASA PVS Library](https://github.com/nasa/pvslib) (Various, Python/Lisp): Collection of formal PVS developments ([NASA Langley](https://shemesh.larc.nasa.gov/fm/))
 	* [Invariant-Checker](http://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](http://www-verimag.imag.fr/~graf/))
 - [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](http://leodemoura.github.io/))
 - [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs (INRIA)
@@ -606,6 +621,7 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Mac OS X 10.6, 10.7 binaries](http://www.cl.cam.ac.uk/~lp15/papers/Arith/qepcad-for-mac.html) (Cambridge Univ.)
 - [E](http://www4.informatik.tu-muenchen.de/~schulz/E/E.html) (GPL-2, C): Full first-order logic with equality ([TU Munchen](http://www4.in.tum.de/~schulz/Stephan_Schulz/Stephan_Schulz.html))
 - [Community Z Tools](http://czt.sourceforge.net/) (GPL-2, Java): Tools for editing, typechecking and animating Z specifications and related notations, including Java framework for building formal methods tools (Univ. Oxford, contrib)
+- [Nitpick](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/nitpick/www/home.html) (?): Checker for Z specifications (CMU)
 - [ProofPower](http://www.lemma-one.com/ProofPower/index/) (GPL, ?): Tool suite supporting specification and proof in HOL and Z notation (Lemma 1 Ltd)
 - [ClawZ](http://www.lemma-one.com/clawz_docs/clawz_docs.html) (?, ?): Simulink -> Z notation (Lemma 1 Ltd)
 - [Waldmesiter](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
@@ -618,6 +634,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [FLiP](https://github.com/jon-jacky/FLiP) (GPL, Python): Library for defining logics and writing theorem prover applications, e.g., a proof checker for natural deduction proofs ([Univ. Wasignton](http://staff.washington.edu/jon/))
 - [ATS](http://www.ats-lang.org/) (GPL-3, C): A statically typed multiparadigm programming language that unifies implementation with formal specification, using theorem proving (Boston Univ.)
 - [F*](https://www.fstar-lang.org/) (Apache 2.0, [OCaml, F\#](https://github.com/FStarLang/FStar)): ML-like functional programming language aimed at program verification. Its type system includes polymorphism, dependent types, monadic effects, refinement types, and a weakest precondition calculus (MSR, INRIA)
+- [ProofPeer](http://www.proofpeer.net/) (MIT, [Scala/Isabelle](https://github.com/proofpeer)): Collaborative theorem proving ([Edinburgh Univ.](http://www.proofpeer.net/contact.html))
 
 ## Theorem provers for modal logics
 
@@ -714,11 +731,13 @@ In some sense the latter is from an "even more declarative" problem description.
 - [SBSAT](http://www.cs.uc.edu/~weaversa/SBSAT.html): state-based  (U Cincinnati)
 - [satsolver](https://github.com/stephenroller/satsolver) (?, Python): DPLL implementation for educational purposes
 - [Potassco](http://potassco.sourceforge.net/): answer set programming collection: Clasp, Gringo, Clingo, Aspcud, Clingcon, claspfolio, coala solvers
+- [miniC2D](http://reasoning.cs.ucla.edu/minic2d/) (?): knowledge compilation and model counting based on exhaustive DPLL (UCLA)
+- [toulbar2](http://www7.inra.fr/mia/T/toulbar2/) (GPL, C++): Exact solver for cost function networks (INRIA, Barcelona)
 
 
 ## SMT
 - [CVC4](http://cvc4.cs.nyu.edu/web/), its [github](https://github.com/CVC4/CVC4) (BSD-3, C++): built-in base theories, quantifiers, interactive text-based interface, interfaces to: C/C++, Python, Java, OCaml, PHP, Perl, Ruby, Tcl, model generation, (NYU, Univ. Iowa)
-- [CV3](http://www.cs.nyu.edu/acsys/cvc3/) (BSD-3, C++): predecessor of CVC4 (Stanford, NYU, Univ. Iowa)
+- [CV3](http://www.cs.nyu.edu/acsys/cvc3/) (BSD-3, [C++](https://github.com/msakai/cvc3)): predecessor of CVC4 (Stanford, NYU, Univ. Iowa)
 - [Z3](https://github.com/Z3Prover/z3) (MIT, C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
 	* [Z3_Haskell](https://github.com/kayceesrk/Z3_Haskell) (BSD, Haskell): bindings for Z3 (Cambridge Univ.)
 	* [`hz3`](https://github.com/tizmd/hz3) (BSD, Haskell): bindings to low-level API for Z3
