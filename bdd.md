@@ -33,7 +33,8 @@
 	- Cython interface to BuDDy in `dd.buddy`
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python):
 - [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
-	* [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
+    * [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
+    * [PyCUDD packaging](https://github.com/aur-archive/pycudd)
 - `marduk` in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wrappers of NuSMV (which uses CUDD) (TU Graz)
     - [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py): Wraps BDD manager
     - [`marduk/src/zddwrap.py`](https://github.com/johnyf/marduk/blob/master/zddwrap.py): Wraps ZDD manager
@@ -122,6 +123,7 @@
 - [djbdd](https://github.com/diegojromerolopez/djbdd) (Java 7, GPL-3)
 - [Java applet](http://tams-www.informatik.uni-hamburg.de/applets/java-bdd/bdd-applet.html) (?, Java) (UHamburg)
 - [SableJBDD](http://www.sable.mcgill.ca/~fqian/SableJBDD/) (LGPL): (McGill Univ.)
+- [Jedd](http://www.sable.mcgill.ca/jedd/) (Java, LGLPL-2): Java Extension for Decision Diagrams based on the polyglot framework, supports as backends: CUDD, BuDDy, SableJBDD, JavaBDD
 - [zdd_java](https://github.com/higotakayuki/zdd_java): educational ZDD implementation
 
 # Javascript
