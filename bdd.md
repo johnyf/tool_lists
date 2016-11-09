@@ -166,7 +166,7 @@
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
 
 # OCaml
-- [MLCuddIDL](http://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL, C/OCaml): bindings to CUDD ([INRIA](http://pop-art.inrialpes.fr/~bjeannet/))
+- [MLCuddIDL](http://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL-2.1, C/OCaml): bindings to CUDD ([mirror](https://github.com/thizanne/mlcuddidl)) ([INRIA](http://pop-art.inrialpes.fr/~bjeannet/))
 - [`ocaml-buddy`](https://github.com/abate/ocaml-buddy) (LGPL, OCaml): bindings to Buddy ([Paris 7](http://mancoosi.org/~abate/about-me))
 - [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml)
 - [`Symbolickat.bdd`](http://perso.ens-lyon.fr/damien.pous/symbolickat/safa.docdir/Bdd.html) (?, OCaml): pure-OCaml library ([ENS de Lyon](http://perso.ens-lyon.fr/damien.pous/))
