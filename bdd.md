@@ -53,28 +53,41 @@
 
 # C
 - [CUDD](http://vlsi.colorado.edu/~fabio/CUDD/) (BSD): (Colorado U)
+    - [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
+    - [cnf2obdd](http://www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (same as MiniSAT)
 	- [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
-	- `dd.cudd`
-	- PyCUDD
-	- CUDD-rb
-	- CL-CUDD
-	- MLCuddIDL
-	- hBDD
-	- hs-cudd
-	- Haskell-CUDD
-	- JBDD
-	- PAT.BDD
-	- swipl_cudd
-	- [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
-	- [cnf2obdd](http://www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (same as MiniSAT)
+    - Python:
+        - `dd.cudd`
+        - PyCUDD
+    - Ruby:
+	    - CUDD-rb
+    - LISP:
+	    - CL-CUDD
+    - OCaml:
+	    - MLCuddIDL
+    - Haskell:
+	    - hBDD
+	    - hs-cudd
+	    - Haskell-CUDD
+    - Java:
+        - JBDD
+    - C#:
+        - PAT.BDD
+    - Prolog:
+        - swipl_cudd
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
-	- `muddy`
-	- `ocaml-buddy`
-	- `dd.buddy`
-	- [fork](https://github.com/utwente-fmt/buddy) UTwente
-	- [fork](https://github.com/jjgreen/rebuddy): re-entrant version
-	- JBDD
-	- Ruby-BDD
+    - [fork](https://github.com/utwente-fmt/buddy) UTwente
+    - [fork](https://github.com/jjgreen/rebuddy): re-entrant version
+    - Python:
+	    - `dd.buddy`
+    - ML:
+	    - `muddy`
+    - OCaml:
+	    - `ocaml-buddy`
+    - Java:
+	    - JBDD
+    - Ruby:
+	    - Ruby-BDD
 - [Cal BDD](http://embedded.eecs.berkeley.edu/Research/cal_bdd/) (BSD): (UC Berkeley)
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
@@ -84,9 +97,13 @@
 - [TiGeR](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/tiger/tgrlib/refman.html) (C): BDDs and compacted Boolean functions (DEC)
 - [PPBF](http://www.cs.cmu.edu/~bwolen/software/) (C): parallel BDD package based on partial BFS expansion (CMU)
 - [Sylvan](https://github.com/trolando/sylvan) (Apache-2): Multi-core library using work-stealing framework and lock-less hash table
-	- Sylvan-Haskell
-	- jSylvan
-	- cpachecker
+    - Python:
+        - dd
+    - Haskell:
+	    - Sylvan-Haskell
+    - Java:
+	    - jSylvan
+	    - cpachecker
 - [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
 - [TdZdd](https://github.com/kunisura/TdZdd) (MIT, C++): top-down breadth-first  n-ary DD/ZDD manipulation, parallel processing with OpenMP
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
