@@ -111,7 +111,7 @@
 - [LaVaBDD](http://www.ulb.ac.be/di/ssd/nmaquet/lavabdd/0.4/doc/index.html) (?, C++): Lattice-valued BDDs (ULB)
 - [`wld`](http://ira.informatik.uni-freiburg.de/software/wld/) (FUSC, C++): word-level DDs (UFreiburg)
 - [BDS](http://www.ecs.umass.edu/ece/labs/vlsicad/bds/bds.html) (FUSC, C): (UMass)
-- [Biddy](http://biddy.meolic.com/) (GPL, C): (UMaribor)
+- [Biddy](https://github.com/meolic/biddy) (GPL-2, C): a multi-platform academic BDD [package](http://biddy.meolic.com) (UMaribor)
 - [list](http://bdd.hpi.uni-potsdam.de/packages.html) of BDD packages with comparisons
 - [BBDD](http://lsi.epfl.ch/cms/page-102597.html) (?, ?): biconditional BDDs
 - [RicBDD](https://github.com/ric2k1/RicBDD) (GPL, C++)
