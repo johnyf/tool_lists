@@ -59,6 +59,7 @@
     - Python:
         - `dd.cudd`
         - PyCUDD
+        - `marduk`
     - Ruby:
 	    - CUDD-rb
     - LISP:
@@ -71,6 +72,7 @@
 	    - Haskell-CUDD
     - Java:
         - JBDD
+        - Jedd
     - C#:
         - PAT.BDD
     - Prolog:
