@@ -18,6 +18,7 @@
 - [Prolog](#prolog)
 - [Lua](#lua)
 - [Erlang](#erlang)
+- [Rust](#rust)
 - [PHP](#php)
 - [other](#other)
 - [Unsorted](#unsorted)
@@ -56,6 +57,8 @@
     - [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
     - [cnf2obdd](http://www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (same as MiniSAT)
 	- [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
+    - [Chain-CUDD](https://github.com/rebryant/Chain-CUDD) (BSD-3, C): Extension of CUDD to support BDD with chain nodes
+    - [Cloud-BDD](https://github.com/rebryant/Cloud-BDD) (?, C): Distributed implementation of BDD package, using CUDD
     - Python:
         - `dd.cudd`
         - PyCUDD
@@ -77,6 +80,8 @@
         - PAT.BDD
     - Prolog:
         - swipl_cudd
+    - Rust:
+        - `cudd_rust`
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
     - [fork](https://github.com/utwente-fmt/buddy) UTwente
     - [fork](https://github.com/jjgreen/rebuddy): re-entrant version
@@ -90,6 +95,8 @@
 	    - JBDD
     - Ruby:
 	    - Ruby-BDD
+    - C#
+        - BuDDySharp
 - [Cal BDD](http://embedded.eecs.berkeley.edu/Research/cal_bdd/) (BSD): (UC Berkeley)
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](http://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
@@ -106,6 +113,8 @@
     - Java:
 	    - jSylvan
 	    - cpachecker
+    - C#
+        - SylvanSharp
 - [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
 - [TdZdd](https://github.com/kunisura/TdZdd) (MIT, C++): top-down breadth-first  n-ary DD/ZDD manipulation, parallel processing with OpenMP
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
@@ -124,6 +133,8 @@
 
 # C# #
 - [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C#): interface to CUDD
+- [SylvanSharp](https://github.com/thisiscam/SylvanSharp) (?, C#): bindings to Sylvan
+- [BuDDySharp](https://github.com/thisiscam/BuDDySharp) (?, C#): bindings to BuDDy
 
 # Clojure
 - [clj-bdd](https://github.com/dcreager/clj-bdd) (EPL, Clojure)
@@ -189,6 +200,9 @@
 
 # Erlang
 - [seqbdd](https://github.com/shu-den/seqbdd) (BSD-like, Erlang): Sequence BDD data structure
+
+# Rust
+- [`cudd_rust`](https://github.com/malie/cudd_rust) (BSD-3, Rust): bindings to CUDD
 
 # PHP
 - [BDD](https://github.com/andreaswolf/BinaryDecisionDiagrams) (?, PHP)
