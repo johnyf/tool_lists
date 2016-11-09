@@ -125,7 +125,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* TLAPS: See automated theorem provers section.
     * [`tla_tools`](https://github.com/joewilliams/tla_tools) (MIT, Shell): Helper tools for using TLA+ (wrappers etc.) ([GitHub](https://github.com/joewilliams))
 	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
-    * [TEM](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/TEM/tem.html) (GPL, Emacs): TLA+ major mode for GNU EMACS 19 (Dortmund Univ.)
+    * [TEM](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/TEM/tem.html) (GPL, Emacs): TLA+ major mode for GNU EMACS 19 (TU Dortmund)
     * [language-tla-pluscal](https://github.com/wysiib/language-tla-pluscal) (MIT, CoffeeScript): TLA + and PlusCal Language Support in Atom ([Heinrich-Heine-Univ.](https://krin.gs/))
     * [TLAGrammar](https://github.com/agentultra/TLAGrammar) (MIT): Textmate-compatible grammar for TLA+ (used to highlight TLA+ on github)
     * [`vim-scripts/TLA`](https://github.com/vim-scripts/TLA) (GPL, VimL): TLA+ plugin for Gvim
@@ -603,7 +603,7 @@ In some sense the latter is from an "even more declarative" problem description.
     * [NASA PVS Library](https://github.com/nasa/pvslib) (Various, Python/Lisp): Collection of formal PVS developments ([NASA Langley](https://shemesh.larc.nasa.gov/fm/))
 	* [Invariant-Checker](http://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](http://www-verimag.imag.fr/~graf/))
 - [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](http://leodemoura.github.io/))
-- [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs (INRIA)
+- [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs [OPAM](http://opam.ocaml.org/packages/zenon/zenon.0.7.1/) (INRIA)
 	* [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
 	* [Zenon modulo](https://www.rocq.inria.fr/deducteam/ZenonModulo/index.html) (BSD-3, OCaml): extension to deduction modulo (INRIA)
 	* [Super Zenon](http://cedric.cnam.fr/~delahaye/super-zenon/) (?, ?): extension using superdeduction (CEDRIC/CNAM, Siemens IC-MOL)
@@ -665,7 +665,7 @@ In some sense the latter is from an "even more declarative" problem description.
 
 - [ls4](https://github.com/quickbeam123/ls4) (MIT, C++, C): PLTL prover based on labelled superposition with partial model guidance, with MiniSAT behind, and used as backend by TLAPS ([Univ. Manchester](http://forsyte.at/people/suda/))
 - [T2](http://mmjb.github.io/T2/) (F\#, Mono, MIT): Prover of CTL\* of programs, with `z3` behind (replaces TERMINATOR) ([MSR](http://research.microsoft.com/en-us/people/mabrocks/), [UCL](http://heidyk.com/))
-- [TRP++](http://cgi.csc.liv.ac.uk/~konev/software/trp++/) (GPL-2, C++): theorem prover for PLTL based on the temporal resolution calculus ([Univ. Liverpool](https://cgi.csc.liv.ac.uk/~konev/))
+- [TRP++](http://cgi.csc.liv.ac.uk/~konev/software/trp++/) [files](http://cgi.csc.liv.ac.uk/~konev/software/trp++/translator/) (GPL-2, C++): theorem prover for PLTL based on the temporal resolution calculus ([Univ. Liverpool](https://cgi.csc.liv.ac.uk/~konev/))
 	- [TRP](http://cgi.csc.liv.ac.uk/~ullrich/TRP/) (?, Prolog): earlier implementation of TRP++
 - [LWB](http://www.lwb.unibe.ch) (?, C++): The Logics Workbench, online prover for classical and non-classical propositional logics, including nonmonotonic apporaches (logics: CPC, IPC, K, KT, S4, S5, q, KN, KTn, S4n, PLTL, TK, LL, AEL) (Univ. Berne)
 - [TRS](http://www.sc.ehu.es/jiwnagom/paginaMarisa_archivos/TRS.html) (?, ?): Resolution-based theorem prover for PLTL, [online interface](http://trs-tool.appspot.com/) only (UBC)
