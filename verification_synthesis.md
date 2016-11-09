@@ -95,6 +95,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [Erigone](http://code.google.com/p/erigone/) (GPL-2, Ada): partial SPIN re-implementation for educational purposes
 	* [EpiSpin](http://epispin.ewi.tudelft.nl/): Eclipse plug-in for editing & verifying Promela using Spin ([TU Delft](http://swerl.tudelft.nl/twiki/pub/Main/PastAndCurrentMScProjects/thesis-bob-de-vos.pdf))
 	* [`promela` parser](https://github.com/johnyf/promela) (BSD-3, Python): parser for Promela using [PLY](http://www.dabeaz.com/ply/ply.html) (Python `lex`-`yacc`) ([Caltech](http://www.cds.caltech.edu/~ifilippi/))
+    * [`language-promela`](https://github.com/ubinix-warun/language-promela) (MIT, CoffeeScript): Promela support in Atom
 	* [Eclipse Pug-In for SPIN](http://matrix.uni-mb.si/en/science/tools/eclipse-plug-in-for-spin//) (?): (Univ. Maribor, TU Braunschweigin)
 	* [st2msc](http://matrix.uni-mb.si/en/science/tools/st2msc-tool/) (?, Java): SPIN trail -> Message Sequence Chart (Univ. Maribor)
 	* [Real-Time SPIN](http://www-verimag.imag.fr/~tripakis/rtspin.html): quantitative dense time SPIN extension using Real-Time Promela ([VERIMAG/CNRS](http://www-verimag.imag.fr/~tripakis/index.html))
@@ -125,14 +126,29 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
     * [`tla_tools`](https://github.com/joewilliams/tla_tools) (MIT, Shell): Helper tools for using TLA+ (wrappers etc.) ([GitHub](https://github.com/joewilliams))
 	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
     * [TEM](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/TEM/tem.html) (GPL, Emacs): TLA+ major mode for GNU EMACS 19 (Dortmund Univ.)
+    * [language-tla-pluscal](https://github.com/wysiib/language-tla-pluscal) (MIT, CoffeeScript): TLA + and PlusCal Language Support in Atom ([Heinrich-Heine-Univ.](https://krin.gs/))
+    * [TLAGrammar](https://github.com/agentultra/TLAGrammar) (MIT): Textmate-compatible grammar for TLA+ (used to highlight TLA+ on github)
+    * [`vim-scripts/TLA`](https://github.com/vim-scripts/TLA) (GPL, VimL): TLA+ plugin for Gvim
+    * [`vim-scripts/tla.vim`](https://github.com/vim-scripts/tla.vim) (?, VimL): Vim syntax highlighting for TLA+
+    * [tla.vim](https://github.com/hwayne/tla.vim) (MIT, VimL): Vim plugin for TLA+ and PlusCal
 	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
+    * [textadept-TLA-](https://github.com/Hackerpilot/textadept-TLA-) (MIT, Lua): TLA+ and PlusCal syntax highlighting for Textadept
     * [`tla-parser-s`](https://github.com/jarjuk/tla-parser-s) (MIT, Ruby): TLA+ parser (Helsinki)
     * TLA+ examples:
         - [TLA Tools examples](https://github.com/tlaplus/Examples)
         - [MultiPaxos](https://github.com/nano-o/MultiPaxos)
         - [Egalitarian Paxos](https://github.com/efficient/epaxos) (CMU, Intel Labs)
+        - [Leaderless Byzantine Paxos](https://bitbucket.org/ngunatillaka/leaderless-byzantine-paxos) (UNSW)
+        - [Raft consensus algorithm](https://github.com/ongardie/raft.tla)
         - [TLA-Library](https://github.com/nano-o/TLA-Library)
         - [MongoDB](https://github.com/visualzhou/mongo-repl-tla): simplified part of MongoDB replication system (MongoDB)
+        - [Convergence locking](https://github.com/ryansb/heat-tla-model)
+    * [tTLA+ Browser](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/TBR/tbr.html) (FUSC, C): old project about a TLA+ IDE (TU Dortmund)
+    * [Tools for TLA](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/welcome.html): old TLA+-related project (TU Dortmund)
+    * [TLA within ProB](https://www3.hhu.de/stups/prob/index.php/TLA): (Heinrich Heine Univ. Düsseldorf)
+        * [`tla2b`](https://github.com/hhu-stups/tla2b) (EPL, Java)
+        * [`tla2bAST`](https://github.com/hhu-stups/tla2bAST) (EPL, Java)
+        * [`tlc4b`](https://github.com/hhu-stups/tlc4b) (EPL, Java)
 - [LTSmin](http://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](http://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](http://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](http://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE-2](http://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](http://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
@@ -569,9 +585,16 @@ In some sense the latter is from an "even more declarative" problem description.
 - [PARAM](http://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
-- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html), [github](https://github.com/tlaplus/v2-tlapm) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
-- [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
-    * [Isabelle/TLA](http://homepages.loria.fr/SMerz/projects/isabelle-tla/): encoding of Lamport's TLA in Isabelle, ships with Isabelle's standard distribution ([INRIA](https://members.loria.fr/SMerz/index.html))
+- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
+    - [TLAPM v2](https://github.com/tlaplus/v2-tlapm) (BSD-3, OCaml): TLAPS proof manager >= v2 (INRIA/MSR)
+    - [TLAPM v1](https://github.com/cartazio/tlaps) (BSD-2, OCaml): TLAPS proof manager < v2 (INRIA/MSR)
+    - [`pf2`](https://research.microsoft.com/en-us/um/people/lamport/latex/latex.html) (LaTeX): package for writing structured proofs of the form described in ["How to write a 21st century proof"](https://research.microsoft.com/en-us/um/people/lamport/pubs/proof.pdf)
+    - [`pfnum`](https://research.microsoft.com/en-us/um/people/lamport/latex/pfnum.html) (C): Rewrites structured proofs in a LaTeX file to renumber proofs steps as they will appear after typesetting
+    - [`pf2html`](https://sourceforge.net/projects/pf2html/) [home](http://www.dbai.tuwien.ac.at/proj/pf2html/index.html) (GPL-2, Perl): adds functionality to LATEX2HTML such that LATEX documents written with pf.sty can be viewed in a web browser up to the desired level of detail for each branch of a structured proof (TU Wien)
+    - [`hyperpf`](https://research.microsoft.com/en-us/um/people/lamport/proofs/hyperpf.html) (C): HyperTeXt structured proof reader
+    - [Verifying TLA+ invariants using ACL2](http://people.csail.mit.edu/cpacheco/publications/verifying-tla-abstract.html) (UT Austin)
+- [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) [github](https://github.com/seL4/isabelle) (BSD-3, ML): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
+    * [Isabelle/TLA](http://homepages.loria.fr/SMerz/projects/isabelle-tla/) [github](https://github.com/seL4/isabelle/tree/master/src/HOL/TLA): encoding of Lamport's TLA in Isabelle, ships with Isabelle's standard distribution ([INRIA](https://members.loria.fr/SMerz/index.html))
     * [APL](https://www.isa-afp.org/): Archive of Formal Proofs
 - [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/): Iterative Theorem proving in higher-order logic (Univ. Cambridge)
 - [HOL-omega](http://trustworthytools.com/id17.html)
@@ -584,6 +607,8 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
 	* [Zenon modulo](https://www.rocq.inria.fr/deducteam/ZenonModulo/index.html) (BSD-3, OCaml): extension to deduction modulo (INRIA)
 	* [Super Zenon](http://cedric.cnam.fr/~delahaye/super-zenon/) (?, ?): extension using superdeduction (CEDRIC/CNAM, Siemens IC-MOL)
+- [Nunchaku](https://github.com/nunchaku-inria/nunchaku) (BSD-2, OCaml): A counter-example finder for higher-order logic, designed to be used from various proof assistants (INRIA)
+- [Nitpick](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/nitpick/www/home.html) (?): Checker for Z specifications (CMU)
 - [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
 	* [Modern Automath implementation](http://www.cs.ru.nl/~freek/aut/) (?, C): Languages AUT-68, AUT-QE ([Radboud Univ. Nijmegen](http://www.cs.ru.nl/~freek/index.html))
 - [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
@@ -621,7 +646,6 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Mac OS X 10.6, 10.7 binaries](http://www.cl.cam.ac.uk/~lp15/papers/Arith/qepcad-for-mac.html) (Cambridge Univ.)
 - [E](http://www4.informatik.tu-muenchen.de/~schulz/E/E.html) (GPL-2, C): Full first-order logic with equality ([TU Munchen](http://www4.in.tum.de/~schulz/Stephan_Schulz/Stephan_Schulz.html))
 - [Community Z Tools](http://czt.sourceforge.net/) (GPL-2, Java): Tools for editing, typechecking and animating Z specifications and related notations, including Java framework for building formal methods tools (Univ. Oxford, contrib)
-- [Nitpick](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/nitpick/www/home.html) (?): Checker for Z specifications (CMU)
 - [ProofPower](http://www.lemma-one.com/ProofPower/index/) (GPL, ?): Tool suite supporting specification and proof in HOL and Z notation (Lemma 1 Ltd)
 - [ClawZ](http://www.lemma-one.com/clawz_docs/clawz_docs.html) (?, ?): Simulink -> Z notation (Lemma 1 Ltd)
 - [Waldmesiter](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
@@ -634,6 +658,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [FLiP](https://github.com/jon-jacky/FLiP) (GPL, Python): Library for defining logics and writing theorem prover applications, e.g., a proof checker for natural deduction proofs ([Univ. Wasignton](http://staff.washington.edu/jon/))
 - [ATS](http://www.ats-lang.org/) (GPL-3, C): A statically typed multiparadigm programming language that unifies implementation with formal specification, using theorem proving (Boston Univ.)
 - [F*](https://www.fstar-lang.org/) (Apache 2.0, [OCaml, F\#](https://github.com/FStarLang/FStar)): ML-like functional programming language aimed at program verification. Its type system includes polymorphism, dependent types, monadic effects, refinement types, and a weakest precondition calculus (MSR, INRIA)
+- [`proofcheck`](http://www.proofcheck.org/) (GPL, Python): Checks mathematical proofs written in La/TeX, attempts to handle mathematical language formalized according to the author's preferences as much as possible ([PyPI](https://pypi.python.org/pypi/proofcheck/1.0)) ([Widener Univ.](http://cs.widener.edu/~neveln/))
 - [ProofPeer](http://www.proofpeer.net/) (MIT, [Scala/Isabelle](https://github.com/proofpeer)): Collaborative theorem proving ([Edinburgh Univ.](http://www.proofpeer.net/contact.html))
 
 ## Theorem provers for modal logics
