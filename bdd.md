@@ -202,6 +202,7 @@
 - [seqbdd](https://github.com/shu-den/seqbdd) (BSD-like, Erlang): Sequence BDD data structure
 
 # Rust
+- [`boolean_expressions`](https://github.com/cfallin/boolean_expression) (MIT, Rust): BDD implementation, conversion from/to formulae with cubelist-based minimization
 - [`cudd_rust`](https://github.com/malie/cudd_rust) (BSD-3, Rust): bindings to CUDD
 
 # PHP
