@@ -274,6 +274,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Daikon](http://en.wikipedia.org/wiki/Daikon_%28system%29) (MIT, Java): Dynamic invariant detection for C/C++, Eiffel, IOA, Perl (MIT)
 - [Tip](https://github.com/niklasso/tip) (?, C++/C): (Temporal Induction Prover) SAT based model checker ([Chalmers Univ.](http://minisat.se/Authors.html))
 - [alloy](http://alloy.mit.edu/alloy/): Language inspired by Z spec language and Tarski's relational calculus for implicitly describing structures and tool for exploring and generating counterexamples (MIT)
+- [IVy](http://microsoft.github.io/ivy/) (MIT, [Python](https://github.com/Microsoft/ivy)): A tool for specifying, modeling, implementing and verifying protocols (MSR, Tel Aviv Univ., UCB)
 - [PyCSP](http://code.google.com/p/pycsp/) (MIT, Python): communicating sequential processes in Python (Aarhus Univ.)
 - [FDR2](https://en.wikipedia.org/wiki/FDR2): Refinement checker for communicating sequential processes (Oxford Univ.)
 - [KRATOS](https://es-static.fbk.eu/tools/kratos/): MC for sequential and cooperative multi-threaded C programs, verifying safety properties (Bruno Kessler Found.)
