@@ -292,7 +292,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [MCTK](http://www.kailesu.net/MCTK/) (LGPL, C): model checker for epistemic logic as modification of CUDD and NuSMV ([Griffith Univ.](http://www.kailesu.net/))
 - [SymDIVINE](https://github.com/yaqwsx/SymDIVINE) (MIT, C++): a tool for control explicit/data symbolic bit-precise LTL verification of parallel C/C++ programs using LLVM bitcode as intermediate representation [Masaryk Univ.](http://anna.fi.muni.cz/~xbauch/symdivine.html)
 - [IC3](https://github.com/arbrad/IC3ref) (MIT, C++): IC3 reference implementation ([Stanford](http://theory.stanford.edu/~arbrad/))
-
+- [Overture](https://github.com/overturetool/overture) (GPL-3.0, Java): An IDE for developing and analyzing VDM models.
 
 ## logic -> automata & automata tools
 
