@@ -218,6 +218,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [py-powerset-construction](http://code.google.com/p/py-powerset-construction/) (GPL-3, Python): convert NFA-\lambda to DFA, using dot as input
 - [Zing](http://research.microsoft.com/en-us/projects/zing/) (Non-com, C#): State exploration of concurrent software systems (Microsoft research)
 - [SeaHorn] (https://github.com/seahorn/seahorn) (BSD, C): an LLVM based verification framework
+- [SCRAM](https://github.com/rakhimov/scram)(GPL-3, C++/Python): Probabilistic risk analysis (static fault trees, common cause failure models, Monte Carlo) with input from and output to Open-PSA model exchange format files
 
 
 ### Symbolic
