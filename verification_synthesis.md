@@ -853,6 +853,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Proof Assistants, Wikipedia](https://en.wikipedia.org/wiki/Proof_assistant)
 - [Univ. Utah tools](http://www.cs.utah.edu/formal_verification/hevea-index.html#htoc2)
 - [SV-COMP 2014](http://sv-comp.sosy-lab.org/2014/participants.php): competition on software verification at TACAS 2014
+- [ATS](http://www.ats-lang.org/): a statically typed programming language that unifies implementation with formal specification
 
 # databases and benchmarks
 - [VLTS](http://cadp.inria.fr/resources/vlts/): MC benchmarks (CWI/SEN2, INRIA/VASY)
