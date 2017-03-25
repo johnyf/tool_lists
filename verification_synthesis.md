@@ -825,6 +825,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [FTS](https://projects.info.unamur.be/fts/): featured transition systems
 - [PdTrav](http://fmgroup.polito.it/index.php/download/viewcategory/3-pdtrav-package)
 - [seL4](https://github.com/seL4/seL4): A microkernel formally proved correct
+- [SCRAM](https://github.com/rakhimov/scram)(GPL-3, C++/Python): Probabilistic risk analysis
 
 # TypeSetting
 - [LTL](https://github.com/malteschmitz/ltl) (LPPL, LaTeX/TikZ): Configurable LTL math operators with LaTeX and TikZ or LTLFonts
