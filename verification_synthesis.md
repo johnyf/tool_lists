@@ -786,7 +786,7 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
 - [Simplify](http://kindsoftware.com/products/opensource/Simplify/), its [github](https://github.com/kiniry/Simplify) (?, Modula-III): (SRC)
 - [Beaver](http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html) (BSD, OCaml): for the theory of quantifier-free finite-precision bit-vector arithmetic (UC Berkeley)
-- [list of SMT solvers](http://smtlib.cs.uiowa.edu/solvers.html) (Univ. Iowa)
+- [list of SMT solvers](http://smtlib.cs.uiowa.edu/solvers.shtml) (Univ. Iowa)
 
 ## Other solvers
 - [RSolver]() (LGPL): Quantified inequality constraints ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
