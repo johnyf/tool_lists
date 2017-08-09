@@ -460,10 +460,12 @@ In some sense the latter is from an "even more declarative" problem description.
 
 	(RRWTH Aaachen)
 - [party-elli](https://github.com/5nizza/party-elli) (MIT, Python): SMT based bounded synthesis (TU Graz)
+- [BoSy](Swift): Constraint-based (SAT,SMT,QBF,DQBF) bounded synthesis (Saarland Univ.)
 
 #### Safety specs (controller synthesis)
 - [AbsSynthe](https://github.com/gaperez64/AbsSynthe) (GPL-3, C/Python): controller synthesis from succinct safety specs
 - [demiurge](https://www.iaik.tugraz.at/content/research/opensource/demiurge/) (GLGPL3, C++): SAT based controller synthesizer from SYNTCOMP specs (TU Graz)
+- [SafetySynth](https://www.react.uni-saarland.de/tools/safetysynth/) (Swift): symbolic BDD-based safety game solver for SYNTCOMP (Saarland Univ.)
 
 #### Parity Game solvers
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
@@ -695,6 +697,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Quantor](http://fmv.jku.at/quantor/) (BSD): QDIMACS input (JKU)
 - [DepQBF](http://lonsing.github.io/depqbf/) (GPL, C): search-based ([TU Wien](http://www.kr.tuwien.ac.at/staff/lonsing/), JKU)
 - [nenofex](https://github.com/lonsing/nenofex) (GPL, C): expansion-based for NNF ([TU Wien](http://www.kr.tuwien.ac.at/staff/lonsing/), JKU)
+- [CAQE](https://www.react.uni-saarland.de/tools/caqe/) (C): certifying solver based on CEGAR-based clausal abstraction (Saarland Univ., UC Berkeley)
 - [QBFLIB](http://vlsicad.eecs.umich.edu/BK/Slots/cache/www.qbflib.org/): Collection of benchmark problems, solvers, and tools related to Quantified Boolean Formula (QBF) satisfiability (Univ. Michigan)
 
 ## SAT
