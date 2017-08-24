@@ -492,6 +492,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Synthia](http://www.react.uni-saarland.de/tools/synthia/) (GPL-3, C/C++): Verification certificates (deductive proofs) and synthesis for partially implemented systems, abstraction refinement ([Saarland Uni.](http://www.react.uni-saarland.de/people/peter.html))
 - [PESSOA](https://sites.google.com/a/cyphylab.ee.ucla.edu/pessoa/home) (FUSC, MATLAB): synthesis of correct-by-design embedded control software based on approximate bisimulations (UCLA)
 - [TALIRO](https://sites.google.com/a/asu.edu/s-taliro/) (GPL, MATLAB) ([ASU](http://www.public.asu.edu/~gfaineko/))
+- [SCOTS](https://gitlab.lrz.de/matthias/SCOTSv0.2) (BSD-3, C++/MATLAB): computation of discrete abstractions and symbolic controllers (TUM)
 
 ### Contracts
 - [Mica](http://www.irisa.fr/s4/tools/mica/Mica__A_Modal_Interface_Compositional_Analysis_Library/Introduction.html) (CeCILL-C-1, OCaml):  Modal Interface algebra for contract based design ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
