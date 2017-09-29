@@ -179,6 +179,7 @@
 - [hBDD](https://github.com/peteg/hBDD) (GPL-2, Haskell): bindings to CUDD and CMU-BDD ([Australian National Univ.](http://peteg.org/))
 - [hs-cudd](https://github.com/bradlarsen/hs-cudd) (BSD-3, Haskell): bindings to CUDD ([Veracode](http://bradford-larsen.net/))
 - [Haskell-CUDD](https://github.com/adamwalker/haskell_cudd) (BSD-3, Haskell): bindings to CUDD ([NICTA](https://github.com/adamwalker))
+- [HasCacBDD](https://github.com/m4lvin/HasCacBDD) (GPL-2, Haskell): bindings to CacBDD (ILLC, University of Amsterdam)
 - [Sylvan-Haskell](https://github.com/adamwalker/sylvan-haskell) (BSD-3, Haskell/C): bindings to Sylvan ([NICTA](https://github.com/adamwalker))
 - [`termite2.bdd`](https://github.com/termite2/bdd) (?, Haskell): BDD abstraction layer (NICTA)
 - [`robbed`](https://github.com/travitch/robbed) (BSD-3, Haskell): ([Galois](http://nochair.net/))
