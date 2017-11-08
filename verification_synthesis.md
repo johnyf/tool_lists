@@ -117,24 +117,25 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 	* [POR](http://www.montefiore.ulg.ac.be/services/verif/po-pack.html) (?, C): partial-order reduction package for SPIN ([Univ. de Liege](http://www.montefiore.ulg.ac.be/services/verif/Welcome-en.html))
 	* [ARINC tester](http://www.gisum.uma.es/tools/arinctester/) (?, Java): GUI for SPIN to verify application that contain API calls compliant to ARINC 653 (UMalaga)
 	* [SpinRCP](http://lms.uni-mb.si/spinrcp/index.html) (?, Java) An Eclipse-based IDE for Spin. (Univ. of Maribor)
-- [TLA+](http://research.microsoft.com/en-us/um/people/lamport/tla/toolbox.html) (MIT, Java/Eclipse/C-like): IDE for TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* [TLA+ Tools](http://research.microsoft.com/en-us/um/people/lamport/tla/tools.html), [github](https://github.com/tlaplus/tlaplus) (MIT, Java/C-like): Included in TLA+ toolbox, but this is cmd-line version [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC for TLA+ (Temporal Logic of Actions, Lamport), included in TLA+ tools ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-        + [The TLA+ Video Course](http://lamport.azurewebsites.net/video/videos.html): Lectures about writing specifications, by Leslie Lamport
-		+ [SANY](http://research.microsoft.com/en-us/um/people/lamport/tla/sany.html) (MIT, Java): Parser & semantic analyzer for TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [TLC](http://research.microsoft.com/en-us/um/people/lamport/tla/tlc.html) (MIT, ?): MC and simulator for subclass of "executable" TLA+ (Temporal Logic of Actions, Lamport) ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [PlusCal](http://research.microsoft.com/en-us/um/people/lamport/tla/pluscal.html) (MIT, C-like): Translator from the PlusCal algorithm language to TLA+ ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-		+ [TLATeX](http://research.microsoft.com/en-us/um/people/lamport/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs ([Microsoft Research](http://research.microsoft.com/en-us/um/people/lamport/))
-	* TLAPS: See automated theorem provers section.
-    * proof related tools: See automated theorem provers section.
+- [TLA+](http://lamport.azurewebsites.net/tla/tla.html): The Temporal Logic of Actions for specifying systems ([Microsoft Research](http://lamport.org))
+    * [The TLA+ Video Course](http://lamport.azurewebsites.net/video/videos.html): Lectures about writing specifications, by Leslie Lamport
+    * [PlusCal](http://lamport.azurewebsites.net/tla/pluscal.html): An algorithm language with a translator to TLA+
+	* [TLA+ Tools](http://lamport.azurewebsites.net/tla/tools.html), (MIT, [Java](https://github.com/tlaplus/tlaplus)): Tools for working with TLA+ specifications:
+        + [TLC](http://lamport.azurewebsites.net/tla/tlc.html) (MIT, Java): Model checker for TLA+ specifications
+        + [SANY](http://lamport.azurewebsites.net/tla/sany.html) (MIT, Java): Parser and semantic analyzer for TLA+ ([ANTLR](http://www.antlr.org/)-based)
+        + [TLATeX](http://lamport.azurewebsites.net/tla/tlatex.html) (MIT, Java): Program for typesetting TLA+ specs
+        + [The TLA Toolbox](http://lamport.azurewebsites.net/tla/toolbox.html) (MIT, Java): An IDE for the TLA+ tools (Eclipse-based), includes TLC, SANY, TLATeX, and the PlusCal translator
+        + [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html): See automated theorem provers section.
+        + Tools for working with TLA+ proofs: See automated theorem provers section.
     * [`tla_tools`](https://github.com/joewilliams/tla_tools) (MIT, Shell): Helper tools for using TLA+ (wrappers etc.) ([GitHub](https://github.com/joewilliams))
-	* [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
+    * [tla related tools](https://github.com/hhu-stups) (Dusseldorf Univ.)
     * [TEM](http://ls4-www.cs.tu-dortmund.de/RVS/P-TLA/TEM/tem.html) (GPL, Emacs): TLA+ major mode for GNU EMACS 19 (TU Dortmund)
     * [language-tla-pluscal](https://github.com/wysiib/language-tla-pluscal) (MIT, CoffeeScript): TLA + and PlusCal Language Support in Atom ([Heinrich-Heine-Univ.](https://krin.gs/))
     * [TLAGrammar](https://github.com/agentultra/TLAGrammar) (MIT): Textmate-compatible grammar for TLA+ (used to highlight TLA+ on github)
     * [`vim-scripts/TLA`](https://github.com/vim-scripts/TLA) (GPL, VimL): TLA+ plugin for Gvim
     * [`vim-scripts/tla.vim`](https://github.com/vim-scripts/tla.vim) (?, VimL): Vim syntax highlighting for TLA+
-    * [tla.vim](https://github.com/hwayne/tla.vim) (MIT, VimL): Vim plugin for TLA+ and PlusCal
-	* [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
+    * [`tla.vim`](https://github.com/hwayne/tla.vim) (MIT, VimL): Vim plugin for TLA+ and PlusCal
+    * [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
     * [textadept-TLA-](https://github.com/Hackerpilot/textadept-TLA-) (MIT, Lua): TLA+ and PlusCal syntax highlighting for Textadept
     * [`tla-parser-s`](https://github.com/jarjuk/tla-parser-s) (MIT, Ruby): TLA+ parser (Helsinki)
     * TLA+ examples:
