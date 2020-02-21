@@ -157,6 +157,7 @@
 - [zdd_java](https://github.com/higotakayuki/zdd_java): educational ZDD implementation
 
 # Javascript
+- [binary decision diagram](https://github.com/pubkey/binary-decision-diagram) (Apache-2, JavaScript): A library to create, minimize and optimize binary decision diagrams
 - [BDD](http://fooo.fr/~vjeux/epita/bdd/) (?, Javascript)
 
 # Julia
