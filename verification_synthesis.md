@@ -610,6 +610,7 @@ In some sense the latter is from an "even more declarative" problem description.
     * [Isabelle/TLA](http://homepages.loria.fr/SMerz/projects/isabelle-tla/) [github](https://github.com/seL4/isabelle/tree/master/src/HOL/TLA): encoding of Lamport's TLA in Isabelle, ships with Isabelle's standard distribution ([INRIA](https://members.loria.fr/SMerz/index.html))
     * [APL](https://www.isa-afp.org/): Archive of Formal Proofs
 - [HOL](http://www.cl.cam.ac.uk/research/hvg/HOL/): Iterative Theorem proving in higher-order logic (Univ. Cambridge)
+- [HOL Light] (https://www.cl.cam.ac.uk/~jrh13/hol-light/): Interactive Theorem Proving in higher-orderlogic (J. Harrison, AWS)
 - [HOL-omega](http://trustworthytools.com/id17.html)
 - [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
