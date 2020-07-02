@@ -628,6 +628,9 @@ In some sense the latter is from an "even more declarative" problem description.
 - [ALF](http://www.cse.chalmers.se/research/group/logic/alf/guide.html) (Univ. Goterborg/Chalmers)
 - [Alfa](http://www.cse.chalmers.se/~hallgren/Alfa/): successor of ALF
 - [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+- [Cedille](https://cedille.github.io/) (MIT, Agda/Haskell):
+    interactive theorem-prover and dependently typed programming language,
+    based on extrinsic (aka Curry-style) type theory
 - [ACL2](http://www.cs.utexas.edu/users/moore/acl2/): part of Boyer-Moore family of provers (Univ. Texas at Austin)
 	* [github/ACL2](https://github.com/acl2/acl2)
 	* [Nqthm](http://en.wikipedia.org/wiki/Nqthm) (GPL-2, ?): Boyer–Moore TP using Pure LISP variant, precursor to ACL2 (Univ. Texas, Austin)
@@ -674,6 +677,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [`proofcheck`](http://www.proofcheck.org/) (GPL, Python): Checks mathematical proofs written in La/TeX, attempts to handle mathematical language formalized according to the author's preferences as much as possible ([PyPI](https://pypi.python.org/pypi/proofcheck/1.0)) ([Widener Univ.](http://cs.widener.edu/~neveln/))
 - [ProofPeer](http://www.proofpeer.net/) (MIT, [Scala/Isabelle](https://github.com/proofpeer)): Collaborative theorem proving ([Edinburgh Univ.](http://www.proofpeer.net/contact.html))
 - [Nitpick](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/nitpick/www/home.html) (?): Checker for Z specifications (CMU)
+- [homotopy.io](https://homotopy.io) (CC BY-NC 3.0, [JavaScript](https://github.com/homotopy-io/homotopy-webclient)): A proof assistant for n-categories
 
 ## Theorem provers for modal logics
 
@@ -865,6 +869,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Proof Assistants, Wikipedia](https://en.wikipedia.org/wiki/Proof_assistant)
 - [Univ. Utah tools](http://www.cs.utah.edu/formal_verification/hevea-index.html#htoc2)
 - [SV-COMP 2014](http://sv-comp.sosy-lab.org/2014/participants.php): competition on software verification at TACAS 2014
+- [Every Proof Assistant Seminar](http://math.andrej.com/2020/04/28/every-theorem-prover/): series of (online) seminars
 
 # databases and benchmarks
 - [VLTS](http://cadp.inria.fr/resources/vlts/): MC benchmarks (CWI/SEN2, INRIA/VASY)
