@@ -628,6 +628,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [ALF](http://www.cse.chalmers.se/research/group/logic/alf/guide.html) (Univ. Goterborg/Chalmers)
 - [Alfa](http://www.cse.chalmers.se/~hallgren/Alfa/): successor of ALF
 - [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+- [Cedille](https://cedille.github.io/)
 - [ACL2](http://www.cs.utexas.edu/users/moore/acl2/): part of Boyer-Moore family of provers (Univ. Texas at Austin)
 	* [github/ACL2](https://github.com/acl2/acl2)
 	* [Nqthm](http://en.wikipedia.org/wiki/Nqthm) (GPL-2, ?): Boyer–Moore TP using Pure LISP variant, precursor to ACL2 (Univ. Texas, Austin)
@@ -835,6 +836,8 @@ In some sense the latter is from an "even more declarative" problem description.
 - [FTS](https://projects.info.unamur.be/fts/): featured transition systems
 - [PdTrav](http://fmgroup.polito.it/index.php/download/viewcategory/3-pdtrav-package)
 - [seL4](https://github.com/seL4/seL4): A microkernel formally proved correct
+- [Globular](http://globular.science/): A proof assistant for hiher dimensional category theory
+- [homotopy.io](https://homotopy.io/): A proof assistant for n-categories
 
 # TypeSetting
 - [LTL](https://github.com/malteschmitz/ltl) (LPPL, LaTeX/TikZ): Configurable LTL math operators with LaTeX and TikZ or LTLFonts
@@ -865,6 +868,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Proof Assistants, Wikipedia](https://en.wikipedia.org/wiki/Proof_assistant)
 - [Univ. Utah tools](http://www.cs.utah.edu/formal_verification/hevea-index.html#htoc2)
 - [SV-COMP 2014](http://sv-comp.sosy-lab.org/2014/participants.php): competition on software verification at TACAS 2014
+- [Every Proof Assistant Seminar](http://math.andrej.com/2020/04/28/every-theorem-prover/)
 
 # databases and benchmarks
 - [VLTS](http://cadp.inria.fr/resources/vlts/): MC benchmarks (CWI/SEN2, INRIA/VASY)
