@@ -6,7 +6,6 @@
 - [SLAM](http://research.microsoft.com/en-us/projects/slam/) (Microsoft Research)
 - [Jahob](http://lara.epfl.ch/w/jahob_system): Java static contract analysis (EPFL)
 - [KLEE](https://klee.github.io/) (C, LLVM): Symbolic virtual machine built on top of the LLVM compiler infrastructure. Provides unassisted and automatic generation of high-coverage tests.
-- [SOOT] (http://sable.github.io/soot/) (GPL-2, Java): a framework for analyzing and transforming Java and Android applications
-- [frama-c] (http://frama-c.com/) (?, C): an extensible and collaborative platform dedicated to source-code analysis of C software
+- [SOOT](http://sable.github.io/soot/) (LGPLv2.1, Java): a framework for analyzing and transforming Java and Android applications
+- [Frama-C](http://frama-c.com/) (LGPLv2, C): an extensible and collaborative platform dedicated to source-code analysis of C software
 - [infer](https://github.com/facebook/infer) (BSD-3, OCaml): Infer is a static analysis tool for Java, Objective-C and C. The documentation is at http://fbinfer.com/. (Facebook)
-
