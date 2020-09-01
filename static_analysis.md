@@ -1,3 +1,4 @@
+- [Oversecured](https://oversecured.com/) (?, Java, Kotlin) - A static code analyzer for Android apps. Searches for security vulnerabilities.
 - [jCUTE](http://osl.web.cs.illinois.edu/software/jcute/index.html): Java concolic unit testing
 - [Atomic Set Inferencer](http://osl.web.cs.illinois.edu/software/atomic-set-inference.html), its [github](https://github.com/osl/atomic-set-inference) (FUSC, Java/Shell): for automatically inferring atomic sets, a synchronization mechanism in which the programmer specifies the groups of data that must be accessed as a unit ([UIUC](http://osl.web.cs.illinois.edu/members/dinges.html))
 - [SOTER](http://osl.web.cs.illinois.edu/software/soter/index.html) (FUSC): extensible static analysis and transformation tool that facilitates safe yet efficient message passing in actor programs (UIUC)
@@ -6,7 +7,7 @@
 - [SLAM](http://research.microsoft.com/en-us/projects/slam/) (Microsoft Research)
 - [Jahob](http://lara.epfl.ch/w/jahob_system): Java static contract analysis (EPFL)
 - [KLEE](https://klee.github.io/) (C, LLVM): Symbolic virtual machine built on top of the LLVM compiler infrastructure. Provides unassisted and automatic generation of high-coverage tests.
-- [SOOT] (http://sable.github.io/soot/) (GPL-2, Java): a framework for analyzing and transforming Java and Android applications
-- [frama-c] (http://frama-c.com/) (?, C): an extensible and collaborative platform dedicated to source-code analysis of C software
+- [SOOT](http://sable.github.io/soot/) (GPL-2, Java): a framework for analyzing and transforming Java and Android applications
+- [frama-c](http://frama-c.com/) (?, C): an extensible and collaborative platform dedicated to source-code analysis of C software
 - [infer](https://github.com/facebook/infer) (BSD-3, OCaml): Infer is a static analysis tool for Java, Objective-C and C. The documentation is at http://fbinfer.com/. (Facebook)
 
