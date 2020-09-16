@@ -570,6 +570,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Ellipsoidal Toolbox for MATLAB](http://code.google.com/p/ellipsoids/) (BSD-3, MATLAB): External and internal ellipsoidal approximations of geometric (Minkowski) sums and differences of ellipsoids, intersections of ellipsoids and intersections of ellipsoids with halfspaces and polytopes; distances between ellipsoids, between ellipsoids and hyperplanes, between ellipsoids and polytopes; and projections onto given subspaces. For forward and backward reach sets of continuous- and discrete-time PWA systems (UC Berkeley)
 - [MATISSE](http://www-ljk.imag.fr/membres/Antoine.Girard/Software/Matisse/) (GPL-3, MATLAB): Approximate bisimulations: safety verification and reachable set computation of large dimensional, constrained linear systems. Needs: MPT, YALMIP, SEDUMI (UPenn, IMAG)
 - [BACH](http://seg.nju.edu.cn/BACH/): bounded model checker for Linear Hybrid Systems (Nanjing Univ.)
+- [`tltk-mtl`](https://pypi.org/project/tltk-mtl) (?, Python): tool for computing Metric Temporal logic robustness
 
 ## Non-Linear
 - [HTV](https://wiki.cites.illinois.edu/wiki/display/MitraResearch/HTV) (closed, MATLAB): verify systems from their simulation and run-time traces using imprecise samples and possibly incomplete models to compute overapproximations of bounded reach sets (UIUC)
@@ -613,10 +614,13 @@ In some sense the latter is from an "even more declarative" problem description.
 - [HOL Light] (https://www.cl.cam.ac.uk/~jrh13/hol-light/) (BSD-2, [OCaml](https://github.com/jrh13/hol-light)): Interactive Theorem Proving in higher-order logic (Cambridge Univ., AWS)
 - [HOL-omega](http://trustworthytools.com/id17.html)
 - [Coq](http://coq.inria.fr/) (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
+    - [HoTT library](https://github.com/HoTT/HoTT) (BSD-2, Coq): A formalization of homotopy type theory in the Coq proof assistant
+    - [UniMath](https://github.com/UniMath/UniMath) (FOSS, Coq): A library that aims to formalize a substantial body of mathematics using the univalent point of view.
 - [PVS](http://pvs.csl.sri.com/), its [github](https://github.com/samowre/PVS.git) (GPL-3, Common LISP/C/Emacs LISP/etc): Specification language & TP, based Church's type theory extended with dependent types (SRI)
     * [NASA PVS Library](https://github.com/nasa/pvslib) (Various, Python/Lisp): Collection of formal PVS developments ([NASA Langley](https://shemesh.larc.nasa.gov/fm/))
 	* [Invariant-Checker](http://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](http://www-verimag.imag.fr/~graf/))
 - [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](http://leodemoura.github.io/))
+    - [Spectral](https://github.com/cmu-phil/Spectral) (Apache-2.0, Lean): Formalization of the Serre spectral sequence in Lean 2.
 - [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs [OPAM](http://opam.ocaml.org/packages/zenon/zenon.0.7.1/) (INRIA)
 	* [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
 	* [Zenon modulo](https://www.rocq.inria.fr/deducteam/ZenonModulo/index.html) (BSD-3, OCaml): extension to deduction modulo (INRIA)
@@ -628,7 +632,8 @@ In some sense the latter is from an "even more declarative" problem description.
 - [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
 - [ALF](http://www.cse.chalmers.se/research/group/logic/alf/guide.html) (Univ. Goterborg/Chalmers)
 - [Alfa](http://www.cse.chalmers.se/~hallgren/Alfa/): successor of ALF
-- [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php)
+- [Agda](http://wiki.portal.chalmers.se/agda/pmwiki.php) (MIT and BSD-2, [Haskell](https://github.com/agda/agda/)): An interactive system for writing and checking proofs, based on intuitionistic type theory. A dependently typed functional programming language.
+    - [HoTT-Agda](https://github.com/HoTT/HoTT-Agda) (MIT, Agda): A library of homotopy type theory and univalent foundations
 - [Cedille](https://cedille.github.io/) (MIT, Agda/Haskell):
     interactive theorem-prover and dependently typed programming language,
     based on extrinsic (aka Curry-style) type theory
@@ -680,6 +685,10 @@ In some sense the latter is from an "even more declarative" problem description.
 - [Nitpick](http://www.cs.cmu.edu/afs/cs.cmu.edu/project/nitpick/www/home.html) (?): Checker for Z specifications (CMU)
 - [Globular](http://globular.science) (WTFPL, [JavaScript](https://github.com/jamievicary/globular)): An online proof assistant for hiher-dimensional rewriting
 - [homotopy.io](https://homotopy.io) (CC BY-NC 3.0, [JavaScript](https://github.com/homotopy-io/homotopy-webclient)): A proof assistant for n-categories
+- [Andromeda](http://www.andromeda-prover.org/) (BSD-2, [OCaml](https://github.com/Andromedans/andromeda)): A proof assistant for general type theories, LCF-style, with statically typed meta-language Andromeda ML
+- [Alg](https://github.com/andrejbauer/alg) (BSD-2, OCaml): A program that generates all finite models of a first-order theory. It is optimized for equational theories.
+- [RZ](https://github.com/andrejbauer/rz) (MIT, OCaml): A tool for automatic generation of specifications based on realizability theory
+
 
 ## Theorem provers for modal logics
 
