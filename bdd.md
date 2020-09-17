@@ -30,10 +30,9 @@
 # Python
 - [dd](https://github.com/johnyf/dd) (BSD-3, Python):
 	- BDD and MDD pure Python implementation
-	- Cython interface to CUDD in `dd.cudd`
-    - Cython interface to Sylvan in `dd.sylvan`
-	- Cython interface to BuDDy in `dd.buddy`
-- [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python): BDD implementation without a manager
+	- Cython interface to BDDs and ZDDs of CUDD in `dd.cudd`
+    - Cython interface to BDDs of Sylvan in `dd.sylvan`
+	- Cython interface to BDDs of BuDDy in `dd.buddy`
 - [PyCUDD](http://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
     * [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
     * [PyCUDD packaging](https://github.com/aur-archive/pycudd)
