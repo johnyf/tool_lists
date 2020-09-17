@@ -42,6 +42,7 @@
 - [mccarthy-to-bryant](https://github.com/darius/mccarthy-to-bryant) (GPL-3, Python) (mainly educational)
 - [PBDD](https://github.com/tyler-utah/PBDD) (BSD, Python) (mainly educational)
 - [robdd](https://github.com/ericvoid/robdd) (?, Python)
+- [`py-ydd`](https://github.com/kyouko-taiga/py-ydd) (Apache-2, Python/C++): YDDs (Yet another Decision Diagram), a data structure that allows to efficiently store extremely large families of sets, and perform various operations on them quiete efficiently.
 
 # Ruby
 - [CUDD-rb](https://github.com/blambeau/cudd-rb) (MIT, Ruby): bindings to CUDD
@@ -85,6 +86,7 @@
 - [BuDDy](https://sourceforge.net/projects/buddy/) (Public domain): (UMichigan)
     - [fork](https://github.com/utwente-fmt/buddy) UTwente
     - [fork](https://github.com/jjgreen/rebuddy): re-entrant version
+    - [`libbdd-dev`](https://packages.debian.org/jessie/libbdd-dev): Debian Linux package
     - Python:
 	    - `dd.buddy`
     - ML:
