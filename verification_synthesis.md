@@ -516,10 +516,10 @@ In some sense the latter is from an "even more declarative" problem description.
     * [FoReVer](https://es-static.fbk.eu/projects/forever/index.php?n=Main.Links)
 
 ### Hardware
-- [Yosys] (https://github.com/cliffordwolf/yosys) (ISC, C++): a framework for RTL synthesis tools
-- [Clash] (http://www.clash-lang.org/) (?, Haskell) generates VHDL from Haskell
-- [Lava] (https://hackage.haskell.org/package/kansas-lava) (?, Haskell): generates circuits from FSMs, behavioural specs (VHDL, Verilog) + verif via NuSMV
-- [Chisel] (https://github.com/ucb-bar/chisel/) (?, Scala): supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages; Chisel can generate a high-speed C++-based cycle-accurate software simulator, or low-level Verilog designed to pass on to standard ASIC or FPGA tools for synthesis and place and route
+- [Yosys](https://github.com/cliffordwolf/yosys) (ISC, C++): a framework for RTL synthesis tools
+- [Clash](http://www.clash-lang.org/) (?, Haskell) generates VHDL from Haskell
+- [Lava](https://hackage.haskell.org/package/kansas-lava) (?, Haskell): generates circuits from FSMs, behavioural specs (VHDL, Verilog) + verif via NuSMV
+- [Chisel](https://github.com/ucb-bar/chisel/) (?, Scala): supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages; Chisel can generate a high-speed C++-based cycle-accurate software simulator, or low-level Verilog designed to pass on to standard ASIC or FPGA tools for synthesis and place and route
 
 ### Other
 - [Times](http://www.timestool.com/) (?): Tool for Modeling & Implementation of Embedded Systems (GUI editor, simulator, verifier for schedulability analysis) (Uppsala Univ.)
