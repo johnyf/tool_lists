@@ -240,3 +240,4 @@
 
 # Abbreviations
 - BDD = Binary Decision Diagrams
+- ZDD = Zero-suppressed BDD
