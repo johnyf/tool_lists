@@ -78,8 +78,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 ## Closed Systems (Everything controlled)
 
 ### Enumerative
-- [SPIN](http://spinroot.com/spin/whatispin.html) (FUSC, C): LTL model checking for closed systems in Promela ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
-	* [modex](http://spinroot.com/modex/) (FUSC, C): C -> Promela: model extractor ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
+- [SPIN](http://spinroot.com/spin/whatispin.html) (BSD-3, [C](https://github.com/nimble-code/Spin)): LTL model checking for closed systems in Promela ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
+	* [modex](http://spinroot.com/modex/) (FUSC, [C](https://github.com/nimble-code/Modex)): C -> Promela: model extractor ([JPL/Caltech](http://lars-lab.jpl.nasa.gov/), Bell Labs)
 	* [spinja](http://code.google.com/p/spinja/) (Apache, Java): Promela model checker (Univ. Twente, TNO)
 	* [HSF-SPIN](http://www.albertolluch.com/research/tools): SPIN directed model checking extension (IMT Lucca)
 	* [Promela Vim Syntax](https://github.com/vim-scripts/promela.vim) (?, VimL): highlighting plugin
