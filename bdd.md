@@ -5,6 +5,7 @@
 - [Python](#python)
 - [Ruby](#ruby)
 - [LISP](#lisp)
+- [CWEB](#cweb)
 - [C](#c)
 - [C#](#c)
 - [Clojure](#clojure)
@@ -43,6 +44,7 @@
 - [PBDD](https://github.com/tyler-utah/PBDD) (BSD, Python) (mainly educational)
 - [robdd](https://github.com/ericvoid/robdd) (?, Python)
 - [`py-ydd`](https://github.com/kyouko-taiga/py-ydd) (Apache-2, Python/C++): YDDs (Yet another Decision Diagram), a data structure that allows to efficiently store extremely large families of sets, and perform various operations on them quiete efficiently.
+- [Graphillion](https://github.com/takemaru/graphillion) (MIT, Python/C++): Graphset operations library using TdZDD
 
 # Ruby
 - [CUDD-rb](https://github.com/blambeau/cudd-rb) (MIT, Ruby): bindings to CUDD
@@ -50,16 +52,24 @@
 
 # LISP
 - [CL-CUDD](https://github.com/Neronus/CL-CUDD) (Lisp, BSD): bindings to CUDD
+- [`trivialib.bdd`](https://github.com/guicho271828/trivialib.bdd) (Common Lisp, LLGPL): Functional implementation of BDDs and ZDDs (Univ. of Tokyo)
 - [clj-bdd](https://github.com/dcreager/clj-bdd) (EPL, Clojure)
 - [`bdd`](https://github.com/rhinocratic/bdd) (EPL, Clojure)
 
+# CWEB
+- [`bdd14.w`](http://www-cs-faculty.stanford.edu/~uno/programs/bdd14.w): Bare-bones BDD package by Donald Knuth
+- [`bdd15.w`](http://www-cs-faculty.stanford.edu/~uno/programs/bdd15.w): Bare-bones ZDD package by Donald Knuth
+
 # C
 - [CUDD](http://vlsi.colorado.edu/~fabio/CUDD/) (BSD): (Colorado U)
+    - [EXTRA](https://people.eecs.berkeley.edu/~alanmi/research/extra/) [v2.0](https://people.eecs.berkeley.edu/~alanmi/research/extra/extra20a.tar.gz), [v1.3](https://people.eecs.berkeley.edu/~alanmi/research/extra/extra13.tar.gz)(?, C): extends the functionality of CUDD, contains additional {A,B,Z}DD operators and routines, most of the code is meant to enhance the manipulation of ZDDs (UC Berkeley)
     - [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
+    - [CUDDaux](http://pop-art.inrialpes.fr/people/bjeannet/mlxxxidl-forge/cuddaux/index.html) (LGPL-2.1, [C](https://github.com/thizanne/mlcuddidl/blob/master/cuddaux.h)): library that implements additional ADD functions for CUDD ([INRIA](http://pop-art.inrialpes.fr/~bjeannet/))
     - [cnf2obdd](http://www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (same as MiniSAT)
 	- [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
     - [Chain-CUDD](https://github.com/rebryant/Chain-CUDD) (BSD-3, C): Extension of CUDD to support BDD with chain nodes
     - [Cloud-BDD](https://github.com/rebryant/Cloud-BDD) (?, C): Distributed implementation of BDD package, using CUDD
+    - [SimpleCUDD](https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS1652866&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&lang=en_US) (Artistic License 2.0, C): A simplified fast interface for the use of CUDD for Binary Decision Diagrams
     - Python:
         - `dd.cudd`
         - PyCUDD
@@ -132,6 +142,8 @@
 - [BDDC](http://www-verimag.imag.fr/~raymond/tools/bddc/manual/index.html): BDD-based logical calculator
 - [EHV](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/ehv.html): Eindhoven BDD package
 - [`libvata/src/mtbdd`](https://github.com/ondrik/libvata/tree/master/src/mtbdd) (C++, GPL-3)
+- [zddfun](https://github.com/blynn/zddfun) (?, C): Logic puzzle solvers using ZDDs, inspired by TAOCP 4.1
+- [ZDD](https://github.com/tanakalab/ZDD) (?, C++): Multi-terminal ZDDs
 
 # C# #
 - [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C#): interface to CUDD
@@ -157,6 +169,7 @@
 - [SableJBDD](http://www.sable.mcgill.ca/~fqian/SableJBDD/) (LGPL): (McGill Univ.)
 - [Jedd](http://www.sable.mcgill.ca/jedd/) (Java, LGLPL-2): Java Extension for Decision Diagrams based on the polyglot framework, supports as backends: CUDD, BuDDy, SableJBDD, JavaBDD
 - [zdd_java](https://github.com/higotakayuki/zdd_java): educational ZDD implementation
+- [HumbleBDD](https://github.com/powerofpi/HumbleBDD) (MIT, Java): BDDs, ZDD
 
 # Javascript
 - [binary decision diagram](https://github.com/pubkey/binary-decision-diagram) (Apache-2, JavaScript): A library to create, minimize and optimize binary decision diagrams
@@ -164,6 +177,7 @@
 
 # Julia
 - [BinaryDecisionDiagrams](https://github.com/albertocasagrande/BinaryDecisionDiagrams) (MIT, Julia)
+- [`ZDDs.jl`](https://github.com/ngr-t/ZDDs.jl) (MIT, Julia)
 
 # ML
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
@@ -190,6 +204,7 @@
 - [`robdd`](https://github.com/slava-sh/robdd) (BSD-3, Haskell)
 - [`bdd`](https://github.com/hguenther/bdd) (BSD-3, Haskell)
 - [`robdd`](https://github.com/johnpmayer/robdd) (?, Haskell)
+- [ZDD](https://github.com/mg50/ZDD) (MIT, Haskell)
 
 # Isabelle/HOL
 - [`bdd`](https://github.com/jcaesar/bdd) (BSD, Isabelle/HOL/Haskell): verified and executable implementation of ROBDDs in Isabelle/HOL, [archived proofs](https://www.isa-afp.org/entries/ROBDD.shtml) ([TUM](http://liftm.de/))
