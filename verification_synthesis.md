@@ -469,6 +469,7 @@ In some sense the latter is from an "even more declarative" problem description.
 - [AbsSynthe](https://github.com/gaperez64/AbsSynthe) (GPL-3, C/Python): controller synthesis from succinct safety specs
 - [demiurge](https://www.iaik.tugraz.at/content/research/opensource/demiurge/) (GLGPL3, C++): SAT based controller synthesizer from SYNTCOMP specs (TU Graz)
 - [SafetySynth](https://www.react.uni-saarland.de/tools/safetysynth/) (Swift): symbolic BDD-based safety game solver for SYNTCOMP (Saarland Univ.)
+- [Reglisse](https://github.com/romainbrenguier/Reglisse) (GPL-2, OCaml): Generate hardware description from safety conditions given by regular languages
 
 #### Parity Game solvers
 - [PGSolver](http://www2.tcs.ifi.lmu.de/pgsolver/) (OCaml): tools for generating, manipulating and solving parity games (Univ. Muchich, Univ. Kassel)
@@ -523,6 +524,7 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Yggdrasil](http://www.quasimodo.aau.dk/tools.html) (?, ?): UML (subset) -> Uppaal, intended for test generation (Aalborg Univ.)
 	* [METAMOC](http://metamoc.dk/) (GPL-3, Python): WCET Analysis of ARM Processors using Real-Time model-checking (Aalborg Univ.)
 	* [SARTS](http://www.sarts.dk/old.php) (?, Java): Model Based Schedulability Analysis of Real-Time Systems, SCJ2, UPPAAL (Aalborg Univ.)
+    * [`udbml`](https://github.com/osankur/udbml) (AGPL-3, C++/OCaml): OCaml wrapper for the [Uppaal DBM library](http://people.cs.aau.dk/~adavid/UDBM/) of efficient data structures to represent clock constraints in timed automata
 - [OPAAL](https://launchpad.net/opaal) (GPL-3, Python): distributed/parallel (discrete time) model checker for networks of timed automata  using MPI
 - [ECDAR](http://people.cs.aau.dk/~adavid/ecdar/) (FUSC): timed interface theory (Aalborg, INRIA, ITU)
 - [PyECDAR](https://project.inria.fr/pyecdar/) (GPL-2, Python): solve timed games based on timed automata models (ITU)
@@ -627,6 +629,7 @@ In some sense the latter is from an "even more declarative" problem description.
 	* [Super Zenon](http://cedric.cnam.fr/~delahaye/super-zenon/) (?, ?): extension using superdeduction (CEDRIC/CNAM, Siemens IC-MOL)
 - [Nunchaku](https://github.com/nunchaku-inria/nunchaku) (BSD-2, OCaml): A counter-example finder for higher-order logic, designed to be used from various proof assistants (INRIA)
 - [Nitpick](https://github.com/seL4/isabelle/blob/e3f58c3db416e00ee7e4280c8c50522b222d7c5e/src/HOL/Nitpick.thy) (BSD-3, Isabelle): Counterexample generator for Isabelle/HOL
+- [Walnut](https://github.com/hamoonmousavi/Walnut) (GPLv3, Java): Automated Theorem Prover for Automatic Words
 - [Automath](https://en.wikipedia.org/wiki/Automath) (?, ?): One of the first formal proof languages and proof checker ([Eindhoven Univ.](https://en.wikipedia.org/wiki/Nicolaas_Govert_de_Bruijn))
 	* [Modern Automath implementation](http://www.cs.ru.nl/~freek/aut/) (?, C): Languages AUT-68, AUT-QE ([Radboud Univ. Nijmegen](http://www.cs.ru.nl/~freek/index.html))
 - [TPS](http://gtps.math.cmu.edu/tps.html): (CMU)
