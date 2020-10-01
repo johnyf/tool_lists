@@ -9,3 +9,6 @@
 - [SOOT](http://sable.github.io/soot/) (LGPLv2.1, Java): a framework for analyzing and transforming Java and Android applications
 - [Frama-C](http://frama-c.com/) (LGPLv2, C): an extensible and collaborative platform dedicated to source-code analysis of C software
 - [infer](https://github.com/facebook/infer) (BSD-3, OCaml): Infer is a static analysis tool for Java, Objective-C and C. The documentation is at http://fbinfer.com/. (Facebook)
+- [Gravy](https://github.com/martinschaef/gravy) ([LGPL](https://code.google.com/p/jimple2boogie/), Java): static checker for Boogie programs. Similar to a deductive verifier, such as Boogie, it checks a boogie program one procedure at a time. Integrated in Bixie
+- [Bixie](http://sri-csl.github.io/bixie/) (MIT, [Java](https://github.com/SRI-CSL/bixie)): inconsistent code detection for Java, integrates Gravy (SRI CSL)
+- [Calysto](https://www.domagoj-babic.com/index.php/ResearchProjects/Calysto) (?, ?): static checker for general purpose code, does not require users to write interface specifications and pre/post-conditions. Calysto checks pointer properties and user provided assertions. (Google)
