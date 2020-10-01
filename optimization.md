@@ -43,6 +43,10 @@
 - [`transforms3d`](https://github.com/matthew-brett/transforms3d) (BSD-2, Python): 3 dimensional spatial transformations
 - [PyPolyhedron](https://anaconda.org/pierre-haessig/pypolyhedron) (LGPL, Python, C): Python interface to the C-library `cddlib`
 - [`geode`](https://github.com/otherlab/geode) (BSD-3, C++/Python): A computational geometry library for C++ and Python ([Otherlab](https://otherlab.com/))
+- [MinkSum](https://sites.google.com/site/christopheweibel/research/minksum) (GPLv2, C++): takes as input the vertices of a set of polytopes and outputs the vertices of their Minkowski sum (Google)
+
+## Zonotopes
+- [`libzonotope`](https://github.com/vindvaki/libzonotope) (MIT, C++/Python): a collection of scripts and algorithms for zonotope manipulations
 
 ## abbreviations
 - MIP: Mixed Integer Programming
