@@ -146,7 +146,7 @@
 - [ZDD](https://github.com/tanakalab/ZDD) (?, C++): Multi-terminal ZDDs
 
 # C# #
-- [PAT.BDD](http://www.comp.nus.edu.sg/~pat/bddlib/) (?, C#): interface to CUDD
+- [PAT BDD library](https://www.comp.nus.edu.sg/~pat/bddlib/) (?, C\#): BDD library for symbolic model checking of hierarchical systems, with a C\# interface to CUDD version 2.4.2
 - [SylvanSharp](https://github.com/thisiscam/SylvanSharp) (?, C#): bindings to Sylvan
 - [BuDDySharp](https://github.com/thisiscam/BuDDySharp) (?, C#): bindings to BuDDy
 
@@ -184,6 +184,7 @@
 
 # OCaml
 - [MLCuddIDL](http://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL-2.1, C/OCaml): bindings to CUDD ([mirror](https://github.com/thizanne/mlcuddidl)) ([INRIA](http://pop-art.inrialpes.fr/~bjeannet/))
+- [`ocaml-cudd`](https://github.com/romainbrenguier/ocaml-cudd) (GPLv2, OCaml/C): bindings to CUDD
 - [`ocaml-buddy`](https://github.com/abate/ocaml-buddy) (LGPL, OCaml): bindings to Buddy ([Paris 7](http://mancoosi.org/~abate/about-me))
 - [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml)
 - [`Symbolickat.bdd`](http://perso.ens-lyon.fr/damien.pous/symbolickat/safa.docdir/Bdd.html) (?, OCaml): pure-OCaml library ([ENS de Lyon](http://perso.ens-lyon.fr/damien.pous/))
