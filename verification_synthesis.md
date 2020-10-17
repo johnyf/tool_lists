@@ -220,7 +220,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
     * [ConCREST](http://forsyte.at/software/concrest/) (?): Concolic testing tool for multi-threaded C programs (Univ. Toronto, TU Wien)
 - [ByMC](http://forsyte.at/software/bymc/) (?, OCaml): Byzantine MC for parameterized model checking of (threshold-guarded) fault-tolerant distributed algorithms in Promela extension using SPIN, Yices (TU Wien)
 - [iLTL](http://osl.cs.illinois.edu/software/iltl/index.html) (BSD): MC for iLTL, which specifies temporal changes of expected rewards of a Markov process ([UIUC](https://sites.google.com/site/youngminkwon/))
-- [Copilot](http://leepike.github.io/Copilot/) (BSD-3, Haskell): A (Haskell DSL) stream language for generating hard real-time C code (NASA, galois Inc., National Inst. Aerospace, Ecole Normale Superieure, TU Ilmenau, Univ. Copenhagen)
+- [Copilot](http://leepike.github.io/Copilot/) (BSD-3, Haskell): A (Haskell DSL) stream language for generating hard real-time C code (NASA, Galois Inc., National Inst. Aerospace, Ecole Normale Superieure, TU Ilmenau, Univ. Copenhagen)
 - [mCRL2](http://www.mcrl2.org/release/user_manual/index.html) (Boost Software License, C++): Formal specification language with an associated toolset for modelling, validation and verification of concurrent systems and protocols: linearisation, simulation, state-space exploration, visualization and tools to optimise and analyse specifications, μ-calculus (TU Eindhoven, LaQuSo, CWI, Univ. Twente)
 - [Mobility Workbench](http://www.it.uu.se/research/group/mobility/mwb) (?, SML): π-calculus MC for mobile concurrent systems (Uppsala Univ.)
 - [MMC](http://www.cs.sunysb.edu/~lmc/mmc/) (?, ?): π-calculus and alternation-free μ-calculus Local MC, implemented using the XSB tabled logic programming system (Stony Brook Univ.)
@@ -353,6 +353,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [sally](http://sri-csl.github.io/sally/) (GPLv2, [C++](https://github.com/SRI-CSL/sally)): Model checker for infinite-state systems described as transition systems, includes BMC, k-induction, IC3 (SRI/CSL)
 - [Sviss](http://www.cs.ox.ac.uk/people/thomas.wahl/Sviss/) (?, C++): Symbolic CTL model checker with symmetry reduction, using CUDD 2.4.1 (ETHZ, UT Austin, Univ. of Oxford)
 - [Symbolic Java Pathfinder](https://github.com/SymbolicPathFinder/jpf-symbc) (Apache-2.0, Java): symbolic execution for Java bytecode (NASA, Univ. of Nebraska)
+- [OpenJML](http://www.openjml.org) (GPLv2, [Java](https://github.com/OpenJML/OpenJML)): program verification tool for Java programs that allows checking specifications of programs annotated in the [Java Modeling Language](http://www.jmlspecs.org), using SMT solvers including Z3, CVC4, and Yices. Includes both static checking and runtime assertion checking facilities. (Univ. of Central Florida)
 - [ProVerif](https://en.wikipedia.org/wiki/ProVerif) (GPLv2, [OCaml](https://prosecco.gforge.inria.fr/personal/bblanche/proverif/)): automatic cryptographic protocol verifier, in the Dolev-Yao model. Based on a representation of the protocol by Horn clauses. It can handle many different cryptographic primitives, including shared- and public-key cryptography (encryption and signatures), hash functions, and Diffie-Hellman key agreements, specified both as rewrite rules or as equations. Can prove secrecy, authentication, strong secrecy, equivalences between processes that differ only by terms (Inria, École Polytechnique)
     * [StateVerif](https://markryan.eu/research/statverif/) (GPLv2, OCaml): extends the ProVerif process calculus with constructs for explicit state, in order to be able to reason about protocols that manipulate global state
     * [ProVerif-ATP](https://github.com/darrenldl/ProVerif-ATP) (MIT and GPLv2, OCaml): Combining ProVerif and Automated Theorem Provers for Security Protocol Verification
@@ -715,11 +716,12 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     - [`pf2html`](https://sourceforge.net/projects/pf2html/) [home](http://www.dbai.tuwien.ac.at/proj/pf2html/index.html) (GPL-2, Perl): adds functionality to LATEX2HTML such that LATEX documents written with pf.sty can be viewed in a web browser up to the desired level of detail for each branch of a structured proof (TU Wien)
     - [`hyperpf`](https://research.microsoft.com/en-us/um/people/lamport/proofs/hyperpf.html) (C): HyperTeXt structured proof reader
     - [Verifying TLA+ invariants using ACL2](http://people.csail.mit.edu/cpacheco/publications/verifying-tla-abstract.html) (UT Austin)
-- [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) [github](https://github.com/seL4/isabelle) (BSD-3, ML): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
+- [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD-3, [ML](https://github.com/seL4/isabelle)): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
     * [Isabelle/TLA](http://homepages.loria.fr/SMerz/projects/isabelle-tla/) [github](https://github.com/seL4/isabelle/tree/master/src/HOL/TLA): encoding of Lamport's TLA in Isabelle, ships with Isabelle's standard distribution ([INRIA](https://members.loria.fr/SMerz/index.html))
     * [APL](https://www.isa-afp.org/): Archive of Formal Proofs
     * [VHDL semantics](https://github.com/rizaldialbert/vhdl-semantics) (BSD-2, Isabelle): formalization of the language VHDL in the Isabelle theorem prover (Nanyang Technological Univ.)
     * [PSL](https://github.com/data61/PSL) (CSIRO, Isabelle/ML): implementation of proof strategy language (PSL) and its default strategy, for Isabelle (CSIRO)
+    * [`ismt`](http://www.galois.com/files/open_source/ismt/) (BSD-3, Isabelle/ML): integration of Yices SMT solver in Isabelle/HOL (Galois Inc.)
 - [HOL](https://hol-theorem-prover.org) (BSD-3, ML): Interative Theorem proving in higher-order logic ([Univ. Cambridge](http://www.cl.cam.ac.uk/research/hvg/HOL/))
     * [Holfoot](http://holfoot.heap-of-problems.org/) (BSD, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/separationLogic/src)): Implementation of Smallfoot inside of HOL 4
     * [HOLBDDlib](http://www.cl.cam.ac.uk/~mjcg/HolBddLib/) (BSD-3, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/HolBdd)): kernel of representation judgement rules as infrastructure for building fully-expansive combinations of HOL theorem proving and BDD-based symbolic calculation algorithms, uses the BuDDy BDD package
@@ -739,7 +741,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
         - [HoTT library](https://github.com/HoTT/HoTT) (BSD-2, Coq): a formalization of homotopy type theory in the Coq proof assistant
         - [UniMath](https://github.com/UniMath/UniMath) (FOSS, Coq): a library that aims to formalize a substantial body of mathematics using the univalent point of view.
         - [Coq-Polyhedra](https://github.com/nhojem/Coq-Polyhedra) (CeCILL-B, Coq): Formalizing convex polyhedra in Coq ([INRIA/École Polytechnique](http://www.cmap.polytechnique.fr/~allamigeon/))
-        - [ControlHTT](https://github.com/jpaykin/ControlHTT) (?, Coq): an adaptation of Hoare Type Theory for control software (Galois)
+        - [ControlHTT](https://github.com/jpaykin/ControlHTT) (?, Coq): an adaptation of Hoare Type Theory for control software (Galois Inc.)
         - [Categories](https://github.com/amintimany/Categories) (?, Coq): a formalization of category theory in the Coq proof assistant (Aarhus Univ.)
         - [proofs](https://github.com/stepchowfun/proofs) (MIT, Coq): a selection of formal proofs in Coq (Google)
     - Embeddings:
@@ -870,7 +872,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [MleanTAP](http://www.leancop.de/mleantap/) (?, Prolog): Sound and complete theorem prover based on free-variable semantic tableaux extended by an additional prefix unification (logics: D, T, S4, S5) (TU Darmstadt)
 - [List of tools for modal logics](http://www.cs.man.ac.uk/~schmidt/tools/) (Univ. Manchester)
 - [Schuppan-Darmawan](http://www.schuppan.de/viktor/atva11/) benchmark results of LTL satisfiability solvers
-- [TPTP](http://www.cs.miami.edu/~tptp/): Problem library for automated theorem proving (Univ. Miami)
+- [TPTP](http://www.tptp.org): Problem library for automated theorem proving (Univ. Miami)
 - [QMLTP](http://www.iltp.de/qmltp/systems.html): Benchmarking results for theorem provers for first-order modal logics
 - [Modal Logic Playground](http://rkirsling.github.io/modallogic/) (MIT, [JavaScript, HTML](https://github.com/rkirsling/modallogic)): a graphical semantic calculator for modal propositional logic
 
@@ -903,6 +905,8 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 
 ### Stochastic local search
 - [UBCSAT](http://www.satlib.org/ubcsat/): (Univ. British Columbia)
+- [`clsat`](https://github.com/vegard/clsat) (GPLv2, C++): small, incomplete, stochastic local search, OpenCL-based SAT
+solver
 
 ### Parallel
 - [PeneLoPe](http://www.cril.univ-artois.fr//~hoessen/penelope.html) (BSD-like C++) (CRIL)
