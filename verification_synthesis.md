@@ -18,7 +18,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Verification with Model Checking](#verification-with-model-checking)
+- [Verification](#verification-with-model-checking)
     - [Closed Systems (Everything controlled)](#closed-systems-everything-controlled)
         - [Enumerative](#enumerative)
         - [Symbolic](#symbolic)
@@ -73,7 +73,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
 
 
-# Verification with Model Checking
+# Verification
 
 ## Closed Systems (Everything controlled)
 
