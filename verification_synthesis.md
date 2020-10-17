@@ -1042,7 +1042,8 @@ solver
 - [VeriSoft](http://cm.bell-labs.com/who/god/verisoft/): systematic software testing (Bell Labs)
 - [FTS](https://projects.info.unamur.be/fts/): featured transition systems
 - [PdTrav](http://fmgroup.polito.it/index.php/download/viewcategory/3-pdtrav-package)
-- [seL4](https://github.com/seL4/seL4): A microkernel formally proved correct
+- [seL4](https://sel4.systems) ([GPLv2, BSD-2](https://github.com/seL4/seL4/blob/master/LICENSE.md), [C](https://github.com/seL4/seL4)): A microkernel formally proved correct, with [proofs in Isabelle/HOL](https://github.com/seL4/l4v)
+- [Cogent](https://ts.data61.csiro.au/projects/TS/cogent.pml) (BSD-2, Isabelle/Haskell/C): code and proof co-generation from a purely functional language, on top the seL4 microkernel (CSIRO)
 - [Theory of X-Machines](http://x-machines.net): X-machines were introduced in 1974 by [Samuel Eilenberg](https://en.wikipedia.org/wiki/Samuel_Eilenberg)
 
 # TypeSetting
