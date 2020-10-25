@@ -759,7 +759,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     - [Spectral](https://github.com/cmu-phil/Spectral) (Apache-2.0, Lean): Formalization of the Serre spectral sequence in Lean 2.
 - [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs [OPAM](http://opam.ocaml.org/packages/zenon/zenon.0.7.1/) (INRIA)
     * [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
-    * [Zenon modulo](https://www.rocq.inria.fr/deducteam/ZenonModulo/index.html) (BSD-3, OCaml): extension to deduction modulo (INRIA)
+    * [Zenon modulo](https://deducteam.gitlabpages.inria.fr/zenonmodulo/) (BSD-3, [OCaml](https://github.com/Deducteam/zenon_modulo): extension to deduction modulo (INRIA)
     * [Super Zenon](http://cedric.cnam.fr/~delahaye/super-zenon/) (?, ?): extension using superdeduction (CEDRIC/CNAM, Siemens IC-MOL)
 - [AIMA `logic.py`](https://github.com/aimacode/aima-python/blob/master/logic.py) (MIT, Python): Artificial Intelligence - A Modern Approach: Representations and Inference for Logic (UC Berkeley, Google)
 - [Nunchaku](https://github.com/nunchaku-inria/nunchaku) (BSD-2, OCaml): A counter-example finder for higher-order logic, designed to be used from various proof assistants (INRIA)
