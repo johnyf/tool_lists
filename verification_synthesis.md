@@ -824,7 +824,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [Community Z Tools](http://czt.sourceforge.net/) (GPL-2, Java): Tools for editing, typechecking and animating Z specifications and related notations, including Java framework for building formal methods tools (Univ. Oxford, contrib)
 - [ProofPower](http://www.lemma-one.com/ProofPower/index/) (GPL, ?): Tool suite supporting specification and proof in HOL and Z notation (Lemma 1 Ltd)
 - [ClawZ](http://www.lemma-one.com/clawz_docs/clawz_docs.html) (?, ?): Simulink -> Z notation (Lemma 1 Ltd)
-- [Waldmesiter](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
+- [Waldmeister](http://www.waldmeister.org/index.htm) (FUSC, ?): TP for unit equational logic (Max Planck Inst. Informatik)
 - [Spear](http://www.domagoj-babic.com/index.php/ResearchProjects/Spear) (?, ?): fast bit-vector arithmetic theorem prover (Google)
 - [Metamath](http://us.metamath.org): Tiny language based on ZFC, and also database of proved theorems
 - [Theorema](https://github.com/windsteiger/Theorema) (GPLv3, Mathematica): a system for automated reasoning (theorem proving) and automated theory exploration based on Mathematica ([JKU](http://www.risc.jku.at/research/theorema/software/))
@@ -852,6 +852,9 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [Scriptie](https://github.com/deosjr/Scriptie) (?, Python): theorem prover for Lambek-Grishin calculus
 - [set-theory-prover](https://github.com/timjb/set-theory-prover) (BSD-3, Haskell): simple LCF-style proof assistant for ZFC
 - [Jape](https://github.com/RBornat/jape) (GPLv2, OCaml/Java): a configurable proof editor, best at natural deduction and sequent calculus
+- [Geo](http://ii.uni.wroc.pl/~nivelle/software/geo/index.html) (GPLv3, C++): prover for full-first order logic, based on geometric resolution calculus (Univ. of Wrocław)
+- [UTP2](https://www.scss.tcd.ie/Andrew.Butterfield/Saoithin/) (GPLv2, Haskell): a theorem proving assistant for 2nd-order predicate calculus, designed to support foundational proof work in the Unifying Theories of Programming (UTP) framework
+- [UTP-Calculator](https://bitbucket.org/andrewbutterfield/utp-calculator/src/master/) (MIT, Haskell): a tool that supports rapid prototyping of new theories in the Unifying Theories of Programming paradigm, by supporting an easy way to very quickly perform test calculations
 
 ## Theorem provers for modal logics
 
@@ -1072,6 +1075,7 @@ solver
 - [SAT competition](http://www.satcompetition.org/)
 - [JKU tools](http://fmv.jku.at/software/index.html)
 - [Freek Wiedijk](http://www.cs.ru.nl/~freek/digimath/bycategory.html#tacticprover)
+  - [Formalizing 100 Theorems](http://www.cs.ru.nl/~freek/100/): which theorems have been formalized in which prover
 - [Proof Assistants, Wikipedia](https://en.wikipedia.org/wiki/Proof_assistant)
 - [Univ. Utah tools](http://www.cs.utah.edu/formal_verification/hevea-index.html#htoc2)
 - [SV-COMP 2014](http://sv-comp.sosy-lab.org/2014/participants.php): competition on software verification at TACAS 2014
