@@ -127,6 +127,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [TLA+](http://lamport.azurewebsites.net/tla/tla.html): The Temporal Logic of Actions for specifying systems ([Microsoft Research](http://lamport.org))
     * [The TLA+ Video Course](http://lamport.azurewebsites.net/video/videos.html): Lectures about writing specifications, by Leslie Lamport
     * [PlusCal](http://lamport.azurewebsites.net/tla/pluscal.html): An algorithm language with a translator to TLA+
+        - [Distributed PlusCal](https://github.com/hebaalkayed/DistributedPlusCal) (Java): extension of PlusCal with threads within processes and variables that represent communication channels
     * [TLA+ Tools](http://lamport.azurewebsites.net/tla/tools.html), (MIT, [Java](https://github.com/tlaplus/tlaplus)): Tools for working with TLA+ specifications:
         + [TLC](http://lamport.azurewebsites.net/tla/tlc.html) (MIT, Java): Model checker for TLA+ specifications
         + [SANY](http://lamport.azurewebsites.net/tla/sany.html) (MIT, Java): Parser and semantic analyzer for TLA+ ([ANTLR](http://www.antlr.org/)-based)
@@ -295,6 +296,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
     * [python-to-dafny-converter](https://github.com/eringrant/python-to-dafny-converter) (GPLv3, Python): translates Python code to Dafny (UC Berkeley)
     * [dafny-to-c](https://github.com/shawa/dafny-to-c) (?, Shell): basic sed-based translator from Dafny to C
     * [Dione](https://github.com/cyphyhouse/Dione) (NCSA, Python/Dafny): protocol verification system built with Dafny for Input/Output Automata (UIUC)
+- [CakeML](https://cakeml.org) (BSD-3, [ML](https://github.com/CakeML/cakeml)): a verified implementation of ML: functional programming language and an ecosystem of proofs and tools built around the language, including a proven-correct compiler that can bootstrap itself
+- [Idris](http://docs.idris-lang.org/en/latest/tutorial/theorems.html) (BSD-3, [Haskell/C](https://github.com/idris-lang/Idris-dev)): a dependently typed functional programming language that allows propositional equalities to be declared, so that theorems about programs can be stated and proved (Univ. of St Andrews)
 - [Spec\#](http://specsharp.codeplex.com/) ([FUSC](http://specsharp.codeplex.com/license), C#): Object-oriented .NET programming language with design-by-contract features for method pre-/postconditions & object invariants, non-null type system (Microsoft Research)
 - [Whiley](https://github.com/DavePearce/Whiley) (BSD-3, Java/C/): Object-oriented and functional programming language with static checking, including: divide-by-zero, array out-of-bounds and null dereference errors ([Victoria Univ. of Wellington](http://homepages.ecs.vuw.ac.nz/~djp/))
 - [Why3](http://why3.lri.fr/) (GPl-2, OCaml): platform for deductive program verification in WhyML, uses external theorem provers, extracts OCaml from WhyML ([INRIA, Univ. Paris Sud, CNRS, LRI](http://toccata.lri.fr/))
@@ -722,6 +725,9 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     * [VHDL semantics](https://github.com/rizaldialbert/vhdl-semantics) (BSD-2, Isabelle): formalization of the language VHDL in the Isabelle theorem prover (Nanyang Technological Univ.)
     * [PSL](https://github.com/data61/PSL) (CSIRO, Isabelle/ML): implementation of proof strategy language (PSL) and its default strategy, for Isabelle (CSIRO)
     * [`ismt`](http://www.galois.com/files/open_source/ismt/) (BSD-3, Isabelle/ML): integration of Yices SMT solver in Isabelle/HOL (Galois Inc.)
+    * [IsaFol](https://bitbucket.org/isafol/isafol/wiki/Home) (?, Isabelle): a repository of formalizations of logical calculi and related topics, such as DPLL, CDCL, and resolution
+    * [IsaFoR](http://cl-informatik.uibk.ac.at/software/ceta/) (LGPLv3, [Isabelle](http://cl2-informatik.uibk.ac.at/rewriting/mercurial.cgi/IsaFoR)): Isabelle/HOL formalization of rewriting for certified tool assertions
+    * [CeTA](http://cl-informatik.uibk.ac.at/software/ceta/) (LGPLv3, [Haskell](http://cl2-informatik.uibk.ac.at/rewriting/mercurial.cgi/IsaFoR): tool that certifies (non)termination or (non)confluence or completion or complexity proofs provided by some automated tool
 - [HOL](https://hol-theorem-prover.org) (BSD-3, ML): Interative Theorem proving in higher-order logic ([Univ. Cambridge](http://www.cl.cam.ac.uk/research/hvg/HOL/))
     * [Holfoot](http://holfoot.heap-of-problems.org/) (BSD, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/separationLogic/src)): Implementation of Smallfoot inside of HOL 4
     * [HOLBDDlib](http://www.cl.cam.ac.uk/~mjcg/HolBddLib/) (BSD-3, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/HolBdd)): kernel of representation judgement rules as infrastructure for building fully-expansive combinations of HOL theorem proving and BDD-based symbolic calculation algorithms, uses the BuDDy BDD package
@@ -751,6 +757,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
         - [verdi](https://github.com/uwplse/verdi) (BSD-2, Coq): framework for formally verifying distributed systems implementations in Coq
         - [`coq-lit`](https://github.com/wilcoxjay/coq-lit) (?, Python): script that processes special commands inside comments in Coq source files to produce Markdown and raw HTML that generates a blog post (Univ. of Washington)
         - [CompCert](http://compcert.inria.fr/) (FUSC, [Coq/OCaml](https://github.com/AbsInt/CompCert)): a formally-verified compiler for a large subset of the C programming language that generates code for the PowerPC, ARM, x86 and RISC-V processors, the compiler has been verified in Coq (Inria)
+        - [SMTCoq](https://github.com/smtcoq/smtcoq) (CeCILL-C, Coq/OCaml): a Coq plugin that checks proof witnesses coming from the external SAT and SMT solvers ZChaff, CVC4, veriT, and decision procedures that discharge Coq goals to these solvers
 - [PVS](http://pvs.csl.sri.com/) (GPL-3, [Common LISP/C/Emacs LISP/others](https://github.com/samowre/PVS)): Specification language and theorem prover, based Church's type theory extended with dependent types (SRI CSL)
     * [NASA PVS Library](https://github.com/nasa/pvslib) (Various, Python/Lisp): Collection of formal PVS developments ([NASA Langley](https://shemesh.larc.nasa.gov/fm/))
     * [Invariant-Checker](http://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](http://www-verimag.imag.fr/~graf/))
@@ -815,6 +822,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [SPASS](http://www.spass-prover.org/): First-Order Logic with Equality (Max Planck Inst. Inf.)
 - [Omega](https://github.com/theoremprover-museum/OMEGA) (?, Isabelle/Lisp): for higher-order logic based on proof planning
 - [Omega](https://code.google.com/p/omega/) (BSD-3): cross between a purely functional programming language and a theorem prover
+- [Zipperposition](https://sneeuwballen.github.io/zipperposition/) (BSD-2, [OCaml](https://github.com/sneeuwballen/zipperposition/)): automatic theorem prover for typed higher-order logic with equality, datatypes and arithmetic, based on superposition and rewriting
 - [wikipedia list](https://en.wikipedia.org/wiki/Automated_theorem_proving)
 - [this thread](http://cs.stackexchange.com/questions/868/types-of-automated-theorem-provers)
 - [jImp](http://symbolaris.com/logic/jImp.html) (binary, Java): based on set of support and ordered resolution for first-order logic, supports: clause indexing techniques, subsumption, and tautology elimination, Davis-Putnam-Loveland-Logemann (DPLL) inference procedure (CMU)
@@ -855,6 +863,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [Geo](http://ii.uni.wroc.pl/~nivelle/software/geo/index.html) (GPLv3, C++): prover for full-first order logic, based on geometric resolution calculus (Univ. of Wrocław)
 - [UTP2](https://www.scss.tcd.ie/Andrew.Butterfield/Saoithin/) (GPLv2, Haskell): a theorem proving assistant for 2nd-order predicate calculus, designed to support foundational proof work in the Unifying Theories of Programming (UTP) framework
 - [UTP-Calculator](https://bitbucket.org/andrewbutterfield/utp-calculator/src/master/) (MIT, Haskell): a tool that supports rapid prototyping of new theories in the Unifying Theories of Programming paradigm, by supporting an easy way to very quickly perform test calculations
+- [holpy](https://gitee.com/bhzhan/holpy) (BSD-3, Python): implementation of higher-order logic in Python (Institute of Software, Chinese Academy of Sciences)
 
 ## Theorem provers for modal logics
 
@@ -961,6 +970,8 @@ solver
 
 ## SMT
 - [CVC4](http://cvc4.cs.nyu.edu/web/) (BSD-3, [C++](https://github.com/CVC4/CVC4)): built-in base theories, quantifiers, interactive text-based interface, interfaces to: C/C++, Python, Java, OCaml, PHP, Perl, Ruby, Tcl, model generation, (NYU, Univ. Iowa)
+  - [LFSC](https://github.com/CVC4/LFSC) (BSD-style, C++): proof checker for LFSC proofs generated by CVC4 (Univ. of Iowa)
+  - [rlfsc](https://lib.rs/crates/rlfsc) (MIT/Apache and LGPLv3, Rust): a checker for the LFSC proof language
 - [CV3](http://www.cs.nyu.edu/acsys/cvc3/) (BSD-3, [C++](https://github.com/msakai/cvc3)): predecessor of CVC4 (Stanford, NYU, Univ. Iowa)
 - [Z3](https://github.com/Z3Prover/z3) (MIT, C++/Python): `.smt2`, `.dimacs`, `.cnf`, `.dl`, `.smt` (Microsoft Research)
     * [Z3_Haskell](https://github.com/kayceesrk/Z3_Haskell) (BSD, Haskell): bindings for Z3 (Cambridge Univ.)
@@ -979,8 +990,11 @@ solver
 - [SMT-LIB](http://www.cprover.org/SMT-LIB-LSM/) (?, C++): format for Finite lists, sets, maps (Oxford Univ.)
 - [Alt-ERGO](http://alt-ergo.lri.fr) (FUSC, [OCaml](https://github.com/OCamlPro/alt-ergo)): built upon CC(X) algorithm (INRIA, Univ. Paris Sud, CNRS, LRI)
 - [mSAT](https://gbury.github.io/mSAT/) (Apache-2.0, [OCaml](https://github.com/Gbury/mSAT)): Modular SAT/SMT solver with proof output, derives from ERGO (INRIA)
-- [veriT](http://www.verit-solver.org/) (BSD-2, C/C++): Complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers (INRIA, Nancy Univ., UFRN, CNPq, Loria)
+- [veriT](http://www.verit-solver.org/) (BSD-2, C/C++): proof-producing SMT solver, complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers ([2017 version](https://doi.org/10.5281/zenodo.582482)) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
     * [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
+- [archsat](https://github.com/Gbury/archsat) (MIT, OCaml): proof-producing SMT/McSAT solver, handling polymorphic first-order logic, using an SMT/McSat core extended using tableaux, superposition, and rewriting
+- [BEAGLE](https://bitbucket.org/peba123/beagle/src/master/) (BSD, Scala): theorem prover for first-order logic with equality over linear integer/rational/real arithmetic that takes input in SMT-LIB 2.0, FOF, TFF, TFF-INT formats (NICTA)
+- [Fx7](http://moskal.me/smt/en.html) (?, Nemerle): prover based on C\# port of MiniSAT
 - [Simplify](http://kindsoftware.com/products/opensource/Simplify/), its [github](https://github.com/kiniry/Simplify) (?, Modula-III): (SRC)
 - [Beaver](http://uclid.eecs.berkeley.edu/jha/beaver-dist/beaver.html) (BSD, OCaml): for the theory of quantifier-free finite-precision bit-vector arithmetic (UC Berkeley)
 - [SBV](https://github.com/LeventErkok/sbv) (BSD-3, Haskell): SMT based verification in Haskell: Express properties about Haskell programs and automatically prove them using SMT solvers (ABC, Boolector, CVC4, MathSAT, Yices, Z3). ([Intel](http://leventerkok.github.io/))
@@ -989,6 +1003,11 @@ solver
 - [`llvm2smt`](https://github.com/SRI-CSL/llvm2smt) (MIT, OCaml): Experimental translation of LLVM (3.5ish) IR to SMT-LIB (SRI CSL)
 - [JavaSMT](https://github.com/sosy-lab/java-smt) (Apache-2.0, Java/C): unified Java API for SMT solvers
 - [`bv2epr`](http://fmv.jku.at/bv2epr/) (GPLv3, C): tool for translating a QF_BV formula in SMT2 format into an EPR clause set in TPTP format (JKU)
+- [PySMT](https://github.com/pysmt/pysmt) (Apache-2.0, Python): a library for SMT formulae manipulation and solving, with interfaces to z3, MathSAT, CVC4, Yices, CUDD, PicoSAT, Boolector, and any solver that reads SMT-LIB (includes SMT-LIB parser written in Python)
+- [ddSMT](https://github.com/aniemetz/ddSMT) (GPLv3, Python): a delta debugger for SMT benchmarks in SMT-LIB v2, it serves as an input minimizer for SMT benchmarks on which a given executable shows unexpected or faulty behavior and supports all SMT-LIB v2 logics (includes SMT-LIB parser written in Python)
+- [`smtpp`](https://github.com/rbonichon/smtpp) (MIT, OCaml): a preprocessor for SMT-LIB 2.0 scripts with extensions for lambda-terms and polymorphic types in scripts (Inria, Universite de Nancy 2, Universidade Federal
+do Rio Grande do Norte)
+- [SMTtoTPTP](https://bitbucket.org/peba123/smttotptp/src/master/) (GPLv3, Scala): a translator for problems written in the SMT-LIB language, version 2, to the TPTP TFF language, supporting quantified formulas over the combined theories of of free symbols, arrays, integer and real arithmetic. It also supports Z3-style datatype declarations and some other extensions.
 
 ## Constraint Solving Problem (CSP) solvers
 - [`constraint`](https://github.com/python-constraint/python-constraint) (BSD-2, Python): Constraint Solving Problem resolver for Python (on [PyPI](https://pypi.org/project/python-constraint/)) (Canonical)
