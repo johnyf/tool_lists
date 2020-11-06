@@ -721,7 +721,8 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     - [Verifying TLA+ invariants using ACL2](http://people.csail.mit.edu/cpacheco/publications/verifying-tla-abstract.html) (UT Austin)
 - [Isabelle](http://www.cl.cam.ac.uk/research/hvg/Isabelle/) (BSD-3, [ML](https://github.com/seL4/isabelle)): (Univ. Cabridge, TU Munchen, Univ. Paris-Sud)
     * [Isabelle/TLA](http://homepages.loria.fr/SMerz/projects/isabelle-tla/) [github](https://github.com/seL4/isabelle/tree/master/src/HOL/TLA): encoding of Lamport's TLA in Isabelle, ships with Isabelle's standard distribution ([INRIA](https://members.loria.fr/SMerz/index.html))
-    * [APL](https://www.isa-afp.org/): Archive of Formal Proofs
+    * [AFP](https://www.isa-afp.org/): Archive of Formal Proofs
+    * [Isabelle/eclipse](http://andriusvelykis.github.io/isabelle-eclipse/) (EPL-1.0, [Python/Scala](https://github.com/andriusvelykis/isabelle-eclipse)): Eclipse integration for the Isabelle proof assistant
     * [VHDL semantics](https://github.com/rizaldialbert/vhdl-semantics) (BSD-2, Isabelle): formalization of the language VHDL in the Isabelle theorem prover (Nanyang Technological Univ.)
     * [PSL](https://github.com/data61/PSL) (CSIRO, Isabelle/ML): implementation of proof strategy language (PSL) and its default strategy, for Isabelle (CSIRO)
     * [`ismt`](http://www.galois.com/files/open_source/ismt/) (BSD-3, Isabelle/ML): integration of Yices SMT solver in Isabelle/HOL (Galois Inc.)
