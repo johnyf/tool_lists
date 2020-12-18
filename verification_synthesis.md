@@ -232,7 +232,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [v-n](http://code.google.com/p/v-n/) (GPL-2, Java): NDFA visualization and (random or guided) simulation, find and display accepting computations ([The Weizmann Institute of Science](https://en.wikipedia.org/wiki/Mordechai_Ben-Ari))
 - [py-powerset-construction](http://code.google.com/p/py-powerset-construction/) (GPL-3, Python): convert NFA-\lambda to DFA, using dot as input
 - [Zing](http://research.microsoft.com/en-us/projects/zing/) (Non-com, C#): State exploration of concurrent software systems (Microsoft research)
-- [SeaHorn] (https://github.com/seahorn/seahorn) (BSD, C): an LLVM based verification framework
+- [SeaHorn](https://github.com/seahorn/seahorn) (BSD, C): an LLVM based verification framework
 - [SCRAM](https://github.com/rakhimov/scram)(GPL-3, C++/Python): Probabilistic risk analysis (static fault trees, common cause failure models, Monte Carlo) with input from and output to Open-PSA model exchange format files
 - [RISCAL](https://www.risc.jku.at/research/formal/software/RISCAL/) (GPL-3, Java): Specification language and software system for describing mathematical algorithms, and validating their correctness by execution/evaluation ([JKU/RISC](https://www.risc.jku.at/home/schreine))
 - [Properties of State Spaces](http://www.fi.muni.cz/~xpelanek/state_spaces/summary.html)
@@ -257,7 +257,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
     * [nusmv-tools](https://code.google.com/a/eclipselabs.org/p/nusmv-tools/): two metamodels based on Eclipse modeling framework, Eclipse editor, model analyzer, Java API to NuSMV
     * [nuseen](https://code.google.com/a/eclipselabs.org/p/nuseen/): Eclipse-based environment for NuSMV
 - [nuXmv](https://es-static.fbk.eu/tools/nuxmv/index.php): extends NuSMV using state-of-the-art SAT-based algorithms and MathSAT5 (Fondazione Bruno Kessler)
-- [abc] (https://www.eecs.berkeley.edu/~alanmi/abc/abc.htm) (FOSS, [C](https://github.com/berkeley-abc/abc)): System for Sequential Logic Synthesis and Formal Verification: A growing software system for synthesis and verification of binary sequential logic circuits appearing in synchronous hardware designs; ABC combines scalable logic optimization based on And-Inverter Graphs (AIGs), optimal-delay DAG-based technology mapping for look-up tables and standard cells, and innovative algorithms for sequential synthesis and verification (UC Berkeley)
+- [abc](https://www.eecs.berkeley.edu/~alanmi/abc/abc.htm) (FOSS, [C](https://github.com/berkeley-abc/abc)): System for Sequential Logic Synthesis and Formal Verification: A growing software system for synthesis and verification of binary sequential logic circuits appearing in synchronous hardware designs; ABC combines scalable logic optimization based on And-Inverter Graphs (AIGs), optimal-delay DAG-based technology mapping for look-up tables and standard cells, and innovative algorithms for sequential synthesis and verification (UC Berkeley)
 - [Mocha](http://mtc.epfl.ch/software-tools/mocha/), also [here](http://www.cis.upenn.edu/~mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
 - [CBMC](http://www.cs.cmu.edu/~modelcheck/cbmc/) (BSD-4, [SWIG/C++/C](https://github.com/diffblue/cbmc)): Bounded model checker for ANSI-C, C++, SystemC, Scoot, uses Boolector or MathSAT or Z3 (CMU, Oxford Univ.)
     * [Eclipse plugin](http://www.cprover.org/eclipse-plugin/) (EPL, [Java](https://github.com/diffblue/eclipse-cbmc)): Eclipse plugin for CBMC
@@ -587,7 +587,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [MLSolver](https://github.com/tcsprojects/mlsolver) (?, OCaml): solving the satisfiability and validity problems for modal fixpoint logics (Univs. Munich, Kassel)
 - [`aisy`](https://bitbucket.org/art_haali/aisy-classroom) (?, Python): safety synthesis from AIGER circuits format, using PyCUDD
 - [BluSTL](https://github.com/BluSTL) (BSD-3, MATLAB): BluSTL (pronounced "blue steel") is a MATLAB toolkit for automatically generating hybrid controllers from specifications written in Signal Temporal Logic.
-- [G4LTL-ST] (http://sourceforge.net/projects/g4ltl/) (BSD, Java): automatically generates industrial control software (supporting IEC-61131-3 Structure Text) from extended logic specifications.
+- [G4LTL-ST](http://sourceforge.net/projects/g4ltl/) (BSD, Java): automatically generates industrial control software (supporting IEC-61131-3 Structure Text) from extended logic specifications.
 
 ### Hybrid games
 - [TuLiP](https://github.com/tulip-control/tulip-control) (BSD-3, Python): Receding Horizon Temporal Logic Planning Toolbox ([Caltech.CDS](http://www.cds.caltech.edu/~murray/wiki/Main_Page))
@@ -648,8 +648,8 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [ASTRAL](http://dimacs.rutgers.edu/Workshops/Security/program2/kemmerer/index.html): MC of real-time systems (UCSB)
 - [PAT](http://pat.sce.ntu.edu.sg/?page_id=2602) (?, C\#): simulator, MC, refinement checker for concurrent and RT systems (Nanyang Tech. Univ.)
 - [HCMC](http://www.lsv.ens-cachan.fr/~fl/cmcweb.html) (? , C++): Compositional model checking for real-time systems (ENS-Cachan)
-- [IMITATOR] (http://www.imitator.fr/index.html) (GPL, Python?): is a tool for parametric verification and robustness analysis of real-time systems. It relies on the formalism of networks of parametric timed automata, augmented with integer variables and stopwatches.
-- [CoVerTS] (https://github.com/astefano/CoVerTS) (Scala): compositional verification of state properties for timed systems
+- [IMITATOR](http://www.imitator.fr/index.html) (GPL, Python?): is a tool for parametric verification and robustness analysis of real-time systems. It relies on the formalism of networks of parametric timed automata, augmented with integer variables and stopwatches.
+- [CoVerTS](https://github.com/astefano/CoVerTS) (Scala): compositional verification of state properties for timed systems
 
 # Hybrid Systems
 - [Ptolemy](http://ptolemy.eecs.berkeley.edu/index.htm) (BSD-3, Java): modeling, simulation, and design of concurrent, real-time, embedded systems (UC Berkeley)
@@ -662,7 +662,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [Passel](http://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
 - [Rabbit](http://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
 - [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
-- [HYMITATOR] (GLP, OCaml) (https://lipn.univ-paris13.fr/~andre/software/hymitator/):  is a tool dedicated to the synthesis of parameters for hybrid automata
+- [HYMITATOR](GLP, OCaml) (https://lipn.univ-paris13.fr/~andre/software/hymitator/):  is a tool dedicated to the synthesis of parameters for hybrid automata
 
 ## Linear
 - [HyTech](http://embedded.eecs.berkeley.edu/research/hytech/) (FUSC, C): computes condition under which a linear hybrid system satisfies a temporal requirement (UC Berkeley)
@@ -724,7 +724,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [HOL](https://hol-theorem-prover.org) (BSD-3, ML): Interative Theorem proving in higher-order logic ([Univ. Cambridge](http://www.cl.cam.ac.uk/research/hvg/HOL/))
     * [Holfoot](http://holfoot.heap-of-problems.org/) (BSD, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/separationLogic/src)): Implementation of Smallfoot inside of HOL 4
     * [HOLBDDlib](http://www.cl.cam.ac.uk/~mjcg/HolBddLib/) (BSD-3, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/HolBdd)): kernel of representation judgement rules as infrastructure for building fully-expansive combinations of HOL theorem proving and BDD-based symbolic calculation algorithms, uses the BuDDy BDD package
-- [HOL Light] (https://www.cl.cam.ac.uk/~jrh13/hol-light/) (BSD-2, [OCaml](https://github.com/jrh13/hol-light)): Interactive Theorem Proving in higher-order logic (Cambridge Univ., AWS)
+- [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) (BSD-2, [OCaml](https://github.com/jrh13/hol-light)): Interactive Theorem Proving in higher-order logic (Cambridge Univ., AWS)
 - [HOL Zero](http://www.proof-technologies.com/holzero/index.html) (BSD, OCaml): Basic theorem prover for the HOL logic for checking and/or consolidating proofs created on other theorem provers, and a pedagogical example
     * [HOL Zero](https://github.com/domasin/NHolZ/) (BSD, F#): port to F#
 - [HOL-Omega](http://trustworthytools.com/id17.html) (BSD-3, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/HOL-Omega): Merging of HOL4, HOL2P by Völker, and major aspects of System Fω from chapter 30 of Types and Programming Languages by Pierce, implements a new logic, which is an extension of the existing higher order logic of the HOL4 system
@@ -1025,7 +1025,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [Breach Toolbox](https://github.com/decyphir/breach)(BSD-3, MATLAB/C++): Simulation-based design of dynamical, cyber-physical, and hybrid systems (UC Berkeley, [Decyphir](http://www.decyphir.com/))
 - [JTorX](https://fmt.ewi.utwente.nl/redmine/projects/jtorx/wiki/) (BSD-3, Java): Model-based testing: Spec: Aldebaran | GraphML | dot | Jararaca | `.sax` | muCRL | `.bcg` | LOTOS, Implementation either these or real program (Univ. Twente)
 - [TorX](http://fmt.cs.utwente.nl/tools/torx/introduction.html) (Apache, ?): Conformance testing of reactive software (Univ. Twente, TU Eindhoven, Philips, Lucent)
-- [MonPoly] (http://sourceforge.net/projects/monpoly/) (?, OCaml): a prototype monitoring tool that checks compliance of log files with respect to policies specified in MFOTL (Metric First-Order Temporal Logic)
+- [MonPoly](http://sourceforge.net/projects/monpoly/) (?, OCaml): a prototype monitoring tool that checks compliance of log files with respect to policies specified in MFOTL (Metric First-Order Temporal Logic)
 - [Montre](https://github.com/doganulus/montre) (GPL-3, [Pure](http://purelang.bitbucket.org/)/C++): A timed regular expression matcher ([Verimag](http://doganulus.com))
 - [ROSRV](https://github.com/Formal-Systems-Laboratory/ROSRV) (NCSA, [C++/Java](https://github.com/Formal-Systems-Laboratory/ROSRV)): runtime verification framework for the Robot Operating System (ROS) (Univ. of Illinois at Urbana-Champaign)
 
