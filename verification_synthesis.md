@@ -35,7 +35,7 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 - [Synthesis](#synthesis)
     - [Open Systems (Games: System & UnControlled Environment)](#open-systems-games-system-uncontrolled-environment)
         - [Discrete games](#discrete-games)
-            - [[GR(1) games](http://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)](#gr1-gameshttpdlacmorgcitationcfmid2146252-generalized-reactivity-1)
+            - [[GR(1) games](https://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)](#gr1-games--generalized-reactivity-1)
             - [Full LTL games](#full-ltl-games)
             - [Safety specs (controller synthesis)](#safety-specs-controller-synthesis)
             - [Parity Game solvers](#parity-game-solvers)
