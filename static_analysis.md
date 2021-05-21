@@ -6,7 +6,7 @@
 - [SLAM](https://research.microsoft.com/en-us/projects/slam/) (Microsoft Research)
 - [Jahob](https://lara.epfl.ch/w/jahob_system): Java static contract analysis (EPFL)
 - [KLEE](https://klee.github.io/) (C, LLVM): Symbolic virtual machine built on top of the LLVM compiler infrastructure. Provides unassisted and automatic generation of high-coverage tests.
-- [SOOT](http://sable.github.io/soot/) (LGPLv2.1, Java): a framework for analyzing and transforming Java and Android applications
+- [SOOT](http://soot-oss.github.io/soot/) (LGPLv2.1, [Java](https://github.com/soot-oss/soot)): a framework for analyzing and transforming Java and Android applications
 - [Frama-C](https://frama-c.com/) (LGPLv2, C): an extensible and collaborative platform dedicated to source-code analysis of C software
 - [infer](https://github.com/facebook/infer) (BSD-3, OCaml): Infer is a static analysis tool for Java, Objective-C and C. The documentation is at https://fbinfer.com/. (Facebook)
 - [Gravy](https://github.com/martinschaef/gravy) ([LGPL](https://code.google.com/p/jimple2boogie/), Java): static checker for Boogie programs. Similar to a deductive verifier, such as Boogie, it checks a boogie program one procedure at a time. Integrated in Bixie
