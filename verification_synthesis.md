@@ -867,6 +867,8 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [UTP2](https://www.scss.tcd.ie/Andrew.Butterfield/Saoithin/) (GPLv2, Haskell): a theorem proving assistant for 2nd-order predicate calculus, designed to support foundational proof work in the Unifying Theories of Programming (UTP) framework
 - [UTP-Calculator](https://bitbucket.org/andrewbutterfield/utp-calculator/src/master/) (MIT, Haskell): a tool that supports rapid prototyping of new theories in the Unifying Theories of Programming paradigm, by supporting an easy way to very quickly perform test calculations
 - [holpy](https://gitee.com/bhzhan/holpy) (BSD-3, Python): implementation of higher-order logic in Python (Institute of Software, Chinese Academy of Sciences)
+- [llprover](https://cspsat.gitlab.io/llprover/) (?, Prolog): Linear logic prover that searches for cut-free proofs of two-sided sequents of first-order linear logic
+- [seqprover](https://cspsat.gitlab.io/seqprover/) (?, Prolog): Sequent prover that searches for a cut-free proof of the given sequent of first-order logic
 
 ## Theorem provers for modal logics
 
@@ -1001,6 +1003,7 @@ solver
 - [mSAT](https://gbury.github.io/mSAT/) (Apache-2.0, [OCaml](https://github.com/Gbury/mSAT)): Modular SAT/SMT solver with proof output, derives from ERGO (INRIA)
 - [veriT](http://www.verit-solver.org/) (BSD-2, C/C++): proof-producing SMT solver, complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers ([2017 version](https://doi.org/10.5281/zenodo.582482)) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
     * [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
+- [SMT-RAT](http://smtrat.github.io) (MIT, [C++](https://github.com/ths-rwth/smtrat)): Toolbox for strategic and parallel satisfiability-modulo-theories solving (RWTH)
 - [archsat](https://github.com/Gbury/archsat) (MIT, OCaml): proof-producing SMT/McSAT solver, handling polymorphic first-order logic, using an SMT/McSat core extended using tableaux, superposition, and rewriting
 - [BEAGLE](https://bitbucket.org/peba123/beagle/src/master/) (BSD, Scala): theorem prover for first-order logic with equality over linear integer/rational/real arithmetic that takes input in SMT-LIB 2.0, FOF, TFF, TFF-INT formats (NICTA)
 - [Fx7](http://moskal.me/smt/en.html) (?, Nemerle): prover based on C\# port of MiniSAT
