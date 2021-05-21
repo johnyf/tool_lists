@@ -12,11 +12,11 @@
     - [PySCIPOpt](https://github.com/SCIP-Interfaces/PySCIPOpt) (MIT, Python): Python interface for the SCIP Optimization Suite
     - [SCIP.jl](https://github.com/SCIP-Interfaces/SCIP.jl) (MIT, Julia): Julia interface to SCIP solver
     - [JSCIPOpt](https://github.com/SCIP-Interfaces/JSCIPOpt) (MIT, Java/C): Java interface for the SCIP Optimization Suite
-- [COIN-OR](http://www.coin-or.org/projects/): index of packages interfacing to solvers
+- [COIN-OR](https://www.coin-or.org/projects/): index of packages interfacing to solvers
 - [BONMIN](https://www.coin-or.org/Bonmin/) (EPL-1.0, C++): Basic Open-source Nonlinear Mixed INteger programming, for solving general MINLP (Mixed Integer NonLinear Programming) problems (IBM, CMU)
 - [IPOPT](https://projects.coin-or.org/Ipopt): large-scale nonlinear opt
 	- [`pyipopt`](https://code.google.com/p/pyipopt/) (Python): interface to IPOPT
-- [NLOPT](http://ab-initio.mit.edu/wiki/index.php/NLopt): nonlinear opt lib with Python bindings
+- [NLOPT](https://nlopt.readthedocs.io/en/latest/): nonlinear opt lib with Python bindings
 - [lpsolve](http://lpsolve.sourceforge.net/5.5/Python.htm)
 - [NEOS Server](https://neos-server.org): State-of-the-Art Solvers for Numerical Optimization: free internet-based service for solving numerical optimization problems
 - [Numberjack](https://github.com/eomahony/Numberjack): (LGPL-2.1, C++/Python) combinatorial optimisation platform
@@ -27,7 +27,7 @@
 - [PyGLPK](https://pypi.python.org/pypi/glpk/0.3)
 - [`swiglpk`](https://pypi.python.org/pypi/swiglpk/0.1.0): plain vanilla swig bindings to GLPK `C` library
 - [`epyglpki`](https://github.com/equaeghe/epyglpki/) (Cython)
-- [`python-glpk`](http://www.dcc.fc.up.pt/~jpp/code/python-glpk/) (GPL-2)
+- [`python-glpk`](https://www.dcc.fc.up.pt/~jpp/code/python-glpk/) (GPL-2)
 - [`ecyglpki`](https://github.com/equaeghe/ecyglpki) (-, GPL-3): `Cython` interface
 - [`ctypes-glpk`](https://code.google.com/p/ctypes-glpk/) (Python, GPL-3): ctypes interface
 - [PyMathProg](http://pymprog.sourceforge.net/) (Python) AMPL reincarnation, connects to GLPK via PyGLPK
