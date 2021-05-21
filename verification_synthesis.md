@@ -970,7 +970,7 @@ solver
 - [satsolver](https://github.com/stephenroller/satsolver) (?, Python): DPLL implementation for educational purposes
 - [Potassco](http://potassco.sourceforge.net/): answer set programming collection: Clasp, Gringo, Clingo, Aspcud, Clingcon, claspfolio, coala solvers
 - [miniC2D](http://reasoning.cs.ucla.edu/minic2d/) (?): knowledge compilation and model counting based on exhaustive DPLL (UCLA)
-- [toulbar2](http://www7.inra.fr/mia/T/toulbar2/) (GPL, C++): Exact solver for cost function networks (INRIA, Barcelona)
+- [toulbar2](https://miat.inrae.fr/toulbar2/) (GPL, [C++](https://github.com/toulbar2/toulbar2)): Exact solver for cost function networks (INRIA, Barcelona)
 
 
 ## SMT
