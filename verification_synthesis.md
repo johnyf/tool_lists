@@ -151,6 +151,8 @@ If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
     * TLA+ examples:
         - [TLA Tools examples](https://github.com/tlaplus/Examples) (MIT, TLA+): a collection of TLA+ specifications of varying complexities
         - [CommunityModules](https://github.com/tlaplus/CommunityModules) (MIT, TLA+/Java): TLA+ snippets, operators, and modules contributed and curated by the TLA+ community
+        - [TLAPS examples](https://github.com/tlaplus/tlapm/tree/master/examples): TLA+ modules of example specifications distributed with TLAPS
+        - [TLAPS library](https://github.com/tlaplus/tlapm/tree/master/library): TLA+ modules distributed with TLAPS and intended to be extended
         - [MultiPaxos](https://github.com/nano-o/MultiPaxos)
         - [Egalitarian Paxos](https://github.com/efficient/epaxos) (CMU, Intel Labs)
         - [Leaderless Byzantine Paxos](https://bitbucket.org/ngunatillaka/leaderless-byzantine-paxos) (UNSW)
