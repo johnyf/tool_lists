@@ -808,7 +808,9 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     * [Circ](https://fsl.cs.illinois.edu/index.php/Circ):  automated behavioral prover based on the circularity principle for Maude ([UIUC](https://fsl.cs.illinois.edu/index.php/Main_Page))
     * [LTLR](https://maude.cs.uiuc.edu/tools/tlr/): LTL rewriting model checker within Maude (UIUC)
     * [IMaude](https://github.com/SRI-CSL/imaude) (?, NewLisp/Maude/C/Python): Interactive Maude (SRI CSL)
-- [Vampire](http://www.vprover.org/) (FUSC, C++): FOL ([Novosibirsk](http://www.voronkov.com/), Univ. Machester, Chalmers UT, Vienna UT)
+- [Vampire](https://vprover.github.io) (BSD-3, [C++](https://github.com/vprover/vampire)): FOL ([Novosibirsk](http://www.voronkov.com), Univ. of Manchester, Chalmers UT, CTU/CIIRC, Vienna UT)
+    * [saturation-visualization](https://github.com/gleiss/saturation-visualization) (?, TypeScript): visualizes saturation runs of Vampire
+    * [previous Vampire version](http://www.vprover.org) (FUSC, C++)
     * [Drakosha](http://www.vprover.org/authors.cgi) (?, LISP): Vampire's predecessor
 - [LP: Larch Prover](http://www.sds.lcs.mit.edu/spd/larch/LP/overview.html) (?): Multisorted first-order logic, interactive (MIT)
     * [Larch Shared Language (LSL) Checker](http://www.sds.lcs.mit.edu/spd/larch/LSL/index.html)
@@ -1006,6 +1008,7 @@ solver
 - [veriT](https://www.verit-solver.org/) (BSD-2, C/C++): proof-producing SMT solver, complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers ([2017 version](https://doi.org/10.5281/zenodo.582482)) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
     * [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
 - [SMT-RAT](https://smtrat.github.io) (MIT, [C++](https://github.com/ths-rwth/smtrat)): Toolbox for strategic and parallel satisfiability-modulo-theories solving (RWTH)
+- [Vampire](https://vprover.github.io): proof-producing theorem prover that can read SMT-LIB input, see section on Theorem Provers
 - [archsat](https://github.com/Gbury/archsat) (MIT, OCaml): proof-producing SMT/McSAT solver, handling polymorphic first-order logic, using an SMT/McSat core extended using tableaux, superposition, and rewriting
 - [BEAGLE](https://bitbucket.org/peba123/beagle/src/master/) (BSD, Scala): theorem prover for first-order logic with equality over linear integer/rational/real arithmetic that takes input in SMT-LIB 2.0, FOF, TFF, TFF-INT formats (NICTA)
 - [Fx7](https://moskal.me/smt/en.html) (?, Nemerle): prover based on C\# port of MiniSAT
