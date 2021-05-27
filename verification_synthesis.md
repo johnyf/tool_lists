@@ -147,6 +147,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     * [eTLA](https://sourceforge.net/projects/etla/) (EPL): TLA+ plugin for Eclipse
     * [textadept-TLA-](https://github.com/Hackerpilot/textadept-TLA-) (MIT, Lua): TLA+ and PlusCal syntax highlighting for Textadept
     * [vscode-tlaplus](https://github.com/alygin/vscode-tlaplus) (MIT, TypeScript): adds support for TLA+ to VS Code
+    * [`specifica`](https://github.com/ret/specifica) (MIT, Haskell): TLA+ parser, evaluator, and pretty-printer
     * [`tla-parser-s`](https://github.com/jarjuk/tla-parser-s) (MIT, Ruby): TLA+ parser (Helsinki)
     * TLA+ examples:
         - [TLA Tools examples](https://github.com/tlaplus/Examples) (MIT, TLA+): a collection of TLA+ specifications of varying complexities
@@ -384,6 +385,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
         - [`dlsmodels`](http://users.ics.aalto.fi/kepa/tools/dlsmodels/) (GPLv2, C++): older version of mcsmodels limited to deadlock checking only (Helsinki Univ. of Technology)
 - [Smodels](http://www.tcs.hut.fi/Software/smodels/) (GPLv2, C++):  implementation of the stable model semantics for logic programs (Helsinki Univ. of Technology)
 - [TASS](http://vsl.cis.udel.edu/tass/index.html) (GPLv3, C/Java): tools for the formal verification of programs used in computational science, including message-passing-based parallel programs. It uses symbolic execution and model checking techniques to verify a number of standard safety properties (such as absence of deadlocks and out-of-bound references), and can establish that two programs are functionally equivalent. (Univ. of Delaware)
+- [RAPID](https://github.com/vprover/rapid) (?, C++): transforms a program and a correctness property to a FOL encoding in SMTLIB
 
 ## logic -> automata & automata tools
 
@@ -767,7 +769,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     * [PVSPackrat](https://github.com/SRI-CSL/PVSPackrat) (?, PVS): PVS proofs for PEG grammars and Packrat parsers (SRI CSL)
 - [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](https://leodemoura.github.io/))
     - [Spectral](https://github.com/cmu-phil/Spectral) (Apache-2.0, Lean): Formalization of the Serre spectral sequence in Lean 2.
-- [Zenon](http://zenon-prover.org/) (BSD-3, OCaml): FOL with equality based on tableau, generates Coq proofs [OPAM](https://opam.ocaml.org/packages/zenon/zenon.0.7.1/) (INRIA)
+- [Zenon](http://zenon-prover.org) (BSD-3, [OCaml](https://github.com/zenon-prover/zenon)): FOL with equality based on tableau, reads Coq, Focal, TPTP, Zenon, and generates Coq, Isar (and in other formats) proofs, includes TLA+ theory extension [OPAM](https://opam.ocaml.org/packages/zenon/) (INRIA)
     * [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
     * [Zenon modulo](https://deducteam.gitlabpages.inria.fr/zenonmodulo/) (BSD-3, [OCaml](https://github.com/Deducteam/zenon_modulo): extension to deduction modulo (INRIA)
     * [Super Zenon](http://cedric.cnam.fr/~delahaye/super-zenon/) (?, ?): extension using superdeduction (CEDRIC/CNAM, Siemens IC-MOL)
