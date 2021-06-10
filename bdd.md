@@ -34,7 +34,7 @@
     - Cython interface to BDDs of Sylvan in `dd.sylvan`
     - Cython interface to BDDs of BuDDy in `dd.buddy`
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python): BDD implementation without a BDD manager
-- [PyCUDD](https://bears.ece.ucsb.edu/pycudd.html) (?, Python): SWIG-generated bindings to CUDD
+- [PyCUDD](https://bears.ece.ucsb.edu/pycudd.html) (BSD-3, Python): SWIG-generated bindings to CUDD
     * [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
     * [PyCUDD packaging](https://github.com/aur-archive/pycudd)
 - `marduk` in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wrappers of NuSMV (which uses CUDD) (TU Graz)
@@ -127,7 +127,8 @@
 	    - cpachecker
     - C#
         - SylvanSharp
-- [libDDD](http://move.lip6.fr/software/DDD/) (LGPL, C++): (CNRS)
+- [MEDDLY](https://asminer.github.io/meddly/) ([also](http://meddly.sourceforge.net/)) (LGPLv3, [C++](https://github.com/asminer/meddly)): Multi-terminal and Edge-valued Decision Diagram LibrarY, including BDDs (Iowa State Univ.)
+- [libDDD](https://lip6.github.io/ITSTools-web/libddd.html) (LGPLv3, [C++](https://github.com/lip6/libDDD)): integer-valued data decision diagrams and hierarchical set decision diagrams (LIP6, Sorbonne Univ., CNRS)
 - [TdZdd](https://github.com/kunisura/TdZdd) (MIT, C++): top-down breadth-first  n-ary DD/ZDD manipulation, parallel processing with OpenMP
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
 - [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C#): (U Catholique Louvain)
@@ -138,7 +139,7 @@
 - [list](http://bdd.hpi.uni-potsdam.de/packages.html) of BDD packages with comparisons
 - [BBDD](http://lsi.epfl.ch/cms/page-102597.html) (?, ?): biconditional BDDs
 - [RicBDD](https://github.com/ric2k1/RicBDD) (GPL, C++)
-- [LiBDD](https://github.com/sungmaster/liBDD) (BSD, C): multi-platform BDDs package
+- [LiBDD](https://github.com/vmikhav/liBDD) (BSD, C): multi-platform BDDs package
 - [BDDC](http://www-verimag.imag.fr/~raymond/tools/bddc/manual/index.html): BDD-based logical calculator
 - [EHV](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/ehv.html): Eindhoven BDD package
 - [`libvata/src/mtbdd`](https://github.com/ondrik/libvata/tree/master/src/mtbdd) (C++, GPL-3)
@@ -234,7 +235,6 @@
 # Unsorted
 - [QuIDDPro](http://vlsicad.eecs.umich.edu/Quantum/qp/index.html)
 - [BDS](http://ddd.fit.cvut.cz/prj/BDS/index.php?page=main)
-- [MEDDLY](http://meddly.sourceforge.net/)
 - [EVMDD](https://github.com/siminice/EVMDD)
 - [ZBDD](https://www.aloul.net/Tools/zbddLib/)
 - [`libsdd`](https://github.com/ahamez/libsdd)
