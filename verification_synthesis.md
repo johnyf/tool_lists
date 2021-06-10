@@ -715,9 +715,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [PARAM](https://depend.cs.uni-sb.de/tools/param/) (GPL-3, C++): Reachability probability computation for parametric Markov chains - DTMCs (Saarland Univ.)
 
 # Theorem Provers
-- [TLAPS](http://tla.msr-inria.inria.fr/tlaps/content/Home.html) (BSD-2, OCaml/C/Perl): Theorem prover for TLA+ using: Isabelle, Zenon, Z3 (INRIA/MSR)
-    - [TLAPM v2](https://github.com/tlaplus/v2-tlapm) (BSD-3, OCaml): TLAPS proof manager >= v2 (INRIA/MSR)
-    - [TLAPM v1](https://github.com/cartazio/tlaps) (BSD-2, OCaml): TLAPS proof manager < v2 (INRIA/MSR)
+- [TLAPS](https://tla.msr-inria.inria.fr/tlaps) (BSD-2, [OCaml/Isabelle](https://github.com/tlaplus/tlapm)): Theorem prover for TLA+ using: Isabelle, ls4, Zenon, Z3 (INRIA/MSR)
     - [`pf2`](https://research.microsoft.com/en-us/um/people/lamport/latex/latex.html) (LaTeX): package for writing structured proofs of the form described in ["How to write a 21st century proof"](https://research.microsoft.com/en-us/um/people/lamport/pubs/proof.pdf)
     - [`pfnum`](https://research.microsoft.com/en-us/um/people/lamport/latex/pfnum.html) (C): Rewrites structured proofs in a LaTeX file to renumber proofs steps as they will appear after typesetting
     - [`pf2html`](https://sourceforge.net/projects/pf2html/) [home](https://www.dbai.tuwien.ac.at/proj/pf2html/index.html) (GPL-2, Perl): adds functionality to LATEX2HTML such that LATEX documents written with pf.sty can be viewed in a web browser up to the desired level of detail for each branch of a structured proof (TU Wien)
