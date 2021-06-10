@@ -1,3 +1,4 @@
+- [Clang Static Analyzer](https://clang-analyzer.llvm.org): finds bugs in C, C++, and Objective-C code
 - [jCUTE](http://osl.web.cs.illinois.edu/software/jcute/index.html): Java concolic unit testing
 - [Atomic Set Inferencer](http://osl.web.cs.illinois.edu/software/atomic-set-inference.html), its [github](https://github.com/osl/atomic-set-inference) (FUSC, Java/Shell): for automatically inferring atomic sets, a synchronization mechanism in which the programmer specifies the groups of data that must be accessed as a unit ([UIUC](http://osl.web.cs.illinois.edu/members/dinges.html))
 - [SOTER](http://osl.web.cs.illinois.edu/software/soter/index.html) (FUSC): extensible static analysis and transformation tool that facilitates safe yet efficient message passing in actor programs (UIUC)
