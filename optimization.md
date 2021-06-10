@@ -22,6 +22,7 @@
 - [Numberjack](https://github.com/eomahony/Numberjack): (LGPL-2.1, C++/Python) combinatorial optimisation platform
 - [NOMAD](https://www.gerad.ca/nomad/): (LGPL, C++): implementation of the Mesh Adaptive Direct Search algorithm (MADS), designed for difficult blackbox optimization problems, with objective and constraints arising from costly computer simulations
 - [PyMUMPS](https://github.com/bfroehle/pymumps) (BSD-3, Python): A parallel sparse direct solver
+- [`optipy`](https://github.com/nschloe/optipy) (MIT, Python): numerical optimization or minimzation.
 
 ## GLPK
 - [PyGLPK](https://pypi.python.org/pypi/glpk/0.3)
@@ -47,6 +48,11 @@
 
 ## Zonotopes
 - [`libzonotope`](https://github.com/vindvaki/libzonotope) (MIT, C++/Python): a collection of scripts and algorithms for zonotope manipulations
+
+
+## Other
+- [`tspsolve`](https://github.com/nschloe/tspsolve): solution algorithms for the Traveling salesman problem
+
 
 ## abbreviations
 - MIP: Mixed Integer Programming
