@@ -1,5 +1,6 @@
 # Python optimization frameworks
 
+
 ## General
 - [`cvxopt`](https://github.com/cvxopt/cvxopt) (GPLv3, Python/C): Python Software for Convex Optimization
 - [Pyomo](https://software.sandia.gov//trac/coopr/wiki/Pyomo) (Python) (Sandia)
@@ -24,6 +25,7 @@
 - [PyMUMPS](https://github.com/bfroehle/pymumps) (BSD-3, Python): A parallel sparse direct solver
 - [`optipy`](https://github.com/nschloe/optipy) (MIT, Python): numerical optimization or minimzation.
 
+
 ## GLPK
 - [PyGLPK](https://pypi.python.org/pypi/glpk/0.3)
 - [`swiglpk`](https://pypi.python.org/pypi/swiglpk/0.1.0): plain vanilla swig bindings to GLPK `C` library
@@ -33,11 +35,13 @@
 - [`ctypes-glpk`](https://code.google.com/p/ctypes-glpk/) (Python, GPL-3): ctypes interface
 - [PyMathProg](http://pymprog.sourceforge.net/) (Python) AMPL reincarnation, connects to GLPK via PyGLPK
 
+
 ## Modeling
 - [`cvexp`](https://pypi.python.org/pypi/cvexp/0.1) (Python) interfaces to GLPK, `cvxopt`
 - [`cvxpy`](https://github.com/cvxgrp/cvxpy) (Python): on top of `cvxopt`
 - https://github.com/cvxgrp/qcml
 - [PyLMI-SDP](https://pypi.python.org/pypi/PyLMI-SDP/0.2) (BSD, Python): set of classes to represent and manipulate LMIs symbolically using SymPy. It also includes tools to export LMIs to CVXOPT SDP input and to the SDPA format
+
 
 ## Polytopic computational geometry
 - [`polytope`](https://github.com/tulip-control/polytope) (BSD-3, Python): Geometric operations on polytopes of any dimension, using `scipy`, or `cvxopt` if present
@@ -49,6 +53,7 @@
 - [`islpy`](https://github.com/inducer/islpy) (MIT, Python/C++): polyhedral analysis from Python, by wrapping `isl`, a C library for manipulating sets and relations of integer points bounded by linear constraints. Supports intersection, union, set difference, emptyness check, convex hull, integer affine hull, integer projection, lexicographic minimum via parametric integer programming, parametric vertex enumeration
 - [`geode`](https://github.com/otherlab/geode) (BSD-3, C++/Python): A computational geometry library for C++ and Python ([Otherlab](https://otherlab.com/))
 - [MinkSum](https://sites.google.com/site/christopheweibel/research/minksum) (GPLv2, C++): takes as input the vertices of a set of polytopes and outputs the vertices of their Minkowski sum (Google)
+
 
 ## Zonotopes
 - [`libzonotope`](https://github.com/vindvaki/libzonotope) (MIT, C++/Python): a collection of scripts and algorithms for zonotope manipulations
