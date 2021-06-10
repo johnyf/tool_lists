@@ -43,6 +43,10 @@
 - [`polytope`](https://github.com/tulip-control/polytope) (BSD-3, Python): Geometric operations on polytopes of any dimension, using `scipy`, or `cvxopt` if present
 - [`transforms3d`](https://github.com/matthew-brett/transforms3d) (BSD-2, Python): 3 dimensional spatial transformations
 - [PyPolyhedron](https://anaconda.org/pierre-haessig/pypolyhedron) (LGPL, Python, C): Python interface to the C-library `cddlib`
+- [Parma Polyhedra Library](https://www.bugseng.com/parma-polyhedra-library) (GPLv3, C++)
+- [PPLPy](https://pypi.org/project/pplpy/) (GPLv3, [Python/Cython/C++](https://gitlab.com/videlec/pplpy)): Cython bindings to the Parma Polyhedra Library
+- [PolyOp](https://github.com/etienneandre/PolyOp) (GPLv3, OCaml): OCaml bindings to the Parma Polyhedra Library (LORIA, Univ. de Lorraine, CNRS, Inria)
+- [`islpy`](https://github.com/inducer/islpy) (MIT, Python/C++): polyhedral analysis from Python, by wrapping `isl`, a C library for manipulating sets and relations of integer points bounded by linear constraints. Supports intersection, union, set difference, emptyness check, convex hull, integer affine hull, integer projection, lexicographic minimum via parametric integer programming, parametric vertex enumeration
 - [`geode`](https://github.com/otherlab/geode) (BSD-3, C++/Python): A computational geometry library for C++ and Python ([Otherlab](https://otherlab.com/))
 - [MinkSum](https://sites.google.com/site/christopheweibel/research/minksum) (GPLv2, C++): takes as input the vertices of a set of polytopes and outputs the vertices of their Minkowski sum (Google)
 
