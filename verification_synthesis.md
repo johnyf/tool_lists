@@ -326,8 +326,8 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [JCircus](http://www.cs.york.ac.uk/circus/tools/jcsp.php) (?, Java): Automatically translate Circus programs into Java, for the purpose of animation and simulation (Univ. York)
 - [ClawCircus](http://www.cs.york.ac.uk/circus/tools/control.php) (?, Java): Java-based tools primarily for generating Circus models from Simulink (Univ. York)
 - [Circus Parser](https://sourceforge.net/projects/czt/) (GPL-2, Java): Included in Community Z tools (Univ. York)
-- [Rodin](http://www.event-b.org/) (EPL, Eclipse): Eclipse-based platform for refinement and mathematical proof of Event-B (Univ. Southampton)
-- [CheckFence](http://checkfence.sourceforge.net/) (BSD, OCaml): SAT-based analysis of C code implementing concurrent data types (UPenn)
+- [Rodin](http://www.event-b.org) (EPL, Eclipse): Eclipse-based platform for refinement and mathematical proof of Event-B (Univ. Southampton)
+- [CheckFence](http://checkfence.sourceforge.net) (BSD, OCaml): SAT-based analysis of C code implementing concurrent data types (UPenn)
 - [Daikon](https://en.wikipedia.org/wiki/Daikon_%28system%29) (MIT, Java): Dynamic invariant detection for C/C++, Eiffel, IOA, Perl (MIT)
 - [Tip](https://github.com/niklasso/tip) (?, C++/C): (Temporal Induction Prover) SAT based model checker ([Chalmers Univ.](http://minisat.se/Authors.html))
 - [alloy](http://alloy.mit.edu/alloy/): Language inspired by Z spec language and Tarski's relational calculus for implicitly describing structures and tool for exploring and generating counterexamples (MIT)
@@ -655,7 +655,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [ASTRAL](http://dimacs.rutgers.edu/Workshops/Security/program2/kemmerer/index.html): MC of real-time systems (UCSB)
 - [PAT](http://pat.sce.ntu.edu.sg/?page_id=2602) (?, C\#): simulator, MC, refinement checker for concurrent and RT systems (Nanyang Tech. Univ.)
 - [HCMC](http://www.lsv.ens-cachan.fr/~fl/cmcweb.html) (? , C++): Compositional model checking for real-time systems (ENS-Cachan)
-- [IMITATOR](https://www.imitator.fr/index.html) (GPL, Python?): is a tool for parametric verification and robustness analysis of real-time systems. It relies on the formalism of networks of parametric timed automata, augmented with integer variables and stopwatches.
+- [IMITATOR](https://www.imitator.fr) (GPLv3, [OCaml/Python](https://github.com/imitator-model-checker/imitator/)): is a tool for parametric verification and robustness analysis of real-time systems. It relies on the formalism of networks of parametric timed automata, augmented with integer variables and stopwatches (LORIA, Univ. de Lorraine, Inria, CNRS, LIPN, LSV, Sorbonne Univ., Univ. Pierre et Marie Curie, ENS Cachan, Aarhus Univ.)
 - [CoVerTS](https://github.com/astefano/CoVerTS) (Scala): compositional verification of state properties for timed systems
 
 # Hybrid Systems
