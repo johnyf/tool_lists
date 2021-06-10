@@ -174,7 +174,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     * [`tla-dafny`](https://github.com/jonhnet/tla-dafny) (Apache-2.0, Dafny): An embedding of TLA+ in Dafny
 - [LTSmin](https://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
 - [MoonWalker](https://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](https://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](https://code.google.com/p/moonwalker/)(Univ. Twente)
-- [DIVINE-2](https://divine.fi.muni.cz/) (BSD-3): Parallel LTL model checking, [DIVINE](https://divine.fi.muni.cz/darcs/mainline/gui/help/divine/divine-cluster.html) (Masaryk Univ.)
+- [DIVINE](https://divine.fi.muni.cz) ([Open Source](https://divine.fi.muni.cz/current/doc/), [C++](https://divine.fi.muni.cz/current/)): Parallel LTL model checker (Masaryk Univ.)
 - [PRISM](https://www.prismmodelchecker.org/) (GPLv2, [Java/C](https://github.com/prismmodelchecker/)): Probabilistic Model Checker: discrete/continuous-time Markov chains, timed automata, etc. (Univ. Birmingham, Univ. Oxford)
     * [PRISM tools](https://www.prismmodelchecker.org/other-tools.php)
     * [prism-games](https://www.prismmodelchecker.org/games/) (GPLv2, [Java/C](https://github.com/prismmodelchecker/prism-games)): an extension of PRISM which supports stochastic games
