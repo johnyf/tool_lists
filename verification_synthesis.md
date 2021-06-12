@@ -766,6 +766,8 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     * [Invariant-Checker](https://www-verimag.imag.fr/~graf/INVARIANT-CHECKER/): predicate abstraction and verification of invariance reactive properties using theorem-proving and MC, front to PVS ([IMAG](https://www-verimag.imag.fr/~graf/))
     * [PVSPackrat](https://github.com/SRI-CSL/PVSPackrat) (?, PVS): PVS proofs for PEG grammars and Packrat parsers (SRI CSL)
 - [Lean](https://github.com/leanprover/) (Apache-2, C++/Python): Theorem prover ([Microsoft Research](https://leodemoura.github.io/))
+    - [mathlib](https://github.com/leanprover-community/mathlib/) (Apache-2.0, Lean): library of mathematics and programming infrastructure for Lean
+    - [lean-ga](https://github.com/pygae/lean-ga) (MIT, Lean): formalization of geometric algebra in Lean
     - [Spectral](https://github.com/cmu-phil/Spectral) (Apache-2.0, Lean): Formalization of the Serre spectral sequence in Lean 2.
 - [Zenon](http://zenon-prover.org) (BSD-3, [OCaml](https://github.com/zenon-prover/zenon)): FOL with equality based on tableau, reads Coq, Focal, TPTP, Zenon, and generates Coq, Isar (and in other formats) proofs, includes TLA+ theory extension [OPAM](https://opam.ocaml.org/packages/zenon/) (INRIA)
     * [Zenon arith](https://www.rocq.inria.fr/deducteam/ZenonArith/index.html) (BSD-3, OCaml): extension to handle linear arithmetic (INRIA)
