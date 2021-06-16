@@ -440,7 +440,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [FMU SDK](https://github.com/mtiller/fmusdk) (?, C): FMU SDK (Qtronic)
 - [hoaf](https://github.com/adl/hoaf) (?, text): Text file format for omega-automata (Masaryk Univ., EPITA, IST Austria, TU Dresden)
 - [JFLAP](http://www.jflap.org/): experiment with NFA, NPA, multi-tape Turing machines
-- [ltlmp_sat](https://github.com/nothymr/ltlmp_sat) (?, Python): LTL mean-payoff satisfiability checker
+- [`ltlmp_sat`](https://github.com/nothymr/ltlmp_sat) (?, Python): LTL mean-payoff satisfiability checker
 - [LtlSharp](https://github.com/ancailliau/LtlSharp) (MIT, C\#): Library for parsing and manipulating LTL formulae (U Catholique Louvain)
 - [safety](https://github.com/mattmaly/safety) (?, C++): tool to translate co-safety linear temporal logic formulas into finite automata
 - [RABIT and Reduce](http://languageinclusion.org/doku.php?id=tools) (?, Java):
@@ -695,14 +695,14 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     * [Relational Abstraction](http://www.csl.sri.com/users/tiwari/relational-abstraction/) (GPL-2, LISP): creating relational abstractions of HybridSAL models (SRI)
     * `hsal2xml` (GPL-2, Java): `HybridSAL` -> `XML`
 - [NLToolbox](https://www-verimag.imag.fr/~tdang/NLTOOLBOX/) (u, C/C++): Non-linear dynamical system reachability: polynomial using Bernstein expansion, more general using hybridization ([VERIMAG](https://www-verimag.imag.fr/~tdang/))
-- [Flow*](http://systems.cs.colorado.edu/research/cyberphysical/taylormodels/) (GPL-3, C++): Over-approximation Taylor model flowpipes: polynomial ODEs, polynomial invariants, guards, resets (RWTH Aaachen, Univ. Colorado Boulder)
+- [Flow\*](http://systems.cs.colorado.edu/research/cyberphysical/taylormodels/) (GPL-3, C++): Over-approximation Taylor model flowpipes: polynomial ODEs, polynomial invariants, guards, resets (RWTH Aaachen, Univ. Colorado Boulder)
 - [HSolver](http://hsolver.sourceforge.net/) (LGPL): based on RSOLVER constraint solver, correctness does not depend on floating point rounding errors, handles non-linear ODEs ([Academy of Sciences Czech Republic](http://www2.cs.cas.cz/~ratschan/))
 - [AMC](http://symbolaris.com/info/amc.html) (?, Mathematica): model checker for non-linear hybrid systems based on the abstraction refinement framework (CMU, Univ. Oldenburg)
 - [pyHybridAnalysis](http://www.dmi.units.it/~casagran/pyHybridAnalysis/) (LGPL-3, Python): ε-semantics reachability ([VERIMAG](https://www-verimag.imag.fr/~dreossi/publications.html), Udine Univ., Trieste Univ.)
 - [LtlOpt](https://www.cds.caltech.edu/~ewolff/ltlopt.html) (BSD-3, MATLAB): optimal control of high-dimensional, nonlinear systems using LTL specs ([Caltech](https://www.cds.caltech.edu/~ewolff))
-- [reasys](https://github.com/jadecastro/reasyns) (BSD-3, MATLAB): Reactive synthesis for nonlinear systems ([Cornell, Toyota](https://jadecastro.github.io/))
+- [reasys](https://github.com/jadecastro/reasyns) (BSD-3, MATLAB): Reactive synthesis for nonlinear systems ([Cornell, Toyota](https://jadecastro.github.io))
 - [c2e2](https://publish.illinois.edu/c2e2-tool/) (?, Assembly): tool for verifying bounded-time invariant properties of Stateflow models (UIUC)
-- [HyST](http://verivital.com/hyst/) (LGPLv3, Java / Python / Matlab): transformation and semantics-preserving translation (to Flow*, dReach, HyComp, HyCreate) of hybrid automata networks from SpaceEx format ([AFRL](http://stanleybak.com/), [IST](https://www.sergiybogomolov.com/), [UTA](http://www.taylortjohnson.com/))
+- [HyST](http://verivital.com/hyst/) (LGPLv3, Java / Python / Matlab): transformation and semantics-preserving translation (to Flow\*, dReach, HyComp, HyCreate) of hybrid automata networks from SpaceEx format ([AFRL](http://stanleybak.com/), [IST](https://www.sergiybogomolov.com/), [UTA](http://www.taylortjohnson.com/))
 - [VeriSiMPL](https://sourceforge.net/projects/verisimpl/) (GPLv3, C++): constructs finite abstractions of autonomous Max-Plus-Linear (MPL) systems over R^n, as finite-state Labeled Transition Systems (LTS), exported to the NuSMV language for verification using NuSMV
 - [HyCOMP](https://es-static.fbk.eu/tools/hycomp/) (FUSC, ?): model checker for asynchronous hybrid systems, built on top of the nuXmv model checker, and of the Mathsat5 SMT solver (FBK)
 
@@ -849,7 +849,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [hemera](https://github.com/arademaker/hemera) (?, Python): yet another simple theorem prover (PUC-Rio)
 - [FLiP](https://github.com/jon-jacky/FLiP) (GPL, Python): Library for defining logics and writing theorem prover applications, e.g., a proof checker for natural deduction proofs ([Univ. Wasignton](https://staff.washington.edu/jon/))
 - [ATS](http://www.ats-lang.org/) (GPL-3, C): A statically typed multiparadigm programming language that unifies implementation with formal specification, using theorem proving (Boston Univ.)
-- [F*](https://www.fstar-lang.org/) (Apache 2.0, [OCaml, F\#](https://github.com/FStarLang/FStar)): ML-like functional programming language aimed at program verification. Its type system includes polymorphism, dependent types, monadic effects, refinement types, and a weakest precondition calculus (MSR, INRIA)
+- [F\*](https://www.fstar-lang.org/) (Apache 2.0, [OCaml, F\#](https://github.com/FStarLang/FStar)): ML-like functional programming language aimed at program verification. Its type system includes polymorphism, dependent types, monadic effects, refinement types, and a weakest precondition calculus (MSR, INRIA)
 - [`proofcheck`](http://www.proofcheck.org/) (GPL, Python): Checks mathematical proofs written in La/TeX, attempts to handle mathematical language formalized according to the author's preferences as much as possible ([PyPI](https://pypi.python.org/pypi/proofcheck/1.0)) ([Widener Univ.](http://cs.widener.edu/~neveln/))
 - [ProofPeer](http://www.proofpeer.net/) (MIT, [Scala/Isabelle](https://github.com/proofpeer)): Collaborative theorem proving ([Edinburgh Univ.](http://www.proofpeer.net/contact.html))
 - [Nitpick](https://www.cs.cmu.edu/afs/cs.cmu.edu/project/nitpick/www/home.html) (?): Checker for Z specifications (CMU)
@@ -1019,7 +1019,7 @@ solver
 - [Decision Procedures: An Algorithmic Point of View](https://www.decision-procedures.org/software/) (BSD-4, C++): software that accompanies the book [Decision Procedures](https://www.decision-procedures.org)
 - [`llvm2smt`](https://github.com/SRI-CSL/llvm2smt) (MIT, OCaml): Experimental translation of LLVM (3.5ish) IR to SMT-LIB (SRI CSL)
 - [JavaSMT](https://github.com/sosy-lab/java-smt) (Apache-2.0, Java/C): unified Java API for SMT solvers
-- [`bv2epr`](http://fmv.jku.at/bv2epr/) (GPLv3, C): tool for translating a QF_BV formula in SMT2 format into an EPR clause set in TPTP format (JKU)
+- [`bv2epr`](http://fmv.jku.at/bv2epr/) (GPLv3, C): tool for translating a QF\_BV formula in SMT2 format into an EPR clause set in TPTP format (JKU)
 - [PySMT](https://github.com/pysmt/pysmt) (Apache-2.0, Python): a library for SMT formulae manipulation and solving, with interfaces to z3, MathSAT, CVC4, Yices, CUDD, PicoSAT, Boolector, and any solver that reads SMT-LIB (includes SMT-LIB parser written in Python)
 - [ddSMT](https://github.com/aniemetz/ddSMT) (GPLv3, Python): a delta debugger for SMT benchmarks in SMT-LIB v2, it serves as an input minimizer for SMT benchmarks on which a given executable shows unexpected or faulty behavior and supports all SMT-LIB v2 logics (includes SMT-LIB parser written in Python)
 - [`smtpp`](https://github.com/rbonichon/smtpp) (MIT, OCaml): a preprocessor for SMT-LIB 2.0 scripts with extensions for lambda-terms and polymorphic types in scripts (Inria, Universite de Nancy 2, Universidade Federal
