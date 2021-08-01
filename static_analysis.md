@@ -13,3 +13,4 @@
 - [Gravy](https://github.com/martinschaef/gravy) ([LGPL](https://code.google.com/p/jimple2boogie/), Java): static checker for Boogie programs. Similar to a deductive verifier, such as Boogie, it checks a boogie program one procedure at a time. Integrated in Bixie
 - [Bixie](https://sri-csl.github.io/bixie/) (MIT, [Java](https://github.com/SRI-CSL/bixie)): inconsistent code detection for Java, integrates Gravy (SRI CSL)
 - [Calysto](https://www.domagoj-babic.com/index.php/ResearchProjects/Calysto) (?, ?): static checker for general purpose code, does not require users to write interface specifications and pre/post-conditions. Calysto checks pointer properties and user provided assertions. (Google)
+- [`semgrep`](https://github.com/returntocorp/semgrep) (LGPL-2.1, Python/OCaml): pattern-based static analysis, with patterns that resemble code excerpts
