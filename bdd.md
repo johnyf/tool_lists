@@ -157,8 +157,8 @@
 
 # Java
 - [JavaBDD](http://javabdd.sourceforge.net/) (GPL-2 or LGPL-2, Java)
-- [JDD](http://javaddlib.sourceforge.net/jdd/) (zlib, Java): BDD and ZDD support, inspired by Buddy
-- [JBDD](http://javaddlib.sourceforge.net/jbdd/) (zlib, Java): bindings to CUDD, Buddy
+- [JDD](http://javaddlib.sourceforge.net/jdd/) (zlib, [Java](https://bitbucket.org/vahidi/jdd)): BDD and ZDD support, inspired by Buddy
+- [JBDD](http://javaddlib.sourceforge.net/jbdd/) (zlib, [Java](https://bitbucket.org/vahidi/jbdd/src/master/)): bindings to CUDD, Buddy
 - [BeeDeeDee](https://github.com/JuliaSoft/BeeDeeDee) (GPL-2, Java): Multi-thread library
 - [LightBDD](https://github.com/SigmaX/LightBDD) (?, Java): simple library
 - [jSylvan](https://github.com/utwente-fmt/jsylvan) (Apache-2, C/C++/Java): JNI bindings for Sylvan
@@ -184,10 +184,14 @@
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
 
 # OCaml
-- [MLCuddIDL](https://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL-2.1, C/OCaml): bindings to CUDD ([mirror](https://github.com/thizanne/mlcuddidl)) ([INRIA](https://pop-art.inrialpes.fr/~bjeannet/))
+- [MLCuddIDL](https://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL-2.1, [C/OCaml](https://framagit.org/nberth/mlcuddidl)): bindings to CUDD ([INRIA](https://pop-art.inrialpes.fr/~bjeannet/))
+  - [OPAM entry](https://opam.ocaml.org/packages/mlcuddidl/) of `mlcuddidl`
+  - [mirror](https://github.com/thizanne/mlcuddidl) of `mlcuddidl`
 - [`ocaml-cudd`](https://github.com/romainbrenguier/ocaml-cudd) (GPLv2, OCaml/C): bindings to CUDD
 - [`ocaml-buddy`](https://github.com/abate/ocaml-buddy) (LGPL, OCaml): bindings to Buddy ([Paris 7](http://mancoosi.org/~abate/about-me))
-- [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml)
+  - [OPAM entry](https://opam.ocaml.org/packages/ocaml-buddy/) of `ocaml-buddy`
+- [MLBDD](https://github.com/arlencox/mlbdd) (MIT, OCaml): includes garbage collection, complemented edges
+  - [OPAM entry](https://opam.ocaml.org/packages/mlbdd/) of `mlbdd`
 - [`Symbolickat.bdd`](https://perso.ens-lyon.fr/damien.pous/symbolickat/safa.docdir/Bdd.html) (?, OCaml): pure-OCaml library ([ENS de Lyon](https://perso.ens-lyon.fr/damien.pous/))
 - [John Harrison](https://www.cl.cam.ac.uk/~jrh13/atp/OCaml/bdd.ml) (BSD-3, Ocaml)
 - [Jean-Christophe Filliatre](https://www.lri.fr/~filliatr/ftp/ocaml/bdd/) (GPL-2, Ocaml)
