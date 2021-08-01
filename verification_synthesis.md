@@ -1141,7 +1141,8 @@ do Rio Grande do Norte)
 - [SatEx](https://www.swmath.org/software/1588): Experiments and execution traces of SAT solvers, on all benchmarks that are provided
 - [FEVS](http://vsl.cis.udel.edu/fevs/index.html): set of programs designed to be used as a test suite for tools that verify functional equivalence (Univ. of Delaware)
 
-# (non-common) abbreviations
+
+# Abbreviations
 - u: unspecified license
 - FUSC: Free Under Specific Condition (wikipedia term), usually free for academic/research use
 - open: open source license
