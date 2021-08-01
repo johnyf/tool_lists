@@ -17,7 +17,7 @@
 - [BONMIN](https://www.coin-or.org/Bonmin/) (EPL-1.0, C++): Basic Open-source Nonlinear Mixed INteger programming, for solving general MINLP (Mixed Integer NonLinear Programming) problems (IBM, CMU)
 - [IPOPT](https://projects.coin-or.org/Ipopt): large-scale nonlinear opt
 	- [`pyipopt`](https://code.google.com/p/pyipopt/) (Python): interface to IPOPT
-- [NLOPT](https://nlopt.readthedocs.io/en/latest/): nonlinear opt lib with Python bindings
+- [NLOPT](https://nlopt.readthedocs.io) (LGPLv2/Open Source, [C](https://github.com/stevengj/nlopt)): nonlinear optimization library with Python bindings using [SWIG](http://www.swig.org)
 - [lpsolve](http://lpsolve.sourceforge.net/5.5/Python.htm)
 - [NEOS Server](https://neos-server.org): State-of-the-Art Solvers for Numerical Optimization: free internet-based service for solving numerical optimization problems
 - [Numberjack](https://github.com/eomahony/Numberjack): (LGPL-2.1, C++/Python) combinatorial optimisation platform
@@ -34,7 +34,7 @@
 - [`python-glpk`](https://www.dcc.fc.up.pt/~jpp/code/python-glpk/) (GPL-2)
 - [`ecyglpki`](https://github.com/equaeghe/ecyglpki) (-, GPL-3): `Cython` interface
 - [`glpk-ctypes`](https://github.com/snorfalorpagus/glpk_ctypes) (GPL-3.0, Python): `ctypes`-based wrapper
-- [`ctypes-glpk`](https://code.google.com/p/ctypes-glpk/) (Python, GPL-3): ctypes interface
+- [`ctypes-glpk`](https://code.google.com/p/ctypes-glpk/) (Python, GPL-3): `ctypes`-based wrapper
 - [PyMathProg](http://pymprog.sourceforge.net/) (Python) AMPL reincarnation, connects to GLPK via PyGLPK
 
 
@@ -49,8 +49,8 @@
 - [`polytope`](https://github.com/tulip-control/polytope) (BSD-3, Python): Geometric operations on polytopes of any dimension, using `scipy`, or `cvxopt` if present
 - [`cddlib`](https://github.com/cddlib/cddlib) (GPLv2, C): implementation in C of the double description method of Motzkin et al.
   - [`pycddlib`](https://github.com/mcmtroffaes/pycddlib) (GPLv2, Cython): Cython bindings to [`cddlib`](https://github.com/cddlib/cddlib)
+  - [PyPolyhedron](http://cens.ioc.ee/projects/polyhedron/) ([conda](https://anaconda.org/pierre-haessig/pypolyhedron)) (LGPL, [Python/C](https://github.com/rdeits/pypolyhedron)): Python interface to the C-library [`cddlib`](https://github.com/cddlib/cddlib)
 - [`transforms3d`](https://github.com/matthew-brett/transforms3d) (BSD-2, Python): 3 dimensional spatial transformations
-- [PyPolyhedron](https://anaconda.org/pierre-haessig/pypolyhedron) (LGPL, Python, C): Python interface to the C-library `cddlib`
 - [Parma Polyhedra Library](https://www.bugseng.com/parma-polyhedra-library) (GPLv3, C++)
 - [PPLPy](https://pypi.org/project/pplpy/) (GPLv3, [Python/Cython/C++](https://gitlab.com/videlec/pplpy)): Cython bindings to the Parma Polyhedra Library
 - [PolyOp](https://github.com/etienneandre/PolyOp) (GPLv3, OCaml): OCaml bindings to the Parma Polyhedra Library (LORIA, Univ. de Lorraine, CNRS, Inria)
