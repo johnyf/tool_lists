@@ -755,6 +755,9 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
         - [Coq-Polyhedra](https://github.com/nhojem/Coq-Polyhedra) (CeCILL-B, Coq): Formalizing convex polyhedra in Coq ([INRIA/École Polytechnique](http://www.cmap.polytechnique.fr/~allamigeon/))
         - [ControlHTT](https://github.com/jpaykin/ControlHTT) (?, Coq): an adaptation of Hoare Type Theory for control software (Galois Inc.)
         - [Categories](https://github.com/amintimany/Categories) (?, Coq): a formalization of category theory in the Coq proof assistant (Aarhus Univ.)
+        - [fourcolor](https://github.com/math-comp/fourcolor) (?, Coq): formalization of the four-color theorem
+        - [odd-order](https://github.com/math-comp/odd-order) (?, Coq): formal proof of the odd-order theorem
+        - [infotheo](https://github.com/affeldt-aist/infotheo) (LGPL-2.1): formalization of information theory and linear error-correcting codes
         - [proofs](https://github.com/stepchowfun/proofs) (MIT, Coq): a selection of formal proofs in Coq (Google)
     - Embeddings:
         - [TLA^{Coq}](https://github.com/philipjf/AWG-AVOCS-2016) (?, Coq): Deep embedding of TLA in Coq (Univ. of Oregon, Sandia)
@@ -925,6 +928,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [PicoSAT](http://fmv.jku.at/picosat/) (MIT, C)
     * [Python bindings](https://pypi.python.org/pypi/pycosat) (MIT, Python)
     * [`pigosat`](https://github.com/wkschwartz/pigosat) (BSD, Go): bindings
+- [`cadical`](https://github.com/arminbiere/cadical) (MIT, C++): satisfiability solver that is intended to be understood and changed
 - [Sat4j](https://www.sat4j.org/) (EPL or LGPL, Java): SAT, MAXSAT, Pseudo-Boolean, MUS (Artois Univ., CNRS, CRIL)
 
 ### Stochastic local search
@@ -1010,6 +1014,7 @@ solver
 - [mSAT](https://gbury.github.io/mSAT/) (Apache-2.0, [OCaml](https://github.com/Gbury/mSAT)): Modular SAT/SMT solver with proof output, derives from ERGO (INRIA)
 - [veriT](https://www.verit-solver.org/) (BSD-2, C/C++): proof-producing SMT solver, complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers ([2017 version](https://doi.org/10.5281/zenodo.582482)) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
     * [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
+- [dReal](http://dreal.github.io) (Apache-2.0, [C++](https://github.com/dreal/dreal4)): SMT solver for nonlinear theories of reals, produces proofs for unsat cases, includes a semi-algorithm for proof-checking, has Python bindings ([PyPI](https://pypi.org/project/dreal/))
 - [SMT-RAT](https://smtrat.github.io) (MIT, [C++](https://github.com/ths-rwth/smtrat)): Toolbox for strategic and parallel satisfiability-modulo-theories solving (RWTH)
 - [Vampire](https://vprover.github.io): proof-producing theorem prover that can read SMT-LIB input, see section on Theorem Provers
 - [archsat](https://github.com/Gbury/archsat) (MIT, OCaml): proof-producing SMT/McSAT solver, handling polymorphic first-order logic, using an SMT/McSat core extended using tableaux, superposition, and rewriting
