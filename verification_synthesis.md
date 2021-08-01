@@ -35,7 +35,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [Synthesis](#synthesis)
     - [Open Systems (Games: System & UnControlled Environment)](#open-systems-games-system-uncontrolled-environment)
         - [Discrete games](#discrete-games)
-            - [[GR(1) games](https://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)](#gr1-games--generalized-reactivity-1)
+            - [GR(1) games](#gr1-games)
             - [Full LTL games](#full-ltl-games)
             - [Safety specs (controller synthesis)](#safety-specs-controller-synthesis)
             - [Parity Game solvers](#parity-game-solvers)
@@ -521,7 +521,10 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 
 ### Discrete games
 
-#### [GR(1) games](https://dl.acm.org/citation.cfm?id=2146252) (= Generalized Reactivity 1)
+#### GR(1) games
+
+[GR(1)](https://dl.acm.org/citation.cfm?id=2146252) means Generalized Reactivity 1.
+
 - [gr1c](https://github.com/tulip-control/gr1c) (BSD-3, C, uses CUDD): checking realizability of and synthesizing strategies for GR(1) specifications & much more ([Caltech.CDS](https://scottman.net/))
 - [gr1py](https://github.com/slivingston/gr1py) (BSD-3, Python): an enumerative reactive synthesis tool for the GR(1) fragment of LTL (Caltech CDS, rerobots)
 - [`omega`](https://github.com/tulip-control/omega) (BSD-3, Python): Specify and synthesize systems using symbolic algorithms (Caltech CDS)
