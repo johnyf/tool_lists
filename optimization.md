@@ -28,10 +28,12 @@
 
 ## GLPK
 - [PyGLPK](https://pypi.python.org/pypi/glpk/0.3)
-- [`swiglpk`](https://pypi.python.org/pypi/swiglpk/0.1.0): plain vanilla swig bindings to GLPK `C` library
+  - [`pyglpk`](https://github.com/bradfordboyle/pyglpk) (GPL-3.0, C/Python): fork
+- [`swiglpk`](https://pypi.python.org/pypi/swiglpk/0.1.0): plain vanilla [SWIG](https://en.wikipedia.org/wiki/SWIG) bindings to GLPK `C` library
 - [`epyglpki`](https://github.com/equaeghe/epyglpki/) (Cython)
 - [`python-glpk`](https://www.dcc.fc.up.pt/~jpp/code/python-glpk/) (GPL-2)
 - [`ecyglpki`](https://github.com/equaeghe/ecyglpki) (-, GPL-3): `Cython` interface
+- [`glpk-ctypes`](https://github.com/snorfalorpagus/glpk_ctypes) (GPL-3.0, Python): `ctypes`-based wrapper
 - [`ctypes-glpk`](https://code.google.com/p/ctypes-glpk/) (Python, GPL-3): ctypes interface
 - [PyMathProg](http://pymprog.sourceforge.net/) (Python) AMPL reincarnation, connects to GLPK via PyGLPK
 
@@ -45,6 +47,8 @@
 
 ## Polytopic computational geometry
 - [`polytope`](https://github.com/tulip-control/polytope) (BSD-3, Python): Geometric operations on polytopes of any dimension, using `scipy`, or `cvxopt` if present
+- [`cddlib`](https://github.com/cddlib/cddlib) (GPLv2, C): implementation in C of the double description method of Motzkin et al.
+  - [`pycddlib`](https://github.com/mcmtroffaes/pycddlib) (GPLv2, Cython): Cython bindings to [`cddlib`](https://github.com/cddlib/cddlib)
 - [`transforms3d`](https://github.com/matthew-brett/transforms3d) (BSD-2, Python): 3 dimensional spatial transformations
 - [PyPolyhedron](https://anaconda.org/pierre-haessig/pypolyhedron) (LGPL, Python, C): Python interface to the C-library `cddlib`
 - [Parma Polyhedra Library](https://www.bugseng.com/parma-polyhedra-library) (GPLv3, C++)
