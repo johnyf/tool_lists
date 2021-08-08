@@ -759,6 +759,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
         - [odd-order](https://github.com/math-comp/odd-order) (?, Coq): formal proof of the odd-order theorem
         - [infotheo](https://github.com/affeldt-aist/infotheo) (LGPL-2.1): formalization of information theory and linear error-correcting codes
         - [proofs](https://github.com/stepchowfun/proofs) (MIT, Coq): a selection of formal proofs in Coq (Google)
+        - [GeoCoq](https://github.com/GeoCoq/GeoCoq) (LGPL-3.0, Coq): formalization of geometry in Coq, based on [Tarski's](https://en.wikipedia.org/wiki/Alfred_Tarski) [axiom system](https://en.wikipedia.org/wiki/Tarski%27s_axioms)
     - Embeddings:
         - [TLA^{Coq}](https://github.com/philipjf/AWG-AVOCS-2016) (?, Coq): Deep embedding of TLA in Coq (Univ. of Oregon, Sandia)
     - Tools:
