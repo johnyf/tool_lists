@@ -173,7 +173,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
         * [`tlc4b`](https://github.com/hhu-stups/tlc4b) (EPL, Java)
     * [`tla-dafny`](https://github.com/jonhnet/tla-dafny) (Apache-2.0, Dafny): An embedding of TLA+ in Dafny
 - [LTSmin](https://fmt.cs.utwente.nl/tools/ltsmin/) (BSD-3): model checking, LTS minimization, interface to other tools (Univ. Twente)
-- [MoonWalker](https://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C#): model check CIL bytecode programs ([Mono .NET](https://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](https://code.google.com/p/moonwalker/)(Univ. Twente)
+- [MoonWalker](https://fmt.cs.utwente.nl/tools/moonwalker/) (Apache-2, C\#): model check CIL bytecode programs ([Mono .NET](https://www.mono-project.com/Main_Page) platform apps), [MoonWalker src](https://code.google.com/p/moonwalker/)(Univ. Twente)
 - [DIVINE](https://divine.fi.muni.cz) ([Open Source](https://divine.fi.muni.cz/current/doc/), [C++](https://divine.fi.muni.cz/current/)): Parallel LTL model checker (Masaryk Univ.)
 - [PRISM](https://www.prismmodelchecker.org/) (GPLv2, [Java/C](https://github.com/prismmodelchecker/)): Probabilistic Model Checker: discrete/continuous-time Markov chains, timed automata, etc. (Univ. Birmingham, Univ. Oxford)
     * [PRISM tools](https://www.prismmodelchecker.org/other-tools.php)
@@ -207,7 +207,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [VMSSG Statespace Converter](http://www.pst.informatik.uni-muenchen.de/~hammer/statespaces/manual.html) (GPL, Java): process, analyze, display statespace graphs produced by modified VMSSG virtual machine, [state space gallery](https://www.pst.ifi.lmu.de/~hammer/statespaces/index.html), ([Univ. Munchen](http://www.pst.ifi.lmu.de/Personen/ehemalige/hammer/hammer/view))
 - [Synet](http://www.irisa.fr/s4/tools/synet/) (OCaml): Synthesizer of distributable bounded Petri nets from Finite Automata ([INRIA/IRISA](http://www.irisa.fr/prive/Benoit.Caillaud/Benoit_Caillauds_Professional_homepage/Welcome.html))
 - [Motion Grammar Kit](https://github.com/golems/motion-grammar-kit) (BSD-2, Common Lisp/C): Automata manipulation, supervisory control, C code generation (Georgia Tech.)
-- [PAT](https://en.wikipedia.org/wiki/PAT_%28model_checker%29) (?, C#): Process Analysis Toolkit, a model checker, with GUI, model editor, simulator, POR, symmetry reduction (Nat. Univ. Singapore)
+- [PAT](https://en.wikipedia.org/wiki/PAT_%28model_checker%29) (?, C\#): Process Analysis Toolkit, a model checker, with GUI, model editor, simulator, POR, symmetry reduction (Nat. Univ. Singapore)
 - [NorMC](https://github.com/pkazmierczak/NorMC) (BSD-3, Haskell): Norm compliance temporal logic model checker (Univ. Bergen)
 - [Copper](https://www.sei.cmu.edu/predictability/tools/copper/index.cfm) (FUSC, ?): MC for concurrent message-passing C programs (CMU)
 - [Magic](https://www.cs.cmu.edu/~chaki/magic/) (?): Check C language conformance between component specifications and their implementations using counterexample guided abstraction refinement, concurrent and compositional (CMU, Univ. Wisconsin, Univ. Oxford, TU Vienna, Univ. Lugano)
@@ -282,7 +282,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [VerICS](http://verics.ipipan.waw.pl/start) (FUSC, Java): SAT verification of timed & multi-agent systems modeled by networks of communicating automata (Polish Academy of Sciences)
 - [Augur 2](http://www.ti.inf.uni-due.de/research/tools/augur2/) (GPL-2, C++): verification of systems described by (attributed) graph transformations using approximated unfoldings ([Univ. Duisburg-Essen](http://www.ti.inf.uni-due.de/people/koenig/))
 - [Mercury](http://rodrigotaclasaad.drupalgardens.com/content/mercury): Parallel Local Sub-CTL Model Checking [LAAS-CNRS]
-- [Boogie](http://research.microsoft.com/en-us/projects/boogie/) ([Ms-PL](http://boogie.codeplex.com/license), F#/C#): Intermediate verification language, intended as a layer on which to build program verifiers for other languages (Microsoft Research)
+- [Boogie](http://research.microsoft.com/en-us/projects/boogie/) ([Ms-PL](http://boogie.codeplex.com/license), F\#/C\#): Intermediate verification language, intended as a layer on which to build program verifiers for other languages (Microsoft Research)
     * [SymDiff](http://research.microsoft.com/en-us/projects/symdiff/default.aspx): Language-independent differential program analysis (C, Boogie front-ends available) (Microsoft Research)
 - [VCC](http://research.microsoft.com/en-us/projects/vcc/default.aspx) (MIT, [C\#/F\#/C/Perl](https://github.com/microsoft/vcc)): static verifier for concurrent C programs (Microsoft Research)
 - [HAVOC](http://research.microsoft.com/en-us/projects/havoc/default.aspx) (?): for C in the presence of pointer manipulations, unsafe casts and dynamic memory allocation (Microsoft Research)
@@ -301,7 +301,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     * [Dione](https://github.com/cyphyhouse/Dione) (NCSA, Python/Dafny): protocol verification system built with Dafny for Input/Output Automata (UIUC)
 - [CakeML](https://cakeml.org) (BSD-3, [ML](https://github.com/CakeML/cakeml)): a verified implementation of ML: functional programming language and an ecosystem of proofs and tools built around the language, including a proven-correct compiler that can bootstrap itself
 - [Idris](https://docs.idris-lang.org/en/latest/tutorial/theorems.html) (BSD-3, [Haskell/C](https://github.com/idris-lang/Idris-dev)): a dependently typed functional programming language that allows propositional equalities to be declared, so that theorems about programs can be stated and proved (Univ. of St Andrews)
-- [Spec\#](http://specsharp.codeplex.com/) ([FUSC](http://specsharp.codeplex.com/license), C#): Object-oriented .NET programming language with design-by-contract features for method pre-/postconditions & object invariants, non-null type system (Microsoft Research)
+- [Spec\#](http://specsharp.codeplex.com/) ([FUSC](http://specsharp.codeplex.com/license), C\#): Object-oriented .NET programming language with design-by-contract features for method pre-/postconditions & object invariants, non-null type system (Microsoft Research)
 - [Whiley](https://github.com/DavePearce/Whiley) (BSD-3, Java/C/): Object-oriented and functional programming language with static checking, including: divide-by-zero, array out-of-bounds and null dereference errors ([Victoria Univ. of Wellington](http://homepages.ecs.vuw.ac.nz/~djp/))
 - [Why3](http://why3.lri.fr/) (GPl-2, OCaml): platform for deductive program verification in WhyML, uses external theorem provers, extracts OCaml from WhyML ([INRIA, Univ. Paris Sud, CNRS, LRI](https://toccata.lri.fr/))
     * [EasyCrypt](https://software.imdea.org/projects/certicrypt/) (?, OCaml): toolset for reasoning about relational properties of probabilistic computations with adversarial code (IMDEA Software Institute, Microsoft Research)
@@ -367,7 +367,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     * [cryptoverif-completion](https://github.com/blipp/cryptoverif-completion) (?, Configure/Makefile): Using the readline wrapper `rlwrap` it introduces line editing, history and also some very basic completion support to the interactive mode in CryptoVerif without the need to modify CryptoVerif itself.
     * [CyrptoVerif fork](https://github.com/mgrabovsky/cryptoverif) (CeCILL-B, OCaml): Python implementations for CryptoVerif 1.23
     * [Cyrptoverif fork Python library](https://github.com/mgrabovsky/cryptoverif-py-lib) (MIT and CeCILL-B, Python): contains the supporting library for the CryptoVerif Python implementations fork
-- [FS2PV](http://research.microsoft.com/en-us/downloads/d54de3ef-085e-47f0-b7dc-8d56c858aba2/default.aspx) (FUSC, F\#/OCaml): verification tool that compiles cryptographic-protocol implementations in a first-order subset of F# to a formal pi-calculus model. This pi-calculus model then can be analyzed using ProVerif to prove the desired security properties or to find security flaws. (Microsoft Research)
+- [FS2PV](http://research.microsoft.com/en-us/downloads/d54de3ef-085e-47f0-b7dc-8d56c858aba2/default.aspx) (FUSC, F\#/OCaml): verification tool that compiles cryptographic-protocol implementations in a first-order subset of F\# to a formal pi-calculus model. This pi-calculus model then can be analyzed using ProVerif to prove the desired security properties or to find security flaws. (Microsoft Research)
 - [TulaFale](http://research.microsoft.com/en-us/downloads/a91c6322-ae04-4b7c-9f8b-908f094d7a15/default.aspx): specification language for writing machine-checkable descriptions of SOAP-based security protocols and their properties, based on the pi calculus plus XML syntax, logical predicates, and correspondence assertions. The tool compiles TulaFale into the applied pi calculus, and then runs Blanchet's resolution-based protocol verifier. (Microsoft Research)
 - [sqifc](https://github.com/qif/sqifc) (?, C/C++): symbolic quantitative information flow analysis for C
 - [QILURA](https://github.com/qif/jpf-qilura) (GPLv3, Java): quantifying information leaks using reliability analysis, using [Symbolic PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc), z3, Omega, Latte
@@ -669,7 +669,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 - [START](http://www.andrew.cmu.edu/user/arieg/Rek/): time-bounded static analysis of concurrency properties of Real-Time Embedded Software
 - [IF](https://www-verimag.imag.fr/~async/IF/index.html) (FUSC): static analysis, model-checking, test generation, [Open-Kronos](https://www-verimag.imag.fr/~tripakis/openkronos.html), [Kronos](https://www-verimag.imag.fr/DIST-TOOLS/TEMPO/kronos/): TCTL verification of Timed Automata (VERIMAG)
 - [CIF](https://cif.se.wtb.tue.nl/): Compositional Interchange Format for Hybrid Systems toolset
-- [Passel](https://publish.illinois.edu/passel-tool/) (closed, C#/Python): invariant synthesis and inductive invariant proving (UIUC)
+- [Passel](https://publish.illinois.edu/passel-tool/) (closed, C\#/Python): invariant synthesis and inductive invariant proving (UIUC)
 - [Rabbit](https://www.sosy-lab.org/~dbeyer/Rabbit/) (Apache): RTS modular spec: timed (and hybrid) automata: CottbusTimed Automata, MC for reachability analysis and refinement check (Bradenburg TU)
 - [Mobius](https://www.mobius.illinois.edu/) (?, Java/C++): Model-based environment for validation of system reliability, availability, security, and performance ([UIUC](https://www.perform.csl.illinois.edu/))
 - [HYMITATOR](GLP, OCaml) (https://lipn.univ-paris13.fr/~andre/software/hymitator/):  is a tool dedicated to the synthesis of parameters for hybrid automata
@@ -739,7 +739,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     * [HOLBDDlib](https://www.cl.cam.ac.uk/~mjcg/HolBddLib/) (BSD-3, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/develop/examples/HolBdd)): kernel of representation judgement rules as infrastructure for building fully-expansive combinations of HOL theorem proving and BDD-based symbolic calculation algorithms, uses the BuDDy BDD package
 - [HOL Light](https://www.cl.cam.ac.uk/~jrh13/hol-light/) (BSD-2, [OCaml](https://github.com/jrh13/hol-light)): Interactive Theorem Proving in higher-order logic (Cambridge Univ., AWS)
 - [HOL Zero](http://www.proof-technologies.com/holzero/index.html) (BSD, OCaml): Basic theorem prover for the HOL logic for checking and/or consolidating proofs created on other theorem provers, and a pedagogical example
-    * [HOL Zero](https://github.com/domasin/NHolZ/) (BSD, F#): port to F#
+    * [HOL Zero](https://github.com/domasin/NHolZ/) (BSD, F#): port to F\#
 - [HOL-Omega](http://trustworthytools.com/id17.html) (BSD-3, [ML](https://github.com/HOL-Theorem-Prover/HOL/tree/HOL-Omega): Merging of HOL4, HOL2P by Völker, and major aspects of System Fω from chapter 30 of Types and Programming Languages by Pierce, implements a new logic, which is an extension of the existing higher order logic of the HOL4 system
 - [Coq](https://coq.inria.fr/) (LGPL-2.1, [OCaml](https://github.com/coq/coq)): formal proof management system. It provides a formal language to write mathematical definitions, executable algorithms and theorems together with an environment for semi-interactive development of machine-checked proofs. (INRIA, Ecole Polytechnique, Paris-Sud 11 Univ., Paris Diderot Univ., CNRS)
     - Vim:
