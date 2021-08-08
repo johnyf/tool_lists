@@ -66,7 +66,7 @@
     - [DDDMP](http://fmgroup.polito.it/quer/research/tool/tool.htm) (BSD): Decision Diagram DuMP package
     - [CUDDaux](https://pop-art.inrialpes.fr/people/bjeannet/mlxxxidl-forge/cuddaux/index.html) (LGPL-2.1, [C](https://github.com/thizanne/mlcuddidl/blob/master/cuddaux.h)): library that implements additional ADD functions for CUDD ([INRIA](https://pop-art.inrialpes.fr/~bjeannet/))
     - [cnf2obdd](http://www.sd.is.uec.ac.jp/toda/code/cnf2obdd.html) (same as MiniSAT)
-	- [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
+    - [windows port](https://github.com/lpradel/CUDDVC-2.5.0)
     - [Chain-CUDD](https://github.com/rebryant/Chain-CUDD) (BSD-3, C): Extension of CUDD to support BDD with chain nodes
     - [Cloud-BDD](https://github.com/rebryant/Cloud-BDD) (?, C): Distributed implementation of BDD package, using CUDD
     - [SimpleCUDD](https://limo.libis.be/primo-explore/fulldisplay?docid=LIRIAS1652866&context=L&vid=Lirias&search_scope=Lirias&tab=default_tab&lang=en_US) (Artistic License 2.0, C): A simplified fast interface for the use of CUDD for Binary Decision Diagrams
@@ -75,15 +75,15 @@
         - PyCUDD
         - `marduk`
     - Ruby:
-	    - CUDD-rb
+        - CUDD-rb
     - LISP:
-	    - CL-CUDD
+        - CL-CUDD
     - OCaml:
-	    - MLCuddIDL
+        - MLCuddIDL
     - Haskell:
-	    - hBDD
-	    - hs-cudd
-	    - Haskell-CUDD
+        - hBDD
+        - hs-cudd
+        - Haskell-CUDD
     - Java:
         - JBDD
         - Jedd
@@ -98,21 +98,21 @@
     - [fork](https://github.com/jjgreen/rebuddy): re-entrant version
     - [`libbdd-dev`](https://packages.debian.org/jessie/libbdd-dev): Debian Linux package
     - Python:
-	    - `dd.buddy`
+        - `dd.buddy`
     - ML:
-	    - `muddy`
+        - `muddy`
     - OCaml:
-	    - `ocaml-buddy`
+        - `ocaml-buddy`
     - Java:
-	    - JBDD
+        - JBDD
     - Ruby:
-	    - Ruby-BDD
+        - Ruby-BDD
     - C\#
         - BuDDySharp
 - [Cal BDD](http://embedded.eecs.berkeley.edu/Research/cal_bdd/) (BSD): (UC Berkeley)
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](https://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
-	- hBDD
+    - hBDD
 - Geert Janssen: package [used in PVS](https://github.com/samowre/PVS/tree/master/BDD/bdd) and available here: ftp://ftp.ics.ele.tue.nl/pub/users/geert/ (Eindhoven)
 - [MONA](http://bdd.hpi.uni-potsdam.de/mona.html)
 - [TiGeR](http://www.cs.cmu.edu/~bwolen/fmcad98/packages/tiger/tgrlib/refman.html) (C): BDDs and compacted Boolean functions (DEC)
@@ -121,10 +121,10 @@
     - Python:
         - dd
     - Haskell:
-	    - Sylvan-Haskell
+        - Sylvan-Haskell
     - Java:
-	    - jSylvan
-	    - cpachecker
+        - jSylvan
+        - cpachecker
     - C\#
         - SylvanSharp
 - [MEDDLY](https://asminer.github.io/meddly/) ([also](http://meddly.sourceforge.net/)) (LGPLv3, [C++](https://github.com/asminer/meddly)): Multi-terminal and Edge-valued Decision Diagram LibrarY, including BDDs (Iowa State Univ.)
