@@ -752,7 +752,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
     - Libraries:
         - [HoTT library](https://github.com/HoTT/HoTT) (BSD-2, Coq): a formalization of homotopy type theory in the Coq proof assistant
         - [UniMath](https://github.com/UniMath/UniMath) (FOSS, Coq): a library that aims to formalize a substantial body of mathematics using the univalent point of view.
-        - [Coq-Polyhedra](https://github.com/nhojem/Coq-Polyhedra) (CeCILL-B, Coq): Formalizing convex polyhedra in Coq ([INRIA/École Polytechnique](http://www.cmap.polytechnique.fr/~allamigeon/))
+        - [Coq-Polyhedra](https://github.com/Coq-Polyhedra/Coq-Polyhedra) (CeCILL-B, Coq): Formalizing convex polyhedra in Coq ([INRIA/École Polytechnique](http://www.cmap.polytechnique.fr/~allamigeon/))
         - [ControlHTT](https://github.com/jpaykin/ControlHTT) (?, Coq): an adaptation of Hoare Type Theory for control software (Galois Inc.)
         - [Categories](https://github.com/amintimany/Categories) (?, Coq): a formalization of category theory in the Coq proof assistant (Aarhus Univ.)
         - [fourcolor](https://github.com/math-comp/fourcolor) (?, Coq): formalization of the four-color theorem
