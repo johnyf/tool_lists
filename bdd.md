@@ -35,8 +35,8 @@
     - Cython interface to BDDs of BuDDy in `dd.buddy`
 - [pyEDA](https://github.com/cjdrake/pyeda/blob/master/pyeda/boolalg/bdd.py) (BSD, Python): BDD implementation without a BDD manager
 - [PyCUDD](https://bears.ece.ucsb.edu/pycudd.html) (BSD-3, Python): SWIG-generated bindings to CUDD
-    * [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
-    * [PyCUDD packaging](https://github.com/aur-archive/pycudd)
+    - [rePyCUDD](https://github.com/pysmt/repycudd): reentrant version
+    - [PyCUDD packaging](https://github.com/aur-archive/pycudd)
 - `marduk` in [RATSY](http://rat.fbk.eu/ratsy/) (LGPL, Python): Wrappers of NuSMV (which uses CUDD) (TU Graz)
     - [`marduk/src/bddwrap.py`](https://github.com/johnyf/marduk/blob/master/bddwrap.py): Wraps BDD manager
     - [`marduk/src/zddwrap.py`](https://github.com/johnyf/marduk/blob/master/zddwrap.py): Wraps ZDD manager
