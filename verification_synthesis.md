@@ -235,7 +235,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [Finite Automata Model Checker](https://bitbucket.org/jwright/finite-automata-model-checker) (CCAS-3, C++)
 - [v-n](https://code.google.com/p/v-n/) (GPL-2, Java): NDFA visualization and (random or guided) simulation, find and display accepting computations ([The Weizmann Institute of Science](https://en.wikipedia.org/wiki/Mordechai_Ben-Ari))
 - [py-powerset-construction](https://code.google.com/p/py-powerset-construction/) (GPL-3, Python): convert NFA-\lambda to DFA, using dot as input
-- [Zing](https://research.microsoft.com/en-us/projects/zing/) (Non-com, C#): State exploration of concurrent software systems (Microsoft research)
+- [Zing](https://research.microsoft.com/en-us/projects/zing/) (MIT, [C\#](https://github.com/ZingModelChecker/Zing)): State exploration of concurrent software systems (Microsoft Research)
 - [SeaHorn](https://github.com/seahorn/seahorn) (BSD, C): an LLVM based verification framework
 - [SCRAM](https://github.com/rakhimov/scram)(GPL-3, C++/Python): Probabilistic risk analysis (static fault trees, common cause failure models, Monte Carlo) with input from and output to Open-PSA model exchange format files
 - [RISCAL](https://www.risc.jku.at/research/formal/software/RISCAL/) (GPL-3, Java): Specification language and software system for describing mathematical algorithms, and validating their correctness by execution/evaluation ([JKU/RISC](https://www.risc.jku.at/home/schreine))
@@ -262,7 +262,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     * [nuseen](https://code.google.com/a/eclipselabs.org/p/nuseen/): Eclipse-based environment for NuSMV
 - [nuXmv](https://es-static.fbk.eu/tools/nuxmv/index.php): extends NuSMV using state-of-the-art SAT-based algorithms and MathSAT5 (Fondazione Bruno Kessler)
 - [abc](https://www.eecs.berkeley.edu/~alanmi/abc/abc.htm) (FOSS, [C](https://github.com/berkeley-abc/abc)): System for Sequential Logic Synthesis and Formal Verification: A growing software system for synthesis and verification of binary sequential logic circuits appearing in synchronous hardware designs; ABC combines scalable logic optimization based on And-Inverter Graphs (AIGs), optimal-delay DAG-based technology mapping for look-up tables and standard cells, and innovative algorithms for sequential synthesis and verification (UC Berkeley)
-- [Mocha](http://mtc.epfl.ch/software-tools/mocha/), also [here](https://www.cis.upenn.edu/~mocha/) (BSD, Java | C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
+- [Mocha](http://mtc.epfl.ch/software-tools/mocha/), also [here](https://www.cis.upenn.edu/~mocha/) (BSD, two implementations: Java, C/Tcl/Tk): Interactive environment for system specification (reactive modules language), execution (randomized, guided, mixed), requirement specification (Alternating Temporal Logic, superset of CTL), ATL MC, implementation verification (EPFL, UC Berkeley, UPenn, SUNYSB)
 - [CBMC](https://www.cs.cmu.edu/~modelcheck/cbmc/) (BSD-4, [SWIG/C++/C](https://github.com/diffblue/cbmc)): Bounded model checker for ANSI-C, C++, SystemC, Scoot, uses Boolector or MathSAT or Z3 (CMU, Oxford Univ.)
     * [Eclipse plugin](https://www.cprover.org/eclipse-plugin/) (EPL, [Java](https://github.com/diffblue/eclipse-cbmc)): Eclipse plugin for CBMC
     * [Visual Studio plugin](https://www.cprover.org/visual-studio/)
@@ -418,11 +418,11 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [LTL3DRA](https://sourceforge.net/projects/ltl3dra/) (GPL-2, C): fragment of LTL -> DRA based on LTL3BA (Masaryk Univ.)
 
 ### other
-- [dk.brics.automaton](https://www.brics.dk/automaton/): DFA/NFA implementation with UTF16 alphabet & support for (&non-) standard regexp
+- [dk.brics.automaton](https://www.brics.dk/automaton/) (BSD-3, [Java](https://github.com/cs-au-dk/dk.brics.automaton)): DFA/NFA implementation with UTF16 alphabet and support for operations on regular expressions
 - [FSA function library](http://users.isr.ist.utl.pt/~pal/cadeiras/deds0708/deds/MatlabFSA.zip) (MATLAB): [doc here](http://users.isr.ist.utl.pt/~pal/cadeiras/deds0708/deds/Projects06-07/BLacerda.pdf) ([ISR-Lisbon](http://users.isr.ist.utl.pt/~blacerda/))
 - [Hessen](https://forsyte.at/software/automata/) (?, C++): Automata Library (TU Wien)
 - [FSME, FSMC, FSMD](https://sourceforge.net/projects/fsme/) (GPL-2, Qt): FSM editor, compiler, debugger for drawing, exports: `XML` | C++ | Python
-- [Kermeta](http://www.kermeta.org/) (EPL): Metamodel programming environment: editor, OCL, compiler to Java | OSGI, kermeta <-> ecore | XMI ([IRISA](http://triskell.irisa.fr/?set_language=en&cl=en))
+- [Kermeta](http://www.kermeta.org/) (EPL): Metamodel programming environment: editor, OCL, compiler to Java or OSGI, kermeta <-> ecore models or XMI ([IRISA](http://triskell.irisa.fr/?set_language=en&cl=en))
 - [Papyrus](http://www.papyrusuml.org/scripts/home/publigen/content/templates/show.asp?L=EN&P=55&vTicker=alleza&ITEMID=3) (EPL): Graphical UML2 modeling in Eclipse ([CEA LIST](http://www-list.cea.fr/))
 - [Topcased](http://www.topcased.org/) (EPL): Graphical editors for: Ecore, UML, SAM, AADL, SysML, and doc generator, model transformations (INRIA)
     * [Topcased verification tools](http://www.topcased.org/index.php?idd_projet_pere=55)
@@ -1011,7 +1011,7 @@ solver
 - [Boolector](http://fmv.jku.at/boolector/) (GPL-3): bit-vectors and arrays (Johannes Kepler Univ. Linz, Upper Austrian Univ. of Applied Sciences)
 - [MathSAT](https://mathsat.fbk.eu/download.html) (FUSC, C++, Python/Java bindings): Theories: equality and uninterpreted functions, linear arithmetic, bit-vectors, and arrays, and Functionalities: computation of Craig interpolants, extraction of unsatisfiable cores, generation of models and proofs, and the ability of working incrementally (FBK, Univ. Trento)
 - [SMT-LIB](https://www.cprover.org/SMT-LIB-LSM/) (?, C++): format for Finite lists, sets, maps (Oxford Univ.)
-- [Alt-ERGO](http://alt-ergo.lri.fr) (FUSC, [OCaml](https://github.com/OCamlPro/alt-ergo)): built upon CC(X) algorithm (INRIA, Univ. Paris Sud, CNRS, LRI)
+- [Alt-ERGO](https://alt-ergo.ocamlpro.com) (FUSC, [OCaml](https://github.com/OCamlPro/alt-ergo)): built upon CC(X) algorithm (INRIA, Univ. Paris Sud, CNRS, LRI)
 - [mSAT](https://gbury.github.io/mSAT/) (Apache-2.0, [OCaml](https://github.com/Gbury/mSAT)): Modular SAT/SMT solver with proof output, derives from ERGO (INRIA)
 - [veriT](https://www.verit-solver.org/) (BSD-2, C/C++): proof-producing SMT solver, complete for quantifier-free formulas with uninterpreted functions and difference logic on real numbers and integers ([2017 version](https://doi.org/10.5281/zenodo.582482)) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
     * [haRVey](http://harvey.loria.fr/) (LGPL/BSD-2, C/C++): Predecessor of veriT: haRVey-FOL (LGPL), haRVey-SAT (BSD-2) (INRIA, Nancy Univ., UFRN, CNPq, Loria)
