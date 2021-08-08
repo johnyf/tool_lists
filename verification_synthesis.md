@@ -23,7 +23,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
         - [Enumerative](#enumerative)
         - [Symbolic](#symbolic)
     - [logic -> automata & automata tools](#logic-automata-automata-tools)
-        - [LTL -> *BA](#ltl-ba)
+        - [LTL -> \*BA](#ltl-ba)
         - [LTL -> DRA](#ltl-dra)
         - [other](#other)
     - [Term rewrite systems](#term-rewrite-systems)
@@ -180,7 +180,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
     * [prism-games](https://www.prismmodelchecker.org/games/) (GPLv2, [Java/C](https://github.com/prismmodelchecker/prism-games)): an extension of PRISM which supports stochastic games
 - [STORM](https://www.stormchecker.org) (GPL-3, [C++](https://github.com/moves-rwth/storm)): Probabilistic model checker: Markov chains, MDPs, Markov automata, SMPT, (MI)LP, LP, Bellman, games, parameter synthesis, discrete-time MDPs
     * [`stormpy`](https://github.com/moves-rwth/stormpy): Python interface
-- [ePMC](https://iscasmc.ios.ac.cn/?p=1241) (GPLv3, [Java/C](https://github.com/ISCAS-PMC/ePMC)): an extendible probabilistic model checker, reasons about continuous- anhd discrete-time Markov chains, Markov decision processes, stochastic multi-player games, probabilistic parity games, the logics PCTL, PLTL, PCTL*, with input in formats PRISM and JANI, is successor of the model checker IscasMC (Institute of Software Chinese Academy of Sciences)
+- [ePMC](https://iscasmc.ios.ac.cn/?p=1241) (GPLv3, [Java/C](https://github.com/ISCAS-PMC/ePMC)): an extendible probabilistic model checker, reasons about continuous- anhd discrete-time Markov chains, Markov decision processes, stochastic multi-player games, probabilistic parity games, the logics PCTL, PLTL, PCTL\*, with input in formats PRISM and JANI, is successor of the model checker IscasMC (Institute of Software Chinese Academy of Sciences)
 - [SPOT](http://spot.lip6.fr/wiki/) (GPL, C++/Python): object-oriented model checking library using TGBA
 - [JPF](https://babelfish.arc.nasa.gov/trac/jpf) ([NOSA-1.3](http://javapathfinder.sourceforge.net/NOSA-1.3-JPF.txt)): Java Pathfinder: Java model checking & extensions (NASA Ames)
     * [JPL-nhandler](https://bitbucket.org/nastaran/jpf-nhandler) (GPL-3, Java): JPF extension to delegate execution of SUT methods to host JVM ([York Univ.](https://www.nastaran.ca/))
@@ -371,7 +371,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 - [TulaFale](http://research.microsoft.com/en-us/downloads/a91c6322-ae04-4b7c-9f8b-908f094d7a15/default.aspx): specification language for writing machine-checkable descriptions of SOAP-based security protocols and their properties, based on the pi calculus plus XML syntax, logical predicates, and correspondence assertions. The tool compiles TulaFale into the applied pi calculus, and then runs Blanchet's resolution-based protocol verifier. (Microsoft Research)
 - [sqifc](https://github.com/qif/sqifc) (?, C/C++): symbolic quantitative information flow analysis for C
 - [QILURA](https://github.com/qif/jpf-qilura) (GPLv3, Java): quantifying information leaks using reliability analysis, using [Symbolic PathFinder](https://github.com/SymbolicPathFinder/jpf-symbc), z3, Omega, Latte
-- [KITTeL/KoAT](https://github.com/s-falke/kittel-koat) (Apache-2.0, F*/OCaml):
+- [KITTeL/KoAT](https://github.com/s-falke/kittel-koat) (Apache-2.0, F\*/OCaml):
     - KITTeL: automatic termination prover for integer transition systems and imperative programs written in a fragment of Simple
     - KoAT: automatic complexity analyzer taking the same kinds of inputs as KITTeL
 - [llvm2KITTeL](https://github.com/s-falke/llvm2kittel) (NCSA, C++): converter from LLVM's intermediate representation into a format that can be handled by the automatic termination prover KITTeL (UIUC)
@@ -389,7 +389,7 @@ If not, see <https://creativecommons.org/publicdomain/zero/1.0/>.
 
 ## logic -> automata & automata tools
 
-### LTL -> *BA
+### LTL -> \*BA
 - [ltl2ba](http://www.lsv.ens-cachan.fr/~gastin/ltl2ba/index.php): LTL -> BA (ENS de Cachan)
     * [LTL2BA4J](https://www-i2.informatik.rwth-aachen.de/Forschung/RV/ltl2ba4j/index.html) (GPL-3, Java): version of ltl2ba for Java
     * [ltl3ba](https://sourceforge.net/projects/ltl3ba/) (GPL-2, C): LTL -> BA ([Masaryk Univ.](https://is.muni.cz/th/143254/fi_r/thesis_proposal.pdf))
