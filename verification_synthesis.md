@@ -620,7 +620,7 @@ The ECL compiler parses ECL, writes Esterel and C, and uses the Esterel compiler
 ### Hardware
 - [Yosys](https://github.com/cliffordwolf/yosys) (ISC, C++): a framework for RTL synthesis tools
 - [Clash](https://www.clash-lang.org/) (?, Haskell) generates VHDL from Haskell
-- [Lava](https://hackage.haskell.org/package/kansas-lava) (?, Haskell): generates circuits from FSMs, behavioural specs (VHDL, Verilog) + verif via NuSMV
+- [Lava](https://ku-fpg.github.io/software/kansas-lava) (BSD-3, [Haskell](https://github.com/ku-fpg/kansas-lava)): generates circuits from FSMs, behavioural specifications (VHDL, Verilog), and verification via NuSMV (University of Kansas)
 - [Chisel](https://github.com/ucb-bar/chisel/) (?, Scala): supports advanced hardware design using highly parameterized generators and layered domain-specific hardware languages; Chisel can generate a high-speed C++-based cycle-accurate software simulator, or low-level Verilog designed to pass on to standard ASIC or FPGA tools for synthesis and place and route
 
 ### Other
