@@ -184,6 +184,7 @@
 - [`muddy`](https://github.com/kfl/muddy) (MIT, ML): bindings to Buddy ([older home](http://www.itu.dk/research/muddy/)) (UCopenhagen)
 
 # OCaml
+- [DAGaml](https://gitlab.com/boreal-ldd/dagaml) implements various models of BDD, such as ROBDD, ZDD, etc. and some more experimental ones
 - [MLCuddIDL](https://pop-art.inrialpes.fr/~bjeannet/mlxxxidl-forge/mlcuddidl/) (LGPL-2.1, [C/OCaml](https://framagit.org/nberth/mlcuddidl)): bindings to CUDD ([INRIA](https://pop-art.inrialpes.fr/~bjeannet/))
   - [OPAM entry](https://opam.ocaml.org/packages/mlcuddidl/) of `mlcuddidl`
   - [mirror](https://github.com/thizanne/mlcuddidl) of `mlcuddidl`
