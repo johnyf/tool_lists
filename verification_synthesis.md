@@ -1078,6 +1078,8 @@ do Rio Grande do Norte)
 - [MonPoly](https://sourceforge.net/projects/monpoly/) (?, OCaml): a prototype monitoring tool that checks compliance of log files with respect to policies specified in MFOTL (Metric First-Order Temporal Logic)
 - [Montre](https://github.com/doganulus/montre) (GPL-3, [Pure](https://agraef.github.io/pure-lang/)/C++): A timed regular expression matcher ([Verimag](http://doganulus.com))
 - [ROSRV](https://github.com/Formal-Systems-Laboratory/ROSRV) (NCSA, [C++/Java](https://github.com/Formal-Systems-Laboratory/ROSRV)): runtime verification framework for the Robot Operating System (ROS) (Univ. of Illinois at Urbana-Champaign)
+- [Reelay](https://github.com/doganulus/reelay) (C++, Python) Past-time only Metric temporal logic. Available in (Boolean/Real)-valued and (Dense/Discrete) time semantics. (Dogan Ulus)
+- [lattice-mtl](https://github.com/Agnishom/lattice-mtl) (Coq, OCaml) Formally Verified Monitoring Tool. Past-time only MTL. Discrete Time. Lattice Valued (includes Boolean and Real) Semantics. (Agnishom Chattopadhyay)
 
 # Yet un-categorized
 - [Matching Logic](http://www.matching-logic.org/index.php/Matching_Logic): regard a language through both operational and axiomatic lenses at the same time ([UIUC](http://fsl.cs.illinois.edu/index.php/Main_Page))
