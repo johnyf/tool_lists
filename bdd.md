@@ -131,7 +131,6 @@
 - [libDDD](https://lip6.github.io/ITSTools-web/libddd.html) (LGPLv3, [C++](https://github.com/lip6/libDDD)): integer-valued data decision diagrams and hierarchical set decision diagrams (LIP6, Sorbonne Univ., CNRS)
 - [TdZdd](https://github.com/kunisura/TdZdd) (MIT, C++): top-down breadth-first  n-ary DD/ZDD manipulation, parallel processing with OpenMP
 - [CacBDD](http://www.kailesu.net/CacBDD/) (BSD-3, C++)
-- [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#): (U Catholique Louvain)
 - [LaVaBDD](http://www.ulb.ac.be/di/ssd/nmaquet/lavabdd/0.4/doc/index.html) (?, C++): Lattice-valued BDDs (ULB)
 - [`wld`](https://ira.informatik.uni-freiburg.de/software/wld/) (FUSC, C++): word-level DDs (UFreiburg)
 - [BDS](http://www.ecs.umass.edu/ece/labs/vlsicad/bds/bds.html) (FUSC, C): (UMass)
@@ -147,6 +146,7 @@
 - [ZDD](https://github.com/tanakalab/ZDD) (?, C++): Multi-terminal ZDDs
 
 # C# #
+- [BDDSharp](https://github.com/ancailliau/BDDSharp) (MIT, C\#): (U Catholique Louvain)
 - [PAT BDD library](https://www.comp.nus.edu.sg/~pat/bddlib/) (?, C\#): BDD library for symbolic model checking of hierarchical systems, with a C\# interface to CUDD version 2.4.2
 - [SylvanSharp](https://github.com/thisiscam/SylvanSharp) (?, C\#): bindings to Sylvan
 - [BuDDySharp](https://github.com/thisiscam/BuDDySharp) (?, C\#): bindings to BuDDy
