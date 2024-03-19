@@ -171,6 +171,7 @@
 - [Jedd](https://www.sable.mcgill.ca/jedd/) (Java, LGLPL-2): Java Extension for Decision Diagrams based on the polyglot framework, supports as backends: CUDD, BuDDy, SableJBDD, JavaBDD
 - [zdd_java](https://github.com/higotakayuki/zdd_java): educational ZDD implementation
 - [HumbleBDD](https://github.com/powerofpi/HumbleBDD) (MIT, Java): BDDs, ZDD
+- [PJBDD](https://gitlab.com/sosy-lab/software/paralleljbdd/-/tree/main) (Apache-2, Java)
 
 # Javascript
 - [binary decision diagram](https://github.com/pubkey/binary-decision-diagram) (Apache-2, JavaScript): A library to create, minimize and optimize binary decision diagrams
