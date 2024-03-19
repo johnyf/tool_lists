@@ -109,7 +109,7 @@
         - Ruby-BDD
     - C\#
         - BuDDySharp
-- [Cal BDD](http://embedded.eecs.berkeley.edu/Research/cal_bdd/) (BSD): (UC Berkeley)
+- [Cal BDD](https://github.com/ssoelvsten/cal) (BSD): (UC Berkeley)
 - [ABCD](http://fmv.jku.at/abcd/) (?): (JKU)
 - [CMU BDD](https://www.cs.cmu.edu/afs/cs/project/modck/pub/www/bdd.html): (CMU)
     - hBDD
