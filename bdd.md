@@ -229,6 +229,8 @@
 
 # Rust
 - [`boolean_expressions`](https://github.com/cfallin/boolean_expression) (MIT, Rust): BDD implementation, conversion from/to formulae with cubelist-based minimization
+- [`Biodivine/LibBDD`](https://github.com/sybila/biodivine-lib-bdd) (MIT, Rust)
+- [`OxiDD`](https://github.com/OxiDD/oxidd) (Apache-2/MIT, Rust)
 - [`cudd_rust`](https://github.com/malie/cudd_rust) (BSD-3, Rust): bindings to CUDD
 
 # PHP
